@@ -2,56 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Zero-difference GNSS Processing</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .meta-info {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 0.9em;
-            color: #555;
-        }
-        #plots-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 20px;
-        }
-        .plot {
-            background: white;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .plot img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .plot h3 {
-            font-size: 0.95em;
-            margin-bottom: 10px;
-            color: #222;
-            word-break: break-word;
-        }
-    </style>
+    <title>Monitoring Plots</title>
 </head>
 <body>
 
-<h1>Zero-difference GNSS Processing</h1>
+<h1>Monitoring – Testseite</h1>
 
-<div class="meta-info">
-    Created by Cyril Kobel (Astronomical Institute, University of Bern)<br>
-    Last updated: <span id="update-time"></span>
-</div>
+<p>Wenn du diesen Text siehst, funktioniert die Website.</p>
 
 <!-- Container für alle Plots -->
 <div id="plots-container"></div>
@@ -64,25 +21,17 @@
     const container = document.getElementById("plots-container");
 
     plots.forEach(filename => {
-        const plotDiv = document.createElement("div");
-        plotDiv.className = "plot";
-
         // Überschrift mit Dateiname
         const h3 = document.createElement("h3");
         h3.textContent = filename;
-        plotDiv.appendChild(h3);
+        container.appendChild(h3);
 
         // Bild mit Zeitstempel, um Cache zu umgehen
         const img = document.createElement("img");
         img.src = "plots/latest/" + filename + "?ts=" + new Date().getTime();
         img.alt = filename;
-        plotDiv.appendChild(img);
-
-        container.appendChild(plotDiv);
+        container.appendChild(img);
     });
-
-    // Aktuelles Datum/Zeit für Meta-Info
-    document.getElementById("update-time").innerText = new Date().toLocaleString();
 </script>
 
 </body>
