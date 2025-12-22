@@ -2,36 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Monitoring Plots</title>
+    <title>Zero-difference GNSS Processing</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 30px;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }
+
+        .meta {
+            text-align: center;
+            font-size: 0.9em;
+            color: #bbbbbb;
+            margin-bottom: 35px;
+        }
+
+        #plots-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+            gap: 25px;
+        }
+
+        .plot {
+            background-color: #1e1e1e;
+            padding: 14px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+        }
+
+        .plot img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .plot .updated {
+            margin-top: 8px;
+            font-size: 0.8em;
+            color: #aaaaaa;
+            text-align: right;
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>Monitoring – Testseite</h1>
+<h1>Zero-difference GNSS Processing</h1>
 
-<p>Wenn du diesen Text siehst, funktioniert die Website.</p>
+<div class="meta">
+    Created by Cyril Kobel<br>
+    Astronomical Institute, University of Bern<br>
+    Page loaded: <span id="page-time"></span>
+</div>
 
-<!-- Container für alle Plots -->
 <div id="plots-container"></div>
 
-<!-- Automatisch generierte Datei mit allen Plot-Dateinamen -->
 <script src="plots_list.js"></script>
 
 <script>
-    // plots_list.js definiert: const plots = ["plot1.png", "plot2.png", ...];
     const container = document.getElementById("plots-container");
 
     plots.forEach(filename => {
-        // Überschrift mit Dateiname
-        const h3 = document.createElement("h3");
-        h3.textContent = filename;
-        container.appendChild(h3);
+        const plotDiv = document.createElement("div");
+        plotDiv.className = "plot";
 
-        // Bild mit Zeitstempel, um Cache zu umgehen
         const img = document.createElement("img");
-        img.src = "plots/latest/" + filename + "?ts=" + new Date().getTime();
-        img.alt = filename;
-        container.appendChild(img);
+        const imgPath = "plots/latest/" + filename;
+        img.src = imgPath + "?ts=" + new Date().getTime();
+        img.alt = "";
+        plotDiv.appendChild(img);
+
+        const updated = document.createElement("div");
+        updated.className = "updated";
+        updated.textContent = "Last updated: …";
+        plotDiv.appendChild(updated);
+
+        container.appendChild(plotDiv);
+
+        /* Last-Modified via HEAD request */
+        fetch(imgPath, { method: "HEAD" })
+            .then(response => {
+                const lm = response.headers.get("Last-Modified");
+                if (lm) {
+                    updated.textContent =
+                        "Last updated: " + new Date(lm).toLocaleString();
+                } else {
+                    updated.textContent = "Last updated: unknown";
+                }
+            })
+            .catch(() => {
+                updated.textContent = "Last updated: unavailable";
+            });
     });
+
+    document.getElementById("page-time").innerText =
+        new Date().toLocaleString();
 </script>
 
 </body>
