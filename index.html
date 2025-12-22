@@ -67,22 +67,18 @@
         const plotDiv = document.createElement("div");
         plotDiv.className = "plot";
 
-        // Überschrift mit Dateiname
-        const h3 = document.createElement("h3");
-        h3.textContent = filename;
-        plotDiv.appendChild(h3);
-
         // Bild mit Zeitstempel, um Cache zu umgehen
         const img = document.createElement("img");
         img.src = "plots/latest/" + filename + "?ts=" + new Date().getTime();
-        img.alt = filename;
+        img.alt = "";  // kein Dateiname anzeigen
         plotDiv.appendChild(img);
 
         container.appendChild(plotDiv);
     });
 
     // Aktuelles Datum/Zeit für Meta-Info
-    document.getElementById("update-time").innerText = new Date().toLocaleString();
+    document.getElementById("update-time").innerText =
+        new Date().toLocaleString();
 </script>
 
 </body>
