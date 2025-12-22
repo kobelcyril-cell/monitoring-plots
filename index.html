@@ -10,12 +10,28 @@
 
 <p>Wenn du diesen Text siehst, funktioniert die Website.</p>
 
-<!-- Hier fügen wir das Plot-Bild ein -->
-<img id="testplot" src="plots/latest/testplot.png" alt="Plot 1">
+<!-- Container für alle Plots -->
+<div id="plots-container"></div>
+
+<!-- Automatisch generierte Datei mit allen Plot-Dateinamen -->
+<script src="plots_list.js"></script>
 
 <script>
-    const img = document.getElementById("testplot");
-    img.src = "plots/latest/testplot.png?ts=" + new Date().getTime();
+    // plots_list.js definiert: const plots = ["plot1.png", "plot2.png", ...];
+    const container = document.getElementById("plots-container");
+
+    plots.forEach(filename => {
+        // Überschrift mit Dateiname
+        const h3 = document.createElement("h3");
+        h3.textContent = filename;
+        container.appendChild(h3);
+
+        // Bild mit Zeitstempel, um Cache zu umgehen
+        const img = document.createElement("img");
+        img.src = "plots/latest/" + filename + "?ts=" + new Date().getTime();
+        img.alt = filename;
+        container.appendChild(img);
+    });
 </script>
 
 </body>
