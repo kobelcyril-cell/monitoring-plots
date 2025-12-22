@@ -10,5 +10,13 @@
 
 <p>Wenn du diesen Text siehst, funktioniert die Website.</p>
 
+<!-- Hier fügen wir das Plot-Bild ein -->
+<img id="testplot" src="plots/latest/testplot.png" alt="Plot 1">
+
+<script>
+    const img = document.getElementById("testplot");
+    img.src = "plots/latest/testplot.png?ts=" + new Date().getTime();
+</script>
+
 </body>
 </html>
