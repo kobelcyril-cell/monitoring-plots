@@ -5,7 +5,4 @@ const plots = [
     "large_obs_files.png",
     "num_obs_files.png",
     "obsxtr_stats.png",
-    "Orbit_Misclosures_per_Satellite.png",
-    "test_final.png",
-    "testplot.png",
 ];
