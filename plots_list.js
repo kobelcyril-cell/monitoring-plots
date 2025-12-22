@@ -1,4 +1,4 @@
-const plots = [
+const latest_plots = [
     "amb_stats.png",
     "deleted_files.png",
     "gpsxtr_obs.png",
