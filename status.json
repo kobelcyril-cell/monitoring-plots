@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-23T19:21:01.648271",
+  "updated": "2025-12-23T19:23:01.611507",
   "Processing (1 day solution)": [
     {
       "session_id": "253200",
@@ -6863,19 +6863,19 @@
           "id": "113",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "115",
@@ -7190,7 +7190,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 58
+      "progress": 59
     },
     {
       "session_id": "253290",
@@ -15586,25 +15586,25 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -15979,7 +15979,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 52
+      "progress": 50
     },
     {
       "session_id": "253400",
@@ -18782,13 +18782,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "095",
