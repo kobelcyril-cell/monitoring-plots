@@ -248,6 +248,14 @@ async function updateMonitor() {
             sdiv.appendChild(ul);
             card.appendChild(sdiv);
 
+	    /* Scroll AFTER DOM insert */
+	    if (scrollTarget) {
+		setTimeout(() => {
+		    scrollTarget.scrollIntoView({ block: "center" });
+		}, 0);
+	    }
+
+
         });
 
         container.appendChild(card);
