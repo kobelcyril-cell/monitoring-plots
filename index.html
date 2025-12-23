@@ -24,7 +24,7 @@ h1, h2 {
     margin-bottom: 35px;
 }
 
-/* ---------- PLOTS ---------- */
+/* ===== Plot layout ===== */
 .plots-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
@@ -51,7 +51,7 @@ h1, h2 {
     text-align: right;
 }
 
-/* ---------- MONITOR ---------- */
+/* ===== Monitor ===== */
 #monitor-container {
     display: flex;
     flex-wrap: wrap;
@@ -63,8 +63,8 @@ h1, h2 {
     width: 360px;
     background: #1e1e1e;
     padding: 14px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
 }
 
 .progress-bar-container {
@@ -77,31 +77,54 @@ h1, h2 {
 
 .progress-bar {
     height: 100%;
-    transition: width 0.4s ease;
-}
-
-/* Animation nur für running */
-.progress-running {
-    animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-    0% { opacity: 0.6; }
-    50% { opacity: 1.0; }
-    100% { opacity: 0.6; }
+    transition: width 0.6s ease;
 }
 
 .task-list {
-    max-height: 120px;
+    max-height: 140px;
     overflow-y: auto;
-    margin: 6px 0 0 0;
-    padding-left: 20px;
+    margin-top: 6px;
+    padding-left: 18px;
+    font-size: 0.85em;
 }
 
-.task-running  { color: orange; }
-.task-waiting  { color: gray; }
+/* ===== Running animation (original) ===== */
+@keyframes glow {
+    0%   { box-shadow: 0 0 4px rgba(255,165,0,0.4); }
+    50%  { box-shadow: 0 0 10px rgba(255,165,0,0.9); }
+    100% { box-shadow: 0 0 4px rgba(255,165,0,0.4); }
+}
+
+@keyframes slide {
+    0%   { opacity: 0.3; transform: translateX(0); }
+    50%  { opacity: 1.0; transform: translateX(6px); }
+    100% { opacity: 0.3; transform: translateX(0); }
+}
+
+.running-task {
+    position: relative;
+    padding-left: 10px;
+    animation: glow 1.4s infinite;
+    font-weight: bold;
+    color: orange;
+}
+
+.running-task::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 4px;
+    height: 80%;
+    background: orange;
+    border-radius: 2px;
+    animation: slide 1.2s infinite;
+}
+
+.task-waiting { color: gray; }
 .task-finished { color: #4caf50; }
-.task-error    { color: red; }
+.task-error { color: red; }
+
 </style>
 </head>
 
@@ -128,32 +151,23 @@ h1, h2 {
 <script src="comparisons_list.js"></script>
 
 <script>
-function renderPlots(containerId, plotsArray, folder) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = "";
-
-    plotsArray.forEach(fn => {
+function renderPlots(id, arr, folder) {
+    const c = document.getElementById(id);
+    c.innerHTML = "";
+    arr.forEach(fn => {
         const d = document.createElement("div");
         d.className = "plot";
-
         const img = document.createElement("img");
-        img.src = folder + "/" + fn + "?ts=" + Date.now();
+        img.src = `${folder}/${fn}?ts=${Date.now()}`;
         d.appendChild(img);
-
         const u = document.createElement("div");
         u.className = "updated";
         u.textContent = "Last updated: …";
         d.appendChild(u);
-
-        fetch(folder + "/" + fn, {method:"HEAD"})
-            .then(r => {
-                const lm = r.headers.get("Last-Modified");
-                u.textContent = lm
-                    ? "Last updated: " + new Date(lm).toLocaleString()
-                    : "Last updated: unknown";
-            });
-
-        container.appendChild(d);
+        fetch(`${folder}/${fn}`, {method:"HEAD"})
+            .then(r => u.textContent =
+                "Last updated: " + new Date(r.headers.get("Last-Modified")).toLocaleString());
+        c.appendChild(d);
     });
 }
 
@@ -168,121 +182,61 @@ async function updateMonitor() {
     const container = document.getElementById("monitor-container");
     container.innerHTML = "";
 
-    try {
-        const resp = await fetch("status.json?ts=" + Date.now());
-        const data = await resp.json();
+    const resp = await fetch("status.json?ts=" + Date.now());
+    const data = await resp.json();
 
-        for (const [proc, sessions] of Object.entries(data)) {
-            if (proc === "updated") continue;
+    for (const [proc, sessions] of Object.entries(data)) {
+        if (proc === "updated") continue;
 
-            const card = document.createElement("div");
-            card.className = "process-card";
+        const card = document.createElement("div");
+        card.className = "process-card";
+        card.innerHTML = `<h3>${proc}</h3>`;
 
-            const h3 = document.createElement("h3");
-            h3.textContent = proc;
-            card.appendChild(h3);
+        sessions.forEach(session => {
+            const sdiv = document.createElement("div");
+            sdiv.style.marginBottom = "14px";
 
-            sessions.forEach(session => {
-                const sdiv = document.createElement("div");
-                sdiv.style.marginBottom = "14px";
+            sdiv.innerHTML =
+                `<strong>Session ${session.session_id}:</strong> ${session.status}`;
 
-                const tasks = session.tasks || [];
+            const ul = document.createElement("ul");
+            ul.className = "task-list";
 
-                const hasRunning = tasks.some(t => t.status === "running");
-                const hasWaiting = tasks.some(t => t.status === "waiting");
-                const hasError   = tasks.some(t => t.status === "error");
+            let scrollTarget = null;
 
-                let sessionStatus = "finished";
-                if (hasError || session.status === "error") sessionStatus = "error";
-                else if (hasRunning) sessionStatus = "running";
-                else if (hasWaiting) sessionStatus = "waiting";
-                else if (session.status === "missing") sessionStatus = "missing";
+            session.tasks?.forEach(task => {
+                const li = document.createElement("li");
 
-                const title = document.createElement("div");
-                title.innerHTML = `<strong>Session ${session.session_id}:</strong> ${sessionStatus}`;
-                sdiv.appendChild(title);
-
-                /* Progress bar */
-                const pbc = document.createElement("div");
-                pbc.className = "progress-bar-container";
-
-                const pb = document.createElement("div");
-                pb.className = "progress-bar";
-
-                let color = "gray";
-
-                if (sessionStatus === "running") {
-                    color = "orange";
-                    pb.classList.add("progress-running");
-                    pb.style.width = Math.max(session.progress ?? 0, 15) + "%";
-                } else if (sessionStatus === "finished") {
-                    color = "#4caf50";
-                    pb.style.width = "100%";
-                } else if (sessionStatus === "missing") {
-                    color = "yellow";
-                    pb.style.width = "100%";
-                } else if (sessionStatus === "error") {
-                    color = "red";
-                    pb.style.width = "100%";
+                if (task.status === "running") {
+                    li.className = "running-task";
+                    if (!scrollTarget) scrollTarget = li;
+                } else if (task.status === "waiting") {
+                    li.className = "task-waiting";
+                    if (!scrollTarget) scrollTarget = li;
+                } else if (task.status === "error") {
+                    li.className = "task-error";
                 } else {
-                    pb.style.width = (session.progress ?? 0) + "%";
+                    li.className = "task-finished";
                 }
 
-                pb.style.background = color;
-                pbc.appendChild(pb);
-                sdiv.appendChild(pbc);
+                li.textContent =
+                    `${task.id} ${task.name} (${task.status}) ${task.extra ?? ""}`;
 
-                /* Tasks */
-                const ul = document.createElement("ul");
-                ul.className = "task-list";
-
-                let scrollTarget = null;
-
-                tasks.forEach(t => {
-                    const li = document.createElement("li");
-                    li.textContent = `${t.id} ${t.name} (${t.status}) ${t.extra || ""}`;
-
-                    if (t.status === "running") {
-                        li.className = "task-running";
-                        scrollTarget = li;
-                    } else if (t.status === "waiting") {
-                        li.className = "task-waiting";
-                        if (!scrollTarget) scrollTarget = li;
-                    } else if (t.status === "error") {
-                        li.className = "task-error";
-                    } else {
-                        li.className = "task-finished";
-                    }
-
-                    ul.appendChild(li);
-                });
-
-                sdiv.appendChild(ul);
-                card.appendChild(sdiv);
-
-                /* Scroll only inside task list */
-                if (scrollTarget) {
-                    const ulRect = ul.getBoundingClientRect();
-                    const liRect = scrollTarget.getBoundingClientRect();
-                    ul.scrollTop += (liRect.top - ulRect.top) - ul.clientHeight / 2;
-                }
+                ul.appendChild(li);
             });
 
-            container.appendChild(card);
-        }
+            sdiv.appendChild(ul);
+            card.appendChild(sdiv);
 
-        const upd = document.createElement("div");
-        upd.style.fontSize = "0.8em";
-        upd.style.color = "#aaaaaa";
-        upd.style.marginTop = "10px";
-        upd.textContent =
-            "Status updated: " + new Date(data.updated).toLocaleString();
-        container.appendChild(upd);
+            /* Scroll AFTER DOM insert */
+            if (scrollTarget) {
+                setTimeout(() => {
+                    scrollTarget.scrollIntoView({ block: "center" });
+                }, 0);
+            }
+        });
 
-    } catch (err) {
-        container.innerHTML =
-            "<p style='color:red'>Unable to load status.</p>";
-        console.error(err);
+        container.appendChild(card);
     }
 }
 
