@@ -199,6 +199,26 @@ async function updateMonitor() {
             sdiv.innerHTML =
                 `<strong>Session ${session.session_id}:</strong> ${session.status}`;
 
+	    /* Progress bar */
+	    const barContainer = document.createElement("div");
+	    barContainer.className = "progress-bar-container";
+
+	    const bar = document.createElement("div");
+	    bar.className = "progress-bar";
+
+	    let color = "#777";
+	    if (session.status === "running") color = "orange";
+	    else if (session.status === "finished") color = "green";
+	    else if (session.status === "missing") color = "yellow";
+	    else if (session.status === "error") color = "red";
+
+	    bar.style.width = (session.progress ?? 0) + "%";
+	    bar.style.background = color;
+
+	    barContainer.appendChild(bar);
+	    sdiv.appendChild(barContainer);
+
+	    
             const ul = document.createElement("ul");
             ul.className = "task-list";
 
