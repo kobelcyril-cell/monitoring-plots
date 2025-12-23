@@ -24,6 +24,7 @@
             margin-bottom: 35px;
         }
 
+        /* ===== Plot layout ===== */
         .plots-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
@@ -52,7 +53,7 @@
             text-align: right;
         }
 
-        /* Monitor Styles */
+        /* ===== Monitor layout ===== */
         #monitor-container {
             display: flex;
             flex-wrap: wrap;
@@ -62,33 +63,65 @@
         }
 
         .process-card {
-            width: 350px;
+            width: 360px;
             background: #1e1e1e;
-            padding: 12px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            padding: 14px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.6);
         }
 
         .progress-bar-container {
             background: #333;
             border-radius: 6px;
             overflow: hidden;
-            margin-top: 4px;
+            margin-top: 6px;
             height: 16px;
         }
 
         .progress-bar {
             height: 100%;
-            transition: width 0.5s ease;
+            transition: width 0.6s ease;
         }
 
         .task-list {
-            max-height: 120px;
+            max-height: 140px;
             overflow-y: auto;
-            margin: 4px 0 0 0;
-            padding-left: 20px;
+            margin-top: 6px;
+            padding-left: 18px;
+            font-size: 0.85em;
         }
 
+        /* ===== Animations for running tasks ===== */
+        @keyframes glow {
+            0%   { box-shadow: 0 0 4px rgba(255,165,0,0.4); }
+            50%  { box-shadow: 0 0 10px rgba(255,165,0,0.9); }
+            100% { box-shadow: 0 0 4px rgba(255,165,0,0.4); }
+        }
+
+        @keyframes slide {
+            0%   { opacity: 0.3; transform: translateX(0); }
+            50%  { opacity: 1.0; transform: translateX(6px); }
+            100% { opacity: 0.3; transform: translateX(0); }
+        }
+
+        .running-task {
+            position: relative;
+            padding-left: 10px;
+            animation: glow 1.4s infinite;
+            font-weight: bold;
+        }
+
+        .running-task::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 3px;
+            width: 4px;
+            height: 80%;
+            background: orange;
+            border-radius: 2px;
+            animation: slide 1.2s infinite;
+        }
     </style>
 </head>
 
@@ -118,6 +151,7 @@
 function renderPlots(containerId, plotsArray, folder) {
     const container = document.getElementById(containerId);
     container.innerHTML = "";
+
     plotsArray.forEach(filename => {
         const plotDiv = document.createElement("div");
         plotDiv.className = "plot";
@@ -125,7 +159,6 @@ function renderPlots(containerId, plotsArray, folder) {
         const img = document.createElement("img");
         const imgPath = folder + "/" + filename;
         img.src = imgPath + "?ts=" + new Date().getTime();
-        img.alt = "";
         plotDiv.appendChild(img);
 
         const updated = document.createElement("div");
@@ -135,20 +168,24 @@ function renderPlots(containerId, plotsArray, folder) {
 
         container.appendChild(plotDiv);
 
-        // Last-Modified via HEAD request
         fetch(imgPath, { method: "HEAD" })
-            .then(response => {
-                const lm = response.headers.get("Last-Modified");
-                updated.textContent = lm ? "Last updated: " + new Date(lm).toLocaleString() : "Last updated: unknown";
+            .then(r => {
+                const lm = r.headers.get("Last-Modified");
+                updated.textContent = lm
+                    ? "Last updated: " + new Date(lm).toLocaleString()
+                    : "Last updated: unknown";
             })
-            .catch(() => { updated.textContent = "Last updated: unavailable"; });
+            .catch(() => {
+                updated.textContent = "Last updated: unavailable";
+            });
     });
 }
 
 renderPlots("latest-container", latest_plots, "plots/latest");
 renderPlots("comparisons-container", comparison_plots, "plots/comparisons");
 
-document.getElementById("page-time").innerText = new Date().toLocaleString();
+document.getElementById("page-time").innerText =
+    new Date().toLocaleString();
 </script>
 
 <script>
@@ -168,71 +205,83 @@ async function updateMonitor() {
 
             const h3 = document.createElement("h3");
             h3.textContent = proc;
-            h3.style.color = "#ffffff";
             procDiv.appendChild(h3);
 
             sessions.forEach(session => {
                 const sessionDiv = document.createElement("div");
-                sessionDiv.style.marginBottom = "12px";
+                sessionDiv.style.marginBottom = "14px";
 
                 const title = document.createElement("div");
-                title.innerHTML = `<strong>Session ${session.session_id}:</strong> ${session.status}`;
+                title.innerHTML =
+                    `<strong>Session ${session.session_id}:</strong> ${session.status}`;
                 sessionDiv.appendChild(title);
 
-                // Fortschrittsbalken
-                const progressBarContainer = document.createElement("div");
-                progressBarContainer.className = "progress-bar-container";
+                /* Progress bar */
+                const barContainer = document.createElement("div");
+                barContainer.className = "progress-bar-container";
 
-                const progressBar = document.createElement("div");
-                progressBar.className = "progress-bar";
+                const bar = document.createElement("div");
+                bar.className = "progress-bar";
 
-                let color = "gray";
+                let color = "#777";
                 if (session.status === "running") color = "orange";
                 else if (session.status === "finished") color = "green";
                 else if (session.status === "missing") color = "yellow";
 
-                progressBar.style.width = (session.progress ?? 0) + "%";
-                progressBar.style.background = color;
-                progressBarContainer.appendChild(progressBar);
-                sessionDiv.appendChild(progressBarContainer);
+                bar.style.width = (session.progress ?? 0) + "%";
+                bar.style.background = color;
+                barContainer.appendChild(bar);
+                sessionDiv.appendChild(barContainer);
 
-                // Tasks
-                const taskList = document.createElement("ul");
-                taskList.className = "task-list";
+                /* Tasks */
+                const ul = document.createElement("ul");
+                ul.className = "task-list";
 
                 session.tasks?.forEach(task => {
                     const li = document.createElement("li");
+
                     let tcolor = "gray";
-                    if(task.status === "running") tcolor = "orange";
-                    else if(task.status === "finished") tcolor = "green";
-                    else if(task.status === "waiting") tcolor = "gray";
+                    let cls = "";
 
-                    li.innerHTML = `<span style="color:${tcolor}">${task.id} ${task.name} (${task.status}) ${task.extra}</span>`;
-                    taskList.appendChild(li);
+                    if (task.status === "running") {
+                        tcolor = "orange";
+                        cls = "running-task";
+                    } else if (task.status === "finished") {
+                        tcolor = "green";
+                    } else if (task.status === "waiting") {
+                        tcolor = "gray";
+                    }
+
+                    li.innerHTML = `
+                        <span class="${cls}" style="color:${tcolor}">
+                            ${task.id} ${task.name} (${task.status}) ${task.extra ?? ""}
+                        </span>`;
+                    ul.appendChild(li);
                 });
-                sessionDiv.appendChild(taskList);
 
+                sessionDiv.appendChild(ul);
                 procDiv.appendChild(sessionDiv);
             });
 
             container.appendChild(procDiv);
         }
 
-        const updatedDiv = document.createElement("div");
-        updatedDiv.style.fontSize = "0.8em";
-        updatedDiv.style.color = "#aaaaaa";
-        updatedDiv.style.marginTop = "10px";
-        updatedDiv.textContent = "Status updated: " + new Date(data.updated).toLocaleString();
-        container.appendChild(updatedDiv);
+        const upd = document.createElement("div");
+        upd.style.fontSize = "0.8em";
+        upd.style.color = "#aaaaaa";
+        upd.style.marginTop = "10px";
+        upd.textContent =
+            "Status updated: " + new Date(data.updated).toLocaleString();
+        container.appendChild(upd);
 
-    } catch (err) {
-        container.innerHTML = "<p style='color:red'>Unable to load status.</p>";
-        console.error(err);
+    } catch (e) {
+        container.innerHTML =
+            "<p style='color:red'>Unable to load status.</p>";
+        console.error(e);
     }
 }
 
 updateMonitor();
-
 </script>
 
 </body>
