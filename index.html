@@ -248,12 +248,12 @@ async function updateMonitor() {
             sdiv.appendChild(ul);
             card.appendChild(sdiv);
 
-            /* Scroll AFTER DOM insert */
-            if (scrollTarget) {
-                setTimeout(() => {
-                    scrollTarget.scrollIntoView({ block: "center" });
-                }, 0);
-            }
+            /* Scroll innerhalb der kleinen Task-Liste, nicht die ganze Seite */
+             if (scrollTarget) {
+                 const ul = scrollTarget.parentElement; // das UL
+                 ul.scrollTop = scrollTarget.offsetTop - ul.offsetTop - ul.clientHeight/2 + scrollTarget.clientHeight/2;
+             }
+
         });
 
         container.appendChild(card);
