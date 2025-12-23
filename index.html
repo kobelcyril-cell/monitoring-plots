@@ -51,6 +51,44 @@
             color: #aaaaaa;
             text-align: right;
         }
+
+        /* Monitor Styles */
+        #monitor-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        .process-card {
+            width: 350px;
+            background: #1e1e1e;
+            padding: 12px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+
+        .progress-bar-container {
+            background: #333;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-top: 4px;
+            height: 16px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+
+        .task-list {
+            max-height: 120px;
+            overflow-y: auto;
+            margin: 4px 0 0 0;
+            padding-left: 20px;
+        }
+
     </style>
 </head>
 
@@ -70,12 +108,16 @@
 <h2>Comparison Plots</h2>
 <div id="comparisons-container" class="plots-container"></div>
 
+<h2>Live Process Monitor</h2>
+<div id="monitor-container"></div>
+
 <script src="plots_list.js"></script>
 <script src="comparisons_list.js"></script>
 
 <script>
 function renderPlots(containerId, plotsArray, folder) {
     const container = document.getElementById(containerId);
+    container.innerHTML = "";
     plotsArray.forEach(filename => {
         const plotDiv = document.createElement("div");
         plotDiv.className = "plot";
@@ -97,15 +139,9 @@ function renderPlots(containerId, plotsArray, folder) {
         fetch(imgPath, { method: "HEAD" })
             .then(response => {
                 const lm = response.headers.get("Last-Modified");
-                if (lm) {
-                    updated.textContent = "Last updated: " + new Date(lm).toLocaleString();
-                } else {
-                    updated.textContent = "Last updated: unknown";
-                }
+                updated.textContent = lm ? "Last updated: " + new Date(lm).toLocaleString() : "Last updated: unknown";
             })
-            .catch(() => {
-                updated.textContent = "Last updated: unavailable";
-            });
+            .catch(() => { updated.textContent = "Last updated: unavailable"; });
     });
 }
 
@@ -113,6 +149,90 @@ renderPlots("latest-container", latest_plots, "plots/latest");
 renderPlots("comparisons-container", comparison_plots, "plots/comparisons");
 
 document.getElementById("page-time").innerText = new Date().toLocaleString();
+</script>
+
+<script>
+async function updateMonitor() {
+    const container = document.getElementById("monitor-container");
+    container.innerHTML = "";
+
+    try {
+        const resp = await fetch("status.json?ts=" + new Date().getTime());
+        const data = await resp.json();
+
+        for (const [proc, sessions] of Object.entries(data)) {
+            if (proc === "updated") continue;
+
+            const procDiv = document.createElement("div");
+            procDiv.className = "process-card";
+
+            const h3 = document.createElement("h3");
+            h3.textContent = proc;
+            h3.style.color = "#ffffff";
+            procDiv.appendChild(h3);
+
+            sessions.forEach(session => {
+                const sessionDiv = document.createElement("div");
+                sessionDiv.style.marginBottom = "12px";
+
+                const title = document.createElement("div");
+                title.innerHTML = `<strong>Session ${session.session_id}:</strong> ${session.status}`;
+                sessionDiv.appendChild(title);
+
+                // Fortschrittsbalken
+                const progressBarContainer = document.createElement("div");
+                progressBarContainer.className = "progress-bar-container";
+
+                const progressBar = document.createElement("div");
+                progressBar.className = "progress-bar";
+
+                let color = "gray";
+                if (session.status === "running") color = "orange";
+                else if (session.status === "finished") color = "green";
+                else if (session.status === "missing") color = "yellow";
+
+                progressBar.style.width = (session.progress ?? 0) + "%";
+                progressBar.style.background = color;
+                progressBarContainer.appendChild(progressBar);
+                sessionDiv.appendChild(progressBarContainer);
+
+                // Tasks
+                const taskList = document.createElement("ul");
+                taskList.className = "task-list";
+
+                session.tasks?.forEach(task => {
+                    const li = document.createElement("li");
+                    let tcolor = "gray";
+                    if(task.status === "running") tcolor = "orange";
+                    else if(task.status === "finished") tcolor = "green";
+                    else if(task.status === "waiting") tcolor = "gray";
+
+                    li.innerHTML = `<span style="color:${tcolor}">${task.id} ${task.name} (${task.status}) ${task.extra}</span>`;
+                    taskList.appendChild(li);
+                });
+                sessionDiv.appendChild(taskList);
+
+                procDiv.appendChild(sessionDiv);
+            });
+
+            container.appendChild(procDiv);
+        }
+
+        const updatedDiv = document.createElement("div");
+        updatedDiv.style.fontSize = "0.8em";
+        updatedDiv.style.color = "#aaaaaa";
+        updatedDiv.style.marginTop = "10px";
+        updatedDiv.textContent = "Status updated: " + new Date(data.updated).toLocaleString();
+        container.appendChild(updatedDiv);
+
+    } catch (err) {
+        container.innerHTML = "<p style='color:red'>Unable to load status.</p>";
+        console.error(err);
+    }
+}
+
+updateMonitor();
+setInterval(updateMonitor, 15000); // alle 15 Sekunden aktualisieren
 </script>
 
 </body>
