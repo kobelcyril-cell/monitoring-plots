@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-23T17:49:01.649031",
+  "updated": "2025-12-23T17:50:02.034617",
   "Processing (1 day solution)": [
     {
       "session_id": "253200",
@@ -3511,13 +3511,13 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -3994,7 +3994,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 38
+      "progress": 39
     },
     {
       "session_id": "253250",
@@ -6052,13 +6052,13 @@
           "id": "111",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "112",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "113",
@@ -6391,7 +6391,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 56
+      "progress": 57
     },
     {
       "session_id": "253280",
@@ -6797,25 +6797,25 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -7190,7 +7190,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 52
+      "progress": 50
     },
     {
       "session_id": "253290",
@@ -8407,13 +8407,13 @@
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "097",
@@ -8788,7 +8788,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 51
+      "progress": 52
     },
     {
       "session_id": "253310",
@@ -20386,19 +20386,19 @@
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "097",
@@ -20773,7 +20773,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 50
+      "progress": 52
     },
     {
       "session_id": "253460",
@@ -24037,7 +24037,7 @@
           "id": "007",
           "name": "FZDM_COP",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "999",
@@ -24778,7 +24778,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 4
+      "progress": 5
     }
   ],
   "Comparison": [
