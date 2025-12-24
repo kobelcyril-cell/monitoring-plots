@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-24T19:39:01.376789",
+  "updated": "2025-12-24T19:40:02.103181",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -16637,7 +16637,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "154",
@@ -22284,19 +22284,19 @@
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "161",
@@ -22383,7 +22383,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 85
+      "progress": 87
     }
   ],
   "Processing (3 day solution)": [
@@ -24135,25 +24135,25 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -24792,7 +24792,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 16
+      "progress": 18
     }
   ],
   "Comparison": [
