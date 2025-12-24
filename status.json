@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-24T23:25:01.981585",
+  "updated": "2025-12-24T23:26:01.715957",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -6256,7 +6256,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
@@ -7079,19 +7079,19 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "989",
@@ -7103,19 +7103,19 @@
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "161",
@@ -7202,7 +7202,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 84
+      "progress": 87
     },
     {
       "session_id": "253310",
@@ -22777,13 +22777,13 @@
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "087",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "088",
@@ -23206,7 +23206,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 45
+      "progress": 46
     }
   ],
   "Comparison": [
