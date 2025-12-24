@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-24T23:39:01.224756",
+  "updated": "2025-12-24T23:40:01.581185",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -18277,13 +18277,13 @@
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "989",
           "name": "GPSXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "994",
@@ -18373,7 +18373,7 @@
           "id": "168",
           "name": "GPSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "170",
@@ -18388,7 +18388,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 87
+      "progress": 88
     },
     {
       "session_id": "253450",
@@ -22801,19 +22801,19 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "094",
@@ -23206,7 +23206,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 48
+      "progress": 50
     }
   ],
   "Comparison": [
