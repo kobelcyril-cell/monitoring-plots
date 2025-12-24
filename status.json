@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-24T20:36:01.960144",
+  "updated": "2025-12-24T20:37:02.076488",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -2249,19 +2249,19 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "156",
@@ -2396,7 +2396,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 81
+      "progress": 83
     },
     {
       "session_id": "253230",
@@ -6112,31 +6112,31 @@
           "id": "120",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "130",
           "name": "SATMRK",
           "extra": "IAR_AMB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "131",
           "name": "FILESTAP",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "133",
@@ -6397,7 +6397,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 63
+      "progress": 66
     },
     {
       "session_id": "253290",
@@ -15039,7 +15039,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
@@ -23414,13 +23414,13 @@
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "052",
@@ -23999,7 +23999,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 26
     }
   ],
   "Comparison": [
