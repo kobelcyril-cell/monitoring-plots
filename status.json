@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T20:43:01.529508",
+  "updated": "2025-12-25T20:44:01.677369",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -4672,19 +4672,19 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "116",
@@ -4993,7 +4993,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 59
     },
     {
       "session_id": "253490",
@@ -5603,31 +5603,31 @@
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "150",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "151",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "152",
@@ -5792,7 +5792,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 78
     },
     {
       "session_id": "253500",
