@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T16:28:02.000325",
+  "updated": "2025-12-25T16:29:01.901888",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -2345,43 +2345,43 @@
           "id": "162",
           "name": "ORBGENZD_FIN",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "163",
           "name": "ITER_AR",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "164",
           "name": "STDPRE",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "200",
           "name": "STDDIF",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "COMPAR2_ZD",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "165",
@@ -2420,7 +2420,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 90
+      "progress": 94
     },
     {
       "session_id": "253270",
@@ -6054,19 +6054,19 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "075",
@@ -6561,7 +6561,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 35
+      "progress": 37
     },
     {
       "session_id": "253280",
@@ -6865,13 +6865,13 @@
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "180",
@@ -7724,13 +7724,13 @@
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "087",
@@ -8159,7 +8159,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 44
+      "progress": 45
     },
     {
       "session_id": "253470",
@@ -8475,13 +8475,13 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -8958,7 +8958,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 38
+      "progress": 39
     },
     {
       "session_id": "253490",
@@ -9274,13 +9274,13 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -9757,7 +9757,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 38
+      "progress": 39
     },
     {
       "session_id": "253500",
@@ -10085,13 +10085,13 @@
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "081",
