@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T23:22:01.645764",
+  "updated": "2025-12-25T23:23:02.005603",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -1654,13 +1654,13 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "156",
@@ -1795,7 +1795,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 82
     }
   ],
   "Processing (re-run failed)": [
@@ -3206,13 +3206,13 @@
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "146",
@@ -3395,7 +3395,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 76
     },
     {
       "session_id": "253460",
