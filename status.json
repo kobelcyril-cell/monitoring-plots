@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T08:57:01.707950",
+  "updated": "2025-12-25T08:58:01.210980",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -6298,13 +6298,13 @@
           "id": "156",
           "name": "PRECLK",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "158",
@@ -6427,7 +6427,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 83
+      "progress": 84
     },
     {
       "session_id": "253340",
@@ -12702,19 +12702,19 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "989",
@@ -12726,19 +12726,19 @@
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "161",
@@ -12825,7 +12825,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 84
+      "progress": 87
     },
     {
       "session_id": "253430",
