@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T03:52:01.822458",
+  "updated": "2025-12-25T03:53:01.970429",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -6370,19 +6370,19 @@
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "165",
           "name": "OBSXTR",
           "extra": "FZDM_SUM",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "166",
           "name": "OBSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "167",
@@ -6409,7 +6409,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 95
+      "progress": 96
     },
     {
       "session_id": "253310",
@@ -17454,19 +17454,19 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "156",
@@ -17601,7 +17601,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 82
+      "progress": 81
     },
     {
       "session_id": "253460",
