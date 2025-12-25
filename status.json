@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T11:16:01.207237",
+  "updated": "2025-12-25T11:17:01.843226",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -3090,13 +3090,13 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "991",
@@ -3114,19 +3114,19 @@
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "161",
@@ -3213,7 +3213,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 84
+      "progress": 87
     },
     {
       "session_id": "253270",
@@ -7187,7 +7187,7 @@
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "990",
@@ -7232,7 +7232,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 94
+      "progress": 95
     },
     {
       "session_id": "253360",
