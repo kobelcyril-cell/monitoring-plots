@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-25T14:44:01.690720",
+  "updated": "2025-12-25T14:45:01.380169",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -7217,43 +7217,43 @@
           "id": "162",
           "name": "ORBGENZD_FIN",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "163",
           "name": "ITER_AR",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "164",
           "name": "STDPRE",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "200",
           "name": "STDDIF",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "COMPAR2_ZD",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "165",
@@ -7292,7 +7292,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 90
+      "progress": 94
     },
     {
       "session_id": "253460",
@@ -9106,19 +9106,19 @@
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "032",
           "name": "GPSXTR",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "033",
           "name": "FZDM_CH1",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "040",
@@ -9733,7 +9733,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 20
+      "progress": 21
     },
     {
       "session_id": "253280",
@@ -9905,25 +9905,25 @@
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "032",
           "name": "GPSXTR",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "033",
           "name": "FZDM_CH1",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "040",
           "name": "FILESTAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "041",
@@ -10532,7 +10532,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 20
+      "progress": 22
     },
     {
       "session_id": "253460",
