@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-26T03:18:01.165149",
+  "updated": "2025-12-26T03:19:01.380554",
   "Processing (Repro)": [
     {
       "session_id": "253200",
@@ -2443,19 +2443,19 @@
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "155",
@@ -2596,7 +2596,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     },
     {
       "session_id": "253280",
