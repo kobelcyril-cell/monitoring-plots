@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-29T08:02:01.305649",
+  "updated": "2025-12-29T08:03:01.801137",
   "Processing (1 day solution)": [
     {
       "session_id": "253560",
@@ -873,70 +873,9 @@
   "Comparison": [
     {
       "session_id": "253560",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "CMP_COP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "101",
-          "name": "CMP_ERPDIFF",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "201",
-          "name": "STDDIF",
-          "extra": "CMP_SOL",
-          "status": "waiting"
-        },
-        {
-          "id": "301",
-          "name": "CMP_CLKDIFF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "401",
-          "name": "ORBCMPL",
-          "extra": "CMP_SOL",
-          "status": "waiting"
-        },
-        {
-          "id": "501",
-          "name": "COMPAR2",
-          "extra": "CMP_SOL",
-          "status": "waiting"
-        },
-        {
-          "id": "601",
-          "name": "HELMR1",
-          "extra": "CMP_SOL",
-          "status": "waiting"
-        },
-        {
-          "id": "701",
-          "name": "STDELEL",
-          "extra": "CMP_SOL",
-          "status": "waiting"
-        },
-        {
-          "id": "801",
-          "name": "CMP_SUM",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "901",
-          "name": "DEL_CMP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 10
+      "status": "error",
+      "tasks": [],
+      "progress": 100
     }
   ]
 }
