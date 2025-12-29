@@ -348,7 +348,44 @@ async function updateMonitor() {
 
             barContainer.appendChild(bar);
             sdiv.appendChild(barContainer);
+             const ul = document.createElement("ul");
+            ul.className = "task-list";
+
+            let scrollTarget = null;
+
+            session.tasks?.forEach(task => {
+                const li = document.createElement("li");
+
+                if (task.status === "running") {
+                    li.className = "running-task";
+                    if (!scrollTarget) scrollTarget = li;
+                } else if (task.status === "waiting") {
+                    li.className = "task-waiting";
+                    if (!scrollTarget) scrollTarget = li;
+                } else if (task.status === "error") {
+                    li.className = "task-error";
+                } else {
+                    li.className = "task-finished";
+                }
+
+                li.textContent =
+                    `${task.id} ${task.name} (${task.status}) ${task.extra ?? ""}`;
+
+                ul.appendChild(li);
+            });
+
+            sdiv.appendChild(ul);
             card.appendChild(sdiv);
+
+            /* Scroll AFTER DOM insert */
+            if (scrollTarget) {
+                setTimeout(() => {
+                    scrollTarget.scrollIntoView({ block: "center" });
+                }, 0);
+            }
+
+
+
         });
 
         container.appendChild(card);
