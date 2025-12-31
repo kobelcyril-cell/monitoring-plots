@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-31T19:03:01.363194",
+  "updated": "2025-12-31T19:05:01.996478",
   "Processing (1 day solution)": [
     {
       "session_id": "253590",
@@ -39,25 +39,25 @@
           "id": "006",
           "name": "FZDM_RNX",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "998",
           "name": "NUM_OBSFIL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "992",
           "name": "CHECK_OBSENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "007",
           "name": "FZDM_COP",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "999",
@@ -69,25 +69,25 @@
           "id": "008",
           "name": "COOVEL",
           "extra": "FZDM_0",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 4
+      "progress": 9
     }
   ],
   "Processing (3 day solution)": [
