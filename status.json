@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-04T00:46:02.000990",
+  "updated": "2026-01-04T00:48:01.670206",
   "Processing (1 day solution)": [
     {
       "session_id": "253620",
@@ -609,25 +609,25 @@
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "150",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "151",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 78
     }
   ],
   "Processing (rerun failed)": [
