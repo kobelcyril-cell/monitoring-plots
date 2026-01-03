@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-04T00:37:01.942460",
+  "updated": "2026-01-04T00:39:01.189140",
   "Processing (1 day solution)": [
     {
       "session_id": "253620",
@@ -537,25 +537,25 @@
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "133",
           "name": "PHABIA",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "134",
           "name": "FILESTAP",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "136",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 66
+      "progress": 68
     }
   ],
   "Processing (rerun failed)": [
@@ -1476,13 +1476,13 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "991",
