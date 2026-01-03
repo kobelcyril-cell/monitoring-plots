@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-03T20:47:02.723909",
+  "updated": "2026-01-03T20:49:01.760188",
   "Processing (1 day solution)": [
     {
       "session_id": "253620",
@@ -405,19 +405,19 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "096",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
+      "progress": 51
     }
   ],
   "Processing (rerun failed)": [
@@ -1452,7 +1452,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
