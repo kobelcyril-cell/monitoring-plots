@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-03T19:19:01.736607",
+  "updated": "2026-01-03T19:20:01.253543",
   "Processing (1 day solution)": [
     {
       "session_id": "253620",
@@ -183,19 +183,19 @@
           "id": "033",
           "name": "FZDM_CH1",
           "extra": "FZDM_WGT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "040",
           "name": "FILESTAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "041",
           "name": "FILEST_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "042",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 21
+      "progress": 23
     }
   ],
   "Processing (rerun failed)": [
