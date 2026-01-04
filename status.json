@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-04T03:28:01.159748",
+  "updated": "2026-01-04T03:30:01.240211",
   "Processing (1 day solution)": [
     {
       "session_id": "253620",
@@ -657,19 +657,19 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "156",
           "name": "PRECLK",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "157",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 83
     }
   ],
   "Processing (rerun failed)": [
