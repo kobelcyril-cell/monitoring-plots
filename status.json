@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-05T00:24:01.465942",
+  "updated": "2026-01-05T00:25:01.669352",
   "Processing (1 day solution)": [
     {
       "session_id": "253630",
@@ -585,25 +585,25 @@
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "144",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 72
+      "progress": 75
     }
   ],
   "Processing (rerun failed)": [
