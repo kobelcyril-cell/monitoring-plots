@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-04T19:14:01.338410",
+  "updated": "2026-01-04T19:15:01.831490",
   "Processing (1 day solution)": [
     {
       "session_id": "253630",
@@ -117,19 +117,19 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -798,7 +798,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 13
+      "progress": 15
     }
   ],
   "Processing (rerun failed)": [
