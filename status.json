@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-05T08:51:01.070484",
+  "updated": "2026-01-05T08:53:01.633494",
   "Processing (1 day solution)": [
     {
       "session_id": "253630",
@@ -19,70 +19,9 @@
   "Processing (3 day solution)": [
     {
       "session_id": "253620",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD3D_COP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "COOVEL",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "POLUPD",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "SOLLONAP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "SOLLON_P",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "ORBGEN",
-          "extra": "ZD3D_3DS",
-          "status": "running"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXCZD",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "014",
-          "name": "STDPRE",
-          "extra": "ZD3D_3DS",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "SAVERES3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "DEL_ZD3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 60
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Comparison": [
