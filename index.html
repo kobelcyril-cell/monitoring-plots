@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zero-difference GNSS Processing</title>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.meta {
+    text-align: center;
+    font-size: 0.9em;
+    color: #bbbbbb;
+    margin-bottom: 35px;
+}
+
+/* ===== Plot layout ===== */
+.plots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.plot {
+    background-color: #1e1e1e;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    position: relative;
+    z-index: 1;
+}
+
+.plot img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.plot .updated {
+    margin-top: 8px;
+    font-size: 0.8em;
+    color: #aaaaaa;
+    text-align: right;
+}
+
+/* ===== Monitor ===== */
+#monitor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.process-card {
+    width: 360px;
+    background: #1e1e1e;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+.progress-bar-container {
+    background: #333;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.progress-bar {
+    height: 100%;
+    transition: width 0.6s ease;
+}
+
+.task-list {
+    max-height: 140px;
+    overflow-y: auto;
+    margin-top: 6px;
+    padding-left: 18px;
+    font-size: 0.85em;
+}
+
+/* ===== Running animation ===== */
+@keyframes glow {
+    0%   { box-shadow: 0 0 4px rgba(255,165,0,0.4); }
+    50%  { box-shadow: 0 0 10px rgba(255,165,0,0.9); }
+    100% { box-shadow: 0 0 4px rgba(255,165,0,0.4); }
+}
+
+@keyframes slide {
+    0%   { opacity: 0.3; transform: translateX(0); }
+    50%  { opacity: 1.0; transform: translateX(6px); }
+    100% { opacity: 0.3; transform: translateX(0); }
+}
+
+.running-task {
+    position: relative;
+    padding-left: 10px;
+    animation: glow 1.4s infinite;
+    font-weight: bold;
+    color: orange;
+}
+
+.running-task::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 4px;
+    height: 80%;
+    background: orange;
+    border-radius: 2px;
+    animation: slide 1.2s infinite;
+}
+
+.task-waiting { color: gray; }
+.task-finished { color: #4caf50; }
+.task-error { color: red; }
+
+/* =========================================================
+   SATELLITE ORBIT BACKGROUND
+   ========================================================= */
+
+#satellite-layer {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: var(--size);
+    height: var(--size);
+    margin-left: calc(var(--size) / -2);
+    margin-top: calc(var(--size) / -2);
+    animation: rotate var(--period) linear infinite;
+}
+
+.orbit::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 1px dashed rgba(255,255,255,0.04);
+}
+
+.satellite {
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 22px;
+    height: 22px;
+    opacity: 0.35;
+}
+
+.satellite svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0.35; }
+    50%      { opacity: 0.7; }
+}
+
+.sat-running { color: #ffb300; }
+.sat-finished {
+    color: #4caf50;
+    animation: blink 1.8s ease-in-out infinite;
+}
+.sat-error {
+    color: #f44336;
+    animation: blink 0.8s ease-in-out infinite;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Satellite background -->
+<div id="satellite-layer"></div>
+
+<h1>Zero-difference GNSS Processing</h1>
+
+<div class="meta">
+    Created by Cyril Kobel<br>
+    Astronomical Institute, University of Bern<br>
+    Page loaded: <span id="page-time"></span>
+</div>
+
+<!-- ===== Live Process Monitor ===== -->
+<h2>Live Process Monitor</h2>
+<div id="monitor-container"></div>
+
+<!-- ===== Current Queue ===== -->
+<h2>Current Queue</h2>
+<div id="sq-container"
+     class="process-card"
+     style="white-space: pre; overflow-x: auto; max-height: 400px; padding: 12px; font-family: monospace; width: 95%; margin: 0 auto;">
+</div>
+
+<!-- ===== Plots ===== -->
+<h2>Plots</h2>
+<div id="latest-container" class="plots-container"></div>
+
+<!-- ===== Comparison to CODE ===== -->
+<h2>Comparison to CODE</h2>
+<div id="comparisons-container" class="plots-container"></div>
+
+<!-- ===== Kinematic Precise Point Positioning ===== -->
+<h2>Kinematic Precise Point Positioning</h2>
+<div id="ppp-container" class="plots-container"></div>
+
+<!-- ===== Scripts ===== -->
+<script src="plots_list.js"></script>
+<script src="comparisons_list.js"></script>
+<script src="ppp_list.js"></script>
+
+<script>
+function renderPlots(id, arr, folder) {
+    const c = document.getElementById(id);
+    c.innerHTML = "";
+    arr.forEach(fn => {
+        const d = document.createElement("div");
+        d.className = "plot";
+        const img = document.createElement("img");
+        img.src = `${folder}/${fn}?ts=${Date.now()}`;
+        d.appendChild(img);
+        const u = document.createElement("div");
+        u.className = "updated";
+        u.textContent = "Last updated: …";
+        d.appendChild(u);
+        fetch(`${folder}/${fn}`, {method:"HEAD"})
+            .then(r => u.textContent =
+                "Last updated: " + new Date(r.headers.get("Last-Modified")).toLocaleString());
+        c.appendChild(d);
+    });
+}
+
+// Render all sections
+renderPlots("latest-container", latest_plots, "plots/latest");
+renderPlots("comparisons-container", comparison_plots, "plots/comparisons");
+renderPlots("ppp-container", ppp_plots, "plots/ppp"); // Neuer Abschnitt
+
+document.getElementById("page-time").innerText = new Date().toLocaleString();
+</script>
+
+<script>
+/* ================= Satellite creation ================= */
+
+const SAT_COUNT = 20;
+const satellites = [];
+const layer = document.getElementById("satellite-layer");
+
+const ICONS = [
+`<svg viewBox="0 0 64 64"><rect x="28" y="22" width="8" height="20"/><rect x="6" y="28" width="16" height="8"/><rect x="42" y="28" width="16" height="8"/></svg>`,
+`<svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="10"/><rect x="4" y="30" width="16" height="4"/><rect x="44" y="30" width="16" height="4"/></svg>`,
+`<svg viewBox="0 0 64 64"><polygon points="32,20 38,32 32,44 26,32"/><rect x="6" y="30" width="14" height="4"/><rect x="44" y="30" width="14" height="4"/></svg>`
+];
+
+for (let i = 0; i < SAT_COUNT; i++) {
+    const orbit = document.createElement("div");
+    orbit.className = "orbit";
+    orbit.style.setProperty("--size", (300 + Math.random()*700) + "px");
+    orbit.style.setProperty("--period", (40 + Math.random()*80) + "s");
+
+    const sat = document.createElement("div");
+    sat.className = "satellite sat-running";
+    sat.innerHTML = ICONS[Math.floor(Math.random()*ICONS.length)];
+
+    orbit.appendChild(sat);
+    layer.appendChild(orbit);
+    satellites.push(sat);
+}
+
+function updateSatelliteState(data) {
+    let hasRunning = false;
+    let hasError = false;
+    let allFinished = true;
+
+    for (const [proc, sessions] of Object.entries(data)) {
+        if (proc === "updated") continue;
+        sessions.forEach(s => {
+            if (s.status === "running") hasRunning = true;
+            if (s.status === "error") hasError = true;
+            if (s.status !== "finished") allFinished = false;
+        });
+    }
+
+    let cls = "sat-running";
+    if (hasError) cls = "sat-error";
+    else if (allFinished) cls = "sat-finished";
+
+    satellites.forEach(s => {
+        s.classList.remove("sat-running","sat-finished","sat-error");
+        s.classList.add(cls);
+    });
+}
+</script>
+
+<script>
+async function updateMonitor() {
+    const container = document.getElementById("monitor-container");
+    container.innerHTML = "";
+
+    const resp = await fetch("status.json?ts=" + Date.now());
+    const data = await resp.json();
+
+    updateSatelliteState(data);
+
+    for (const [proc, sessions] of Object.entries(data)) {
+        if (proc === "updated") continue;
+
+        const card = document.createElement("div");
+        card.className = "process-card";
+        card.innerHTML = `<h3>${proc}</h3>`;
+
+        sessions.forEach(session => {
+            const sdiv = document.createElement("div");
+            sdiv.style.marginBottom = "14px";
+            sdiv.innerHTML = `<strong>Session ${session.session_id}:</strong> ${session.status}`;
+
+            const barContainer = document.createElement("div");
+            barContainer.className = "progress-bar-container";
+            const bar = document.createElement("div");
+            bar.className = "progress-bar";
+
+            let color = "#777";
+            if (session.status === "running") color = "orange";
+            else if (session.status === "finished") color = "green";
+            else if (session.status === "missing") color = "yellow";
+            else if (session.status === "error") color = "red";
+
+            bar.style.width = (session.progress ?? 0) + "%";
+            bar.style.background = color;
+
+            barContainer.appendChild(bar);
+            sdiv.appendChild(barContainer);
+            const ul = document.createElement("ul");
+            ul.className = "task-list";
+
+            let scrollTarget = null;
+
+            session.tasks?.forEach(task => {
+                const li = document.createElement("li");
+
+                if (task.status === "running") {
+                    li.className = "running-task";
+                    if (!scrollTarget) scrollTarget = li;
+                } else if (task.status === "waiting") {
+                    li.className = "task-waiting";
+                    if (!scrollTarget) scrollTarget = li;
+                } else if (task.status === "error") {
+                    li.className = "task-error";
+                } else {
+                    li.className = "task-finished";
+                }
+
+                li.textContent =
+                    `${task.id} ${task.name} (${task.status}) ${task.extra ?? ""}`;
+
+                ul.appendChild(li);
+            });
+
+            sdiv.appendChild(ul);
+            card.appendChild(sdiv);
+
+            if (scrollTarget) {
+                setTimeout(() => {
+                    scrollTarget.scrollIntoView({ block: "center" });
+                }, 0);
+            }
+        });
+
+        container.appendChild(card);
+    }
+}
+
+updateMonitor();
+</script>
+
+<script>
+async function updateQueue() {
+    const sqDiv = document.getElementById("sq-container");
+    try {
+        const resp = await fetch("sq_output.txt?ts=" + Date.now());
+        sqDiv.textContent = await resp.text();
+    } catch {
+        sqDiv.textContent = "Unable to load queue output.";
+    }
+}
+
+updateQueue();
+setInterval(updateQueue, 30000);
+</script>
+
+</body>
+</html>
