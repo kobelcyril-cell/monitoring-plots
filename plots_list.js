@@ -1,5 +1,6 @@
 const latest_plots = [
     "amb_stats.png",
+    "CPVG_plot.png",
     "deleted_files.png",
     "gpsxtr_obs.png",
     "gpsxtr_par.png",
@@ -7,4 +8,8 @@ const latest_plots = [
     "large_obs_files.png",
     "num_obs_files.png",
     "obsxtr_bad.png",
+    "ROTH_plot.png",
+    "SCOR_plot.png",
+    "WGTN_plot.png",
+    "ZIM3_plot.png",
 ];
