@@ -1,25 +1,43 @@
 #!/usr/bin/env python3
 import os
 import re
-import matplotlib.pyplot as plt
-from datetime import datetime
 import numpy as np
+import matplotlib.pyplot as plt
 
-# Pfad zu den MSC-Dateien
-MSC_PATH = "/storage/research/aiub_u_camp/CK_ZDGNSS_2025/MSC"
+DEBUG = False
+
+def dbg(msg):
+    if DEBUG:
+        print(f"[DEBUG] {msg}")
+
+# ------------------------------------------------------------
+# Pfade
+# ------------------------------------------------------------
+MSC_PATH = "/storage/research/aiub_u_camp/CK_ZDGNSS/MSC"
 OUTPUT_DIR = "/storage/homefs/ck18y530/monitoring-plots/plots/latest"
-
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Hilfsfunktion, um die letzten 5 Ordner nach Datum zu sortieren
-def get_last_n_folders(n=10):
+# ------------------------------------------------------------
+# Letzte N MSC-Ordner
+# ------------------------------------------------------------
+def get_last_n_folders(n=40):
     folders = [f for f in os.listdir(MSC_PATH) if f.startswith("MSC_")]
     folders.sort()
     return folders[-n:]
 
+# ------------------------------------------------------------
+# Folder → yy/ddd
+# ------------------------------------------------------------
+def folder_to_date(folder_name):
+    yyddd = folder_name.split("_")[1]
+    return f"{yyddd[:2]}/{yyddd[2:]}"
 
-# Funktion, um Daten aus einer PROCESSING-Datei zu extrahieren
+# ------------------------------------------------------------
+# PROCESSING-File Parser
+# ------------------------------------------------------------
 def parse_processing_file(file_path):
+    dbg(f"Parse {file_path}")
+
     data = {
         "num_obs_files": None,
         "deleted_files": None,
@@ -35,17 +53,18 @@ def parse_processing_file(file_path):
         lines = f.readlines()
 
     for i, line in enumerate(lines):
+
         # Number of observation files
         if "Number of observation files:" in line:
             data["num_obs_files"] = int(line.split(":")[1].strip())
 
-        # Deleted files without matching entries
+        # Deleted files
         if "Deleted " in line and "files without matching entries" in line:
             m = re.search(r"Deleted (\d+) files without matching entries", line)
             if m:
                 data["deleted_files"] = int(m.group(1))
 
-        # Large obs files (No stations with >50% bad observations found / Total deleted files)
+        # Removed files from campaign
         if "Total deleted files:" in line:
             m = re.search(r"Total deleted files:\s*(\d+)", line)
             if m:
@@ -53,37 +72,31 @@ def parse_processing_file(file_path):
 
         # GPSXTR STATISTICS
         if "==== GPSXTR STATISTICS ====" in line:
-            # Nächste Zeile mit Überschriften überspringen
-            j = i + 3
-            gps_line = lines[j].strip()
-            parts = gps_line.split()
+            parts = lines[i + 3].split()
             data["gpsxtr_rms"] = float(parts[0])
             data["gpsxtr_obs"] = int(parts[2])
             data["gpsxtr_par"] = int(parts[3])
 
         # OBSXTR STATISTICS
         if "==== OBSXTR STATISTICS ====" in line:
-            j = i + 1  # eine Zeile nach dem Header
-            while j < len(lines) and lines[j].strip() != "===============================================":
+            j = i + 1
+            while j < len(lines) and "====" not in lines[j]:
                 parts = lines[j].split()
                 if len(parts) >= 5:
                     try:
                         sys = parts[0]
-                        total = int(parts[2])
-                        usable = int(parts[3])
-                        bad = float(parts[4].replace("%", ""))
                         data["obsxtr_stats"][sys] = {
-                            "total": total,
-                            "usable": usable,
-                            "bad": bad
+                            "total": int(parts[2]),
+                            "usable": int(parts[3]),
+                            "bad": float(parts[4].replace("%", ""))
                         }
                     except ValueError:
-                        pass  # Zeile enthält keine gültigen Zahlen, ignorieren
+                        pass
                 j += 1
-
 
         # Ambiguity resolution statistics
         if "==== Ambiguity resolution statistics ====" in line:
+            dbg("Ambiguity resolution block gefunden")
             j = i + 4
             while lines[j].strip() != "=============================================================":
                 parts = lines[j].split()
@@ -92,179 +105,189 @@ def parse_processing_file(file_path):
                     perc = float(parts[1])
                     sys = parts[2]
                     amb_type = parts[3]
-                    if sys not in data["amb_stats"]:
-                        data["amb_stats"][sys] = []
-                    data["amb_stats"][sys].append({
-                        "total": total,
-                        "perc": perc,
-                        "type": amb_type
-                    })
+
+                    # nur AR_ Typen aufnehmen
+                    if amb_type.startswith("AR_"):
+                        if sys not in data["amb_stats"]:
+                            data["amb_stats"][sys] = []
+                        data["amb_stats"][sys].append({
+                            "total": total,
+                            "perc": perc,
+                            "type": amb_type
+                        })
+                        dbg(f"  AMB {sys} {amb_type}: {perc}")
                 j += 1
 
     return data
 
-# Hilfsfunktion: MSC_Ordnername → yy/ddd
-def folder_to_date(folder_name):
-    # Beispiel: MSC_25347 → 25/347
-    yyddd = folder_name.split('_')[1]
-    yy = yyddd[:2]
-    ddd = yyddd[2:]
-    return f"{yy}/{ddd}"
+# ------------------------------------------------------------
+# NaN-sichere Extraktion
+# ------------------------------------------------------------
+def safe_values(extractor, label=""):
+    vals = []
+    dbg(f"--- {label} ---")
+    for folder in last_folders:
+        data = all_data.get(folder)
+        if not data:
+            dbg(f"{folder}: NaN (kein File)")
+            vals.append(np.nan)
+            continue
+        try:
+            v = extractor(data)
+            dbg(f"{folder}: {v}")
+            vals.append(v if v is not None else np.nan)
+        except Exception as e:
+            dbg(f"{folder}: FEHLER {e}")
+            vals.append(np.nan)
+    return np.array(vals, dtype=float)
 
+# ------------------------------------------------------------
+# NaN-Markierung
+# ------------------------------------------------------------
+def mark_nan_days(x, y):
+    ymin, ymax = plt.ylim()
+    nan_idx = np.isnan(y)
+    if np.any(nan_idx):
+        plt.scatter(
+            np.array(x)[nan_idx],
+            np.full(np.sum(nan_idx), ymin),
+            marker="x",
+            color="gray",
+            zorder=5
+        )
+        plt.ylim(ymin, ymax)
+
+# ------------------------------------------------------------
+# MAIN
+# ------------------------------------------------------------
 if __name__ == "__main__":
+
     last_folders = get_last_n_folders()
-    print("Letzte 5 Ordner:", last_folders)
+    x_labels = [folder_to_date(f) for f in last_folders]
 
     all_data = {}
     for folder in last_folders:
-        file_name = f"PROCESSING_{folder.split('_')[1]}"
-        file_path = os.path.join(MSC_PATH, folder, file_name)
-        if os.path.exists(file_path):
-            all_data[folder] = parse_processing_file(file_path)
-        else:
-            all_data[folder] = None  # Keine Daten für diesen Tag
+        fname = f"PROCESSING_{folder.split('_')[1]}"
+        fpath = os.path.join(MSC_PATH, folder, fname)
+        all_data[folder] = parse_processing_file(fpath) if os.path.exists(fpath) else None
 
-    x_labels = [folder_to_date(f) for f in last_folders]
-
-    def safe_values(key, subkey=None, fill_nan=True, fill_zero=False):
-        vals = []
-        for folder in last_folders:
-            data = all_data.get(folder)
-            if not data:
-                vals.append(np.nan if fill_nan else 0)
-                continue
-            val = data.get(key, None)
-            if subkey:
-                val = val.get(subkey, None) if val else (0 if fill_zero else np.nan)
-            if val is None:
-                if fill_zero:
-                    vals.append(0)
-                else:
-                    vals.append(np.nan)
-            else:
-                vals.append(val)
-        return vals
-
-    # 1️⃣ Number of Observation Files
-    y = safe_values("num_obs_files")
+    # --------------------------------------------------------
+    # 1 Number of observation files (dynamisch skaliert)
+    # --------------------------------------------------------
+    y = safe_values(lambda d: d["num_obs_files"], "num_obs_files")
     plt.figure(figsize=(8,5))
     plt.bar(x_labels, y)
-    plt.ylabel("#")
+    mark_nan_days(x_labels, y)
+
+    if np.any(~np.isnan(y)):
+        ymin = np.nanmin(y)
+        ymax = np.nanmax(y)
+        pad = max(5, 0.05 * (ymax - ymin))
+        plt.ylim(ymin - pad, ymax + pad)
+
     plt.title("Number of Observation Files")
     plt.xticks(rotation=45)
-    plt.ylim(np.nanmin(y)-5, np.nanmax(y)+5)
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "num_obs_files.png"))
     plt.close()
 
-    # 2️⃣ Deleted files
-    # 2️⃣ Deleted files
-    y = []
-    for folder in last_folders:
-        data = all_data.get(folder)
-        if not data:
-            y.append(np.nan)           # Keine Daten
-        else:
-            deleted = data.get("deleted_files")
-            if deleted is None:
-                y.append(0)            # Tatsächlich 0 gelöschte Dateien
-            else:
-                y.append(deleted)
+    # --------------------------------------------------------
+    # 2 Deleted files
+    # --------------------------------------------------------
+    y = safe_values(lambda d: d["deleted_files"] or 0, "deleted_files")
     plt.figure(figsize=(8,5))
     plt.bar(x_labels, y)
-    plt.ylabel("#")
+    mark_nan_days(x_labels, y)
     plt.title("Files without matching entries")
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "deleted_files.png"))
     plt.close()
 
-    # 3️⃣ Large observation files (0 für fehlende Werte)
-    y = safe_values("large_obs_files", fill_nan=False, fill_zero=True)
+    # --------------------------------------------------------
+    # 3 Large observation files
+    # --------------------------------------------------------
+    y = safe_values(lambda d: d["large_obs_files"] or 0, "large_obs_files")
     plt.figure(figsize=(8,5))
     plt.bar(x_labels, y)
-    plt.ylabel("#")
-    plt.title("CODXTR - files with >50% bad observations")
+    mark_nan_days(x_labels, y)
+    plt.title("Campaign clean: # deleted files")
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "large_obs_files.png"))
     plt.close()
 
-    # 4️⃣ GPSXTR RMS
-    y_rms = safe_values("gpsxtr_rms")
-    plt.figure(figsize=(8,5))
-    plt.plot(x_labels, y_rms, marker='o')
-    plt.ylabel("RMS")
-    plt.title("GPSXTR RMS")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "gpsxtr_rms.png"))
-    plt.close()
+    # --------------------------------------------------------
+    # 4–6 GPSXTR
+    # --------------------------------------------------------
+    gps_plots = [
+        ("gpsxtr_rms", "GPSXTR: RMS [mm]", "gpsxtr_rms.png"),
+        ("gpsxtr_obs", "GPSXTR: Observations", "gpsxtr_obs.png"),
+        ("gpsxtr_par", "GPSXTR: Parameters", "gpsxtr_par.png"),
+    ]
 
-    # 5️⃣ GPSXTR #Observations
-    y_obs = safe_values("gpsxtr_obs")
-    plt.figure(figsize=(8,5))
-    plt.plot(x_labels, y_obs, marker='o')
-    plt.ylabel("# Observations")
-    plt.title("GPSXTR Observations")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "gpsxtr_obs.png"))
-    plt.close()
+    for key, title, fname in gps_plots:
+        y = safe_values(lambda d, k=key: d[k], key)
+        plt.figure(figsize=(8,5))
+        plt.plot(x_labels, y, marker="o")
+        mark_nan_days(x_labels, y)
+        plt.title(title)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig(os.path.join(OUTPUT_DIR, fname))
+        plt.close()
 
-    # 6️⃣ GPSXTR #Parameters
-    y_par = safe_values("gpsxtr_par")
-    plt.figure(figsize=(8,5))
-    plt.plot(x_labels, y_par, marker='o')
-    plt.ylabel("# Parameters")
-    plt.title("GPSXTR Parameters")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "gpsxtr_par.png"))
-    plt.close()
-
-    # 7️⃣ OBSXTR bad %
-    systems = ["GPS", "GLO", "GAL", "tot"]
+    # --------------------------------------------------------
+    # 7 OBSXTR bad % (fixe Skala 0-20)
+    # --------------------------------------------------------
     plt.figure(figsize=(10,6))
-    for sys in systems:
-        y_bad = []
-        for folder in last_folders:
-            data = all_data.get(folder)
-            stats = data.get("obsxtr_stats", {}).get(sys) if data else None
-            y_bad.append(stats["bad"] if stats else np.nan)
-        plt.plot(x_labels, y_bad, marker='o', label=f"{sys} bad %")
-    plt.ylabel("OBSXTR bad Observations")
-    plt.title("%")
-    plt.xticks(rotation=45)
+    for sys in ["GPS", "GLO", "GAL", "tot"]:
+        y = safe_values(lambda d, s=sys: d["obsxtr_stats"].get(s, {}).get("bad"),
+                        f"OBSXTR bad {sys}")
+        plt.plot(x_labels, y, marker="o", label=sys)
+        mark_nan_days(x_labels, y)
+
+    plt.ylim(0, 20)
+    plt.ylabel("%")
+    plt.title("OBSXTR: bad Observations")
     plt.legend()
+    plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "obsxtr_bad.png"))
     plt.close()
 
-    # 8️⃣ AMB Resolution Statistics
+    # --------------------------------------------------------
+    # 8 Ambiguity resolution statistics
+    # --------------------------------------------------------
     amb_types = ["AR_WL", "AR_NL", "AR_NLR"]
-    systems = ["G", "E", "G E"]
-    plt.figure(figsize=(10,6))
+    systems = ["G", "E"]
+
+    plt.figure(figsize=(10, 6))
+
     for sys in systems:
         for amb in amb_types:
-            y = []
+            y_vals = []
+
             for folder in last_folders:
                 data = all_data.get(folder)
                 if not data:
-                    y.append(np.nan)
+                    y_vals.append(np.nan)
                     continue
-                if sys != "G E":
-                    entries = data.get("amb_stats", {}).get(sys, [])
-                    val = next((e["perc"] for e in entries if e["type"] == amb), np.nan)
-                else:
-                    entries_G = data.get("amb_stats", {}).get("G", [])
-                    entries_E = data.get("amb_stats", {}).get("E", [])
-                    val_G = next((e["perc"] for e in entries_G if e["type"] == amb), 0)
-                    val_E = next((e["perc"] for e in entries_E if e["type"] == amb), 0)
-                    val = val_G + val_E if (entries_G or entries_E) else np.nan
-                y.append(val)
-            plt.plot(x_labels, y, marker='o', label=f"{sys} {amb}")
-    plt.ylabel("%")
+
+                entries = data.get("amb_stats", {}).get(sys, [])
+                val = next((e["perc"] for e in entries if e["type"] == amb), np.nan)
+                y_vals.append(val)
+
+            plt.plot(
+                x_labels,
+                y_vals,
+                marker="o",
+                label=f"{sys} {amb}"
+            )
+            mark_nan_days(x_labels, np.array(y_vals))
+
+    plt.ylabel("Resolved ambiguities [%]")
+    plt.ylim(0, 100)
     plt.title("Ambiguity Resolution Statistics")
     plt.xticks(rotation=45)
     plt.legend()
