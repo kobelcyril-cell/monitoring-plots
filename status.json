@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-07T12:52:01.411264",
+  "updated": "2026-01-07T12:54:01.435102",
   "1 day solution": [
     {
       "session_id": "253650",
@@ -828,40 +828,9 @@
   "PPP": [
     {
       "session_id": "253630",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "PREP_PPP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "TIMESTAP_PPP",
-          "extra": "PPP_KIN",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "TIMEST_P_PPP",
-          "extra": "PPP_KIN",
-          "status": "running"
-        },
-        {
-          "id": "020",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "DEL_PPP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 40
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ]
 }
