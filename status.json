@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-07T23:15:03.400573",
+  "updated": "2026-01-07T23:16:02.960630",
   "1 day solution": [
     {
       "session_id": "260010",
@@ -992,25 +992,25 @@
           "id": "001",
           "name": "PREP_PPP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "TIMESTAP_PPP",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "TIMEST_P_PPP",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -1025,7 +1025,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 14
+      "progress": 57
     }
   ]
 }
