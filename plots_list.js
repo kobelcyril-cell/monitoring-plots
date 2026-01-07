@@ -8,8 +8,4 @@ const latest_plots = [
     "large_obs_files.png",
     "num_obs_files.png",
     "obsxtr_bad.png",
-    "ROTH_plot.png",
-    "SCOR_plot.png",
-    "WGTN_plot.png",
-    "ZIM3_plot.png",
 ];
