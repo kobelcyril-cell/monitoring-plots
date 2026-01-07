@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-07T20:07:03.437427",
+  "updated": "2026-01-07T20:08:02.821512",
   "1 day solution": [
     {
       "session_id": "260010",
@@ -81,13 +81,13 @@
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -897,49 +897,49 @@
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "001",
           "name": "ZDDE_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "002",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "FILESTAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "FILEST_P",
           "extra": "FZDM_1DR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
           "name": "TRPMERZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "013",
           "name": "CCRNXC",
           "extra": "FZDM_1DR",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "020",
@@ -990,7 +990,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 43
+      "progress": 0
     }
   ],
   "Comparison": [
