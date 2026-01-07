@@ -1,6 +1,5 @@
 const latest_plots = [
     "amb_stats.png",
-    "CPVG_plot.png",
     "deleted_files.png",
     "gpsxtr_obs.png",
     "gpsxtr_par.png",
