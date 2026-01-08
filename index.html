@@ -237,6 +237,14 @@ h1, h2 {
 <h2>BPE runtime</h2>
 <div id="runtime-container" class="plots-container"></div>
 
+<!-- ===== CMP LAPACK Summary Table ===== -->
+<h2>CMP LAPACK Summary Table</h2>
+<div id="cmp-lapack-container"
+     class="process-card"
+     style="white-space: pre; overflow-x: auto; padding: 12px; font-family: monospace; width: 95%; margin: 0 auto;">
+    Loading CMP LAPACK table...
+</div>
+
 <!-- ===== Scripts ===== -->
 <script src="plots_list.js"></script>
 <script src="comparisons_list.js"></script>
@@ -421,6 +429,25 @@ async function updateQueue() {
 updateQueue();
 setInterval(updateQueue, 30000);
 </script>
+
+<script>
+async function updateLapackTable() {
+    const div = document.getElementById("cmp-lapack-container");
+    try {
+        const resp = await fetch("cmp_lapack/cmp_lapack_summary_table.txt?ts=" + Date.now());
+        div.textContent = await resp.text();
+    } catch {
+        div.textContent = "Unable to load CMP LAPACK table.";
+    }
+}
+
+// Erst laden
+updateLapackTable();
+
+// Optional: regelmäßig aktualisieren, z.B. alle 30 Sekunden
+setInterval(updateLapackTable, 30000);
+</script>
+
 
 </body>
 </html>
