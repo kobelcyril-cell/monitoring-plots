@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-11T04:59:02.222968",
+  "updated": "2026-01-11T05:01:01.467493",
   "1 day solution": [
     {
       "session_id": "260040",
@@ -10,10 +10,83 @@
   ],
   "3 day solution": [
     {
-      "session_id": "260020",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260030",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZD3D_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "COOVEL",
+          "extra": "ZD3D_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "POLUPD",
+          "extra": "ZD3D_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "SOLLONAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "SOLLON_P",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "ORBGEN",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXCZD",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "014",
+          "name": "STDPRE",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "SAVERES3D",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_ZD3D",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 8
     }
   ],
   "Clock densification": [
@@ -26,10 +99,83 @@
   ],
   "Comparison": [
     {
-      "session_id": "260030",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260040",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "CMP_COP",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "101",
+          "name": "CMP_ERPDIFF",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "201",
+          "name": "STDDIF",
+          "extra": "CMP_SOL",
+          "status": "finished"
+        },
+        {
+          "id": "301",
+          "name": "CMP_CLKDIFF",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "401",
+          "name": "ORBCMPL",
+          "extra": "CMP_SOL",
+          "status": "finished"
+        },
+        {
+          "id": "501",
+          "name": "COMPAR2",
+          "extra": "CMP_SOL",
+          "status": "finished"
+        },
+        {
+          "id": "601",
+          "name": "HELMR1",
+          "extra": "CMP_SOL",
+          "status": "finished"
+        },
+        {
+          "id": "701",
+          "name": "STDELEL",
+          "extra": "CMP_SOL",
+          "status": "finished"
+        },
+        {
+          "id": "801",
+          "name": "CMP_SUM",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "901",
+          "name": "DEL_CMP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 83
     }
   ],
   "PPP": [
