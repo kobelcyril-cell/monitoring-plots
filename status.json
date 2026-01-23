@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-23T23:45:01.622158",
+  "updated": "2026-01-23T23:46:02.053504",
   "1 day solution": [
     {
       "session_id": "260190",
@@ -838,19 +838,19 @@
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "001",
           "name": "CMP_COP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "101",
           "name": "CMP_ERPDIFF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "201",
@@ -862,31 +862,31 @@
           "id": "301",
           "name": "CMP_CLKDIFF",
           "extra": "NO_OPT",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "401",
           "name": "ORBCMPL",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "501",
           "name": "COMPAR2",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "601",
           "name": "HELMR1",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "701",
           "name": "STDELEL",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "801",
@@ -907,7 +907,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
+      "progress": 25
     }
   ],
   "PPP": [
