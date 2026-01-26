@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-26T07:40:01.912733",
+  "updated": "2026-01-26T07:42:01.540535",
   "1 day solution": [
     {
       "session_id": "260210",
@@ -85,13 +85,13 @@
           "id": "030",
           "name": "CLKEST",
           "extra": "FZDM_1H0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "031",
           "name": "CCRNXC",
           "extra": "FZDM_1H0",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "032",
@@ -118,7 +118,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 62
+      "progress": 68
     }
   ],
   "Comparison": [
@@ -204,10 +204,53 @@
   ],
   "PPP": [
     {
-      "session_id": "260190",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260200",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "001",
+          "name": "PREP_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "TIMESTAP_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "TIMEST_P_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 0
     }
   ],
   "Reprocessing": [
