@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-29T12:43:01.376268",
+  "updated": "2026-01-29T12:45:01.641197",
   "1 day solution": [
     {
       "session_id": "260240",
@@ -451,25 +451,25 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -850,7 +850,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 50
     },
     {
       "session_id": "250220",
@@ -1262,13 +1262,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "095",
@@ -1769,19 +1769,19 @@
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "017",
@@ -2474,7 +2474,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 11
+      "progress": 13
     }
   ]
 }
