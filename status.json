@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-30T18:38:01.868378",
+  "updated": "2026-01-30T18:40:01.267480",
   "1 day solution": [
     {
       "session_id": "260260",
@@ -231,19 +231,19 @@
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "052",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "053",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "060",
@@ -816,7 +816,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 27
+      "progress": 28
     }
   ],
   "3 day solution": [
@@ -1168,31 +1168,31 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "181",
@@ -1681,7 +1681,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 36
+      "progress": 39
     }
   ]
 }
