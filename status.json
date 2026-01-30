@@ -1,5 +1,5 @@
 {
-  "updated": "2026-01-30T18:40:01.267480",
+  "updated": "2026-01-30T18:41:01.886654",
   "1 day solution": [
     {
       "session_id": "260260",
@@ -243,19 +243,19 @@
           "id": "053",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "060",
           "name": "TIMESTAP",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "061",
           "name": "TIMEST_A",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "062",
@@ -816,7 +816,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 28
+      "progress": 30
     }
   ],
   "3 day solution": [
@@ -1192,25 +1192,25 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "081",
@@ -1681,7 +1681,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 39
+      "progress": 41
     }
   ]
 }
