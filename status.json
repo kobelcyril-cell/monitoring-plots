@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-01T19:00:01.621311",
+  "updated": "2026-02-01T19:01:01.549349",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -135,19 +135,19 @@
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -870,7 +870,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 8
+      "progress": 10
     }
   ]
 }
