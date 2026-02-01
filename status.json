@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-01T19:25:01.923535",
+  "updated": "2026-02-01T19:27:01.960350",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -147,31 +147,31 @@
           "id": "022",
           "name": "CODSPPAP",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -816,7 +816,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 17
+      "progress": 20
     }
   ],
   "3 day solution": [
@@ -1270,19 +1270,19 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "094",
@@ -1681,7 +1681,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 48
+      "progress": 50
     }
   ]
 }
