@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-02T18:13:02.737452",
+  "updated": "2026-02-02T18:15:02.998539",
   "1 day solution": [
     {
       "session_id": "260290",
@@ -117,31 +117,31 @@
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -816,7 +816,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 13
+      "progress": 16
     }
   ],
   "3 day solution": [
@@ -1331,19 +1331,19 @@
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -1724,7 +1724,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 51
     }
   ]
 }
