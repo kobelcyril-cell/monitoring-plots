@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-02T08:33:01.258190",
+  "updated": "2026-02-02T08:34:02.004867",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -117,31 +117,31 @@
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -816,7 +816,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 13
+      "progress": 16
     }
   ],
   "3 day solution": [
@@ -1334,31 +1334,31 @@
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "032",
           "name": "GPSXTR",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "033",
           "name": "FZDM_CH1",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "040",
           "name": "FILESTAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "041",
           "name": "FILEST_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "042",
@@ -1967,7 +1967,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 21
+      "progress": 24
     }
   ]
 }
