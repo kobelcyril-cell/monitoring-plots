@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-03T02:50:01.965684",
+  "updated": "2026-02-03T02:52:01.967818",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -1306,19 +1306,19 @@
           "id": "113",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "115",
@@ -1639,7 +1639,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 58
     }
   ],
   "3 day solution": [
@@ -1812,25 +1812,25 @@
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -2547,7 +2547,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 8
+      "progress": 11
     }
   ]
 }
