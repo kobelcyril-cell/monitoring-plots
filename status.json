@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-03T20:13:02.424171",
+  "updated": "2026-02-03T20:15:02.770757",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -1066,25 +1066,25 @@
           "id": "052",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "053",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "060",
           "name": "TIMESTAP",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "061",
           "name": "TIMEST_A",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "062",
@@ -1645,7 +1645,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 28
+      "progress": 30
     }
   ],
   "3 day solution": [
@@ -2040,31 +2040,31 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "181",
@@ -2553,7 +2553,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 36
+      "progress": 39
     }
   ]
 }
