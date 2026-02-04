@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-04T09:10:01.458450",
+  "updated": "2026-02-04T09:12:01.951402",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -17,6 +17,12 @@
   "3 day solution": [
     {
       "session_id": "260270",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "260280",
       "status": "running",
       "tasks": [
         {
@@ -29,43 +35,43 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
           "name": "ORBGEN",
           "extra": "ZD3D_3DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "013",
           "name": "CCRNXCZD",
           "extra": "ZD3D_3DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "014",
@@ -92,13 +98,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
-    },
-    {
-      "session_id": "260280",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 8
     },
     {
       "session_id": "260290",
@@ -725,31 +725,31 @@
           "id": "120",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "130",
           "name": "SATMRK",
           "extra": "IAR_AMB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "131",
           "name": "FILESTAP",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "133",
@@ -1016,7 +1016,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 63
+      "progress": 66
     }
   ]
 }
