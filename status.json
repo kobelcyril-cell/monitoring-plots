@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-04T05:33:01.823835",
+  "updated": "2026-02-04T05:35:02.414942",
   "1 day solution": [
     {
       "session_id": "260280",
@@ -777,25 +777,25 @@
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "165",
           "name": "OBSXTR",
           "extra": "FZDM_SUM",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "166",
           "name": "OBSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "167",
           "name": "AMB_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "168",
@@ -807,7 +807,7 @@
           "id": "170",
           "name": "SAVERES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "171",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 94
+      "progress": 97
     },
     {
       "session_id": "260290",
@@ -2406,13 +2406,13 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "156",
@@ -2553,7 +2553,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 82
     }
   ]
 }
