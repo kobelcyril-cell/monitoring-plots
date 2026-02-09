@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T10:39:01.480501",
+  "updated": "2026-02-09T10:40:01.571989",
   "1 day solution": [
     {
       "session_id": "260350",
@@ -108,52 +108,9 @@
   "PPP": [
     {
       "session_id": "260340",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "PREP_PPP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "TIMESTAP_PPP",
-          "extra": "PPP_KIN",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "TIMEST_P_PPP",
-          "extra": "PPP_KIN",
-          "status": "running"
-        },
-        {
-          "id": "020",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "DEL_PPP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 42
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Find problem (include SAT)": [
