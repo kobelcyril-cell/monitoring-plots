@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T18:14:01.333701",
+  "updated": "2026-02-09T18:16:02.133551",
   "1 day solution": [
     {
       "session_id": "260360",
@@ -75,19 +75,19 @@
           "id": "008",
           "name": "COOVEL",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "011",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 8
+      "progress": 9
     }
   ],
   "3 day solution": [
@@ -1540,13 +1540,13 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "156",
@@ -1687,7 +1687,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 82
     }
   ]
 }
