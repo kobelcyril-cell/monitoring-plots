@@ -1,15 +1,7 @@
-[2026-02-10 12:41:22]
-10-Feb-2026 11:41:22 Tu  Doy: 26/041/L/11  Week: 2405/2/26W07  MJD: 61081.48706
+[2026-02-10 12:42:22]
+10-Feb-2026 11:42:23 Tu  Doy: 26/041/L/11  Week: 2405/2/26W07  MJD: 61081.48777
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-          45262709 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262708 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262681 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45262778 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262727 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262726 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262722 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262718 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262716 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45262999 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45262996 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45262995 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
@@ -48,17 +40,22 @@
           45263138 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45263137 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45263590 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45264009 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45264008 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45264006 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45264004 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45264001 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45263999 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45263997 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (Priority)
-          45263987 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (None)
+          45264009 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45264008 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45264006 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45264004 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45264001 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45263999 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45263997 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45263987 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45263962 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45263935 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45262640 icpu-aiub RUNBPE_Q ck18y530  R       0:54      1 bnode062
-          45262648 icpu-aiub RUNBPE_Q ck18y530  R       0:54      1 bnode061
-          45262650 icpu-aiub RUNBPE_Q ck18y530  R       0:54      1 bnode062
-          45243307 icpu-aiub RUNBPE_Q ck18y530  R    5:09:32      1 bnode063
+          45262681 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262708 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262709 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262716 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262718 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262722 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262726 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode063
+          45262727 icpu-aiub RUNBPE_Q ck18y530  R       0:52      1 bnode062
+          45243307 icpu-aiub RUNBPE_Q ck18y530  R    5:10:32      1 bnode063
