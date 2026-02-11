@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T15:09:01.637291",
+  "updated": "2026-02-11T15:11:02.220875",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -1094,7 +1094,7 @@
   ],
   "PPP": [
     {
-      "session_id": "260360",
+      "session_id": "260350",
       "status": "running",
       "tasks": [
         {
@@ -1482,25 +1482,25 @@
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "082",
@@ -1965,7 +1965,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 40
+      "progress": 42
     }
   ],
   "Station Network test": [
