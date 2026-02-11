@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T10:16:01.831734",
+  "updated": "2026-02-11T10:18:01.528411",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -1144,19 +1144,19 @@
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "030",
           "name": "TIMESTAP",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "031",
@@ -1795,7 +1795,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 19
+      "progress": 21
     }
   ],
   "Station Network test": [
@@ -2071,19 +2071,19 @@
           "id": "063",
           "name": "FZDM_CH1",
           "extra": "FZDM_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "064",
           "name": "RESRMS",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "065",
           "name": "MRKOB_AP",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "066",
@@ -2620,7 +2620,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 32
+      "progress": 33
     }
   ]
 }
