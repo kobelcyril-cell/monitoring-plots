@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T14:51:01.701749",
+  "updated": "2026-02-11T14:53:01.483590",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -621,37 +621,37 @@
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "150",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "151",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "152",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 78
     }
   ],
   "3 day solution": [
@@ -1434,19 +1434,19 @@
           "id": "066",
           "name": "MRKOB__P",
           "extra": "FZDM_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "070",
           "name": "TIMESTAP",
           "extra": "FZDM_SB1",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "071",
           "name": "TIMEST_B",
           "extra": "FZDM_SB1",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "072",
@@ -1965,7 +1965,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 34
+      "progress": 36
     }
   ],
   "Station Network test": [
