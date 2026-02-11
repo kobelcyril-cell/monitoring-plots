@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T14:28:01.194438",
+  "updated": "2026-02-11T14:29:01.808407",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -573,19 +573,19 @@
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "138",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 69
+      "progress": 70
     }
   ],
   "3 day solution": [
@@ -2397,25 +2397,25 @@
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "097",
           "name": "ITEPHASE",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "098",
@@ -2790,7 +2790,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 53
+      "progress": 51
     }
   ]
 }
