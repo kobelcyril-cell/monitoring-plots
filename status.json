@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T20:08:01.298995",
+  "updated": "2026-02-11T20:10:02.063565",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -669,25 +669,25 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "156",
           "name": "PRECLK",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "157",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 83
     }
   ],
   "3 day solution": [
@@ -1633,25 +1633,25 @@
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "133",
           "name": "PHABIA",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "134",
           "name": "FILESTAP",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "136",
@@ -1900,7 +1900,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 66
+      "progress": 69
     }
   ]
 }
