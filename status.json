@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T11:00:01.802053",
+  "updated": "2026-02-11T11:02:01.113839",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -1289,13 +1289,13 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "050",
@@ -1892,7 +1892,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 25
+      "progress": 26
     }
   ],
   "Station Network test": [
@@ -2222,19 +2222,19 @@
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -2717,7 +2717,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 38
+      "progress": 40
     }
   ]
 }
