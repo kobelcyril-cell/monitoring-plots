@@ -431,6 +431,22 @@ setInterval(updateQueue, 30000);
 </script>
 
 <script>
+async function updateQueue() {
+    const sqDiv = document.getElementById("sq-container-AIUB");
+    try {
+        const resp = await fetch("icpu_aiub_stats.txt?ts=" + Date.now());
+        sqDiv.textContent = await resp.text();
+    } catch {
+        sqDiv.textContent = "Unable to load AIUB-queue output.";
+    }
+}
+
+updateQueue();
+setInterval(updateQueue, 30000);
+</script>
+
+
+<script>
 async function updateLapackTable() {
     const div = document.getElementById("cmp-lapack-container");
     try {
