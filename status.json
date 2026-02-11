@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T10:10:01.823209",
+  "updated": "2026-02-11T10:12:01.351870",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -1096,31 +1096,31 @@
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -1795,7 +1795,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 13
+      "progress": 16
     }
   ],
   "Station Network test": [
@@ -2041,25 +2041,25 @@
           "id": "052",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "053",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "060",
           "name": "TIMESTAP",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "061",
           "name": "TIMEST_A",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "062",
@@ -2620,7 +2620,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 28
+      "progress": 30
     }
   ]
 }
