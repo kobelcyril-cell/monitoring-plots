@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T16:54:01.896277",
+  "updated": "2026-02-11T16:55:01.893883",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -669,19 +669,19 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "156",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 82
+      "progress": 80
     }
   ],
   "3 day solution": [
@@ -1094,7 +1094,7 @@
   ],
   "PPP": [
     {
-      "session_id": "260350",
+      "session_id": "260360",
       "status": "running",
       "tasks": [
         {
