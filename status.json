@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T15:06:01.709201",
+  "updated": "2026-02-11T15:08:01.620208",
   "1 day solution": [
     {
       "session_id": "260370",
@@ -1094,7 +1094,7 @@
   ],
   "PPP": [
     {
-      "session_id": "260350",
+      "session_id": "260360",
       "status": "running",
       "tasks": [
         {
@@ -1452,25 +1452,25 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "180",
@@ -1965,7 +1965,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 36
+      "progress": 38
     }
   ],
   "Station Network test": [
