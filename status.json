@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-12T22:30:01.913267",
+  "updated": "2026-02-12T22:32:02.123403",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -333,19 +333,19 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "080",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 39
+      "progress": 41
     }
   ],
   "3 day solution": [
@@ -1238,13 +1238,13 @@
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "087",
@@ -1679,7 +1679,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 45
+      "progress": 46
     }
   ],
   "Repro 26038": [
