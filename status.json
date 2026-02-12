@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-12T23:09:01.557205",
+  "updated": "2026-02-12T23:11:01.320583",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -423,19 +423,19 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "096",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 50
     }
   ],
   "3 day solution": [
@@ -1268,19 +1268,19 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "094",
@@ -1679,7 +1679,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 49
+      "progress": 50
     }
   ],
   "Repro 26038": [
