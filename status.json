@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-12T21:34:01.536666",
+  "updated": "2026-02-12T21:36:01.463644",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -219,25 +219,25 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "052",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 27
     }
   ],
   "3 day solution": [
@@ -1919,13 +1919,13 @@
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "052",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "053",
@@ -2504,7 +2504,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 27
+      "progress": 28
     }
   ],
   "Station Network test": [
@@ -2894,19 +2894,19 @@
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "087",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "088",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "090",
@@ -3329,7 +3329,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 46
+      "progress": 47
     }
   ]
 }
