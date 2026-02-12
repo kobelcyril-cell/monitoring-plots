@@ -1,8 +1,8 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-12 07:50:09
+Timestamp: 2026-02-12 07:55:09
 ================================================================================
 
-TOTAL RUNNING: 1
+TOTAL RUNNING: 6
 TOTAL PENDING: 193
 
 Per User:
@@ -12,7 +12,7 @@ Cyril        (ck18y530  )  RUNNING:  0   PENDING:  2
 Edgar        (et25m288  )  RUNNING:  0   PENDING: 150
 Code (final) (l_code_f  )  RUNNING:  0   PENDING:  1
 Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  9
-ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  6   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -292,8 +292,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.67
-Ø PENDING: 3.93
+Ø RUNNING: 11.61
+Ø PENDING: 3.95
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
 
@@ -315,7 +315,7 @@ RUNNING history:
 12.02 01h | ███ (4.7)
 12.02 02h | ███ (4.5)
 12.02 06h | ████████████████████████████████████████ (58.5)
-12.02 07h | ████████ (12.7)
+12.02 07h | ███████ (11.7)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -335,7 +335,7 @@ PENDING history:
 12.02 01h |  (0.1)
 12.02 02h |  (0.0)
 12.02 06h | █████ (4.5)
-12.02 07h | █████ (4.3)
+12.02 07h | █████ (4.7)
 
 
 Code (SLR) (l_code_s)
@@ -382,15 +382,15 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.35
-Ø PENDING: 2.73
+Ø RUNNING: 9.45
+Ø PENDING: 2.72
 MAX RUNNING: 18.20
 MAX PENDING: 7.40
 
 RUNNING history:
 11.02 09h | ████████████████████████████████████████ (18.2)
 11.02 10h | ███████████ (5.4)
-12.02 07h | █████████ (4.5)
+12.02 07h | ██████████ (4.8)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (7.4)
