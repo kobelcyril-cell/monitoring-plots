@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-12T21:15:01.282738",
+  "updated": "2026-02-12T21:17:03.155727",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -135,7 +135,7 @@
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "020",
@@ -147,19 +147,19 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
           "name": "CODSPPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "024",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 16
+      "progress": 18
     }
   ],
   "3 day solution": [
@@ -2816,19 +2816,19 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "075",
@@ -3329,7 +3329,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 36
+      "progress": 38
     }
   ]
 }
