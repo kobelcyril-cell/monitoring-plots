@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-12T22:20:01.521998",
+  "updated": "2026-02-12T22:21:03.113692",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -1190,13 +1190,13 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -1679,7 +1679,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 39
+      "progress": 40
     }
   ],
   "Repro 26038": [
@@ -2051,13 +2051,13 @@
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "084",
           "name": "MPRXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "085",
