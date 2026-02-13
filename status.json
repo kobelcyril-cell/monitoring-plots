@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T07:20:01.226159",
+  "updated": "2026-02-13T07:21:01.688877",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -2351,7 +2351,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
@@ -2504,7 +2504,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ],
   "Station Network test": [
@@ -2618,25 +2618,25 @@
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "017",
@@ -3329,7 +3329,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 14
     }
   ]
 }
