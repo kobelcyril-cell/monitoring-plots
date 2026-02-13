@@ -1,6 +1,8 @@
-[2026-02-13 11:25:11]
-13-Feb-2026 10:25:11 Fr  Doy: 26/044/K/10  Week: 2405/5/26W07  MJD: 61084.43416
+[2026-02-13 11:26:13]
+13-Feb-2026 10:26:13 Fr  Doy: 26/044/K/10  Week: 2405/5/26W07  MJD: 61084.43487
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          45461021 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          45460991 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45460983 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45460980 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45460979 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
@@ -59,8 +61,6 @@
           45460896 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45460893 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           45460889 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45460866 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          45460835 icpu-aiub RUNBPE_Q ck18y530  R       0:59      1 bnode061
-          45459922 icpu-aiub RUNBPE_Q ck18y530  R      11:37      1 bnode061
-          45459921 icpu-aiub RUNBPE_Q ck18y530  R      11:38      1 bnode061
-          45459920 icpu-aiub RUNBPE_Q ck18y530  R      11:41      1 bnode062
+          45460866 icpu-aiub RUNBPE_Q ck18y530  R       0:10      1 bnode063
+          45459922 icpu-aiub RUNBPE_Q ck18y530  R      12:39      1 bnode061
+          45459921 icpu-aiub RUNBPE_Q ck18y530  R      12:40      1 bnode061
