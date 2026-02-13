@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T05:13:01.570221",
+  "updated": "2026-02-13T05:14:01.256788",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -1442,19 +1442,19 @@
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "138",
           "name": "STDPRE",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "140",
@@ -1679,7 +1679,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 70
+      "progress": 72
     }
   ],
   "Repro 26038": [
@@ -2339,25 +2339,25 @@
           "id": "152",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "155",
@@ -2504,7 +2504,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 79
+      "progress": 80
     }
   ],
   "Station Network test": [
