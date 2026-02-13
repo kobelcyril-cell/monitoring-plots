@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T14:17:05.096887",
+  "updated": "2026-02-13T14:19:06.603673",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -711,25 +711,25 @@
           "id": "989",
           "name": "GPSXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "161",
@@ -801,7 +801,7 @@
           "id": "168",
           "name": "GPSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -822,7 +822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 86
+      "progress": 88
     }
   ],
   "3 day solution": [
@@ -1430,19 +1430,19 @@
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "138",
@@ -1685,7 +1685,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 68
+      "progress": 70
     }
   ],
   "Repro 26038": [
@@ -2399,25 +2399,25 @@
           "id": "989",
           "name": "GPSXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "161",
@@ -2489,7 +2489,7 @@
           "id": "168",
           "name": "GPSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -2510,7 +2510,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 86
+      "progress": 88
     }
   ],
   "Station Network test": [
