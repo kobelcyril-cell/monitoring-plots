@@ -1,16 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-13 06:55:09
+Timestamp: 2026-02-13 07:00:11
 ================================================================================
 
-TOTAL RUNNING: 277
-TOTAL PENDING: 0
+TOTAL RUNNING: 205
+TOTAL PENDING: 8
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  5   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
 Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 121   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 48   PENDING:  8
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -102,8 +102,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.32
-Ø PENDING: 5.26
+Ø RUNNING: 9.21
+Ø PENDING: 5.12
 MAX RUNNING: 60.08
 MAX PENDING: 55.08
 
@@ -146,6 +146,7 @@ RUNNING history:
 13.02 04h | ████████████████████████████████████████ (60.1)
 13.02 05h | ███████████████████████████████ (47.8)
 13.02 06h | ███ (5.4)
+13.02 07h | ███ (5.0)
 
 PENDING history:
 11.02 09h | ██████ (8.6)
@@ -186,12 +187,13 @@ PENDING history:
 13.02 04h |  (0.1)
 13.02 05h |  (0.2)
 13.02 06h |  (0.0)
+13.02 07h |  (0.0)
 
 
 Edgar (et25m288)
 --------------------------------------------------------------------------------
-Ø RUNNING: 142.11
-Ø PENDING: 37.54
+Ø RUNNING: 142.31
+Ø PENDING: 36.57
 MAX RUNNING: 237.00
 MAX PENDING: 150.00
 
@@ -234,6 +236,7 @@ RUNNING history:
 13.02 04h | █████████████████████████ (150.0)
 13.02 05h | █████████████████████████ (149.8)
 13.02 06h | █████████████████████████ (150.0)
+13.02 07h | █████████████████████████ (150.0)
 
 PENDING history:
 11.02 09h | ███████ (27.9)
@@ -274,6 +277,7 @@ PENDING history:
 13.02 04h |  (0.1)
 13.02 05h |  (0.2)
 13.02 06h |  (0.0)
+13.02 07h |  (0.0)
 
 
 Code (l_code)
@@ -316,8 +320,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 20.65
-Ø PENDING: 6.84
+Ø RUNNING: 20.14
+Ø PENDING: 6.65
 MAX RUNNING: 87.38
 MAX PENDING: 58.00
 
@@ -357,6 +361,7 @@ RUNNING history:
 13.02 04h |  (2.0)
 13.02 05h | ██████████ (22.8)
 13.02 06h |  (2.0)
+13.02 07h |  (2.0)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (58.0)
@@ -394,6 +399,7 @@ PENDING history:
 13.02 04h |  (0.0)
 13.02 05h | █ (2.4)
 13.02 06h |  (0.0)
+13.02 07h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -432,8 +438,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.69
-Ø PENDING: 5.93
+Ø RUNNING: 12.90
+Ø PENDING: 6.00
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
 
@@ -467,6 +473,7 @@ RUNNING history:
 13.02 01h | ████████████ (19.0)
 13.02 02h | █ (2.5)
 13.02 06h | ██████████████████████ (32.4)
+13.02 07h | ████████████████████████████████ (48.0)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -498,6 +505,7 @@ PENDING history:
 13.02 01h |  (0.0)
 13.02 02h |  (0.0)
 13.02 06h |  (0.0)
+13.02 07h | ██████████ (8.0)
 
 
 Code (SLR) (l_code_s)
