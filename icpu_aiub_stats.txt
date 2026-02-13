@@ -1,17 +1,18 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-13 02:00:10
+Timestamp: 2026-02-13 02:05:10
 ================================================================================
 
-TOTAL RUNNING: 166
+TOTAL RUNNING: 163
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  5   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
-Code         (l_code    )  RUNNING:  2   PENDING:  0
+Code         (l_code    )  RUNNING:  1   PENDING:  0
 Code (final) (l_code_f  )  RUNNING:  5   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  4   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -263,7 +264,7 @@ PENDING history:
 
 Code (l_code)
 --------------------------------------------------------------------------------
-Ø RUNNING: 0.50
+Ø RUNNING: 0.45
 Ø PENDING: 1.28
 MAX RUNNING: 3.50
 MAX PENDING: 4.67
@@ -279,7 +280,7 @@ RUNNING history:
 12.02 21h |  (0.0)
 13.02 00h |  (0.0)
 13.02 01h | ████████████████████████████████████████ (3.5)
-13.02 02h | ██████████████████████ (2.0)
+13.02 02h | █████████████████ (1.5)
 
 PENDING history:
 11.02 09h | ████████ (1.0)
@@ -405,7 +406,7 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.01
+Ø RUNNING: 10.95
 Ø PENDING: 6.14
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
@@ -438,7 +439,7 @@ RUNNING history:
 12.02 22h | ██ (3.4)
 12.02 23h | ███████████ (17.0)
 13.02 01h | ████████████ (19.0)
-13.02 02h | ██ (4.0)
+13.02 02h | █ (2.5)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -565,8 +566,8 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.55
-Ø PENDING: 51.27
+Ø RUNNING: 4.90
+Ø PENDING: 43.95
 MAX RUNNING: 28.00
 MAX PENDING: 179.86
 
@@ -577,6 +578,7 @@ RUNNING history:
 12.02 02h | █ (1.2)
 12.02 03h | █████ (3.7)
 12.02 06h |  (0.0)
+13.02 02h | █ (1.0)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (179.9)
@@ -585,6 +587,7 @@ PENDING history:
 12.02 02h |  (0.1)
 12.02 03h |  (0.0)
 12.02 06h |  (2.7)
+13.02 02h |  (0.0)
 
 
 Linda (lg19a108)
