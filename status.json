@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T10:47:02.594424",
+  "updated": "2026-02-13T10:49:01.838774",
   "1 day solution": [
     {
       "session_id": "260390",
@@ -1412,127 +1412,133 @@
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "133",
           "name": "PHABIA",
           "extra": "IAR_WLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "134",
           "name": "FILESTAP",
           "extra": "IAR_WLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "138",
           "name": "STDPRE",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
+        },
+        {
+          "id": "639",
+          "name": "CHECK_AR_SAT",
+          "extra": "IAR_NLB",
+          "status": "waiting"
         },
         {
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "150",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "151",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "152",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "155",
@@ -1679,7 +1685,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 66
     }
   ],
   "Repro 26038": [
