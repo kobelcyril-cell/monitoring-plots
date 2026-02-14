@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T21:05:01.170425",
+  "updated": "2026-02-14T21:06:01.854648",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -75,25 +75,25 @@
           "id": "008",
           "name": "COOVEL",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 8
+      "progress": 10
     }
   ],
   "3 day solution": [
@@ -1490,25 +1490,25 @@
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "150",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 77
     }
   ],
   "Repro 26036 (jump to 022)": [
