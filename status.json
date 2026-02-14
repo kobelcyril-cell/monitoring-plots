@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T14:32:02.825046",
+  "updated": "2026-02-14T14:33:02.575121",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -1076,13 +1076,13 @@
           "id": "041",
           "name": "FILEST_P",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "043",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 24
+      "progress": 25
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2377,7 +2377,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "154",
