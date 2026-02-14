@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T15:42:03.679163",
+  "updated": "2026-02-14T15:44:01.594627",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -681,13 +681,13 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "156",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 82
     }
   ],
   "3 day solution": [
@@ -1184,25 +1184,25 @@
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 37
+      "progress": 40
     }
   ],
   "Repro 26036 (jump to 022)": [
