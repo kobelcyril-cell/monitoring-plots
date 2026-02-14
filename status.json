@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T09:56:01.610292",
+  "updated": "2026-02-14T09:57:03.087780",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -1532,19 +1532,19 @@
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "155",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ],
   "Repro 26038": [
@@ -1885,31 +1885,31 @@
           "id": "030",
           "name": "TIMESTAP",
           "extra": "FZDM_WGT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "032",
           "name": "GPSXTR",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "033",
           "name": "FZDM_CH1",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "040",
           "name": "FILESTAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "041",
@@ -2530,7 +2530,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 21
+      "progress": 24
     }
   ]
 }
