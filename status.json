@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T16:29:02.002556",
+  "updated": "2026-02-14T16:30:02.888319",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -699,13 +699,13 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "991",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 84
+      "progress": 83
     }
   ],
   "3 day solution": [
@@ -1274,19 +1274,19 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "094",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 48
+      "progress": 50
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1913,19 +1913,19 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "051",
@@ -2522,7 +2522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 27
     }
   ],
   "Station Network test": [
@@ -2570,7 +2570,7 @@
           "id": "007",
           "name": "FZDM_COP",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "906",
@@ -3353,7 +3353,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 4
+      "progress": 5
     }
   ]
 }
