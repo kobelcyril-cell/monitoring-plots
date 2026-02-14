@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T00:29:03.479798",
+  "updated": "2026-02-15T00:30:03.289668",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -1532,19 +1532,19 @@
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "155",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 81
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -3098,19 +3098,19 @@
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "138",
@@ -3353,7 +3353,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 68
+      "progress": 70
     }
   ]
 }
