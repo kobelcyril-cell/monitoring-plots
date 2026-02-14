@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T12:10:01.387844",
+  "updated": "2026-02-14T12:11:02.016105",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -1574,13 +1574,13 @@
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "989",
           "name": "GPSXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "994",
@@ -1610,7 +1610,7 @@
           "id": "162",
           "name": "ORBGENZD_FIN",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "163",
@@ -1670,7 +1670,7 @@
           "id": "168",
           "name": "GPSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 88
+      "progress": 90
     }
   ],
   "Repro 26038": [
@@ -2197,7 +2197,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "114",
