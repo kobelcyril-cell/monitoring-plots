@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T22:02:01.256334",
+  "updated": "2026-02-14T22:03:01.479106",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -333,13 +333,13 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 39
+      "progress": 40
     }
   ],
   "3 day solution": [
@@ -2357,25 +2357,25 @@
           "id": "152",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "155",
@@ -2522,7 +2522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 79
+      "progress": 81
     }
   ],
   "Station Network test": [
@@ -2948,31 +2948,31 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "097",
           "name": "ITEPHASE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "098",
@@ -3353,7 +3353,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
+      "progress": 53
     }
   ]
 }
