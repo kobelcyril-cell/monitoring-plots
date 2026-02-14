@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T22:01:01.958401",
+  "updated": "2026-02-14T22:02:01.256334",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -309,31 +309,31 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "181",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 36
+      "progress": 39
     }
   ],
   "3 day solution": [
@@ -2948,13 +2948,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "095",
@@ -3353,7 +3353,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 51
+      "progress": 50
     }
   ]
 }
