@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T16:35:03.355507",
+  "updated": "2026-02-14T16:37:02.705757",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -1286,13 +1286,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "095",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
+      "progress": 51
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1931,19 +1931,19 @@
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "052",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "053",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "060",
@@ -2522,7 +2522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 27
+      "progress": 29
     }
   ],
   "Station Network test": [
