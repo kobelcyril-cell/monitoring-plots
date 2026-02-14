@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T06:59:01.107922",
+  "updated": "2026-02-14T07:00:03.919257",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -351,13 +351,13 @@
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "082",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 41
+      "progress": 42
     }
   ],
   "3 day solution": [
@@ -1418,55 +1418,55 @@
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "133",
           "name": "PHABIA",
           "extra": "IAR_WLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "134",
           "name": "FILESTAP",
           "extra": "IAR_WLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "138",
           "name": "STDPRE",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "140",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 72
+      "progress": 66
     }
   ],
   "Repro 26038": [
@@ -2365,19 +2365,19 @@
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "155",
@@ -2524,7 +2524,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ]
 }
