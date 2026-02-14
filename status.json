@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T21:12:02.947472",
+  "updated": "2026-02-14T21:14:02.723623",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -105,19 +105,19 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 11
+      "progress": 13
     }
   ],
   "3 day solution": [
@@ -1520,13 +1520,13 @@
           "id": "151",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "152",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "153",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 78
+      "progress": 79
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2279,19 +2279,19 @@
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "138",
           "name": "STDPRE",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "639",
@@ -2522,7 +2522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 70
+      "progress": 71
     }
   ],
   "Station Network test": [
