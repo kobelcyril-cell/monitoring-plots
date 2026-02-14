@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T08:02:01.628801",
+  "updated": "2026-02-14T08:03:02.290083",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -423,31 +423,31 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "097",
           "name": "ITEPHASE",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "098",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 53
+      "progress": 50
     }
   ],
   "3 day solution": [
@@ -1490,19 +1490,19 @@
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "146",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 76
     }
   ],
   "Repro 26038": [
