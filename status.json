@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T16:18:02.628272",
+  "updated": "2026-02-14T16:20:02.812157",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -1250,25 +1250,25 @@
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "087",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "088",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "090",
           "name": "TIMESTAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "091",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 45
+      "progress": 48
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1907,13 +1907,13 @@
           "id": "041",
           "name": "FILEST_P",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "043",
@@ -2522,7 +2522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 24
+      "progress": 25
     }
   ],
   "Station Network test": [
