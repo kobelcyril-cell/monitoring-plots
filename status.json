@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T09:54:01.932071",
+  "updated": "2026-02-14T09:55:01.308450",
   "1 day solution": [
     {
       "session_id": "260400",
@@ -1849,31 +1849,31 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
           "name": "CODSPPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "025",
@@ -2530,7 +2530,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 16
+      "progress": 19
     }
   ]
 }
