@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T21:18:02.106221",
+  "updated": "2026-02-14T21:20:02.975345",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -159,37 +159,37 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "030",
           "name": "TIMESTAP",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "032",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 18
+      "progress": 21
     }
   ],
   "3 day solution": [
@@ -2291,19 +2291,19 @@
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "141",
@@ -2522,7 +2522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 71
+      "progress": 72
     }
   ],
   "Station Network test": [
@@ -2636,43 +2636,43 @@
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -3353,7 +3353,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 16
     }
   ]
 }
