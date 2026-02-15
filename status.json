@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T14:34:02.792907",
+  "updated": "2026-02-15T14:35:02.618072",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -169,25 +169,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -868,7 +868,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 14
+      "progress": 16
     }
   ],
   "Repro 26036 (jump to 022)": [
