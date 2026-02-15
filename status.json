@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T19:58:02.098948",
+  "updated": "2026-02-15T20:00:01.620161",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -583,19 +583,19 @@
           "id": "130",
           "name": "SATMRK",
           "extra": "IAR_AMB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "131",
           "name": "FILESTAP",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "133",
@@ -868,7 +868,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 64
+      "progress": 66
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1638,25 +1638,25 @@
           "id": "164",
           "name": "STDPRE",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "200",
           "name": "STDDIF",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "COMPAR2_ZD",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "990",
@@ -1707,7 +1707,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 91
+      "progress": 94
     }
   ]
 }
