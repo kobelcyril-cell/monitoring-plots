@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T20:57:02.666932",
+  "updated": "2026-02-15T20:59:01.964893",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -259,25 +259,25 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "052",
@@ -868,7 +868,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 27
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1344,19 +1344,19 @@
           "id": "100",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "110",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "111",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "112",
@@ -1707,7 +1707,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 55
+      "progress": 56
     }
   ]
 }
