@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T20:33:01.837130",
+  "updated": "2026-02-15T20:35:02.231526",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -637,13 +637,13 @@
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "140",
@@ -868,7 +868,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 71
+      "progress": 72
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1098,25 +1098,25 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "052",
@@ -1707,7 +1707,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 27
     }
   ]
 }
