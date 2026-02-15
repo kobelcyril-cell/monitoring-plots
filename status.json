@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T14:55:01.975836",
+  "updated": "2026-02-15T14:57:02.712155",
   "1 day solution": [
     {
       "session_id": "260410",
@@ -259,19 +259,19 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "051",
@@ -868,7 +868,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 27
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -1584,13 +1584,13 @@
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "989",
@@ -1602,19 +1602,19 @@
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "159",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "161",
@@ -1707,7 +1707,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 84
+      "progress": 87
     }
   ]
 }
