@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-15T21:03:01.886612",
+  "updated": "2026-02-15T21:05:01.757128",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -39,7 +39,7 @@
           "id": "006",
           "name": "FZDM_RNX",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "007",
@@ -51,19 +51,19 @@
           "id": "906",
           "name": "STATION_SELECTION",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "998",
           "name": "NUM_OBSFIL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "992",
           "name": "CHECK_OBSENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "999",
@@ -75,13 +75,13 @@
           "id": "008",
           "name": "COOVEL",
           "extra": "FZDM_0",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "010",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 5
+      "progress": 8
     }
   ],
   "3 day solution": [
@@ -1100,13 +1100,13 @@
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "052",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "053",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 27
+      "progress": 28
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2185,25 +2185,25 @@
           "id": "112",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "113",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "115",
@@ -2530,7 +2530,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 57
+      "progress": 59
     }
   ]
 }
