@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T02:05:01.889674",
+  "updated": "2026-02-16T02:07:03.210612",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -1118,13 +1118,13 @@
           "id": "060",
           "name": "TIMESTAP",
           "extra": "FZDM_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "061",
           "name": "TIMEST_A",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "062",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 29
+      "progress": 30
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2113,37 +2113,37 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "097",
@@ -2530,7 +2530,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 48
+      "progress": 52
     }
   ]
 }
