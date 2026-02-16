@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T02:12:02.448811",
+  "updated": "2026-02-16T02:14:01.905885",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -531,31 +531,31 @@
           "id": "120",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "130",
           "name": "SATMRK",
           "extra": "IAR_AMB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "131",
           "name": "FILESTAP",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "133",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 63
+      "progress": 66
     }
   ],
   "3 day solution": [
@@ -1136,37 +1136,37 @@
           "id": "063",
           "name": "FZDM_CH1",
           "extra": "FZDM_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "064",
           "name": "RESRMS",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "065",
           "name": "MRKOB_AP",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "066",
           "name": "MRKOB__P",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "070",
           "name": "TIMESTAP",
           "extra": "FZDM_SB1",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "071",
           "name": "TIMEST_B",
           "extra": "FZDM_SB1",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "072",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 32
+      "progress": 35
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2179,13 +2179,13 @@
           "id": "111",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "112",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "113",
@@ -2530,7 +2530,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 56
+      "progress": 57
     }
   ]
 }
