@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T03:39:02.349683",
+  "updated": "2026-02-16T03:41:02.283374",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -1346,25 +1346,25 @@
           "id": "112",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "113",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "115",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 57
+      "progress": 59
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2311,25 +2311,25 @@
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "144",
@@ -2530,7 +2530,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 72
+      "progress": 75
     }
   ]
 }
