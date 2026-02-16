@@ -477,41 +477,22 @@ updateLapackTable();
 setInterval(updateLapackTable, 30000);
 </script>
 
-
+<script src="satclk_list.js"></script>
 <script>
-async function renderSatClkLinks() {
-    const container = document.getElementById("satclk-container");
-    container.innerHTML = "";
+const container = document.getElementById("satclk-container");
 
-    try {
-        // Hol dir die Liste aller Dateien vom Server
-        // Auf GitHub Pages funktioniert kein dynamisches Verzeichnis-Listing
-        // Daher einfach die Liste fest im JS oder via serverseitigen Schritt erzeugen
-        const files = [
-            "sat_clock_completeness_26042.txt",
-            "sat_clock_completeness_26043.txt"
-            // weitere Dateien automatisch hier hinzufügen
-        ];
+satclk_files.forEach(fn => {
+    const d = document.createElement("div");
+    d.className = "plot"; // nutzt das gleiche Layout wie die Plots
 
-        files.forEach(fn => {
-            const d = document.createElement("div");
-            d.className = "plot"; // nutzt Plot-Style Box
+    const link = document.createElement("a");
+    link.href = "satclk/" + fn; // Pfad zu den TXT-Dateien im Git-Ordner
+    link.target = "_blank";     // öffnet die Datei in neuem Tab
+    link.textContent = fn;      // sichtbarer Name der Datei
 
-            const link = document.createElement("a");
-            link.href = "satclk/" + fn;
-            link.target = "_blank";
-            link.textContent = fn;
-
-            d.appendChild(link);
-            container.appendChild(d);
-        });
-    } catch (err) {
-        container.textContent = "Unable to load satellite clock files.";
-        console.error(err);
-    }
-}
-
-renderSatClkLinks();
+    d.appendChild(link);
+    container.appendChild(d);
+});
 </script>
 
 
