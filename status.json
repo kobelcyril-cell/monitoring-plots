@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T07:09:01.256232",
+  "updated": "2026-02-16T07:11:02.451027",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -1460,13 +1460,13 @@
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "140",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 71
+      "progress": 72
     }
   ],
   "Repro 26036 (jump to 022)": [
@@ -2197,7 +2197,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
