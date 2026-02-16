@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T16:10:01.953020",
+  "updated": "2026-02-16T16:13:03.937766",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -18,6 +18,624 @@
   ],
   "Clock densification": [
     {
+      "session_id": "260350",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
+    },
+    {
+      "session_id": "260360",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
+    },
+    {
+      "session_id": "260370",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
+    },
+    {
+      "session_id": "260380",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
+    },
+    {
+      "session_id": "260390",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
+    },
+    {
+      "session_id": "260400",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
+    },
+    {
       "session_id": "260410",
       "status": "running",
       "tasks": [
@@ -31,110 +649,7 @@
           "id": "001",
           "name": "ZDDE_COP",
           "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "finished"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "finished"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "finished"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
           "status": "running"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 62
-    },
-    {
-      "session_id": "260420",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
         },
         {
           "id": "002",
@@ -221,522 +736,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
-    },
-    {
-      "session_id": "260430",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 0
-    },
-    {
-      "session_id": "260440",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 0
-    },
-    {
-      "session_id": "260450",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 0
-    },
-    {
-      "session_id": "260460",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 0
-    },
-    {
-      "session_id": "260470",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 0
+      "progress": 6
     }
   ],
   "Comparison": [
