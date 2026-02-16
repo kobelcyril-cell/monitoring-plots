@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-16T02:45:01.503081",
+  "updated": "2026-02-16T02:47:02.341756",
   "1 day solution": [
     {
       "session_id": "260420",
@@ -597,37 +597,37 @@
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "144",
@@ -828,7 +828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 71
+      "progress": 75
     }
   ],
   "3 day solution": [
@@ -1220,19 +1220,19 @@
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "082",
           "name": "MAUPRPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "084",
@@ -1691,7 +1691,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 42
+      "progress": 43
     }
   ],
   "Repro 26036 (jump to 022)": [
