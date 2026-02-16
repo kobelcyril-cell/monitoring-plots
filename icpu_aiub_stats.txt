@@ -1,16 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-16 18:35:24
+Timestamp: 2026-02-16 18:40:23
 ================================================================================
 
-TOTAL RUNNING: 156
+TOTAL RUNNING: 258
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 89   PENDING:  0
 Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 15   PENDING:  0
 Martin       (ml18j210  )  RUNNING:  1   PENDING:  0
 
 
@@ -185,7 +186,7 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.12
+Ø RUNNING: 12.11
 Ø PENDING: 10.58
 MAX RUNNING: 60.08
 MAX PENDING: 110.42
@@ -311,7 +312,7 @@ RUNNING history:
 16.02 14h | ██████████ (15.5)
 16.02 16h | ███████████ (17.0)
 16.02 17h | ████ (7.2)
-16.02 18h | ██ (4.2)
+16.02 18h | ██ (4.0)
 
 PENDING history:
 11.02 09h | ███ (8.6)
@@ -675,8 +676,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 23.58
-Ø PENDING: 10.14
+Ø RUNNING: 24.30
+Ø PENDING: 10.03
 MAX RUNNING: 207.00
 MAX PENDING: 157.14
 
@@ -771,6 +772,7 @@ RUNNING history:
 16.02 06h |  (1.0)
 16.02 13h |  (3.3)
 16.02 14h |  (2.7)
+16.02 18h | █████████████████ (89.0)
 
 PENDING history:
 11.02 09h | ██████████████ (58.0)
@@ -863,6 +865,7 @@ PENDING history:
 16.02 06h |  (0.0)
 16.02 13h |  (0.0)
 16.02 14h |  (0.0)
+16.02 18h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -1249,7 +1252,7 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.52
+Ø RUNNING: 5.54
 Ø PENDING: 0.75
 MAX RUNNING: 23.27
 MAX PENDING: 7.40
@@ -1286,7 +1289,7 @@ RUNNING history:
 16.02 13h | ██████████ (6.0)
 16.02 15h | █████ (3.0)
 16.02 17h | ██████ (3.8)
-16.02 18h | ██████████████████ (10.6)
+16.02 18h | ███████████████████ (11.1)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (7.4)
@@ -1320,7 +1323,7 @@ PENDING history:
 16.02 13h |  (0.0)
 16.02 15h |  (0.0)
 16.02 17h |  (0.0)
-16.02 18h | ██ (0.4)
+16.02 18h | █ (0.3)
 
 
 Daniel (l_hpfaiu)
