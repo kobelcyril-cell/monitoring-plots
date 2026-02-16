@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-16 18:50:10
+Timestamp: 2026-02-16 18:55:13
 ================================================================================
 
-TOTAL RUNNING: 159
-TOTAL PENDING: 0
+TOTAL RUNNING: 274
+TOTAL PENDING: 4
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  5   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 115   PENDING:  4
 Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
 Martin       (ml18j210  )  RUNNING:  1   PENDING:  0
@@ -675,8 +676,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.35
-Ø PENDING: 10.05
+Ø RUNNING: 24.43
+Ø PENDING: 10.06
 MAX RUNNING: 207.00
 MAX PENDING: 157.14
 
@@ -771,7 +772,7 @@ RUNNING history:
 16.02 06h |  (1.0)
 16.02 13h |  (3.3)
 16.02 14h |  (2.7)
-16.02 18h | ██████████████████ (93.5)
+16.02 18h | ███████████████████ (100.7)
 
 PENDING history:
 11.02 09h | ██████████████ (58.0)
@@ -864,7 +865,7 @@ PENDING history:
 16.02 06h |  (0.0)
 16.02 13h |  (0.0)
 16.02 14h |  (0.0)
-16.02 18h |  (1.5)
+16.02 18h |  (2.3)
 
 
 l_code_m (l_code_m)
@@ -1251,7 +1252,7 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.50
+Ø RUNNING: 5.48
 Ø PENDING: 0.74
 MAX RUNNING: 23.27
 MAX PENDING: 7.40
@@ -1288,7 +1289,7 @@ RUNNING history:
 16.02 13h | ██████████ (6.0)
 16.02 15h | █████ (3.0)
 16.02 17h | ██████ (3.8)
-16.02 18h | ████████████████ (9.8)
+16.02 18h | ███████████████ (9.2)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (7.4)
@@ -1322,7 +1323,7 @@ PENDING history:
 16.02 13h |  (0.0)
 16.02 15h |  (0.0)
 16.02 17h |  (0.0)
-16.02 18h | █ (0.3)
+16.02 18h | █ (0.2)
 
 
 Daniel (l_hpfaiu)
