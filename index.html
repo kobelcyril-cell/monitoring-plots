@@ -237,6 +237,11 @@ h1, h2 {
 <h2>BPE runtime</h2>
 <div id="runtime-container" class="plots-container"></div>
 
+<!-- ===== Satellite Clock Completeness ===== -->
+<h2>Satellite Clock Completeness</h2>
+<div id="satclk-container" class="plots-container"></div>
+
+
 <!-- ===== CMP LAPACK Summary Table ===== -->
 <h2>CMP LAPACK Summary Table</h2>
 <div id="cmp-lapack-container"
@@ -470,6 +475,43 @@ updateLapackTable();
 
 // Optional: regelmäßig aktualisieren, z.B. alle 30 Sekunden
 setInterval(updateLapackTable, 30000);
+</script>
+
+
+<script>
+async function renderSatClkLinks() {
+    const container = document.getElementById("satclk-container");
+    container.innerHTML = "";
+
+    try {
+        // Hol dir die Liste aller Dateien vom Server
+        // Auf GitHub Pages funktioniert kein dynamisches Verzeichnis-Listing
+        // Daher einfach die Liste fest im JS oder via serverseitigen Schritt erzeugen
+        const files = [
+            "sat_clock_completeness_26042.txt",
+            "sat_clock_completeness_26043.txt"
+            // weitere Dateien automatisch hier hinzufügen
+        ];
+
+        files.forEach(fn => {
+            const d = document.createElement("div");
+            d.className = "plot"; // nutzt Plot-Style Box
+
+            const link = document.createElement("a");
+            link.href = "satclk/" + fn;
+            link.target = "_blank";
+            link.textContent = fn;
+
+            d.appendChild(link);
+            container.appendChild(d);
+        });
+    } catch (err) {
+        container.textContent = "Unable to load satellite clock files.";
+        console.error(err);
+    }
+}
+
+renderSatClkLinks();
 </script>
 
 
