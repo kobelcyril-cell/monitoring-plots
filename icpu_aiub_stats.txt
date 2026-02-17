@@ -1,15 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-17 12:25:10
+Timestamp: 2026-02-17 12:30:17
 ================================================================================
 
-TOTAL RUNNING: 153
-TOTAL PENDING: 0
+TOTAL RUNNING: 160
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
 Code         (l_code    )  RUNNING:  1   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  7   PENDING:  2
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -331,7 +333,7 @@ RUNNING history:
 17.02 09h | █ (2.9)
 17.02 10h | █ (2.0)
 17.02 11h | ████ (6.6)
-17.02 12h | ███ (5.3)
+17.02 12h | ███ (4.7)
 
 PENDING history:
 11.02 09h | ███ (8.6)
@@ -981,8 +983,8 @@ PENDING history:
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.02
-Ø PENDING: 0.44
+Ø RUNNING: 5.85
+Ø PENDING: 0.42
 MAX RUNNING: 16.14
 MAX PENDING: 3.27
 
@@ -1015,6 +1017,7 @@ RUNNING history:
 16.02 21h | ████████████████ (6.7)
 16.02 22h | ██████████████ (5.8)
 16.02 23h | ██████████████████████████████████████ (15.5)
+17.02 12h | ██ (1.0)
 
 PENDING history:
 11.02 14h |  (0.0)
@@ -1045,12 +1048,13 @@ PENDING history:
 16.02 21h |  (0.0)
 16.02 22h |  (0.0)
 16.02 23h | █ (0.1)
+17.02 12h |  (0.0)
 
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.67
-Ø PENDING: 2.60
+Ø RUNNING: 12.68
+Ø PENDING: 2.61
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
 
@@ -1157,7 +1161,7 @@ RUNNING history:
 17.02 09h |  (1.2)
 17.02 10h | ████████ (12.0)
 17.02 11h | ██████████████████████ (32.2)
-17.02 12h | ██ (4.0)
+17.02 12h | ███ (5.0)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -1262,7 +1266,7 @@ PENDING history:
 17.02 09h |  (0.0)
 17.02 10h | █ (1.0)
 17.02 11h |  (0.0)
-17.02 12h |  (0.0)
+17.02 12h |  (0.7)
 
 
 Code (SLR) (l_code_s)
