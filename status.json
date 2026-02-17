@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-17T14:47:02.585365",
+  "updated": "2026-02-17T14:48:02.960303",
   "1 day solution": [
     {
       "session_id": "260430",
@@ -157,13 +157,13 @@
           "id": "011",
           "name": "TIMEST_P_PPP",
           "extra": "PPP_KIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -178,7 +178,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 42
+      "progress": 57
     },
     {
       "session_id": "260380",
@@ -231,52 +231,9 @@
     },
     {
       "session_id": "260390",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "PREP_PPP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "TIMESTAP_PPP",
-          "extra": "PPP_KIN",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "TIMEST_P_PPP",
-          "extra": "PPP_KIN",
-          "status": "finished"
-        },
-        {
-          "id": "020",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "030",
-          "name": "DEL_PPP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        }
-      ],
-      "progress": 85
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "260400",
@@ -310,13 +267,13 @@
           "id": "020",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "030",
           "name": "DEL_PPP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "999",
@@ -325,7 +282,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 57
+      "progress": 71
     },
     {
       "session_id": "260410",
@@ -378,52 +335,9 @@
     },
     {
       "session_id": "260420",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "PREP_PPP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "TIMESTAP_PPP",
-          "extra": "PPP_KIN",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "TIMEST_P_PPP",
-          "extra": "PPP_KIN",
-          "status": "finished"
-        },
-        {
-          "id": "020",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "030",
-          "name": "DEL_PPP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        }
-      ],
-      "progress": 85
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Station Network test": [
