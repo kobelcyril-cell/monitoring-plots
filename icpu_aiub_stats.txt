@@ -1,15 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-17 13:40:18
+Timestamp: 2026-02-17 13:45:16
 ================================================================================
 
-TOTAL RUNNING: 160
-TOTAL PENDING: 4
+TOTAL RUNNING: 167
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  8   PENDING:  4
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING: 15   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -743,8 +744,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.27
-Ø PENDING: 9.20
+Ø RUNNING: 24.05
+Ø PENDING: 9.11
 MAX RUNNING: 207.00
 MAX PENDING: 157.14
 
@@ -854,6 +855,7 @@ RUNNING history:
 17.02 06h | █ (9.1)
 17.02 07h | █ (9.7)
 17.02 08h |  (1.0)
+17.02 13h |  (1.0)
 
 PENDING history:
 11.02 09h | ██████████████ (58.0)
@@ -961,11 +963,12 @@ PENDING history:
 17.02 06h |  (0.2)
 17.02 07h |  (0.1)
 17.02 08h |  (0.0)
+17.02 13h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.10
+Ø RUNNING: 6.11
 Ø PENDING: 0.49
 MAX RUNNING: 16.14
 MAX PENDING: 3.27
@@ -1000,7 +1003,7 @@ RUNNING history:
 16.02 22h | ██████████████ (5.8)
 16.02 23h | ██████████████████████████████████████ (15.5)
 17.02 12h | █████ (2.2)
-17.02 13h | ██████████████████████████████ (12.2)
+17.02 13h | ██████████████████████████████ (12.5)
 
 PENDING history:
 11.02 14h |  (0.0)
@@ -1037,8 +1040,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.68
-Ø PENDING: 2.61
+Ø RUNNING: 12.67
+Ø PENDING: 2.60
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
 
@@ -1146,7 +1149,7 @@ RUNNING history:
 17.02 10h | ████████ (12.0)
 17.02 11h | ██████████████████████ (32.2)
 17.02 12h | █████████ (14.0)
-17.02 13h | ██ (4.0)
+17.02 13h | ██ (3.0)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -1252,7 +1255,7 @@ PENDING history:
 17.02 10h | █ (1.0)
 17.02 11h |  (0.0)
 17.02 12h | █ (0.8)
-17.02 13h | ███ (2.5)
+17.02 13h | ██ (1.7)
 
 
 Code (SLR) (l_code_s)
