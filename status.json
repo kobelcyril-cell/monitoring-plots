@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-17T19:27:02.527246",
+  "updated": "2026-02-17T19:29:03.095227",
   "1 day solution": [
     {
       "session_id": "260440",
@@ -315,31 +315,31 @@
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -834,7 +834,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 36
+      "progress": 39
     }
   ],
   "3 day solution": [
@@ -1562,25 +1562,25 @@
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "144",
@@ -1787,7 +1787,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 72
+      "progress": 74
     }
   ]
 }
