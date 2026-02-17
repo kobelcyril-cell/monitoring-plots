@@ -1,16 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-17 06:50:10
+Timestamp: 2026-02-17 06:55:12
 ================================================================================
 
-TOTAL RUNNING: 172
-TOTAL PENDING: 0
+TOTAL RUNNING: 260
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 17   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 88   PENDING:  2
+Code (rapid) (l_code_r  )  RUNNING: 18   PENDING:  0
 ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
 
 
@@ -727,7 +727,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.57
+Ø RUNNING: 24.64
 Ø PENDING: 9.37
 MAX RUNNING: 207.00
 MAX PENDING: 157.14
@@ -835,7 +835,7 @@ RUNNING history:
 17.02 03h |  (1.7)
 17.02 04h | ██████████ (55.5)
 17.02 05h |  (1.8)
-17.02 06h |  (1.9)
+17.02 06h | █ (9.1)
 
 PENDING history:
 11.02 09h | ██████████████ (58.0)
@@ -940,7 +940,7 @@ PENDING history:
 17.02 03h |  (0.0)
 17.02 04h | ███ (13.3)
 17.02 05h |  (0.0)
-17.02 06h |  (0.0)
+17.02 06h |  (0.2)
 
 
 l_code_m (l_code_m)
@@ -1013,7 +1013,7 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.51
+Ø RUNNING: 12.53
 Ø PENDING: 2.74
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
@@ -1115,7 +1115,7 @@ RUNNING history:
 16.02 23h | █████ (7.5)
 17.02 01h | █████████████████ (25.1)
 17.02 02h | █ (2.0)
-17.02 06h | ██████ (9.2)
+17.02 06h | ███████ (11.0)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -1359,7 +1359,7 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.26
+Ø RUNNING: 9.25
 Ø PENDING: 0.64
 MAX RUNNING: 57.08
 MAX PENDING: 7.40
@@ -1408,7 +1408,7 @@ RUNNING history:
 17.02 03h | ████████████████████████████████████████ (57.1)
 17.02 04h | ██████ (9.6)
 17.02 05h | █ (1.8)
-17.02 06h | ██ (3.6)
+17.02 06h | ██ (3.5)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (7.4)
