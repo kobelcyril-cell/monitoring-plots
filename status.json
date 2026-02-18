@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T08:01:21.605163",
+  "updated": "2026-02-18T08:02:01.748777",
   "1 day solution": [
     {
       "session_id": "260440",
@@ -1106,52 +1106,53 @@
   ],
   "PPP": [
     {
-      "session_id": "260350",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260360",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260370",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260380",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260390",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260400",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260410",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "260420",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260430",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "001",
+          "name": "PREP_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "TIMESTAP_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "TIMEST_P_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 0
     }
   ],
   "Station Network test": [
@@ -1373,19 +1374,19 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "051",
@@ -1988,7 +1989,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 26
     }
   ]
 }
