@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T15:55:01.519771",
+  "updated": "2026-02-18T15:56:01.269247",
   "1 day solution": [
     {
       "session_id": "260440",
@@ -799,25 +799,25 @@
           "id": "164",
           "name": "STDPRE",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "200",
           "name": "STDDIF",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "COMPAR2_ZD",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "990",
@@ -853,7 +853,7 @@
           "id": "268",
           "name": "CHECK_SAT_CLOCKS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -874,7 +874,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 91
+      "progress": 94
     }
   ]
 }
