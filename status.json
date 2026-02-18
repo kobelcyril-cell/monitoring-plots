@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T02:30:02.571618",
+  "updated": "2026-02-18T02:31:03.290247",
   "1 day solution": [
     {
       "session_id": "260440",
@@ -609,25 +609,25 @@
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "144",
@@ -834,7 +834,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 72
+      "progress": 74
     }
   ],
   "3 day solution": [
@@ -1448,19 +1448,19 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "116",
@@ -1787,7 +1787,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 58
     }
   ]
 }
