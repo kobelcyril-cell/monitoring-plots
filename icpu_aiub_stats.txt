@@ -1,17 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-18 07:55:08
+Timestamp: 2026-02-18 08:00:11
 ================================================================================
 
-TOTAL RUNNING: 170
+TOTAL RUNNING: 172
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  9   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  7   PENDING:  0
 Edgar        (et25m288  )  RUNNING: 150   PENDING:  0
 Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  8   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  4   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  9   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -171,8 +171,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.03
-Ø PENDING: 8.36
+Ø RUNNING: 11.01
+Ø PENDING: 8.31
 MAX RUNNING: 60.08
 MAX PENDING: 110.42
 
@@ -334,6 +334,7 @@ RUNNING history:
 18.02 05h | ██ (4.1)
 18.02 06h | ███ (4.6)
 18.02 07h | ███ (5.2)
+18.02 08h | ████ (7.0)
 
 PENDING history:
 11.02 09h | ███ (8.6)
@@ -493,12 +494,13 @@ PENDING history:
 18.02 05h |  (0.0)
 18.02 06h |  (0.0)
 18.02 07h |  (0.0)
+18.02 08h |  (0.0)
 
 
 Edgar (et25m288)
 --------------------------------------------------------------------------------
-Ø RUNNING: 134.03
-Ø PENDING: 27.17
+Ø RUNNING: 134.19
+Ø PENDING: 26.90
 MAX RUNNING: 237.00
 MAX PENDING: 300.00
 
@@ -603,6 +605,7 @@ RUNNING history:
 18.02 05h | █████████████████████████ (150.0)
 18.02 06h | █████████████████████████ (150.0)
 18.02 07h | █████████████████████████ (149.4)
+18.02 08h | █████████████████████████ (150.0)
 
 PENDING history:
 11.02 09h | ███ (27.9)
@@ -705,6 +708,7 @@ PENDING history:
 18.02 05h |  (0.0)
 18.02 06h |  (0.0)
 18.02 07h |  (0.6)
+18.02 08h |  (0.0)
 
 
 fb25h858 (fb25h858)
@@ -823,8 +827,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.58
-Ø PENDING: 8.29
+Ø RUNNING: 24.39
+Ø PENDING: 8.22
 MAX RUNNING: 207.00
 MAX PENDING: 157.14
 
@@ -950,6 +954,7 @@ RUNNING history:
 18.02 05h |  (1.8)
 18.02 06h | ██ (12.8)
 18.02 07h | ████████████ (64.0)
+18.02 08h |  (2.0)
 
 PENDING history:
 11.02 09h | ██████████████ (58.0)
@@ -1073,6 +1078,7 @@ PENDING history:
 18.02 05h |  (0.0)
 18.02 06h |  (0.3)
 18.02 07h | █ (5.4)
+18.02 08h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -1171,8 +1177,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.03
-Ø PENDING: 2.36
+Ø RUNNING: 11.97
+Ø PENDING: 2.34
 MAX RUNNING: 58.50
 MAX PENDING: 31.25
 
@@ -1293,6 +1299,7 @@ RUNNING history:
 18.02 02h | ███ (5.0)
 18.02 06h | ████ (6.5)
 18.02 07h | ███████ (11.2)
+18.02 08h | ██ (4.0)
 
 PENDING history:
 11.02 09h | ████████████████ (13.0)
@@ -1411,6 +1418,7 @@ PENDING history:
 18.02 02h |  (0.0)
 18.02 06h |  (0.8)
 18.02 07h |  (0.0)
+18.02 08h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1570,7 +1578,7 @@ PENDING history:
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
 Ø RUNNING: 9.00
-Ø PENDING: 0.57
+Ø PENDING: 0.56
 MAX RUNNING: 57.08
 MAX PENDING: 7.40
 
@@ -1625,6 +1633,7 @@ RUNNING history:
 17.02 10h | █████ (7.4)
 17.02 11h | █ (1.9)
 18.02 07h | ████ (6.2)
+18.02 08h | ██████ (9.0)
 
 PENDING history:
 11.02 09h | ████████████████████████████████████████ (7.4)
@@ -1677,6 +1686,7 @@ PENDING history:
 17.02 10h |  (0.0)
 17.02 11h |  (0.0)
 18.02 07h |  (0.0)
+18.02 08h |  (0.0)
 
 
 Daniel (l_hpfaiu)
