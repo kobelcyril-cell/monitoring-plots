@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T07:45:01.683644",
+  "updated": "2026-02-18T07:46:01.226674",
   "1 day solution": [
     {
       "session_id": "260440",
@@ -1211,13 +1211,13 @@
           "id": "998",
           "name": "NUM_OBSFIL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "992",
           "name": "CHECK_OBSENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "999",
@@ -1229,25 +1229,25 @@
           "id": "008",
           "name": "COOVEL",
           "extra": "FZDM_0",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -1988,7 +1988,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 6
+      "progress": 10
     }
   ]
 }
