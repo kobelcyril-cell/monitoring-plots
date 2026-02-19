@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T12:57:03.325829",
+  "updated": "2026-02-19T12:59:02.909389",
   "1 day solution": [
     {
       "session_id": "260450",
@@ -31,19 +31,19 @@
           "id": "001",
           "name": "ZDDE_COP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "002",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "003",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "010",
@@ -118,7 +118,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 6
+      "progress": 18
     }
   ],
   "Comparison": [
@@ -873,13 +873,13 @@
           "id": "156",
           "name": "PRECLK",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "158",
@@ -1014,7 +1014,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 82
+      "progress": 83
     }
   ]
 }
