@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T18:25:03.608762",
+  "updated": "2026-02-19T18:27:02.592140",
   "1 day solution": [
     {
       "session_id": "260460",
@@ -213,13 +213,13 @@
           "id": "041",
           "name": "FILEST_P",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "043",
@@ -834,7 +834,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 24
+      "progress": 25
     }
   ],
   "3 day solution": [
@@ -1370,25 +1370,25 @@
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "116",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "117",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "119",
@@ -1703,7 +1703,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 62
     }
   ]
 }
