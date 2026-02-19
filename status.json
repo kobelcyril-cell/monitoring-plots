@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T13:43:03.227677",
+  "updated": "2026-02-19T13:46:03.607763",
   "1 day solution": [
     {
       "session_id": "260450",
@@ -273,25 +273,25 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -1014,7 +1014,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 10
+      "progress": 12
     }
   ]
 }
