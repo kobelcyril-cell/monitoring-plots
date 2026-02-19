@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T03:19:03.594855",
+  "updated": "2026-02-19T03:22:04.440945",
   "1 day solution": [
     {
       "session_id": "260450",
@@ -603,31 +603,31 @@
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "142",
           "name": "FILESTAP",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "144",
@@ -834,7 +834,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 71
+      "progress": 74
     }
   ],
   "3 day solution": [
@@ -1364,7 +1364,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
@@ -1703,7 +1703,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 58
     }
   ]
 }
