@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T07:59:01.487197",
+  "updated": "2026-02-19T08:01:01.740063",
   "1 day solution": [
     {
       "session_id": "260450",
@@ -1106,10 +1106,53 @@
   ],
   "PPP": [
     {
-      "session_id": "260430",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260440",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "001",
+          "name": "PREP_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "TIMESTAP_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "TIMEST_P_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 0
     }
   ],
   "Station Network test": [
@@ -1259,37 +1302,37 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
           "name": "CODSPPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -1946,7 +1989,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 16
+      "progress": 20
     }
   ]
 }
