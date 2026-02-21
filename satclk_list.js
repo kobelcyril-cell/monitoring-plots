@@ -45,4 +45,5 @@ const satclk_files = [
     "sat_clock_completeness_26044.txt",
     "sat_clock_completeness_26045.txt",
     "sat_clock_completeness_26046.txt",
+    "sat_clock_completeness_26047.txt",
 ];
