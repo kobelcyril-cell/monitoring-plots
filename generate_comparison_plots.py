@@ -17,7 +17,7 @@ def dbg(msg):
 # ----------------------------
 # Letzte N MSC-Ordner
 # ----------------------------
-def get_last_n_folders(n=40):
+def get_last_n_folders(n=60):
     folders = [f for f in os.listdir(MSC_PATH) if f.startswith("MSC_")]
     folders.sort()
     return folders[-n:]
@@ -25,6 +25,27 @@ def get_last_n_folders(n=40):
 def folder_to_date(folder_name):
     yyddd = folder_name.split("_")[1]
     return datetime(2000 + int(yyddd[:2]), 1, 1) + timedelta(days=int(yyddd[2:])-1)
+
+# ------------------------------------------------------------
+# Plot-Daten nach TXT schreiben
+# ------------------------------------------------------------
+def write_plot_txt(filepath, x_labels, y_dict):
+    """
+    filepath : voller Pfad zur TXT-Datei
+    x_labels : Liste von datetime-Objekten
+    y_dict   : dict {spaltenname: y-array}
+    """
+    with open(filepath, "w") as f:
+        header = ["date"] + list(y_dict.keys())
+        f.write("# " + "\t".join(header) + "\n")
+
+        for i, dt in enumerate(x_labels):
+            date_str = dt.strftime("%Y-%m-%d")
+            row = [date_str]
+            for key in y_dict:
+                val = y_dict[key][i]
+                row.append("NaN" if np.isnan(val) else f"{val:.6g}")
+            f.write("\t".join(row) + "\n")
 
 # ----------------------------
 # Parsing SUMMARY-Dateien
@@ -225,6 +246,13 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR,'erp_comparison.png'))
     plt.close()
+    erp_data = {}
+    for val in ["mean_dX","mean_dY","mean_dUT1"]:
+        erp_data[val] = safe_values(lambda d,k=val: d[k], all_data, last_folders)
+
+    txt_path = os.path.join(OUTPUT_DIR, "erp_comparison.txt")
+    write_plot_txt(txt_path, x_labels, erp_data)
+
 
     # ----------------------------
     # STD Comparison (Mean + RMS)
@@ -249,6 +277,16 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR,'std_comparison.png'))
     plt.close()
+    std_data = {}
+
+    for val in ["mean_Pos_R","mean_Pos_A","mean_Pos_C",
+            "RMS_Pos_R","RMS_Pos_A","RMS_Pos_C"]:
+        std_data[val] = safe_values(lambda d,k=val: d[k], all_data, last_folders)
+
+    txt_path = os.path.join(OUTPUT_DIR, "std_comparison.txt")
+    write_plot_txt(txt_path, x_labels, std_data)
+
+
 
     # # ----------------------------
     # # CLK Comparison
@@ -287,6 +325,12 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR,'pre_comparison.png'))
     plt.close()
+    pre_data = {}
+    for val in ["PRE_ALL","PRE_GPS","PRE_GLO","PRE_GAL"]:
+        pre_data[val] = safe_values(lambda d,k=val: d[k], all_data, last_folders)
+
+    txt_path = os.path.join(OUTPUT_DIR, "pre_comparison.txt")
+    write_plot_txt(txt_path, x_labels, pre_data)
 
     # ----------------------------
     # CRD Comparison
@@ -303,6 +347,13 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR,'crd_comparison.png'))
     plt.close()
+    crd_data = {}
+    for val in ["CRD_Total_N","CRD_Total_E","CRD_Total_U"]:
+        crd_data[val] = safe_values(lambda d,k=val: d[k], all_data, last_folders)
+
+    txt_path = os.path.join(OUTPUT_DIR, "crd_comparison.txt")
+    write_plot_txt(txt_path, x_labels, crd_data)
+
 
     # ----------------------------
     # Helmert F1I / F1 Comparison
@@ -310,6 +361,16 @@ if __name__ == "__main__":
     helmert_params = ['RMS','TX','TY','TZ','RX','RY','RZ','SCALE']
     F1I_vals = np.column_stack([safe_values(lambda d,k=k: d[f"H_F1I_{k}"], all_data, last_folders) for k in helmert_params])
     F1_vals  = np.column_stack([safe_values(lambda d,k=k: d[f"H_F1_{k}"], all_data, last_folders)  for k in helmert_params])
+
+    helmert_txt = {}
+
+    for i, param in enumerate(helmert_params):
+        helmert_txt[f"F1I_{param}"] = F1I_vals[:, i]
+        helmert_txt[f"F1_{param}"]  = F1_vals[:, i]
+
+    txt_path = os.path.join(OUTPUT_DIR, "helmert_F1I_F1.txt")
+    write_plot_txt(txt_path, x_labels, helmert_txt)
+
 
     fig, axs = plt.subplots(len(helmert_params),1, figsize=(10,14), sharex=True)
     for i,param in enumerate(helmert_params):
@@ -337,7 +398,7 @@ if __name__ == "__main__":
         if i != len(helmert_params)-1:
             axs[i].set_xticklabels([])
     axs[-1].set_xlabel('Date')
-    axs[0].set_title('Helmert parameters (to IGB20)')
+    axs[0].set_title('Helmert parameters (to IGC20)')
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR,'helmert_F1I_F1.png'))

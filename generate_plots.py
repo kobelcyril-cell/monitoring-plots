@@ -20,7 +20,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # ------------------------------------------------------------
 # Letzte N MSC-Ordner
 # ------------------------------------------------------------
-def get_last_n_folders(n=40):
+def get_last_n_folders(n=60):
     folders = [f for f in os.listdir(MSC_PATH) if f.startswith("MSC_")]
     folders.sort()
     return folders[-n:]
@@ -31,6 +31,26 @@ def get_last_n_folders(n=40):
 def folder_to_date(folder_name):
     yyddd = folder_name.split("_")[1]
     return f"{yyddd[:2]}/{yyddd[2:]}"
+
+# ------------------------------------------------------------
+# Plot-Daten nach TXT schreiben
+# ------------------------------------------------------------
+def write_plot_txt(filepath, x_labels, y_dict):
+    """
+    filepath : voller Pfad zur TXT-Datei
+    x_labels : Liste der x-Achsen-Labels
+    y_dict   : dict {spaltenname: y-array}
+    """
+    with open(filepath, "w") as f:
+        header = ["date"] + list(y_dict.keys())
+        f.write("# " + "\t".join(header) + "\n")
+
+        for i, x in enumerate(x_labels):
+            row = [x]
+            for key in y_dict:
+                val = y_dict[key][i]
+                row.append("NaN" if np.isnan(val) else f"{val:.6g}")
+            f.write("\t".join(row) + "\n")
 
 # ------------------------------------------------------------
 # PROCESSING-File Parser
@@ -97,7 +117,7 @@ def parse_processing_file(file_path):
         # Ambiguity resolution statistics
         if "==== Ambiguity resolution statistics ====" in line:
             dbg("Ambiguity resolution block gefunden")
-            j = i + 4
+            j = i + 3
             while lines[j].strip() != "=============================================================":
                 parts = lines[j].split()
                 if len(parts) >= 4:
@@ -190,6 +210,11 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "num_obs_files.png"))
     plt.close()
+    txt_path = os.path.join(OUTPUT_DIR, "num_obs_files.txt")
+    write_plot_txt(txt_path, x_labels, {
+        "num_obs_files": y
+    })
+
 
     # --------------------------------------------------------
     # 2 Deleted files
@@ -201,7 +226,7 @@ if __name__ == "__main__":
     plt.title("Files without matching entries")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(os.path.join(OUTPUT_DIR, "deleted_files.png"))
+#    plt.savefig(os.path.join(OUTPUT_DIR, "deleted_files.png"))
     plt.close()
 
     # --------------------------------------------------------
@@ -236,16 +261,23 @@ if __name__ == "__main__":
         plt.tight_layout()
         plt.savefig(os.path.join(OUTPUT_DIR, fname))
         plt.close()
+        txt_path = os.path.join(OUTPUT_DIR, fname.replace(".png", ".txt"))
+        write_plot_txt(txt_path, x_labels, {key: y})
+
 
     # --------------------------------------------------------
     # 7 OBSXTR bad % (fixe Skala 0-20)
     # --------------------------------------------------------
+    obsxtr_data = {}
     plt.figure(figsize=(10,6))
     for sys in ["GPS", "GLO", "GAL", "tot"]:
         y = safe_values(lambda d, s=sys: d["obsxtr_stats"].get(s, {}).get("bad"),
                         f"OBSXTR bad {sys}")
         plt.plot(x_labels, y, marker="o", label=sys)
         mark_nan_days(x_labels, y)
+        y = safe_values(lambda d, s=sys: d["obsxtr_stats"].get(s, {}).get("bad"),
+                f"OBSXTR bad {sys}")
+        obsxtr_data[sys] = y
 
     plt.ylim(0, 20)
     plt.ylabel("%")
@@ -255,13 +287,15 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "obsxtr_bad.png"))
     plt.close()
+    txt_path = os.path.join(OUTPUT_DIR, "obsxtr_bad.txt")
+    write_plot_txt(txt_path, x_labels, obsxtr_data)
 
     # --------------------------------------------------------
     # 8 Ambiguity resolution statistics
     # --------------------------------------------------------
     amb_types = ["AR_WL", "AR_NL", "AR_NLR"]
     systems = ["G", "E"]
-
+    amb_txt_data = {}
     plt.figure(figsize=(10, 6))
 
     for sys in systems:
@@ -278,6 +312,8 @@ if __name__ == "__main__":
                 val = next((e["perc"] for e in entries if e["type"] == amb), np.nan)
                 y_vals.append(val)
 
+            key = f"{sys}_{amb}"
+            amb_txt_data[key] = np.array(y_vals)
             plt.plot(
                 x_labels,
                 y_vals,
@@ -294,3 +330,5 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "amb_stats.png"))
     plt.close()
+    txt_path = os.path.join(OUTPUT_DIR, "amb_stats.txt")
+    write_plot_txt(txt_path, x_labels, amb_txt_data)

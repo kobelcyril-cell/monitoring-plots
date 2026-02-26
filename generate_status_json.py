@@ -14,7 +14,7 @@ process_files = {
     "Clock densification": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/CLKDEN.RUN",
     "Comparison": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/CMPSOL.RUN",
     "PPP": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/PPP.RUN",
-    "New BPE": "/storage/research/aiub_u_camp/CK_ZDGNSS_2025/BPE/ZDGNSS.RUN",
+    "Station Network test": "/storage/research/aiub_u_camp/CK_ZDGNSS_TEST/BPE/ZDGNSS.RUN",
 }
 
 status = {"updated": datetime.now().isoformat()}

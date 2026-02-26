@@ -3,279 +3,182 @@
 
 import os
 import re
-from datetime import datetime, timedelta
+from datetime import datetime
 import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.ticker import AutoMinorLocator
 
-# ------------------------------------------------------------
+# ============================================================
 # Konfiguration
-# ------------------------------------------------------------
-LOG_DIR = "/storage/homefs/ck18y530/perl/LOG"
-OUTPUT_DIR = "/storage/homefs/ck18y530/monitoring-plots/plots/runtime"
-OUTPUT_FILE = "bpe_runtime_last30days.png"
+# ============================================================
 
-# Debug ein/aus
-DEBUG = False
+OUT_DIR = "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE"
 
-# Prozess-IDs und gewünschte Legendenbeschriftung
-PROCESSES = {
-    "ZDG":    "1-Day solution",
+OUT_FILES = {
+    "ZDGNSS": "ZDGNSS.OUT",
+    "ZD3D":   "ZD3D.OUT",
+    "CLKDEN": "CLKDEN.OUT",
+    "PPP":    "PPP.OUT",
+    "CMPSOL": "CMPSOL.OUT",
+}
+
+# frei anpassbare Plot-Namen
+PROCESS_LABELS = {
+    "ZDGNSS": "1-Day solution",
     "ZD3D":   "3-Day solution",
     "CLKDEN": "Clock densification",
-    "CMP":    "Comparison",
     "PPP":    "PPP",
+    "CMPSOL": "Comparison",
 }
 
 PLOT_GROUPS = {
     "solutions": {
         "title": "GNSS processing",
-        "processes": ["ZDG", "ZD3D", "CLKDEN"],
+        "processes": ["ZDGNSS", "ZD3D", "CLKDEN"],
         "outfile": "runtime_solutions.png",
     },
     "comparison": {
         "title": "Comparison / PPP",
-        "processes": ["CMP", "PPP"],
+        "processes": ["PPP", "CMPSOL"],
         "outfile": "runtime_comparison.png",
     },
 }
 
+DATA_FILE = "/storage/homefs/ck18y530/monitoring-plots/tmp/runtime_history.txt"
+PLOT_DIR  = "/storage/homefs/ck18y530/monitoring-plots/plots/runtime"
 
-FONT_SIZE = 14
-DAYS_BACK = 30
+MAX_DAYS  = 60
+FONT_SIZE = 13
 
+# ============================================================
+# Regex
+# ============================================================
 
-def dbg(msg):
-    if DEBUG:
-        print(msg)
+RE_TOTAL_TIME = re.compile(r"Total Time:\s+(\d{2}):(\d{2}):(\d{2})")
+RE_DATE       = re.compile(r"(\d{2}-[A-Za-z]{3}-\d{4})")
 
+# ============================================================
+# Parsing
+# ============================================================
 
-# ------------------------------------------------------------
-# Hilfsfunktionen
-# ------------------------------------------------------------
-def parse_start_time(line, fname=None):
-    """ Extrahiert den Zeitstempel aus der ersten Zeile: [YYYY-MM-DD HH:MM:SS] """
-    m = re.search(r"\[(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})\]", line)
-    if not m:
-        dbg(f"[DEBUG][{fname}] Keine Startzeit gefunden in Zeile: {line.strip()}")
-        return None
-    ts = datetime.strptime(m.group(1), "%Y-%m-%d %H:%M:%S")
-    dbg(f"[DEBUG][{fname}] Startzeit aus Zeile: {line.strip()}")
-    dbg(f"[DEBUG][{fname}] → Startzeit = {ts}")
-    return ts
-
-def parse_end_time(lines, fname=None):
+def parse_out_file(path):
     """
-    Sucht die letzte relevante Zeile vor der Trennlinie.
-    Nur 'BPE finished at ...' ist gültig.
+    Liefert (date, duration_seconds) oder (None, None)
     """
-    for line in reversed(lines):
-        line = line.strip()
+    try:
+        with open(path, "r") as f:
+            lines = f.readlines()
+    except OSError:
+        return None, None
 
-        if line.startswith("----") or not line:
-            continue
+    duration = None
+    date = None
 
-        if "BPE finished at" in line:
-            dbg(f"[DEBUG][{fname}] Endzeit aus Zeile: {line}")
-            m = re.search(
-                r"BPE finished at (\d{2}-[A-Za-z]{3}-\d{4} \d{2}:\d{2}:\d{2})",
-                line,
-            )
-            if not m:
-                dbg(f"[DEBUG][{fname}] Regex für Endzeit fehlgeschlagen")
-                return None
+    for line in lines:
+        if duration is None:
+            m = RE_TOTAL_TIME.search(line)
+            if m:
+                h, m_, s = map(int, m.groups())
+                duration = h * 3600 + m_ * 60 + s
 
-            ts = datetime.strptime(m.group(1), "%d-%b-%Y %H:%M:%S")
-            dbg(f"[DEBUG][{fname}] → Endzeit = {ts}")
-            return ts
+        if date is None:
+            m = RE_DATE.search(line)
+            if m:
+                date = datetime.strptime(m.group(1), "%d-%b-%Y").date()
 
-        if "BPE error" in line or "User script error" in line:
-            dbg(f"[DEBUG][{fname}] Fehler erkannt in Zeile: {line}")
-            return None
+        if duration is not None and date is not None:
+            break
 
-        dbg(f"[DEBUG][{fname}] Letzte relevante Zeile ist kein Finish/Error: {line}")
-        break
+    return date, duration
 
-    dbg(f"[DEBUG][{fname}] Keine gültige Endzeit gefunden")
-    return None
+# ============================================================
+# Persistenz
+# ============================================================
 
-
-def yyddd_to_date(yyddd):
+def load_existing_entries():
     """
-    Wandelt YYDDD → datetime
+    Set mit (date_str, proc)
     """
-    yy = int(yyddd[:2])
-    ddd = int(yyddd[2:])
-    year = 2000 + yy
-    return datetime(year, 1, 1) + timedelta(days=ddd - 1)
+    entries = set()
+    if not os.path.exists(DATA_FILE):
+        return entries
+
+    with open(DATA_FILE, "r") as f:
+        for line in f:
+            parts = line.strip().split(",")
+            if len(parts) >= 2:
+                entries.add((parts[0], parts[1]))
+    return entries
 
 
-# ------------------------------------------------------------
-# 1. Alle Files je Prozess einsammeln
-# ------------------------------------------------------------
-files_by_proc = {pid: {} for pid in PROCESSES}
+def append_entry(date, proc, duration):
+    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+    with open(DATA_FILE, "a") as f:
+        f.write(f"{date},{proc},{duration}\n")
 
-pattern = re.compile(r"^([A-Z0-9]+)(\d{5})\.log$")
+# ============================================================
+# Plot
+# ============================================================
 
-for fname in os.listdir(LOG_DIR):
-    m = pattern.match(fname)
-    if not m:
-        continue
+def plot_history():
+    if not os.path.exists(DATA_FILE):
+        return
 
-    pid, yyddd = m.groups()
-    if pid not in PROCESSES:
-        continue
+    data = {}
+    with open(DATA_FILE, "r") as f:
+        for line in f:
+            date_str, proc, duration = line.strip().split(",")
+            d = datetime.strptime(date_str, "%Y-%m-%d").date()
+            data.setdefault(proc, []).append((d, int(duration)))
 
-    files_by_proc[pid][yyddd] = os.path.join(LOG_DIR, fname)
+    os.makedirs(PLOT_DIR, exist_ok=True)
 
-# ------------------------------------------------------------
-# 2. Global neustes Datum bestimmen
-# ------------------------------------------------------------
-all_dates = []
-for proc_files in files_by_proc.values():
-    for yyddd in proc_files:
-        all_dates.append(yyddd_to_date(yyddd))
+    for cfg in PLOT_GROUPS.values():
+        plt.figure(figsize=(14, 5))
 
-if not all_dates:
-    raise RuntimeError("Keine passenden Logfiles gefunden.")
+        for proc in cfg["processes"]:
+            if proc not in data:
+                continue
 
-latest_date = max(all_dates)
-start_date = latest_date - timedelta(days=DAYS_BACK)
+            values = sorted(data[proc])[-MAX_DAYS:]
+            x = [v[0] for v in values]
+            y = [v[1] / 60.0 for v in values]  # Minuten
 
-date_axis = [
-    start_date + timedelta(days=i)
-    for i in range((latest_date - start_date).days + 1)
-]
+            label = PROCESS_LABELS.get(proc, proc)
+            plt.plot(x, y, marker="o", label=label)
 
-x_labels = [d.strftime("%y/%j") for d in date_axis]
+        plt.xlabel("Date", fontsize=FONT_SIZE)
+        plt.ylabel("Runtime [min]", fontsize=FONT_SIZE)
+        plt.title(cfg["title"], fontsize=FONT_SIZE)
+        plt.legend(fontsize=FONT_SIZE)
+        plt.grid(True)
+        plt.xticks(rotation=45)
+        plt.tight_layout()
 
-# ------------------------------------------------------------
-# 3. Laufzeiten extrahieren
-# ------------------------------------------------------------
-runtime = {pid: {} for pid in PROCESSES}
+        out_path = os.path.join(PLOT_DIR, cfg["outfile"])
+        plt.savefig(out_path, dpi=150)
+        plt.close()
 
-for pid, proc_files in files_by_proc.items():
-    for yyddd, path in proc_files.items():
-        day = yyddd_to_date(yyddd)
-        if not (start_date <= day <= latest_date):
+# ============================================================
+# Main
+# ============================================================
+
+def main():
+    existing = load_existing_entries()
+
+    for proc, fname in OUT_FILES.items():
+        path = os.path.join(OUT_DIR, fname)
+
+        date, duration = parse_out_file(path)
+        if date is None or duration is None:
             continue
 
-        fname = os.path.basename(path)
-        dbg(f"\n[DEBUG] Verarbeite File: {fname}")
-
-        try:
-            with open(path, "r") as f:
-                lines = f.readlines()
-        except OSError as e:
-            dbg(f"[DEBUG][{fname}] Datei konnte nicht gelesen werden: {e}")
+        key = (str(date), proc)
+        if key in existing:
             continue
 
-        if not lines:
-            dbg(f"[DEBUG][{fname}] Datei ist leer")
-            continue
+        append_entry(date, proc, duration)
 
-        start_time = parse_start_time(lines[0], fname=fname)
-        end_time = parse_end_time(lines, fname=fname)
+    plot_history()
 
-        if start_time and end_time:
-            if end_time > start_time:
-                duration = (end_time - start_time).total_seconds() / 60.0
-                runtime[pid][day] = duration
-                dbg(f"[DEBUG][{fname}] Laufzeit = {duration:.2f} Minuten")
-            else:
-                dbg(f"[DEBUG][{fname}] Endzeit < Startzeit → ignoriert")
-        else:
-            dbg(f"[DEBUG][{fname}] Keine Laufzeit bestimmt")
 
-# ------------------------------------------------------------
-# 4. Plot
-# ------------------------------------------------------------
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-for group_name, cfg in PLOT_GROUPS.items():
-    plt.figure(figsize=(14, 6))
-
-    for pid in cfg["processes"]:
-        if pid not in PROCESSES:
-            continue
-
-        label = PROCESSES[pid]
-
-        x = []
-        y = []
-        missing_x = []
-        missing_y = []
-
-        for d in date_axis:
-            x.append(d)
-
-            if d in runtime[pid]:
-                y.append(runtime[pid][d])
-            else:
-                y.append(np.nan)
-                missing_x.append(d)
-                missing_y.append(0)
-
-        # Linie
-        plt.plot(x, y, marker="o", label=label)
-
-        # Marker für fehlende Werte
-        plt.scatter(missing_x, missing_y, marker="x")
-
-    # X-Achse formatieren
-    plt.xticks(
-        ticks=date_axis,
-        labels=[d.strftime("%y/%j") for d in date_axis],
-        rotation=45,
-        fontsize=FONT_SIZE
-    )
-
-    plt.xlabel("Day", fontsize=FONT_SIZE)
-    plt.ylabel("[minutes]", fontsize=FONT_SIZE)
-    plt.title(cfg["title"], fontsize=FONT_SIZE)
-    plt.yticks(fontsize=FONT_SIZE)
-    plt.legend(fontsize=FONT_SIZE)
-    ax = plt.gca()
-
-    # Major grid (wie bisher)
-    ax.grid(True, which="major", linewidth=0.8)
-
-    # Minor ticks aktivieren
-    ax.yaxis.set_minor_locator(AutoMinorLocator(4))   # feinere Y-Auflösung
-
-    # Minor grid (feiner, heller)
-    ax.grid(True, which="minor", linewidth=0.4, linestyle="--", alpha=0.6)
-
-    plt.tight_layout()
-
-    out_path = os.path.join(OUTPUT_DIR, cfg["outfile"])
-    plt.savefig(out_path, dpi=150)
-    plt.close()
-
-    dbg(f"[DEBUG] Plot gespeichert: {out_path}")
-
-# ------------------------------------------------------------
-# DEBUG: geplottete Datenreihen ausgeben
-# ------------------------------------------------------------
-if DEBUG:
-    print("\n[DEBUG] Geplottete Datenreihen:")
-
-    for pid, label in PROCESSES.items():
-        print(f"\n[DEBUG] Prozess {pid} ({label})")
-        print("Date (YY/DDD) | datetime           | Runtime [min]")
-        print("-" * 55)
-
-        for d in date_axis:
-            if d in runtime[pid]:
-                rt = runtime[pid][d]
-                rt_str = f"{rt:.2f}"
-            else:
-                rt = np.nan
-                rt_str = "NaN"
-
-            print(
-                f"{d.strftime('%y/%j')}       | "
-                f"{d.strftime('%Y-%m-%d')} | "
-                f"{rt_str}"
-            )
-
+if __name__ == "__main__":
+    main()
