@@ -1,16 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-02-28 07:00:11
+Timestamp: 2026-02-28 08:00:14
 ================================================================================
 
-TOTAL RUNNING: 392
-TOTAL PENDING: 142
+TOTAL RUNNING: 7
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
-Edgar        (et25m288  )  RUNNING: 120   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 264   PENDING: 36
-Code (rapid) (l_code_r  )  RUNNING:  4   PENDING: 106
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Edgar        (et25m288  )  RUNNING:  2   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -34,13 +35,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 3.91
+Ø RUNNING: 3.85
 Ø PENDING: 0.95
 MAX RUNNING: 60.00
 MAX PENDING: 60.00
 
 RUNNING history:
-21.02 07h | █████ (8.0)
 21.02 09h |  (1.0)
 21.02 10h | ██ (4.0)
 21.02 11h |  (1.0)
@@ -144,9 +144,9 @@ RUNNING history:
 28.02 05h | █ (2.0)
 28.02 06h |  (1.0)
 28.02 07h | ██ (4.0)
+28.02 08h |  (1.0)
 
 PENDING history:
-21.02 07h |  (0.0)
 21.02 09h |  (1.0)
 21.02 10h |  (0.0)
 21.02 11h |  (0.0)
@@ -250,12 +250,13 @@ PENDING history:
 28.02 05h |  (0.0)
 28.02 06h |  (0.0)
 28.02 07h |  (0.0)
+28.02 08h |  (0.0)
 
 
 Edgar (et25m288)
 --------------------------------------------------------------------------------
-Ø RUNNING: 190.57
-Ø PENDING: 2.35
+Ø RUNNING: 188.27
+Ø PENDING: 2.32
 MAX RUNNING: 203.00
 MAX PENDING: 27.00
 
@@ -341,6 +342,7 @@ RUNNING history:
 28.02 05h | ███████████████████████████████████████ (200.0)
 28.02 06h | ███████████████████████████████████████ (200.0)
 28.02 07h | ███████████████████████ (120.0)
+28.02 08h |  (2.0)
 
 PENDING history:
 23.02 15h |  (0.0)
@@ -424,6 +426,7 @@ PENDING history:
 28.02 05h |  (0.0)
 28.02 06h |  (0.0)
 28.02 07h |  (0.0)
+28.02 08h |  (0.0)
 
 
 fb25h858 (fb25h858)
@@ -476,8 +479,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 27.59
-Ø PENDING: 11.11
+Ø RUNNING: 27.31
+Ø PENDING: 10.99
 MAX RUNNING: 303.00
 MAX PENDING: 183.00
 
@@ -574,6 +577,7 @@ RUNNING history:
 28.02 05h |  (2.0)
 28.02 06h |  (2.0)
 28.02 07h | ██████████████████████████████████ (264.0)
+28.02 08h |  (2.0)
 
 PENDING history:
 21.02 14h |  (0.0)
@@ -668,6 +672,7 @@ PENDING history:
 28.02 05h |  (0.0)
 28.02 06h |  (0.0)
 28.02 07h | ███████ (36.0)
+28.02 08h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -758,14 +763,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.94
-Ø PENDING: 4.49
+Ø RUNNING: 17.09
+Ø PENDING: 4.56
 MAX RUNNING: 119.00
 MAX PENDING: 106.00
 
 RUNNING history:
-21.02 07h | █ (4.0)
-21.02 08h | █ (4.0)
 21.02 09h | █ (4.0)
 21.02 12h | █████ (17.0)
 21.02 14h | █████ (15.0)
@@ -833,10 +836,9 @@ RUNNING history:
 27.02 23h |  (1.0)
 28.02 02h | ████████ (26.0)
 28.02 07h | █ (4.0)
+28.02 08h |  (1.0)
 
 PENDING history:
-21.02 07h |  (0.0)
-21.02 08h |  (0.0)
 21.02 09h |  (0.0)
 21.02 12h |  (0.0)
 21.02 14h |  (0.0)
@@ -904,6 +906,7 @@ PENDING history:
 27.02 23h |  (0.0)
 28.02 02h |  (2.0)
 28.02 07h | ████████████████████████████████████████ (106.0)
+28.02 08h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1024,8 +1027,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 10.07
-Ø PENDING: 0.25
+Ø RUNNING: 9.87
+Ø PENDING: 0.24
 MAX RUNNING: 103.00
 MAX PENDING: 10.00
 
@@ -1074,6 +1077,7 @@ RUNNING history:
 27.02 09h |  (1.0)
 27.02 10h |  (2.0)
 27.02 11h |  (1.0)
+28.02 08h |  (1.0)
 
 PENDING history:
 21.02 13h |  (0.0)
@@ -1120,6 +1124,7 @@ PENDING history:
 27.02 09h |  (0.0)
 27.02 10h |  (0.0)
 27.02 11h |  (0.0)
+28.02 08h |  (0.0)
 
 
 Daniel (l_hpfaiu)
