@@ -1,16 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-02 14:00:11
+Timestamp: 2026-03-02 15:00:10
 ================================================================================
 
-TOTAL RUNNING: 14
+TOTAL RUNNING: 7
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  5   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  4   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
+fb25h858     (fb25h858  )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -36,8 +36,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.96
-Ø PENDING: 0.97
+Ø RUNNING: 4.93
+Ø PENDING: 0.96
 MAX RUNNING: 65.00
 MAX PENDING: 60.00
 
@@ -139,6 +139,7 @@ RUNNING history:
 02.03 12h | ████ (8.0)
 02.03 13h | ████ (8.0)
 02.03 14h |  (1.0)
+02.03 15h | █ (2.0)
 
 PENDING history:
 23.02 19h |  (0.0)
@@ -238,6 +239,7 @@ PENDING history:
 02.03 12h |  (0.0)
 02.03 13h |  (0.0)
 02.03 14h |  (0.0)
+02.03 15h |  (0.0)
 
 
 Edgar (et25m288)
@@ -418,16 +420,18 @@ PENDING history:
 
 fb25h858 (fb25h858)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.00
+Ø RUNNING: 9.00
 Ø PENDING: 0.00
 MAX RUNNING: 16.00
 MAX PENDING: 0.00
 
 RUNNING history:
 02.03 08h | ████████████████████████████████████████ (16.0)
+02.03 15h | █████ (2.0)
 
 PENDING history:
 02.03 08h |  (0.0)
+02.03 15h |  (0.0)
 
 
 Code (l_code)
@@ -456,13 +460,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 30.16
-Ø PENDING: 7.56
+Ø RUNNING: 30.43
+Ø PENDING: 7.64
 MAX RUNNING: 303.00
 MAX PENDING: 183.00
 
 RUNNING history:
-23.02 14h |  (4.0)
 23.02 19h | █████████████ (104.0)
 23.02 20h |  (1.0)
 23.02 21h |  (3.0)
@@ -560,7 +563,6 @@ RUNNING history:
 02.03 14h |  (4.0)
 
 PENDING history:
-23.02 14h |  (0.0)
 23.02 19h | ████████ (39.0)
 23.02 20h |  (0.0)
 23.02 21h |  (0.0)
@@ -748,7 +750,6 @@ MAX RUNNING: 153.00
 MAX PENDING: 106.00
 
 RUNNING history:
-23.02 14h |  (2.0)
 23.02 15h | ██ (8.0)
 23.02 17h | █████████████████ (68.0)
 23.02 20h | ███ (14.0)
@@ -810,9 +811,9 @@ RUNNING history:
 02.03 09h |  (2.0)
 02.03 10h |  (2.0)
 02.03 14h | █ (5.0)
+02.03 15h |  (2.0)
 
 PENDING history:
-23.02 14h |  (0.0)
 23.02 15h |  (1.0)
 23.02 17h | █ (5.0)
 23.02 20h |  (0.0)
@@ -874,17 +875,17 @@ PENDING history:
 02.03 09h |  (0.0)
 02.03 10h |  (0.0)
 02.03 14h |  (0.0)
+02.03 15h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.98
+Ø RUNNING: 2.94
 Ø PENDING: 0.00
 MAX RUNNING: 22.00
 MAX PENDING: 0.00
 
 RUNNING history:
-23.02 14h | █████ (3.0)
 23.02 15h | ███████ (4.0)
 23.02 16h | ███████ (4.0)
 23.02 17h | ███████ (4.0)
@@ -931,9 +932,9 @@ RUNNING history:
 02.03 12h | ███ (2.0)
 02.03 13h | ███ (2.0)
 02.03 14h | ███████ (4.0)
+02.03 15h | █ (1.0)
 
 PENDING history:
-23.02 14h |  (0.0)
 23.02 15h |  (0.0)
 23.02 16h |  (0.0)
 23.02 17h |  (0.0)
@@ -980,6 +981,7 @@ PENDING history:
 02.03 12h |  (0.0)
 02.03 13h |  (0.0)
 02.03 14h |  (0.0)
+02.03 15h |  (0.0)
 
 
 ggsp (l_ggsp)
@@ -1096,13 +1098,12 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.98
-Ø PENDING: 12.56
+Ø RUNNING: 20.30
+Ø PENDING: 12.79
 MAX RUNNING: 123.00
 MAX PENDING: 160.00
 
 RUNNING history:
-23.02 14h |  (3.0)
 23.02 16h | █████████████████ (53.0)
 23.02 17h | █████████████ (40.0)
 23.02 19h | ████ (15.0)
@@ -1158,7 +1159,6 @@ RUNNING history:
 01.03 12h | █ (6.0)
 
 PENDING history:
-23.02 14h |  (0.0)
 23.02 16h |  (0.0)
 23.02 17h | ████████████████████████████████████████ (160.0)
 23.02 19h | ██████ (24.0)
