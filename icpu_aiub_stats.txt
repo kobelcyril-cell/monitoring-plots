@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-04 02:00:14
+Timestamp: 2026-03-04 03:00:45
 ================================================================================
 
-TOTAL RUNNING: 6
+TOTAL RUNNING: 8
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -37,8 +37,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.86
-Ø PENDING: 1.55
+Ø RUNNING: 4.83
+Ø PENDING: 1.54
 MAX RUNNING: 65.00
 MAX PENDING: 60.00
 
@@ -141,6 +141,7 @@ RUNNING history:
 04.03 00h |  (1.0)
 04.03 01h | █ (2.0)
 04.03 02h | █ (2.0)
+04.03 03h | █ (2.0)
 
 PENDING history:
 25.02 09h |  (0.0)
@@ -241,6 +242,7 @@ PENDING history:
 04.03 00h |  (0.0)
 04.03 01h |  (0.0)
 04.03 02h |  (0.0)
+04.03 03h |  (0.0)
 
 
 Edgar (et25m288)
@@ -395,13 +397,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 32.80
+Ø RUNNING: 29.39
 Ø PENDING: 5.52
 MAX RUNNING: 303.00
 MAX PENDING: 180.00
 
 RUNNING history:
-25.02 03h | ████████████████████████████████████████ (303.0)
 25.02 04h | ████████ (67.0)
 25.02 05h | █████████████ (102.0)
 25.02 06h |  (1.0)
@@ -489,9 +490,9 @@ RUNNING history:
 04.03 00h |  (5.0)
 04.03 01h |  (1.0)
 04.03 02h |  (1.0)
+04.03 03h |  (3.0)
 
 PENDING history:
-25.02 03h |  (0.0)
 25.02 04h |  (0.0)
 25.02 05h |  (3.0)
 25.02 06h |  (0.0)
@@ -579,6 +580,7 @@ PENDING history:
 04.03 00h |  (0.0)
 04.03 01h |  (0.0)
 04.03 02h |  (0.0)
+04.03 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -903,13 +905,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.20
-Ø PENDING: 0.12
+Ø RUNNING: 8.36
+Ø PENDING: 0.13
 MAX RUNNING: 45.00
 MAX PENDING: 3.00
 
 RUNNING history:
-25.02 03h | █ (2.0)
 25.02 04h |  (1.0)
 25.02 05h | █ (2.0)
 25.02 06h | █ (2.0)
@@ -951,7 +952,6 @@ RUNNING history:
 03.03 10h | ███████████████████ (22.0)
 
 PENDING history:
-25.02 03h |  (0.0)
 25.02 04h |  (0.0)
 25.02 05h |  (0.0)
 25.02 06h |  (0.0)
@@ -995,7 +995,7 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 40.50
+Ø RUNNING: 28.00
 Ø PENDING: 0.00
 MAX RUNNING: 79.00
 MAX PENDING: 0.00
@@ -1003,10 +1003,12 @@ MAX PENDING: 0.00
 RUNNING history:
 03.03 03h | █ (2.0)
 03.03 14h | ████████████████████████████████████████ (79.0)
+04.03 03h | █ (3.0)
 
 PENDING history:
 03.03 03h |  (0.0)
 03.03 14h |  (0.0)
+04.03 03h |  (0.0)
 
 
 Linda (lg19a108)
