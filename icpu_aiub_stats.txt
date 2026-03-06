@@ -1,14 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-06 06:00:13
+Timestamp: 2026-03-06 07:00:11
 ================================================================================
 
-TOTAL RUNNING: 3
+TOTAL RUNNING: 155
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 153   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -50,8 +50,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.36
-Ø PENDING: 1.08
+Ø RUNNING: 8.30
+Ø PENDING: 1.07
 MAX RUNNING: 121.00
 MAX PENDING: 60.00
 
@@ -165,6 +165,7 @@ RUNNING history:
 06.03 04h | █ (4.0)
 06.03 05h | ███████████████████ (60.0)
 06.03 06h |  (2.0)
+06.03 07h |  (2.0)
 
 PENDING history:
 27.02 19h |  (0.0)
@@ -276,6 +277,7 @@ PENDING history:
 06.03 04h |  (0.0)
 06.03 05h |  (0.0)
 06.03 06h |  (0.0)
+06.03 07h |  (0.0)
 
 
 Edgar (et25m288)
@@ -370,13 +372,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.55
-Ø PENDING: 2.68
+Ø RUNNING: 33.94
+Ø PENDING: 2.71
 MAX RUNNING: 316.00
 MAX PENDING: 180.00
 
 RUNNING history:
-27.02 06h |  (1.0)
 27.02 14h | █ (13.0)
 27.02 19h | █ (11.0)
 27.02 20h |  (1.0)
@@ -462,7 +463,6 @@ RUNNING history:
 06.03 06h |  (1.0)
 
 PENDING history:
-27.02 06h |  (0.0)
 27.02 14h |  (0.0)
 27.02 19h |  (0.0)
 27.02 20h |  (0.0)
@@ -604,8 +604,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 18.61
-Ø PENDING: 2.02
+Ø RUNNING: 20.68
+Ø PENDING: 1.98
 MAX RUNNING: 156.00
 MAX PENDING: 106.00
 
@@ -674,6 +674,7 @@ RUNNING history:
 05.03 20h | █ (5.0)
 05.03 23h |  (1.0)
 06.03 02h |  (1.0)
+06.03 07h | ███████████████████████████████████████ (153.0)
 
 PENDING history:
 27.02 07h | █ (4.0)
@@ -740,6 +741,7 @@ PENDING history:
 05.03 20h |  (0.0)
 05.03 23h |  (0.0)
 06.03 02h |  (0.0)
+06.03 07h |  (0.0)
 
 
 Code (SLR) (l_code_s)
