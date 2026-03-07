@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-07T12:17:03.406542",
+  "updated": "2026-03-07T12:19:01.231887",
   "1 day solution": [
     {
       "session_id": "260610",
@@ -43,19 +43,19 @@
           "id": "003",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "FILESTAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "FILEST_P",
           "extra": "FZDM_1DR",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -118,7 +118,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 18
+      "progress": 31
     }
   ],
   "Comparison": [
@@ -131,7 +131,7 @@
   ],
   "PPP": [
     {
-      "session_id": "260580",
+      "session_id": "260600",
       "status": "running",
       "tasks": [
         {
