@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-08 21:00:10
+Timestamp: 2026-03-08 22:00:09
 ================================================================================
 
-TOTAL RUNNING: 5
-TOTAL PENDING: 0
+TOTAL RUNNING: 6
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  4   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  1
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -350,7 +351,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 34.09
+Ø RUNNING: 33.69
 Ø PENDING: 0.32
 MAX RUNNING: 316.00
 MAX PENDING: 7.00
@@ -433,6 +434,7 @@ RUNNING history:
 08.03 14h |  (2.0)
 08.03 19h | █ (9.0)
 08.03 21h |  (1.0)
+08.03 22h |  (3.0)
 
 PENDING history:
 01.03 22h |  (0.0)
@@ -512,11 +514,12 @@ PENDING history:
 08.03 14h |  (0.0)
 08.03 19h |  (0.0)
 08.03 21h |  (0.0)
+08.03 22h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.75
+Ø RUNNING: 5.52
 Ø PENDING: 0.00
 MAX RUNNING: 50.00
 MAX PENDING: 0.00
@@ -542,6 +545,7 @@ RUNNING history:
 07.03 22h |  (1.0)
 07.03 23h | ████████████████████████████████████████ (50.0)
 08.03 21h | ███ (4.0)
+08.03 22h |  (1.0)
 
 PENDING history:
 01.03 22h |  (0.0)
@@ -564,12 +568,13 @@ PENDING history:
 07.03 22h |  (0.0)
 07.03 23h |  (0.0)
 08.03 21h |  (0.0)
+08.03 22h |  (0.0)
 
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.71
-Ø PENDING: 0.28
+Ø RUNNING: 19.45
+Ø PENDING: 0.29
 MAX RUNNING: 156.00
 MAX PENDING: 7.00
 
@@ -642,6 +647,7 @@ RUNNING history:
 08.03 16h | █ (4.0)
 08.03 17h |  (3.0)
 08.03 20h |  (1.0)
+08.03 22h |  (2.0)
 
 PENDING history:
 01.03 23h |  (0.0)
@@ -712,6 +718,7 @@ PENDING history:
 08.03 16h |  (0.0)
 08.03 17h |  (0.0)
 08.03 20h |  (0.0)
+08.03 22h | █████ (1.0)
 
 
 Code (SLR) (l_code_s)
