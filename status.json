@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08T07:00:01.751336",
+  "updated": "2026-03-08T07:01:01.550976",
   "1 day solution": [
     {
       "session_id": "260620",
@@ -681,7 +681,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 81
     }
   ],
   "3 day solution": [
@@ -1031,10 +1031,83 @@
   ],
   "Comparison": [
     {
-      "session_id": "260610",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260620",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "001",
+          "name": "CMP_COP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "101",
+          "name": "CMP_ERPDIFF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "STDDIF",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "301",
+          "name": "CMP_CLKDIFF",
+          "extra": "NO_OPT",
+          "status": "skipped"
+        },
+        {
+          "id": "401",
+          "name": "ORBCMPL",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "501",
+          "name": "COMPAR2",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "601",
+          "name": "HELMR1",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "701",
+          "name": "STDELEL",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "801",
+          "name": "CMP_SUM",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "901",
+          "name": "DEL_CMP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 0
     }
   ],
   "PPP": [
