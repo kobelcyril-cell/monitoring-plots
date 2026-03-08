@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08T13:20:01.199574",
+  "updated": "2026-03-08T13:22:01.965898",
   "1 day solution": [
     {
       "session_id": "260620",
@@ -34,26 +34,26 @@
   ],
   "PPP": [
     {
-      "session_id": "260580",
+      "session_id": "260610",
       "status": "running",
       "tasks": [
         {
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "001",
           "name": "PREP_PPP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "TIMESTAP_PPP",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "011",
@@ -80,7 +80,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
+      "progress": 28
     }
   ],
   "Station Network test": [
