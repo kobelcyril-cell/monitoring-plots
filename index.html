@@ -214,6 +214,17 @@ h1, h2 {
 <h2>Live Process Monitor</h2>
 <div id="monitor-container"></div>
 
+<!-- ===== Latest PROCESSING Logs ===== -->
+<h2>Latest PROCESSING Logs</h2>
+<div id="logs-container" style="
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+">
+</div>
+
 <!-- ===== Current Queue ===== -->
 <h2>Current Queue</h2>
 <div id="sq-container"
@@ -243,8 +254,7 @@ h1, h2 {
 
 <!-- ===== Satellite Clock Completeness ===== -->
 <h2>Satellite Clock Completeness</h2>
-<div id="satclk-container" class="plots-container"></div>
-
+<div id="satclk-accordion" style="margin-bottom: 30px;"></div>
 
 <!-- ===== CMP LAPACK Summary Table ===== -->
 <h2>CMP LAPACK Summary Table</h2>
@@ -268,6 +278,7 @@ h1, h2 {
 <script src="ppp_list.js"></script>
 <script src="runtime_list.js"></script>
 <script src="completion_list.js"></script>
+<script src="logs/latest_logs.js"></script>
 
 <script>
 function renderPlots(id, arr, folder) {
@@ -486,22 +497,89 @@ setInterval(updateLapackTable, 30000);
 
 <script src="satclk_list.js"></script>
 <script>
-const container = document.getElementById("satclk-container");
+const acc = document.getElementById("satclk-accordion");
 
-satclk_files.forEach(fn => {
-    const d = document.createElement("div");
-    d.className = "plot"; // nutzt das gleiche Layout wie die Plots
+// Sortiere Dateien absteigend (neueste oben)
+satclk_files.sort().reverse().forEach(fn => {
+    const panel = document.createElement("div");
+    panel.style.marginBottom = "6px";
 
-    const link = document.createElement("a");
-    link.href = "satclk/" + fn; // Pfad zu den TXT-Dateien im Git-Ordner
-    link.target = "_blank";     // öffnet die Datei in neuem Tab
-    link.textContent = fn;      // sichtbarer Name der Datei
+    // Header-Button
+    const header = document.createElement("button");
+    header.textContent = fn;
+    header.style.width = "100%";
+    header.style.background = "#1e1e1e";
+    header.style.color = "#e0e0e0";
+    header.style.padding = "10px 14px";
+    header.style.border = "none";
+    header.style.borderRadius = "8px";
+    header.style.cursor = "pointer";
+    header.style.textAlign = "left";
+    header.style.fontFamily = "Arial, sans-serif";
+    header.style.fontSize = "0.9em";
+    header.style.transition = "background 0.3s";
 
-    d.appendChild(link);
-    container.appendChild(d);
+    header.addEventListener("mouseenter", () => { header.style.background = "#2a2a2a"; });
+    header.addEventListener("mouseleave", () => { header.style.background = "#1e1e1e"; });
+
+    // Body-Container
+    const body = document.createElement("pre");
+    body.style.display = "none";
+    body.style.background = "#121212";
+    body.style.padding = "10px";
+    body.style.borderRadius = "6px";
+    body.style.maxHeight = "300px";
+    body.style.overflow = "auto";
+    body.style.fontFamily = "monospace";
+    body.style.fontSize = "0.85em";
+    body.style.marginTop = "4px";
+
+    // Klick öffnet/schließt das Panel und lädt die Datei
+    header.addEventListener("click", () => {
+        if (body.style.display === "none") {
+            fetch("satclk/" + fn + "?ts=" + Date.now())
+                .then(r => r.text())
+                .then(txt => body.textContent = txt)
+                .catch(() => body.textContent = "Unable to load " + fn);
+            body.style.display = "block";
+        } else {
+            body.style.display = "none";
+        }
+    });
+
+    panel.appendChild(header);
+    panel.appendChild(body);
+    acc.appendChild(panel);
 });
 </script>
 
+<script>
+const logsContainer = document.getElementById("logs-container");
+logsContainer.innerHTML = "";
+
+// Für jeden Logfile eine scrollbare Box erstellen
+latest_logs.forEach(fn => {
+    const logDiv = document.createElement("div");
+    logDiv.style.minWidth = "420px";
+    logDiv.style.background = "#1e1e1e";
+    logDiv.style.padding = "12px";
+    logDiv.style.borderRadius = "12px";
+    logDiv.style.boxShadow = "0 4px 8px rgba(0,0,0,0.6)";
+    logDiv.style.fontFamily = "monospace";
+    logDiv.style.fontSize = "0.85em";
+    logDiv.style.maxHeight = "400px";
+    logDiv.style.overflow = "auto";
+    logDiv.style.whiteSpace = "pre";
+
+    // Lade den Inhalt des Logs per fetch
+    fetch("logs/latest/" + fn + "?ts=" + Date.now())
+        .then(resp => resp.text())
+        .then(text => logDiv.textContent = text)
+        .catch(() => logDiv.textContent = "Unable to load " + fn);
+
+    logsContainer.appendChild(logDiv);
+});
+</script>
 
 </body>
 </html>
