@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T09:56:01.919841",
+  "updated": "2026-03-09T09:58:03.108835",
   "1 day solution": [
     {
       "session_id": "260630",
@@ -783,31 +783,31 @@
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "165",
           "name": "OBSXTR",
           "extra": "FZDM_SUM",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "166",
           "name": "OBSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "167",
           "name": "AMB_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "168",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 94
+      "progress": 97
     }
   ],
   "3 day solution": [
@@ -1112,7 +1112,7 @@
   ],
   "PPP": [
     {
-      "session_id": "260620",
+      "session_id": "260580",
       "status": "running",
       "tasks": [
         {
