@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T13:46:01.971075",
+  "updated": "2026-03-09T13:48:03.986798",
   "1 day solution": [
     {
       "session_id": "260630",
@@ -103,10 +103,107 @@
   ],
   "Clock densification": [
     {
-      "session_id": "260620",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "260580",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 6
     }
   ],
   "Comparison": [
@@ -125,20 +222,20 @@
   ],
   "PPP": [
     {
-      "session_id": "260580",
+      "session_id": "260530",
       "status": "running",
       "tasks": [
         {
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "001",
           "name": "PREP_PPP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "010",
@@ -171,7 +268,105 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
+      "progress": 14
+    },
+    {
+      "session_id": "260540",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "PREP_PPP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "010",
+          "name": "TIMESTAP_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "TIMEST_P_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 14
+    },
+    {
+      "session_id": "260550",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "PREP_PPP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "010",
+          "name": "TIMESTAP_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "TIMEST_P_PPP",
+          "extra": "PPP_KIN",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_PPP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 14
     }
   ]
 }
