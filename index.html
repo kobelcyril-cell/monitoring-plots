@@ -518,7 +518,7 @@ dropdownWrapper.style.position = "relative";
 
 // Dropdown-Button
 const dropdownButton = document.createElement("button");
-dropdownButton.textContent = "Select SATCLK file...";
+dropdownButton.textContent = "Select file...";
 dropdownButton.style.width = "100%";
 dropdownButton.style.padding = "10px 14px";
 dropdownButton.style.background = "#1e1e1e";
@@ -606,47 +606,47 @@ container.appendChild(dropdownWrapper);
 const logsContainer = document.getElementById("logs-container");
 logsContainer.innerHTML = "";
 
-// Hilfsfunktion: yyddd → Datum
-function yydddToDate(yyddd) {
-    const yy = parseInt(yyddd.slice(0,2));
-    const ddd = parseInt(yyddd.slice(2,5));
-    const year = 2000 + yy;
-    const date = new Date(year, 0); // 1. Jan
-    date.setDate(ddd);
-    return date.toLocaleDateString(); // lokal formatiert
-}
-
 // Für jeden Logfile eine scrollbare Box erstellen
 latest_logs.forEach(fn => {
-    const logDiv = document.createElement("div");
-    logDiv.style.minWidth = "420px";
-    logDiv.style.background = "#1e1e1e";
-    logDiv.style.padding = "12px";
-    logDiv.style.borderRadius = "12px";
-    logDiv.style.boxShadow = "0 4px 8px rgba(0,0,0,0.6)";
-    logDiv.style.fontFamily = "monospace";
-    logDiv.style.fontSize = "0.85em";
-    logDiv.style.maxHeight = "400px";
-    logDiv.style.overflow = "auto";
-    logDiv.style.whiteSpace = "pre";
-    logDiv.style.marginBottom = "14px";
+    const wrapper = document.createElement("div");
+    wrapper.style.minWidth = "420px";
+    wrapper.style.background = "#1e1e1e";
+    wrapper.style.padding = "12px";
+    wrapper.style.borderRadius = "12px";
+    wrapper.style.boxShadow = "0 4px 8px rgba(0,0,0,0.6)";
+    wrapper.style.fontFamily = "monospace";
+    wrapper.style.fontSize = "0.85em";
+    wrapper.style.maxHeight = "400px";
+    wrapper.style.overflow = "hidden";
+    wrapper.style.display = "flex";
+    wrapper.style.flexDirection = "column";
+    wrapper.style.marginBottom = "14px";
 
-    // Header über dem Log
-    const header = document.createElement("div");
-    header.style.fontWeight = "bold";
-    header.style.marginBottom = "6px";
-    header.style.color = "#e0e0e0";
-
-    // Datei-Name → Tag
+    // Datum über der Log-Datei anzeigen
+    const dateDiv = document.createElement("div");
     const match = fn.match(/PROCESSING_(\d{5})/);
     if (match) {
-        const dateStr = match[1]; // yyddd
-        header.textContent = `Processing Log for ${yydddToDate(dateStr)}`;
+        const yy = parseInt(match[1].slice(0,2));
+        const ddd = parseInt(match[1].slice(2,5));
+        const year = 2000 + yy;
+        const date = new Date(year, 0); // 1. Jan
+        date.setDate(ddd);
+        dateDiv.textContent = date.toLocaleDateString();
     } else {
-        header.textContent = fn;
+        dateDiv.textContent = fn;
     }
+    dateDiv.style.fontWeight = "bold";
+    dateDiv.style.marginBottom = "6px";
+    dateDiv.style.color = "#e0e0e0";
 
-    logsContainer.appendChild(header);
+    // Scrollbarer Inhalt
+    const logDiv = document.createElement("pre");
+    logDiv.style.flex = "1";
+    logDiv.style.overflow = "auto";
+    logDiv.style.whiteSpace = "pre";
+    logDiv.style.margin = "0";
+    logDiv.style.background = "none";
+    logDiv.style.padding = "0";
 
     // Lade den Inhalt des Logs per fetch
     fetch("logs/latest/" + fn + "?ts=" + Date.now())
@@ -654,7 +654,9 @@ latest_logs.forEach(fn => {
         .then(text => logDiv.textContent = text)
         .catch(() => logDiv.textContent = "Unable to load " + fn);
 
-    logsContainer.appendChild(logDiv);
+    wrapper.appendChild(dateDiv);
+    wrapper.appendChild(logDiv);
+    logsContainer.appendChild(wrapper);
 });
 </script>
 
