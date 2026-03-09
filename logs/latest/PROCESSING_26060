@@ -1,0 +1,61 @@
+==== NUMBER OF STATIONS ====
+Number of observation files: 318
+=========================
+
+=== CHECK_OBSENTRIES started ===
+Found 1836 station entries in IGC20.CRD.
+Found 318 observation files in RAW.
+Deleted 0 files without matching entries.
+=== CHECK_OBSENTRIES finished ===
+
+=== CHECK_SAT_GAPS started ===
+Checking file: SMT260600.SMC
+→ Data gap detected for satellite 128
+Detected data gaps for 1 satellites.
+=== CHECK_SAT_GAPS finished ===
+
+=== CHECK_SAT_RMS started ===
+Checking file: ORBGEN_APR0600.OUT
+No satellites with RMS > 5.0 m or invalid RMS detected.
+=== CHECK_SAT_RMS finished ===
+==== DELETE LARGE OBS FILES ====
+CODXTR file: /storage/research/aiub_u_camp/CK_ZDGNSS/OUT/CODXTR.26_0600
+Timestamp  : Thu Mar  5 23:31:17 2026
+No stations with >50% bad observations found.
+Total deleted files: 0
+=========================
+
+=== CHECK_AR_SAT started ===
+Ambiguity Resolution fine for all satellites.
+=== CHECK_AR_SAT finished ===
+==== GPSXTR STATISTICS ====
+       RMS       #FIL         #OBS         #PAR
+------------------------------------------------------
+     1.010        628      4061068       142665
+==============================================
+==== OBSXTR STATISTICS ====
+Sys   sat         total       usable        bad
+-----------------------------------------------
+GPS   32        8980976      8743302       2.6%
+GLO   22        5642934      5468321       3.1%
+GAL   30        7004749      6340197       9.5%
+tot   84       21628659     20551820       5.0%
+==============================================
+==== Ambiguity resolution statistics ====
+Total   %       SYS     AMB                 
+-------------------------------------------------------------
+314     95.6    G       AR_WL               
+275     96.1    E       AR_WL               
+314     95.8    G E     AR_WL               
+314     83.6    G       AR_NL               
+275     86.4    E       AR_NL               
+314     84.6    G E     AR_NL               
+314     86.8    G       AR_NLR              
+275     89.2    E       AR_NLR              
+314     87.7    G E     AR_NLR              
+=============================================================
+=========================
+==== DELETED PROCESSING FILES ====
+Timestamp  : Fri Mar 06 09:49:43 2026
+Total deleted files: 10454
+=========================
