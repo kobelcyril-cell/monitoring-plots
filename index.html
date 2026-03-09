@@ -497,60 +497,109 @@ setInterval(updateLapackTable, 30000);
 
 <script src="satclk_list.js"></script>
 <script>
-const acc = document.getElementById("satclk-accordion");
+// Hilfsfunktion: yyddd -> Datum
+function yydddToDate(yyddd) {
+    const yy = parseInt(yyddd.slice(0,2));
+    const ddd = parseInt(yyddd.slice(2,5));
+    const year = 2000 + yy;
+    const date = new Date(year, 0); // 1. Jan
+    date.setDate(ddd);
+    return date.toLocaleDateString();
+}
 
-// Sortiere Dateien absteigend (neueste oben)
+const container = document.getElementById("satclk-accordion");
+
+// Dropdown-Wrapper
+const dropdownWrapper = document.createElement("div");
+dropdownWrapper.style.width = "100%";
+dropdownWrapper.style.maxWidth = "500px";
+dropdownWrapper.style.margin = "0 auto";
+dropdownWrapper.style.position = "relative";
+
+// Dropdown-Button
+const dropdownButton = document.createElement("button");
+dropdownButton.textContent = "Select SATCLK file...";
+dropdownButton.style.width = "100%";
+dropdownButton.style.padding = "10px 14px";
+dropdownButton.style.background = "#1e1e1e";
+dropdownButton.style.color = "#e0e0e0";
+dropdownButton.style.border = "none";
+dropdownButton.style.borderRadius = "8px";
+dropdownButton.style.cursor = "pointer";
+dropdownButton.style.textAlign = "left";
+dropdownButton.style.fontFamily = "Arial, sans-serif";
+dropdownButton.style.fontSize = "0.9em";
+
+dropdownWrapper.appendChild(dropdownButton);
+
+// Dropdown-Content
+const dropdownContent = document.createElement("div");
+dropdownContent.style.display = "none";
+dropdownContent.style.position = "absolute";
+dropdownContent.style.background = "#121212";
+dropdownContent.style.width = "100%";
+dropdownContent.style.maxHeight = "300px";
+dropdownContent.style.overflowY = "auto";
+dropdownContent.style.borderRadius = "6px";
+dropdownContent.style.boxShadow = "0 4px 10px rgba(0,0,0,0.6)";
+dropdownContent.style.marginTop = "4px";
+dropdownWrapper.appendChild(dropdownContent);
+
+// Klick auf Button: Dropdown anzeigen/ausblenden
+dropdownButton.addEventListener("click", () => {
+    dropdownContent.style.display = dropdownContent.style.display === "none" ? "block" : "none";
+});
+
+// Dateien einfügen
 satclk_files.sort().reverse().forEach(fn => {
-    const panel = document.createElement("div");
-    panel.style.marginBottom = "6px";
+    const fileButton = document.createElement("button");
+    const match = fn.match(/(\d{5})/);
+    const dateStr = match ? yydddToDate(match[1]) : "";
+    fileButton.textContent = `${dateStr} - ${fn}`;
+    fileButton.style.display = "block";
+    fileButton.style.width = "100%";
+    fileButton.style.padding = "6px 10px";
+    fileButton.style.background = "none";
+    fileButton.style.color = "#e0e0e0";
+    fileButton.style.border = "none";
+    fileButton.style.textAlign = "left";
+    fileButton.style.cursor = "pointer";
+    fileButton.style.fontFamily = "monospace";
+    fileButton.style.fontSize = "0.85em";
 
-    // Header-Button
-    const header = document.createElement("button");
-    header.textContent = fn;
-    header.style.width = "100%";
-    header.style.background = "#1e1e1e";
-    header.style.color = "#e0e0e0";
-    header.style.padding = "10px 14px";
-    header.style.border = "none";
-    header.style.borderRadius = "8px";
-    header.style.cursor = "pointer";
-    header.style.textAlign = "left";
-    header.style.fontFamily = "Arial, sans-serif";
-    header.style.fontSize = "0.9em";
-    header.style.transition = "background 0.3s";
+    // Hover-Effekt
+    fileButton.addEventListener("mouseenter", () => fileButton.style.background = "#2a2a2a");
+    fileButton.addEventListener("mouseleave", () => fileButton.style.background = "none");
 
-    header.addEventListener("mouseenter", () => { header.style.background = "#2a2a2a"; });
-    header.addEventListener("mouseleave", () => { header.style.background = "#1e1e1e"; });
+    // Klick: Datei anzeigen unter dem Dropdown
+    fileButton.addEventListener("click", () => {
+        // Entferne vorherige Inhalte
+        const oldPre = container.querySelector("pre");
+        if (oldPre) oldPre.remove();
 
-    // Body-Container
-    const body = document.createElement("pre");
-    body.style.display = "none";
-    body.style.background = "#121212";
-    body.style.padding = "10px";
-    body.style.borderRadius = "6px";
-    body.style.maxHeight = "300px";
-    body.style.overflow = "auto";
-    body.style.fontFamily = "monospace";
-    body.style.fontSize = "0.85em";
-    body.style.marginTop = "4px";
+        const pre = document.createElement("pre");
+        pre.style.background = "#121212";
+        pre.style.padding = "10px";
+        pre.style.borderRadius = "6px";
+        pre.style.maxHeight = "400px";
+        pre.style.overflow = "auto";
+        pre.style.fontFamily = "monospace";
+        pre.style.fontSize = "0.85em";
 
-    // Klick öffnet/schließt das Panel und lädt die Datei
-    header.addEventListener("click", () => {
-        if (body.style.display === "none") {
-            fetch("satclk/" + fn + "?ts=" + Date.now())
-                .then(r => r.text())
-                .then(txt => body.textContent = txt)
-                .catch(() => body.textContent = "Unable to load " + fn);
-            body.style.display = "block";
-        } else {
-            body.style.display = "none";
-        }
+        fetch("satclk/" + fn + "?ts=" + Date.now())
+            .then(r => r.text())
+            .then(txt => pre.textContent = txt)
+            .catch(() => pre.textContent = "Unable to load " + fn);
+
+        container.appendChild(pre);
+        dropdownContent.style.display = "none"; // Dropdown schließen
+        dropdownButton.textContent = `${dateStr} - ${fn}`; // Button aktualisieren
     });
 
-    panel.appendChild(header);
-    panel.appendChild(body);
-    acc.appendChild(panel);
+    dropdownContent.appendChild(fileButton);
 });
+
+container.appendChild(dropdownWrapper);
 </script>
 
 <script>
