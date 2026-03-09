@@ -215,7 +215,7 @@ h1, h2 {
 <div id="monitor-container"></div>
 
 <!-- ===== Latest PROCESSING Logs ===== -->
-<h2>Latest PROCESSING Logs</h2>
+<h2>Latest Processing Logs</h2>
 <div id="logs-container" style="
     display: flex;
     gap: 20px;
@@ -557,6 +557,16 @@ satclk_files.sort().reverse().forEach(fn => {
 const logsContainer = document.getElementById("logs-container");
 logsContainer.innerHTML = "";
 
+// Hilfsfunktion: yyddd → Datum
+function yydddToDate(yyddd) {
+    const yy = parseInt(yyddd.slice(0,2));
+    const ddd = parseInt(yyddd.slice(2,5));
+    const year = 2000 + yy;
+    const date = new Date(year, 0); // 1. Jan
+    date.setDate(ddd);
+    return date.toLocaleDateString(); // lokal formatiert
+}
+
 // Für jeden Logfile eine scrollbare Box erstellen
 latest_logs.forEach(fn => {
     const logDiv = document.createElement("div");
@@ -570,6 +580,24 @@ latest_logs.forEach(fn => {
     logDiv.style.maxHeight = "400px";
     logDiv.style.overflow = "auto";
     logDiv.style.whiteSpace = "pre";
+    logDiv.style.marginBottom = "14px";
+
+    // Header über dem Log
+    const header = document.createElement("div");
+    header.style.fontWeight = "bold";
+    header.style.marginBottom = "6px";
+    header.style.color = "#e0e0e0";
+
+    // Datei-Name → Tag
+    const match = fn.match(/PROCESSING_(\d{5})/);
+    if (match) {
+        const dateStr = match[1]; // yyddd
+        header.textContent = `Processing Log for ${yydddToDate(dateStr)}`;
+    } else {
+        header.textContent = fn;
+    }
+
+    logsContainer.appendChild(header);
 
     // Lade den Inhalt des Logs per fetch
     fetch("logs/latest/" + fn + "?ts=" + Date.now())
