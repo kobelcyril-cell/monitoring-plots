@@ -1,16 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-11 21:00:12
+Timestamp: 2026-03-11 22:00:10
 ================================================================================
 
-TOTAL RUNNING: 29
+TOTAL RUNNING: 39
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Elmar        (eb23z835  )  RUNNING:  4   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 19   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  4   PENDING:  0
+Elmar        (eb23z835  )  RUNNING: 32   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -18,7 +18,7 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.59
+Ø RUNNING: 8.52
 Ø PENDING: 0.05
 MAX RUNNING: 121.00
 MAX PENDING: 5.00
@@ -128,6 +128,7 @@ RUNNING history:
 11.03 19h | █ (4.0)
 11.03 20h |  (1.0)
 11.03 21h |  (2.0)
+11.03 22h |  (2.0)
 
 PENDING history:
 04.03 22h |  (0.0)
@@ -234,11 +235,12 @@ PENDING history:
 11.03 19h |  (0.0)
 11.03 20h |  (0.0)
 11.03 21h |  (0.0)
+11.03 22h |  (0.0)
 
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.12
+Ø RUNNING: 12.28
 Ø PENDING: 0.00
 MAX RUNNING: 126.00
 MAX PENDING: 0.00
@@ -261,6 +263,7 @@ RUNNING history:
 11.03 19h | █ (6.0)
 11.03 20h | █ (5.0)
 11.03 21h | █ (4.0)
+11.03 22h | ██████████ (32.0)
 
 PENDING history:
 06.03 12h |  (0.0)
@@ -280,6 +283,7 @@ PENDING history:
 11.03 19h |  (0.0)
 11.03 20h |  (0.0)
 11.03 21h |  (0.0)
+11.03 22h |  (0.0)
 
 
 Code (l_code)
@@ -298,7 +302,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.16
+Ø RUNNING: 32.80
 Ø PENDING: 0.39
 MAX RUNNING: 316.00
 MAX PENDING: 7.00
@@ -383,6 +387,7 @@ RUNNING history:
 11.03 16h |  (1.0)
 11.03 19h | ██ (19.0)
 11.03 21h | ██ (19.0)
+11.03 22h |  (4.0)
 
 PENDING history:
 04.03 22h |  (0.0)
@@ -464,11 +469,12 @@ PENDING history:
 11.03 16h |  (0.0)
 11.03 19h |  (0.0)
 11.03 21h |  (0.0)
+11.03 22h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 10.88
+Ø RUNNING: 10.58
 Ø PENDING: 0.00
 MAX RUNNING: 52.00
 MAX PENDING: 0.00
@@ -506,6 +512,7 @@ RUNNING history:
 10.03 23h |  (1.0)
 11.03 11h |  (1.0)
 11.03 21h | ███ (4.0)
+11.03 22h |  (1.0)
 
 PENDING history:
 04.03 22h |  (0.0)
@@ -540,6 +547,7 @@ PENDING history:
 10.03 23h |  (0.0)
 11.03 11h |  (0.0)
 11.03 21h |  (0.0)
+11.03 22h |  (0.0)
 
 
 Code (rapid) (l_code_r)
