@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-12 06:00:14
+Timestamp: 2026-03-12 07:00:15
 ================================================================================
 
-TOTAL RUNNING: 10
-TOTAL PENDING: 1
+TOTAL RUNNING: 8
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  5   PENDING:  0
-Elmar        (eb23z835  )  RUNNING:  4   PENDING:  1
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Elmar        (eb23z835  )  RUNNING:  5   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -237,8 +236,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.92
-Ø PENDING: 0.08
+Ø RUNNING: 11.67
+Ø PENDING: 0.07
 MAX RUNNING: 126.00
 MAX PENDING: 1.00
 
@@ -269,6 +268,7 @@ RUNNING history:
 12.03 04h |  (2.0)
 12.03 05h | █████████████ (42.0)
 12.03 06h | █ (4.0)
+12.03 07h | █ (5.0)
 
 PENDING history:
 06.03 12h |  (0.0)
@@ -297,6 +297,7 @@ PENDING history:
 12.03 04h |  (0.0)
 12.03 05h | ████████████████████████████████████████ (1.0)
 12.03 06h | ████████████████████████████████████████ (1.0)
+12.03 07h |  (0.0)
 
 
 Code (l_code)
@@ -561,13 +562,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.14
+Ø RUNNING: 20.77
 Ø PENDING: 0.28
 MAX RUNNING: 157.00
 MAX PENDING: 5.00
 
 RUNNING history:
-05.03 07h | █████████████████████████ (100.0)
 05.03 08h |  (1.0)
 05.03 09h | █ (4.0)
 05.03 10h | ████ (18.0)
@@ -638,9 +638,9 @@ RUNNING history:
 11.03 16h | ██ (11.0)
 11.03 23h |  (2.0)
 12.03 02h |  (1.0)
+12.03 07h |  (3.0)
 
 PENDING history:
-05.03 07h |  (0.0)
 05.03 08h |  (0.0)
 05.03 09h |  (0.0)
 05.03 10h |  (0.0)
@@ -711,6 +711,7 @@ PENDING history:
 11.03 16h |  (0.0)
 11.03 23h |  (0.0)
 12.03 02h |  (0.0)
+12.03 07h |  (0.0)
 
 
 Code (SLR) (l_code_s)
