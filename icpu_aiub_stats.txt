@@ -1,16 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-12 02:00:10
+Timestamp: 2026-03-12 03:00:12
 ================================================================================
 
-TOTAL RUNNING: 127
+TOTAL RUNNING: 311
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Elmar        (eb23z835  )  RUNNING:  5   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 119   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
+Elmar        (eb23z835  )  RUNNING:  6   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 299   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -18,14 +18,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 7.95
+Ø RUNNING: 8.03
 Ø PENDING: 0.05
 MAX RUNNING: 121.00
 MAX PENDING: 5.00
 
 RUNNING history:
-05.03 02h |  (2.0)
-05.03 03h |  (2.0)
 05.03 04h | █ (4.0)
 05.03 09h |  (1.0)
 05.03 10h |  (1.0)
@@ -129,10 +127,9 @@ RUNNING history:
 12.03 00h |  (1.0)
 12.03 01h |  (2.0)
 12.03 02h |  (2.0)
+12.03 03h | █ (4.0)
 
 PENDING history:
-05.03 02h |  (0.0)
-05.03 03h |  (0.0)
 05.03 04h |  (0.0)
 05.03 09h |  (0.0)
 05.03 10h |  (0.0)
@@ -236,11 +233,12 @@ PENDING history:
 12.03 00h |  (0.0)
 12.03 01h |  (0.0)
 12.03 02h |  (0.0)
+12.03 03h |  (0.0)
 
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.64
+Ø RUNNING: 11.39
 Ø PENDING: 0.00
 MAX RUNNING: 126.00
 MAX PENDING: 0.00
@@ -268,6 +266,7 @@ RUNNING history:
 12.03 00h | █████ (18.0)
 12.03 01h | ██ (8.0)
 12.03 02h | █ (5.0)
+12.03 03h | █ (6.0)
 
 PENDING history:
 06.03 12h |  (0.0)
@@ -292,6 +291,7 @@ PENDING history:
 12.03 00h |  (0.0)
 12.03 01h |  (0.0)
 12.03 02h |  (0.0)
+12.03 03h |  (0.0)
 
 
 Code (l_code)
@@ -310,13 +310,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 31.73
-Ø PENDING: 0.39
+Ø RUNNING: 33.98
+Ø PENDING: 0.38
 MAX RUNNING: 302.00
 MAX PENDING: 7.00
 
 RUNNING history:
-05.03 03h | ███████████████ (119.0)
 05.03 04h | ███████████████████████████████████████ (298.0)
 05.03 05h |  (2.0)
 05.03 06h |  (1.0)
@@ -396,9 +395,9 @@ RUNNING history:
 12.03 00h |  (5.0)
 12.03 01h | ███████████████ (116.0)
 12.03 02h | ███████████████ (119.0)
+12.03 03h | ███████████████████████████████████████ (299.0)
 
 PENDING history:
-05.03 03h | █████ (1.0)
 05.03 04h | ███████████ (2.0)
 05.03 05h |  (0.0)
 05.03 06h |  (0.0)
@@ -478,6 +477,7 @@ PENDING history:
 12.03 00h |  (0.0)
 12.03 01h |  (0.0)
 12.03 02h |  (0.0)
+12.03 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -558,13 +558,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 21.86
+Ø RUNNING: 22.14
 Ø PENDING: 0.28
 MAX RUNNING: 157.00
 MAX PENDING: 5.00
 
 RUNNING history:
-05.03 02h |  (2.0)
 05.03 07h | █████████████████████████ (100.0)
 05.03 08h |  (1.0)
 05.03 09h | █ (4.0)
@@ -638,7 +637,6 @@ RUNNING history:
 12.03 02h |  (1.0)
 
 PENDING history:
-05.03 02h |  (0.0)
 05.03 07h |  (0.0)
 05.03 08h |  (0.0)
 05.03 09h |  (0.0)
@@ -906,7 +904,7 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.83
+Ø RUNNING: 1.86
 Ø PENDING: 0.00
 MAX RUNNING: 3.00
 MAX PENDING: 0.00
@@ -918,6 +916,7 @@ RUNNING history:
 09.03 03h | ████████████████████████████████████████ (3.0)
 10.03 03h | █████████████ (1.0)
 11.03 03h | ████████████████████████████████████████ (3.0)
+12.03 03h | ██████████████████████████ (2.0)
 
 PENDING history:
 06.03 03h |  (0.0)
@@ -926,6 +925,7 @@ PENDING history:
 09.03 03h |  (0.0)
 10.03 03h |  (0.0)
 11.03 03h |  (0.0)
+12.03 03h |  (0.0)
 
 
 Linda (lg19a108)
