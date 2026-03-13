@@ -1,14 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-13 18:00:10
+Timestamp: 2026-03-13 19:00:25
 ================================================================================
 
-TOTAL RUNNING: 2
-TOTAL PENDING: 0
+TOTAL RUNNING: 84
+TOTAL PENDING: 4
 
 Per User:
 --------------------------------------------------------------------------------
-Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
-Linda        (lg19a108  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 83   PENDING:  4
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -16,7 +16,7 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 7.45
+Ø RUNNING: 7.38
 Ø PENDING: 0.05
 MAX RUNNING: 122.00
 MAX PENDING: 5.00
@@ -115,6 +115,7 @@ RUNNING history:
 13.03 06h | ██ (8.0)
 13.03 07h | █ (5.0)
 13.03 09h |  (1.0)
+13.03 19h |  (1.0)
 
 PENDING history:
 07.03 00h |  (0.0)
@@ -210,17 +211,17 @@ PENDING history:
 13.03 06h |  (0.0)
 13.03 07h |  (0.0)
 13.03 09h |  (0.0)
+13.03 19h |  (0.0)
 
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 75.77
+Ø RUNNING: 77.11
 Ø PENDING: 0.18
 MAX RUNNING: 237.00
 MAX PENDING: 2.00
 
 RUNNING history:
-06.03 18h |  (1.0)
 09.03 10h |  (1.0)
 09.03 11h |  (4.0)
 09.03 12h |  (3.0)
@@ -279,7 +280,6 @@ RUNNING history:
 13.03 17h |  (1.0)
 
 PENDING history:
-06.03 18h |  (0.0)
 09.03 10h |  (0.0)
 09.03 11h |  (0.0)
 09.03 12h |  (0.0)
@@ -356,13 +356,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 32.08
+Ø RUNNING: 32.66
 Ø PENDING: 0.34
 MAX RUNNING: 302.00
 MAX PENDING: 7.00
 
 RUNNING history:
-06.03 19h | ████ (37.0)
 06.03 21h | ██ (19.0)
 06.03 22h |  (4.0)
 06.03 23h |  (6.0)
@@ -441,9 +440,9 @@ RUNNING history:
 13.03 05h |  (2.0)
 13.03 06h |  (1.0)
 13.03 14h |  (4.0)
+13.03 19h | ██████████ (83.0)
 
 PENDING history:
-06.03 19h | ██████████████████████ (4.0)
 06.03 21h |  (0.0)
 06.03 22h |  (0.0)
 06.03 23h |  (0.0)
@@ -522,6 +521,7 @@ PENDING history:
 13.03 05h |  (0.0)
 13.03 06h |  (0.0)
 13.03 14h |  (0.0)
+13.03 19h | ██████████████████████ (4.0)
 
 
 l_code_m (l_code_m)
@@ -748,14 +748,12 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.61
+Ø RUNNING: 2.68
 Ø PENDING: 0.00
 MAX RUNNING: 9.00
 MAX PENDING: 0.00
 
 RUNNING history:
-06.03 18h | ████ (1.0)
-06.03 19h | ████ (1.0)
 06.03 20h | ████████ (2.0)
 06.03 23h | ████ (1.0)
 07.03 00h | ███████████████████████████████ (7.0)
@@ -802,8 +800,6 @@ RUNNING history:
 13.03 18h | ████ (1.0)
 
 PENDING history:
-06.03 18h |  (0.0)
-06.03 19h |  (0.0)
 06.03 20h |  (0.0)
 06.03 23h |  (0.0)
 07.03 00h |  (0.0)
