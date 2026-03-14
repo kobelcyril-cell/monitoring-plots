@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-14 06:00:14
+Timestamp: 2026-03-14 07:00:13
 ================================================================================
 
-TOTAL RUNNING: 43
+TOTAL RUNNING: 146
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  3   PENDING:  0
-Elmar        (eb23z835  )  RUNNING: 39   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Elmar        (eb23z835  )  RUNNING: 22   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 124   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -223,8 +222,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 85.92
-Ø PENDING: 0.64
+Ø RUNNING: 84.97
+Ø PENDING: 0.63
 MAX RUNNING: 342.00
 MAX PENDING: 31.00
 
@@ -295,6 +294,7 @@ RUNNING history:
 14.03 04h | ████████████████████████████████████████ (342.0)
 14.03 05h | ████ (38.0)
 14.03 06h | ████ (39.0)
+14.03 07h | ██ (22.0)
 
 PENDING history:
 09.03 10h |  (0.0)
@@ -363,6 +363,7 @@ PENDING history:
 14.03 04h |  (0.0)
 14.03 05h |  (0.0)
 14.03 06h |  (0.0)
+14.03 07h |  (0.0)
 
 
 Code (l_code)
@@ -629,8 +630,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.73
-Ø PENDING: 0.27
+Ø RUNNING: 26.19
+Ø PENDING: 0.26
 MAX RUNNING: 157.00
 MAX PENDING: 5.00
 
@@ -702,6 +703,7 @@ RUNNING history:
 13.03 20h |  (1.0)
 13.03 23h |  (3.0)
 14.03 02h |  (2.0)
+14.03 07h | ███████████████████████████████ (124.0)
 
 PENDING history:
 07.03 07h | ████████ (1.0)
@@ -771,6 +773,7 @@ PENDING history:
 13.03 20h |  (0.0)
 13.03 23h |  (0.0)
 14.03 02h |  (0.0)
+14.03 07h |  (0.0)
 
 
 Code (SLR) (l_code_s)
