@@ -1,13 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-14 13:00:14
+Timestamp: 2026-03-14 14:00:12
 ================================================================================
 
-TOTAL RUNNING: 41
-TOTAL PENDING: 3
+TOTAL RUNNING: 215
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Elmar        (eb23z835  )  RUNNING: 41   PENDING:  3
+Elmar        (eb23z835  )  RUNNING: 200   PENDING:  1
+Code (final) (l_code_f  )  RUNNING: 13   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -207,8 +209,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 80.22
-Ø PENDING: 0.62
+Ø RUNNING: 81.86
+Ø PENDING: 0.63
 MAX RUNNING: 342.00
 MAX PENDING: 31.00
 
@@ -285,6 +287,7 @@ RUNNING history:
 14.03 10h |  (1.0)
 14.03 12h | ██ (19.0)
 14.03 13h | ████ (41.0)
+14.03 14h | ███████████████████████ (200.0)
 
 PENDING history:
 09.03 10h |  (0.0)
@@ -359,6 +362,7 @@ PENDING history:
 14.03 10h |  (0.0)
 14.03 12h |  (0.0)
 14.03 13h | ███ (3.0)
+14.03 14h | █ (1.0)
 
 
 Code (l_code)
@@ -379,8 +383,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 35.10
-Ø PENDING: 0.29
+Ø RUNNING: 34.83
+Ø PENDING: 0.28
 MAX RUNNING: 305.00
 MAX PENDING: 7.00
 
@@ -465,6 +469,7 @@ RUNNING history:
 14.03 04h |  (1.0)
 14.03 05h |  (1.0)
 14.03 06h |  (1.0)
+14.03 14h | █ (13.0)
 
 PENDING history:
 07.03 14h |  (0.0)
@@ -547,6 +552,7 @@ PENDING history:
 14.03 04h |  (0.0)
 14.03 05h |  (0.0)
 14.03 06h |  (0.0)
+14.03 14h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -625,7 +631,7 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.53
+Ø RUNNING: 24.20
 Ø PENDING: 0.25
 MAX RUNNING: 157.00
 MAX PENDING: 5.00
@@ -699,6 +705,7 @@ RUNNING history:
 14.03 08h | █ (4.0)
 14.03 09h |  (2.0)
 14.03 12h | ██ (10.0)
+14.03 14h |  (2.0)
 
 PENDING history:
 07.03 14h |  (0.0)
@@ -769,6 +776,7 @@ PENDING history:
 14.03 08h |  (0.0)
 14.03 09h |  (0.0)
 14.03 12h |  (0.0)
+14.03 14h |  (0.0)
 
 
 Code (SLR) (l_code_s)
