@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-15 17:00:12
+Timestamp: 2026-03-15 18:00:13
 ================================================================================
 
-TOTAL RUNNING: 2
+TOTAL RUNNING: 5
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
 l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -400,7 +401,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 30.19
+Ø RUNNING: 29.82
 Ø PENDING: 0.18
 MAX RUNNING: 305.00
 MAX PENDING: 4.00
@@ -478,6 +479,7 @@ RUNNING history:
 14.03 19h | █████ (41.0)
 14.03 21h |  (5.0)
 15.03 16h | █ (14.0)
+15.03 18h |  (3.0)
 
 PENDING history:
 08.03 19h |  (0.0)
@@ -552,11 +554,12 @@ PENDING history:
 14.03 19h |  (0.0)
 14.03 21h |  (0.0)
 15.03 16h |  (0.0)
+15.03 18h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 10.97
+Ø RUNNING: 10.66
 Ø PENDING: 0.00
 MAX RUNNING: 59.00
 MAX PENDING: 0.00
@@ -593,6 +596,7 @@ RUNNING history:
 14.03 21h | ██ (4.0)
 15.03 16h | ██ (4.0)
 15.03 17h |  (1.0)
+15.03 18h |  (1.0)
 
 PENDING history:
 08.03 21h |  (0.0)
@@ -626,6 +630,7 @@ PENDING history:
 14.03 21h |  (0.0)
 15.03 16h |  (0.0)
 15.03 17h |  (0.0)
+15.03 18h |  (0.0)
 
 
 Code (rapid) (l_code_r)
@@ -772,7 +777,6 @@ MAX RUNNING: 9.00
 MAX PENDING: 0.00
 
 RUNNING history:
-08.03 18h | ████ (1.0)
 08.03 19h | ████ (1.0)
 08.03 20h | ████ (1.0)
 09.03 00h | ████████████████████████████████████████ (9.0)
@@ -815,9 +819,9 @@ RUNNING history:
 14.03 20h | ████████ (2.0)
 15.03 00h | ███████████████████████████████ (7.0)
 15.03 01h | ████████ (2.0)
+15.03 18h | ████ (1.0)
 
 PENDING history:
-08.03 18h |  (0.0)
 08.03 19h |  (0.0)
 08.03 20h |  (0.0)
 09.03 00h |  (0.0)
@@ -860,6 +864,7 @@ PENDING history:
 14.03 20h |  (0.0)
 15.03 00h |  (0.0)
 15.03 01h |  (0.0)
+15.03 18h |  (0.0)
 
 
 ggsp (l_ggsp)
