@@ -1,19 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-16 23:01:02
+Timestamp: 2026-03-17 00:00:13
 ================================================================================
 
-TOTAL RUNNING: 31
+TOTAL RUNNING: 13
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
-Code         (l_code    )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 12   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING: 10   PENDING:  0
-Linda        (lg19a108  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  6   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  6   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -39,13 +35,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.96
+Ø RUNNING: 9.21
 Ø PENDING: 0.73
 MAX RUNNING: 122.00
 MAX PENDING: 51.00
 
 RUNNING history:
-10.03 00h | ███████████████████ (60.0)
 10.03 01h |  (2.0)
 10.03 02h |  (2.0)
 10.03 03h |  (1.0)
@@ -123,9 +118,9 @@ RUNNING history:
 16.03 21h |  (2.0)
 16.03 22h |  (2.0)
 16.03 23h | █ (4.0)
+17.03 00h |  (1.0)
 
 PENDING history:
-10.03 00h |  (0.0)
 10.03 01h |  (0.0)
 10.03 02h |  (0.0)
 10.03 03h |  (0.0)
@@ -203,6 +198,7 @@ PENDING history:
 16.03 21h |  (0.0)
 16.03 22h |  (0.0)
 16.03 23h |  (0.0)
+17.03 00h |  (0.0)
 
 
 Elmar (eb23z835)
@@ -405,13 +401,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 31.57
+Ø RUNNING: 31.59
 Ø PENDING: 0.29
 MAX RUNNING: 305.00
 MAX PENDING: 5.00
 
 RUNNING history:
-10.03 00h |  (4.0)
 10.03 01h |  (4.0)
 10.03 02h | ███████████ (91.0)
 10.03 03h |  (2.0)
@@ -490,9 +485,9 @@ RUNNING history:
 16.03 21h | █ (14.0)
 16.03 22h |  (4.0)
 16.03 23h | █ (12.0)
+17.03 00h |  (6.0)
 
 PENDING history:
-10.03 00h |  (0.0)
 10.03 01h |  (0.0)
 10.03 02h |  (0.0)
 10.03 03h |  (0.0)
@@ -571,17 +566,17 @@ PENDING history:
 16.03 21h |  (0.0)
 16.03 22h |  (0.0)
 16.03 23h |  (0.0)
+17.03 00h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.30
+Ø RUNNING: 5.03
 Ø PENDING: 0.22
 MAX RUNNING: 59.00
 MAX PENDING: 1.00
 
 RUNNING history:
-10.03 00h | ███████████████████████████████████ (52.0)
 10.03 01h | ██████████████████████████████████ (51.0)
 10.03 10h | █████████ (14.0)
 10.03 11h | ██ (4.0)
@@ -620,7 +615,6 @@ RUNNING history:
 16.03 23h |  (1.0)
 
 PENDING history:
-10.03 00h |  (0.0)
 10.03 01h |  (0.0)
 10.03 10h |  (0.0)
 10.03 11h |  (0.0)
@@ -797,13 +791,12 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.46
+Ø RUNNING: 2.44
 Ø PENDING: 0.19
 MAX RUNNING: 10.00
 MAX PENDING: 3.00
 
 RUNNING history:
-10.03 00h | ████████████████████████████ (7.0)
 10.03 01h | ████████ (2.0)
 10.03 12h | ████████ (2.0)
 10.03 18h | ████ (1.0)
@@ -851,9 +844,9 @@ RUNNING history:
 16.03 21h | ████ (1.0)
 16.03 22h | ████ (1.0)
 16.03 23h | ████████████████████████████████████████ (10.0)
+17.03 00h | ████████████████████████ (6.0)
 
 PENDING history:
-10.03 00h |  (0.0)
 10.03 01h |  (0.0)
 10.03 12h |  (0.0)
 10.03 18h |  (0.0)
@@ -901,17 +894,17 @@ PENDING history:
 16.03 21h |  (0.0)
 16.03 22h |  (0.0)
 16.03 23h |  (0.0)
+17.03 00h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.86
+Ø RUNNING: 12.18
 Ø PENDING: 0.00
 MAX RUNNING: 86.00
 MAX PENDING: 0.00
 
 RUNNING history:
-10.03 00h | █ (3.0)
 10.03 01h |  (2.0)
 10.03 02h |  (2.0)
 10.03 03h | ███████████████████████████████████ (77.0)
@@ -942,7 +935,6 @@ RUNNING history:
 16.03 22h |  (2.0)
 
 PENDING history:
-10.03 00h |  (0.0)
 10.03 01h |  (0.0)
 10.03 02h |  (0.0)
 10.03 03h |  (0.0)
