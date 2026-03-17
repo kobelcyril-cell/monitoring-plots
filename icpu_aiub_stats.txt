@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-17 17:00:10
+Timestamp: 2026-03-17 18:00:12
 ================================================================================
 
-TOTAL RUNNING: 6
-TOTAL PENDING: 0
+TOTAL RUNNING: 104
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING:  4   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 102   PENDING:  1
+Linda        (lg19a108  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -776,7 +777,7 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.72
+Ø RUNNING: 2.69
 Ø PENDING: 0.18
 MAX RUNNING: 12.00
 MAX PENDING: 3.00
@@ -832,6 +833,7 @@ RUNNING history:
 17.03 11h | ███ (1.0)
 17.03 13h | ████████████████████████████████████████ (12.0)
 17.03 14h | ████████████████████ (6.0)
+17.03 18h | ███ (1.0)
 
 PENDING history:
 10.03 18h |  (0.0)
@@ -884,12 +886,13 @@ PENDING history:
 17.03 11h |  (0.0)
 17.03 13h |  (0.0)
 17.03 14h |  (0.0)
+17.03 18h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 10.22
-Ø PENDING: 0.04
+Ø RUNNING: 13.50
+Ø PENDING: 0.07
 MAX RUNNING: 111.00
 MAX PENDING: 1.00
 
@@ -921,6 +924,7 @@ RUNNING history:
 17.03 15h |  (1.0)
 17.03 16h |  (2.0)
 17.03 17h |  (2.0)
+17.03 18h | ████████████████████████████████████ (102.0)
 
 PENDING history:
 11.03 09h |  (0.0)
@@ -950,6 +954,7 @@ PENDING history:
 17.03 15h |  (0.0)
 17.03 16h |  (0.0)
 17.03 17h |  (0.0)
+17.03 18h | ████████████████████████████████████████ (1.0)
 
 
 Daniel (l_hpfaiu)
@@ -974,7 +979,7 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 35.94
+Ø RUNNING: 34.91
 Ø PENDING: 0.06
 MAX RUNNING: 429.00
 MAX PENDING: 1.00
@@ -1013,6 +1018,7 @@ RUNNING history:
 17.03 13h |  (0.0)
 17.03 14h |  (1.0)
 17.03 15h |  (1.0)
+17.03 18h |  (1.0)
 
 PENDING history:
 11.03 11h |  (0.0)
@@ -1048,6 +1054,7 @@ PENDING history:
 17.03 13h | ████████████████████████████████████████ (1.0)
 17.03 14h |  (0.0)
 17.03 15h |  (0.0)
+17.03 18h |  (0.0)
 
 
 lm20l063 (lm20l063)
