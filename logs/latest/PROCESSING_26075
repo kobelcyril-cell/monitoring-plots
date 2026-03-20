@@ -13,3 +13,14 @@ Found 1836 station entries in IGC20.CRD.
 Found 319 observation files in RAW.
 Deleted 0 files without matching entries.
 === CHECK_OBSENTRIES finished ===
+
+=== CHECK_SAT_GAPS started ===
+Checking file: SMT260750.SMC
+→ Data gap detected for satellite 128
+Detected data gaps for 1 satellites.
+=== CHECK_SAT_GAPS finished ===
+
+=== CHECK_SAT_RMS started ===
+Checking file: ORBGEN_APR0750.OUT
+No satellites with RMS > 5.0 m or invalid RMS detected.
+=== CHECK_SAT_RMS finished ===
