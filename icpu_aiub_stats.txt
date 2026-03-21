@@ -1,15 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-21 09:00:10
+Timestamp: 2026-03-21 10:00:10
 ================================================================================
 
-TOTAL RUNNING: 4
+TOTAL RUNNING: 134
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
-Martin       (ml18j210  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 119   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 12   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -49,8 +50,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.23
-Ø PENDING: 0.81
+Ø RUNNING: 9.13
+Ø PENDING: 0.80
 MAX RUNNING: 121.00
 MAX PENDING: 51.00
 
@@ -139,6 +140,7 @@ RUNNING history:
 21.03 06h |  (2.0)
 21.03 07h |  (3.0)
 21.03 08h |  (3.0)
+21.03 10h |  (1.0)
 
 PENDING history:
 14.03 19h |  (0.0)
@@ -225,17 +227,17 @@ PENDING history:
 21.03 06h |  (0.0)
 21.03 07h |  (0.0)
 21.03 08h |  (0.0)
+21.03 10h |  (0.0)
 
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 67.44
-Ø PENDING: 105.90
+Ø RUNNING: 68.90
+Ø PENDING: 108.55
 MAX RUNNING: 440.00
 MAX PENDING: 1577.00
 
 RUNNING history:
-14.03 09h |  (9.0)
 14.03 10h |  (1.0)
 14.03 12h | █ (19.0)
 14.03 13h | ███ (41.0)
@@ -278,7 +280,6 @@ RUNNING history:
 20.03 23h |  (1.0)
 
 PENDING history:
-14.03 09h |  (0.0)
 14.03 10h |  (0.0)
 14.03 12h |  (0.0)
 14.03 13h |  (3.0)
@@ -369,8 +370,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 26.45
-Ø PENDING: 0.55
+Ø RUNNING: 27.84
+Ø PENDING: 0.54
 MAX RUNNING: 300.00
 MAX PENDING: 12.00
 
@@ -441,6 +442,7 @@ RUNNING history:
 21.03 00h |  (5.0)
 21.03 01h | █ (13.0)
 21.03 02h | ██ (19.0)
+21.03 10h | ███████████████ (119.0)
 
 PENDING history:
 14.03 14h |  (0.0)
@@ -509,6 +511,7 @@ PENDING history:
 21.03 00h | ███ (1.0)
 21.03 01h | ██████ (2.0)
 21.03 02h |  (0.0)
+21.03 10h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -579,13 +582,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 14.28
-Ø PENDING: 1.66
+Ø RUNNING: 14.53
+Ø PENDING: 1.69
 MAX RUNNING: 134.00
 MAX PENDING: 52.00
 
 RUNNING history:
-14.03 09h |  (2.0)
 14.03 12h | ██ (10.0)
 14.03 14h |  (2.0)
 14.03 17h |  (2.0)
@@ -637,7 +639,6 @@ RUNNING history:
 21.03 09h |  (2.0)
 
 PENDING history:
-14.03 09h |  (0.0)
 14.03 12h |  (0.0)
 14.03 14h |  (0.0)
 14.03 17h |  (0.0)
@@ -807,13 +808,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.27
+Ø RUNNING: 12.25
 Ø PENDING: 0.05
 MAX RUNNING: 114.00
 MAX PENDING: 1.00
 
 RUNNING history:
-14.03 09h | █ (3.0)
 14.03 10h | █ (4.0)
 16.03 15h | █ (4.0)
 16.03 16h | ████████ (24.0)
@@ -857,9 +857,9 @@ RUNNING history:
 20.03 10h |  (2.0)
 21.03 08h |  (2.0)
 21.03 09h |  (1.0)
+21.03 10h |  (2.0)
 
 PENDING history:
-14.03 09h |  (0.0)
 14.03 10h |  (0.0)
 16.03 15h |  (0.0)
 16.03 16h |  (0.0)
@@ -903,6 +903,7 @@ PENDING history:
 20.03 10h |  (0.0)
 21.03 08h |  (0.0)
 21.03 09h |  (0.0)
+21.03 10h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -1013,8 +1014,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.60
-Ø PENDING: 3.30
+Ø RUNNING: 19.44
+Ø PENDING: 3.23
 MAX RUNNING: 133.00
 MAX PENDING: 86.00
 
@@ -1066,6 +1067,7 @@ RUNNING history:
 21.03 06h |  (1.0)
 21.03 07h |  (3.0)
 21.03 09h |  (1.0)
+21.03 10h | ███ (12.0)
 
 PENDING history:
 17.03 12h |  (0.0)
@@ -1115,5 +1117,6 @@ PENDING history:
 21.03 06h |  (0.0)
 21.03 07h |  (1.0)
 21.03 09h |  (0.0)
+21.03 10h |  (0.0)
 
 
