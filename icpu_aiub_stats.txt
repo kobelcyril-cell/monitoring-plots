@@ -1,17 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-25 23:00:15
+Timestamp: 2026-03-26 00:00:13
 ================================================================================
 
-TOTAL RUNNING: 164
+TOTAL RUNNING: 105
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Elmar        (eb23z835  )  RUNNING: 100   PENDING:  0
 jw24i227     (jw24i227  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 11   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING: 50   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -19,13 +17,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.45
-Ø PENDING: 2.31
+Ø RUNNING: 22.58
+Ø PENDING: 2.33
 MAX RUNNING: 269.00
 MAX PENDING: 187.00
 
 RUNNING history:
-19.03 00h | █ (8.0)
 19.03 09h |  (1.0)
 19.03 10h |  (3.0)
 19.03 11h |  (2.0)
@@ -138,7 +135,6 @@ RUNNING history:
 25.03 21h |  (1.0)
 
 PENDING history:
-19.03 00h |  (0.0)
 19.03 09h |  (0.0)
 19.03 10h |  (0.0)
 19.03 11h |  (0.0)
@@ -253,8 +249,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 79.63
-Ø PENDING: 85.04
+Ø RUNNING: 80.02
+Ø PENDING: 83.40
 MAX RUNNING: 440.00
 MAX PENDING: 1577.00
 
@@ -310,6 +306,7 @@ RUNNING history:
 25.03 21h | █████████ (100.0)
 25.03 22h | █████████ (100.0)
 25.03 23h | █████████ (100.0)
+26.03 00h | █████████ (100.0)
 
 PENDING history:
 19.03 09h |  (0.0)
@@ -363,6 +360,7 @@ PENDING history:
 25.03 21h |  (0.0)
 25.03 22h |  (0.0)
 25.03 23h |  (0.0)
+26.03 00h |  (0.0)
 
 
 Edgar (et25m288)
@@ -397,7 +395,7 @@ PENDING history:
 
 jw24i227 (jw24i227)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.77
+Ø RUNNING: 1.79
 Ø PENDING: 0.00
 MAX RUNNING: 2.00
 MAX PENDING: 0.00
@@ -416,6 +414,7 @@ RUNNING history:
 25.03 21h | ████████████████████████████████████████ (2.0)
 25.03 22h | ████████████████████████████████████████ (2.0)
 25.03 23h | ████████████████████████████████████████ (2.0)
+26.03 00h | ████████████████████████████████████████ (2.0)
 
 PENDING history:
 25.03 11h |  (0.0)
@@ -431,6 +430,7 @@ PENDING history:
 25.03 21h |  (0.0)
 25.03 22h |  (0.0)
 25.03 23h |  (0.0)
+26.03 00h |  (0.0)
 
 
 Code (l_code)
@@ -465,8 +465,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.17
-Ø PENDING: 0.64
+Ø RUNNING: 32.81
+Ø PENDING: 0.63
 MAX RUNNING: 300.00
 MAX PENDING: 23.00
 
@@ -554,6 +554,7 @@ RUNNING history:
 25.03 21h |  (1.0)
 25.03 22h |  (4.0)
 25.03 23h | █ (11.0)
+26.03 00h |  (3.0)
 
 PENDING history:
 19.03 14h |  (0.0)
@@ -639,6 +640,7 @@ PENDING history:
 25.03 21h |  (0.0)
 25.03 22h |  (0.0)
 25.03 23h |  (0.0)
+26.03 00h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -841,13 +843,12 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.93
+Ø RUNNING: 1.95
 Ø PENDING: 0.02
 MAX RUNNING: 10.00
 MAX PENDING: 1.00
 
 RUNNING history:
-19.03 00h | ████ (1.0)
 19.03 01h | ████████████ (3.0)
 19.03 18h | ████████ (2.0)
 19.03 19h | ████████ (2.0)
@@ -908,7 +909,6 @@ RUNNING history:
 25.03 19h | ████ (1.0)
 
 PENDING history:
-19.03 00h |  (0.0)
 19.03 01h |  (0.0)
 19.03 18h |  (0.0)
 19.03 19h |  (0.0)
@@ -1117,13 +1117,12 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 17.21
-Ø PENDING: 3.69
+Ø RUNNING: 16.24
+Ø PENDING: 3.78
 MAX RUNNING: 133.00
 MAX PENDING: 86.00
 
 RUNNING history:
-19.03 00h | █████████████████ (57.0)
 19.03 01h |  (1.0)
 19.03 02h |  (1.0)
 19.03 03h |  (1.0)
@@ -1167,7 +1166,6 @@ RUNNING history:
 21.03 14h | ███████ (24.0)
 
 PENDING history:
-19.03 00h |  (0.0)
 19.03 01h |  (0.0)
 19.03 02h |  (0.0)
 19.03 03h |  (0.0)
