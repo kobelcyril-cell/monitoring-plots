@@ -1,17 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-26 02:00:13
+Timestamp: 2026-03-26 03:00:10
 ================================================================================
 
-TOTAL RUNNING: 249
-TOTAL PENDING: 166
+TOTAL RUNNING: 105
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Elmar        (eb23z835  )  RUNNING: 100   PENDING:  0
 jw24i227     (jw24i227  )  RUNNING:  2   PENDING:  0
-Code         (l_code    )  RUNNING:  1   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 66   PENDING: 140
-Code (rapid) (l_code_r  )  RUNNING: 80   PENDING: 26
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -251,8 +250,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 80.76
-Ø PENDING: 80.31
+Ø RUNNING: 81.11
+Ø PENDING: 78.85
 MAX RUNNING: 440.00
 MAX PENDING: 1577.00
 
@@ -311,6 +310,7 @@ RUNNING history:
 26.03 00h | █████████ (100.0)
 26.03 01h | █████████ (100.0)
 26.03 02h | █████████ (100.0)
+26.03 03h | █████████ (100.0)
 
 PENDING history:
 19.03 09h |  (0.0)
@@ -367,6 +367,7 @@ PENDING history:
 26.03 00h |  (0.0)
 26.03 01h |  (0.0)
 26.03 02h |  (0.0)
+26.03 03h |  (0.0)
 
 
 Edgar (et25m288)
@@ -401,7 +402,7 @@ PENDING history:
 
 jw24i227 (jw24i227)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.81
+Ø RUNNING: 1.82
 Ø PENDING: 0.00
 MAX RUNNING: 2.00
 MAX PENDING: 0.00
@@ -423,6 +424,7 @@ RUNNING history:
 26.03 00h | ████████████████████████████████████████ (2.0)
 26.03 01h | ████████████████████████████████████████ (2.0)
 26.03 02h | ████████████████████████████████████████ (2.0)
+26.03 03h | ████████████████████████████████████████ (2.0)
 
 PENDING history:
 25.03 11h |  (0.0)
@@ -441,6 +443,7 @@ PENDING history:
 26.03 00h |  (0.0)
 26.03 01h |  (0.0)
 26.03 02h |  (0.0)
+26.03 03h |  (0.0)
 
 
 Code (l_code)
@@ -477,8 +480,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 32.85
-Ø PENDING: 2.24
+Ø RUNNING: 32.48
+Ø PENDING: 2.22
 MAX RUNNING: 300.00
 MAX PENDING: 140.00
 
@@ -569,6 +572,7 @@ RUNNING history:
 26.03 00h |  (3.0)
 26.03 01h |  (3.0)
 26.03 02h | ████████ (66.0)
+26.03 03h |  (1.0)
 
 PENDING history:
 19.03 14h |  (0.0)
@@ -657,6 +661,7 @@ PENDING history:
 26.03 00h |  (0.0)
 26.03 01h |  (0.0)
 26.03 02h | ████████████████████████████████████████ (140.0)
+26.03 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -1097,8 +1102,8 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.33
-Ø PENDING: 0.17
+Ø RUNNING: 2.29
+Ø PENDING: 0.14
 MAX RUNNING: 3.00
 MAX PENDING: 1.00
 
@@ -1109,6 +1114,7 @@ RUNNING history:
 23.03 03h | █████████████ (1.0)
 24.03 03h | ██████████████████████████ (2.0)
 25.03 03h | ██████████████████████████ (2.0)
+26.03 03h | ██████████████████████████ (2.0)
 
 PENDING history:
 20.03 03h |  (0.0)
@@ -1117,6 +1123,7 @@ PENDING history:
 23.03 03h |  (0.0)
 24.03 03h |  (0.0)
 25.03 03h |  (0.0)
+26.03 03h |  (0.0)
 
 
 lm20l063 (lm20l063)
@@ -1135,13 +1142,12 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.62
-Ø PENDING: 3.88
+Ø RUNNING: 17.03
+Ø PENDING: 3.97
 MAX RUNNING: 133.00
 MAX PENDING: 86.00
 
 RUNNING history:
-19.03 02h |  (1.0)
 19.03 03h |  (1.0)
 19.03 04h |  (1.0)
 19.03 05h |  (1.0)
@@ -1183,7 +1189,6 @@ RUNNING history:
 21.03 14h | ███████ (24.0)
 
 PENDING history:
-19.03 02h |  (0.0)
 19.03 03h |  (0.0)
 19.03 04h |  (0.0)
 19.03 05h |  (0.0)
