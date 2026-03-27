@@ -1,15 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-27 16:00:12
+Timestamp: 2026-03-27 17:00:10
 ================================================================================
 
-TOTAL RUNNING: 105
-TOTAL PENDING: 2
+TOTAL RUNNING: 272
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Edgar        (et25m288  )  RUNNING:  3   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 101   PENDING:  2
+Elmar        (eb23z835  )  RUNNING: 184   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
 Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 86   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -283,8 +284,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 81.96
-Ø PENDING: 56.30
+Ø RUNNING: 83.27
+Ø PENDING: 55.58
 MAX RUNNING: 440.00
 MAX PENDING: 1577.00
 
@@ -366,6 +367,7 @@ RUNNING history:
 27.03 12h |  (7.0)
 27.03 13h |  (3.0)
 27.03 14h |  (3.0)
+27.03 17h | ████████████████ (184.0)
 
 PENDING history:
 20.03 17h | █████████████████████ (834.0)
@@ -445,6 +447,7 @@ PENDING history:
 27.03 12h |  (0.0)
 27.03 13h |  (0.0)
 27.03 14h |  (0.0)
+27.03 17h |  (0.0)
 
 
 Edgar (et25m288)
@@ -889,8 +892,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.56
-Ø PENDING: 3.30
+Ø RUNNING: 24.20
+Ø PENDING: 3.25
 MAX RUNNING: 153.00
 MAX PENDING: 94.00
 
@@ -959,6 +962,7 @@ RUNNING history:
 27.03 14h | █ (5.0)
 27.03 15h | ██████████████████████████████████████ (148.0)
 27.03 16h | ██████████████████████████ (101.0)
+27.03 17h |  (1.0)
 
 PENDING history:
 20.03 17h |  (0.0)
@@ -1025,11 +1029,12 @@ PENDING history:
 27.03 14h |  (0.0)
 27.03 15h |  (0.0)
 27.03 16h |  (2.0)
+27.03 17h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.90
+Ø RUNNING: 1.89
 Ø PENDING: 0.03
 MAX RUNNING: 10.00
 MAX PENDING: 1.00
@@ -1108,6 +1113,7 @@ RUNNING history:
 27.03 13h | ████ (1.0)
 27.03 14h | ████████ (2.0)
 27.03 16h | ████ (1.0)
+27.03 17h | ████ (1.0)
 
 PENDING history:
 20.03 17h |  (0.0)
@@ -1183,11 +1189,12 @@ PENDING history:
 27.03 13h |  (0.0)
 27.03 14h |  (0.0)
 27.03 16h |  (0.0)
+27.03 17h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.00
+Ø RUNNING: 14.24
 Ø PENDING: 0.07
 MAX RUNNING: 126.00
 MAX PENDING: 3.00
@@ -1251,6 +1258,7 @@ RUNNING history:
 27.03 08h |  (1.0)
 27.03 09h | █ (6.0)
 27.03 10h |  (1.0)
+27.03 17h | ███████████████████████████ (86.0)
 
 PENDING history:
 21.03 08h |  (0.0)
@@ -1311,6 +1319,7 @@ PENDING history:
 27.03 08h |  (0.0)
 27.03 09h |  (0.0)
 27.03 10h |  (0.0)
+27.03 17h |  (0.0)
 
 
 Daniel (l_hpfaiu)
