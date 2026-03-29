@@ -3,4 +3,5 @@ const latest_logs = [
     "PROCESSING_26081",
     "PROCESSING_26082",
     "PROCESSING_26083",
+    "PROCESSING_26084",
 ];
