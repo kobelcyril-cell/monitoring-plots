@@ -1,18 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-29 21:00:10
+Timestamp: 2026-03-29 22:00:12
 ================================================================================
 
-TOTAL RUNNING: 17
+TOTAL RUNNING: 12
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
-Elmar        (eb23z835  )  RUNNING:  5   PENDING:  0
-Edgar        (et25m288  )  RUNNING:  1   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  4   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  5   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
+Elmar        (eb23z835  )  RUNNING:  2   PENDING:  0
+Edgar        (et25m288  )  RUNNING:  3   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -38,14 +37,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.36
-Ø PENDING: 5.87
+Ø RUNNING: 24.57
+Ø PENDING: 5.92
 MAX RUNNING: 269.00
 MAX PENDING: 191.00
 
 RUNNING history:
-22.03 21h |  (1.0)
-22.03 22h |  (2.0)
 22.03 23h |  (4.0)
 23.03 00h | ████████ (60.0)
 23.03 01h |  (1.0)
@@ -158,10 +155,9 @@ RUNNING history:
 29.03 19h |  (1.0)
 29.03 20h |  (1.0)
 29.03 21h |  (1.0)
+29.03 22h |  (2.0)
 
 PENDING history:
-22.03 21h |  (0.0)
-22.03 22h |  (0.0)
 22.03 23h |  (0.0)
 23.03 00h |  (0.0)
 23.03 01h |  (0.0)
@@ -274,12 +270,13 @@ PENDING history:
 29.03 19h |  (0.0)
 29.03 20h |  (0.0)
 29.03 21h |  (0.0)
+29.03 22h |  (0.0)
 
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 90.91
-Ø PENDING: 80.45
+Ø RUNNING: 89.99
+Ø PENDING: 79.62
 MAX RUNNING: 453.00
 MAX PENDING: 3597.00
 
@@ -380,6 +377,7 @@ RUNNING history:
 28.03 16h | ████████████████████████ (276.0)
 29.03 20h |  (5.0)
 29.03 21h |  (5.0)
+29.03 22h |  (2.0)
 
 PENDING history:
 23.03 15h |  (0.0)
@@ -478,11 +476,12 @@ PENDING history:
 28.03 16h |  (0.0)
 29.03 20h |  (0.0)
 29.03 21h |  (0.0)
+29.03 22h |  (0.0)
 
 
 Edgar (et25m288)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.67
+Ø RUNNING: 1.86
 Ø PENDING: 0.00
 MAX RUNNING: 3.00
 MAX PENDING: 0.00
@@ -494,6 +493,7 @@ RUNNING history:
 27.03 12h | █████████████ (1.0)
 27.03 16h | ████████████████████████████████████████ (3.0)
 29.03 21h | █████████████ (1.0)
+29.03 22h | ████████████████████████████████████████ (3.0)
 
 PENDING history:
 26.03 23h |  (0.0)
@@ -502,6 +502,7 @@ PENDING history:
 27.03 12h |  (0.0)
 27.03 16h |  (0.0)
 29.03 21h |  (0.0)
+29.03 22h |  (0.0)
 
 
 jw24i227 (jw24i227)
@@ -648,8 +649,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 28.17
-Ø PENDING: 3.07
+Ø RUNNING: 27.92
+Ø PENDING: 3.04
 MAX RUNNING: 302.00
 MAX PENDING: 140.00
 
@@ -748,6 +749,7 @@ RUNNING history:
 29.03 14h |  (2.0)
 29.03 19h |  (6.0)
 29.03 21h |  (1.0)
+29.03 22h |  (4.0)
 
 PENDING history:
 22.03 23h |  (0.0)
@@ -844,18 +846,17 @@ PENDING history:
 29.03 14h |  (0.0)
 29.03 19h |  (0.0)
 29.03 21h |  (0.0)
+29.03 22h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.23
+Ø RUNNING: 9.45
 Ø PENDING: 0.00
 MAX RUNNING: 50.00
 MAX PENDING: 0.00
 
 RUNNING history:
-22.03 21h | ██ (3.0)
-22.03 22h |  (1.0)
 22.03 23h | ██ (3.0)
 23.03 21h | ███ (4.0)
 23.03 22h |  (1.0)
@@ -884,10 +885,9 @@ RUNNING history:
 28.03 22h |  (1.0)
 28.03 23h | ███ (4.0)
 29.03 21h | ███ (4.0)
+29.03 22h |  (1.0)
 
 PENDING history:
-22.03 21h |  (0.0)
-22.03 22h |  (0.0)
 22.03 23h |  (0.0)
 23.03 21h |  (0.0)
 23.03 22h |  (0.0)
@@ -916,6 +916,7 @@ PENDING history:
 28.03 22h |  (0.0)
 28.03 23h |  (0.0)
 29.03 21h |  (0.0)
+29.03 22h |  (0.0)
 
 
 Code (rapid) (l_code_r)
