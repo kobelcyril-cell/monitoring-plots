@@ -1,18 +1,18 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-03-31 15:00:21
+Timestamp: 2026-03-31 16:00:27
 ================================================================================
 
-TOTAL RUNNING: 10
-TOTAL PENDING: 0
+TOTAL RUNNING: 31
+TOTAL PENDING: 3
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Elmar        (eb23z835  )  RUNNING:  3   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Elmar        (eb23z835  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  9   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 16   PENDING:  3
 Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
-lm20l063     (lm20l063  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -52,8 +52,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.38
-Ø PENDING: 3.68
+Ø RUNNING: 24.19
+Ø PENDING: 3.65
 MAX RUNNING: 288.00
 MAX PENDING: 191.00
 
@@ -175,6 +175,7 @@ RUNNING history:
 31.03 13h |  (6.0)
 31.03 14h |  (1.0)
 31.03 15h |  (2.0)
+31.03 16h |  (2.0)
 
 PENDING history:
 24.03 16h |  (0.0)
@@ -294,12 +295,13 @@ PENDING history:
 31.03 13h |  (0.0)
 31.03 14h |  (0.0)
 31.03 15h |  (0.0)
+31.03 16h |  (0.0)
 
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 79.67
-Ø PENDING: 68.96
+Ø RUNNING: 78.97
+Ø PENDING: 68.35
 MAX RUNNING: 453.00
 MAX PENDING: 3597.00
 
@@ -416,6 +418,7 @@ RUNNING history:
 31.03 13h |  (6.0)
 31.03 14h |  (5.0)
 31.03 15h |  (3.0)
+31.03 16h |  (1.0)
 
 PENDING history:
 24.03 16h |  (0.0)
@@ -530,6 +533,7 @@ PENDING history:
 31.03 13h |  (0.0)
 31.03 14h |  (0.0)
 31.03 15h |  (0.0)
+31.03 16h |  (0.0)
 
 
 Edgar (et25m288)
@@ -694,8 +698,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.13
-Ø PENDING: 3.06
+Ø RUNNING: 24.96
+Ø PENDING: 3.02
 MAX RUNNING: 302.00
 MAX PENDING: 140.00
 
@@ -790,6 +794,7 @@ RUNNING history:
 31.03 06h |  (2.0)
 31.03 07h |  (4.0)
 31.03 08h |  (1.0)
+31.03 16h | █ (9.0)
 
 PENDING history:
 24.03 19h |  (0.0)
@@ -882,6 +887,7 @@ PENDING history:
 31.03 06h |  (0.0)
 31.03 07h |  (0.0)
 31.03 08h |  (0.0)
+31.03 16h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -956,8 +962,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 21.55
-Ø PENDING: 0.61
+Ø RUNNING: 21.46
+Ø PENDING: 0.65
 MAX RUNNING: 151.00
 MAX PENDING: 26.00
 
@@ -1024,6 +1030,7 @@ RUNNING history:
 31.03 10h |  (2.0)
 31.03 13h |  (3.0)
 31.03 15h |  (1.0)
+31.03 16h | ████ (16.0)
 
 PENDING history:
 24.03 17h | █ (1.0)
@@ -1088,11 +1095,12 @@ PENDING history:
 31.03 10h |  (0.0)
 31.03 13h | ███ (2.0)
 31.03 15h |  (0.0)
+31.03 16h | ████ (3.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.92
+Ø RUNNING: 1.91
 Ø PENDING: 0.10
 MAX RUNNING: 18.00
 MAX PENDING: 3.00
@@ -1190,6 +1198,7 @@ RUNNING history:
 31.03 13h | ██ (1.0)
 31.03 14h | ██████ (3.0)
 31.03 15h | ██ (1.0)
+31.03 16h | ██ (1.0)
 
 PENDING history:
 24.03 18h |  (0.0)
@@ -1284,11 +1293,12 @@ PENDING history:
 31.03 13h |  (0.0)
 31.03 14h |  (0.0)
 31.03 15h |  (0.0)
+31.03 16h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 14.56
+Ø RUNNING: 14.28
 Ø PENDING: 0.04
 MAX RUNNING: 112.00
 MAX PENDING: 1.00
@@ -1339,6 +1349,7 @@ RUNNING history:
 31.03 13h | █████ (14.0)
 31.03 14h | ████████████████████████████████████████ (112.0)
 31.03 15h |  (2.0)
+31.03 16h |  (2.0)
 
 PENDING history:
 24.03 16h |  (0.0)
@@ -1386,6 +1397,7 @@ PENDING history:
 31.03 13h |  (0.0)
 31.03 14h |  (0.0)
 31.03 15h |  (0.0)
+31.03 16h |  (0.0)
 
 
 Daniel (l_hpfaiu)
