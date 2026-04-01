@@ -1,17 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-01 15:00:20
+Timestamp: 2026-04-01 16:00:16
 ================================================================================
 
-TOTAL RUNNING: 179
-TOTAL PENDING: 1
+TOTAL RUNNING: 190
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING: 38   PENDING:  0
-Elmar        (eb23z835  )  RUNNING:  1   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 137   PENDING:  1
-Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+am19f021     (am19f021  )  RUNNING: 30   PENDING:  0
+Elmar        (eb23z835  )  RUNNING: 101   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 59   PENDING:  2
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -19,18 +17,20 @@ Weekly statistics (last 7 days, 1h mean values)
 
 am19f021 (am19f021)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.50
+Ø RUNNING: 18.33
 Ø PENDING: 0.00
-MAX RUNNING: 24.00
+MAX RUNNING: 30.00
 MAX PENDING: 0.00
 
 RUNNING history:
 30.03 14h | █ (1.0)
-01.04 14h | ████████████████████████████████████████ (24.0)
+01.04 14h | ████████████████████████████████ (24.0)
+01.04 16h | ████████████████████████████████████████ (30.0)
 
 PENDING history:
 30.03 14h |  (0.0)
 01.04 14h |  (0.0)
+01.04 16h |  (0.0)
 
 
 cd13a094 (cd13a094)
@@ -53,13 +53,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 14.38
-Ø PENDING: 3.81
+Ø RUNNING: 14.47
+Ø PENDING: 3.84
 MAX RUNNING: 288.00
 MAX PENDING: 191.00
 
 RUNNING history:
-25.03 16h |  (4.0)
 25.03 17h |  (2.0)
 25.03 19h | █ (11.0)
 25.03 20h | █ (11.0)
@@ -174,7 +173,6 @@ RUNNING history:
 01.04 15h | █████ (38.0)
 
 PENDING history:
-25.03 16h |  (0.0)
 25.03 17h |  (0.0)
 25.03 19h |  (1.0)
 25.03 20h |  (0.0)
@@ -291,8 +289,8 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 70.10
-Ø PENDING: 62.28
+Ø RUNNING: 70.34
+Ø PENDING: 61.78
 MAX RUNNING: 453.00
 MAX PENDING: 3597.00
 
@@ -421,6 +419,7 @@ RUNNING history:
 01.04 13h |  (1.0)
 01.04 14h |  (1.0)
 01.04 15h |  (1.0)
+01.04 16h | ████████ (101.0)
 
 PENDING history:
 25.03 19h |  (0.0)
@@ -547,6 +546,7 @@ PENDING history:
 01.04 13h |  (0.0)
 01.04 14h |  (0.0)
 01.04 15h |  (0.0)
+01.04 16h |  (0.0)
 
 
 Edgar (et25m288)
@@ -585,13 +585,12 @@ PENDING history:
 
 jw24i227 (jw24i227)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.52
+Ø RUNNING: 1.51
 Ø PENDING: 0.00
 MAX RUNNING: 2.00
 MAX PENDING: 0.00
 
 RUNNING history:
-25.03 16h | ████████████████████████████████████████ (2.0)
 25.03 17h | ████████████████████████████████████████ (2.0)
 25.03 18h | ████████████████████████████████████████ (2.0)
 25.03 19h | ████████████████████████████████████████ (2.0)
@@ -635,7 +634,6 @@ RUNNING history:
 27.03 09h | ████████████████████ (1.0)
 
 PENDING history:
-25.03 16h |  (0.0)
 25.03 17h |  (0.0)
 25.03 18h |  (0.0)
 25.03 19h |  (0.0)
@@ -941,8 +939,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.77
-Ø PENDING: 0.69
+Ø RUNNING: 25.32
+Ø PENDING: 0.71
 MAX RUNNING: 151.00
 MAX PENDING: 26.00
 
@@ -1008,6 +1006,7 @@ RUNNING history:
 01.04 10h | █ (4.0)
 01.04 13h | █ (5.0)
 01.04 15h | ████████████████████████████████████ (137.0)
+01.04 16h | ███████████████ (59.0)
 
 PENDING history:
 25.03 20h |  (0.0)
@@ -1071,6 +1070,7 @@ PENDING history:
 01.04 10h |  (0.0)
 01.04 13h |  (0.0)
 01.04 15h | █ (1.0)
+01.04 16h | ███ (2.0)
 
 
 Code (SLR) (l_code_s)
@@ -1287,13 +1287,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.48
+Ø RUNNING: 13.72
 Ø PENDING: 0.02
 MAX RUNNING: 112.00
 MAX PENDING: 1.00
 
 RUNNING history:
-25.03 16h |  (2.0)
 26.03 08h | █████ (15.0)
 26.03 09h | █████████ (26.0)
 26.03 10h | ████ (13.0)
@@ -1343,7 +1342,6 @@ RUNNING history:
 01.04 10h |  (2.0)
 
 PENDING history:
-25.03 16h |  (0.0)
 26.03 08h |  (0.0)
 26.03 09h |  (0.0)
 26.03 10h |  (0.0)
