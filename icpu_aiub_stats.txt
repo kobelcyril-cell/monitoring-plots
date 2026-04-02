@@ -1,14 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-02 08:00:14
+Timestamp: 2026-04-02 09:00:12
 ================================================================================
 
-TOTAL RUNNING: 163
-TOTAL PENDING: 1
+TOTAL RUNNING: 11
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 154   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  9   PENDING:  1
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  2   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -664,7 +667,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 26.06
+Ø RUNNING: 25.77
 Ø PENDING: 0.28
 MAX RUNNING: 302.00
 MAX PENDING: 6.00
@@ -751,6 +754,7 @@ RUNNING history:
 02.04 00h |  (6.0)
 02.04 01h |  (5.0)
 02.04 02h | ██████████████████████████████ (233.0)
+02.04 09h |  (2.0)
 
 PENDING history:
 26.03 14h |  (0.0)
@@ -834,6 +838,7 @@ PENDING history:
 02.04 00h |  (0.0)
 02.04 01h |  (0.0)
 02.04 02h | ██████ (1.0)
+02.04 09h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -894,8 +899,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.69
-Ø PENDING: 0.33
+Ø RUNNING: 25.32
+Ø PENDING: 0.32
 MAX RUNNING: 154.00
 MAX PENDING: 3.00
 
@@ -961,6 +966,7 @@ RUNNING history:
 01.04 21h |  (3.0)
 02.04 03h |  (2.0)
 02.04 08h | ████████████████████████████████████████ (154.0)
+02.04 09h |  (3.0)
 
 PENDING history:
 26.03 09h |  (0.0)
@@ -1024,6 +1030,7 @@ PENDING history:
 01.04 21h | ██████████████████████████ (2.0)
 02.04 03h |  (0.0)
 02.04 08h |  (0.0)
+02.04 09h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1137,6 +1144,7 @@ RUNNING history:
 01.04 23h | ██████ (3.0)
 02.04 00h | █████████████████████████████████ (15.0)
 02.04 01h | ██████████████████████ (10.0)
+02.04 09h | ████ (2.0)
 
 PENDING history:
 26.03 09h |  (0.0)
@@ -1242,11 +1250,12 @@ PENDING history:
 01.04 23h |  (0.0)
 02.04 00h |  (0.0)
 02.04 01h |  (0.0)
+02.04 09h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.60
+Ø RUNNING: 13.38
 Ø PENDING: 0.04
 MAX RUNNING: 112.00
 MAX PENDING: 1.00
@@ -1299,6 +1308,7 @@ RUNNING history:
 01.04 09h |  (2.0)
 01.04 10h |  (2.0)
 02.04 08h | ███ (9.0)
+02.04 09h | █ (3.0)
 
 PENDING history:
 26.03 09h |  (0.0)
@@ -1348,12 +1358,13 @@ PENDING history:
 01.04 09h |  (0.0)
 01.04 10h |  (0.0)
 02.04 08h | ████████████████████████████████████████ (1.0)
+02.04 09h |  (0.0)
 
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.12
-Ø PENDING: 0.50
+Ø RUNNING: 2.00
+Ø PENDING: 0.44
 MAX RUNNING: 5.00
 MAX PENDING: 4.00
 
@@ -1366,6 +1377,7 @@ RUNNING history:
 31.03 03h | ████████████████ (2.0)
 01.04 03h | ████████████████ (2.0)
 02.04 03h | ████████████████ (2.0)
+02.04 09h | ████████ (1.0)
 
 PENDING history:
 26.03 09h |  (0.0)
@@ -1376,6 +1388,7 @@ PENDING history:
 31.03 03h |  (0.0)
 01.04 03h |  (0.0)
 02.04 03h |  (0.0)
+02.04 09h |  (0.0)
 
 
 Linda (lg19a108)
