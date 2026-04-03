@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-03 08:00:14
+Timestamp: 2026-04-03 09:00:14
 ================================================================================
 
-TOTAL RUNNING: 140
-TOTAL PENDING: 0
+TOTAL RUNNING: 9
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 135   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  4   PENDING:  2
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -283,13 +283,12 @@ PENDING history:
 
 Elmar (eb23z835)
 --------------------------------------------------------------------------------
-Ø RUNNING: 64.11
-Ø PENDING: 74.26
+Ø RUNNING: 64.64
+Ø PENDING: 74.98
 MAX RUNNING: 453.00
 MAX PENDING: 3597.00
 
 RUNNING history:
-27.03 09h |  (9.0)
 27.03 10h |  (6.0)
 27.03 11h |  (9.0)
 27.03 12h |  (7.0)
@@ -395,7 +394,6 @@ RUNNING history:
 02.04 19h | ██████ (69.0)
 
 PENDING history:
-27.03 09h |  (0.0)
 27.03 10h |  (0.0)
 27.03 11h |  (0.0)
 27.03 12h |  (0.0)
@@ -531,20 +529,6 @@ PENDING history:
 30.03 16h |  (0.0)
 
 
-jw24i227 (jw24i227)
---------------------------------------------------------------------------------
-Ø RUNNING: 1.00
-Ø PENDING: 0.00
-MAX RUNNING: 1.00
-MAX PENDING: 0.00
-
-RUNNING history:
-27.03 09h | ████████████████████████████████████████ (1.0)
-
-PENDING history:
-27.03 09h |  (0.0)
-
-
 Code (l_code)
 --------------------------------------------------------------------------------
 Ø RUNNING: 18.00
@@ -563,8 +547,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 28.31
-Ø PENDING: 0.17
+Ø RUNNING: 28.03
+Ø PENDING: 0.19
 MAX RUNNING: 302.00
 MAX PENDING: 5.00
 
@@ -657,6 +641,7 @@ RUNNING history:
 03.04 06h | ███████ (54.0)
 03.04 07h | ███████████ (89.0)
 03.04 08h |  (4.0)
+03.04 09h |  (4.0)
 
 PENDING history:
 27.03 14h |  (0.0)
@@ -747,6 +732,7 @@ PENDING history:
 03.04 06h |  (0.0)
 03.04 07h | ████████████████ (2.0)
 03.04 08h |  (0.0)
+03.04 09h | ████████████████ (2.0)
 
 
 l_code_m (l_code_m)
@@ -805,8 +791,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.92
-Ø PENDING: 0.40
+Ø RUNNING: 25.52
+Ø PENDING: 0.39
 MAX RUNNING: 154.00
 MAX PENDING: 5.00
 
@@ -871,6 +857,7 @@ RUNNING history:
 03.04 00h |  (1.0)
 03.04 03h |  (1.0)
 03.04 08h | ███████████████████████████████████ (135.0)
+03.04 09h |  (2.0)
 
 PENDING history:
 27.03 14h |  (0.0)
@@ -933,6 +920,7 @@ PENDING history:
 03.04 00h |  (0.0)
 03.04 03h |  (0.0)
 03.04 08h |  (0.0)
+03.04 09h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1145,13 +1133,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.38
+Ø RUNNING: 13.30
 Ø PENDING: 0.05
 MAX RUNNING: 112.00
 MAX PENDING: 1.00
 
 RUNNING history:
-27.03 09h | ██ (6.0)
 27.03 10h |  (1.0)
 27.03 17h | ██████████████████████████████ (86.0)
 27.03 18h |  (2.0)
@@ -1188,9 +1175,9 @@ RUNNING history:
 02.04 09h | █ (3.0)
 02.04 10h | ███ (11.0)
 03.04 08h |  (1.0)
+03.04 09h | █ (3.0)
 
 PENDING history:
-27.03 09h |  (0.0)
 27.03 10h |  (0.0)
 27.03 17h |  (0.0)
 27.03 18h |  (0.0)
@@ -1227,6 +1214,7 @@ PENDING history:
 02.04 09h |  (0.0)
 02.04 10h |  (0.0)
 03.04 08h |  (0.0)
+03.04 09h |  (0.0)
 
 
 Daniel (l_hpfaiu)
