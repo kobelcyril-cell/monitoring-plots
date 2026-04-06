@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-07 00:00:22
+Timestamp: 2026-04-07 01:00:11
 ================================================================================
 
-TOTAL RUNNING: 9
+TOTAL RUNNING: 103
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  6   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 99   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -345,7 +345,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.70
+Ø RUNNING: 33.34
 Ø PENDING: 0.22
 MAX RUNNING: 301.00
 MAX PENDING: 5.00
@@ -441,6 +441,7 @@ RUNNING history:
 06.04 22h |  (4.0)
 06.04 23h |  (6.0)
 07.04 00h |  (2.0)
+07.04 01h |  (1.0)
 
 PENDING history:
 31.03 01h |  (0.0)
@@ -533,6 +534,7 @@ PENDING history:
 06.04 22h |  (0.0)
 06.04 23h |  (0.0)
 07.04 00h |  (0.0)
+07.04 01h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -725,7 +727,7 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.05
+Ø RUNNING: 2.06
 Ø PENDING: 0.02
 MAX RUNNING: 15.00
 MAX PENDING: 1.00
@@ -794,6 +796,7 @@ RUNNING history:
 06.04 19h | ██ (1.0)
 06.04 23h | ████████ (3.0)
 07.04 00h | ██ (1.0)
+07.04 01h | ████████ (3.0)
 
 PENDING history:
 31.03 01h | ████████████████████████████████████████ (1.0)
@@ -859,11 +862,12 @@ PENDING history:
 06.04 19h |  (0.0)
 06.04 23h |  (0.0)
 07.04 00h |  (0.0)
+07.04 01h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 14.32
+Ø RUNNING: 16.33
 Ø PENDING: 0.02
 MAX RUNNING: 112.00
 MAX PENDING: 1.00
@@ -910,6 +914,7 @@ RUNNING history:
 06.04 21h | ███████████████████████████████████ (99.0)
 06.04 22h |  (1.0)
 06.04 23h | ██ (7.0)
+07.04 01h | ███████████████████████████████████ (99.0)
 
 PENDING history:
 31.03 08h |  (0.0)
@@ -953,6 +958,7 @@ PENDING history:
 06.04 21h |  (0.0)
 06.04 22h |  (0.0)
 06.04 23h |  (0.0)
+07.04 01h |  (0.0)
 
 
 Daniel (l_hpfaiu)
