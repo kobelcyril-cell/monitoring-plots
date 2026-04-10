@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-10 13:00:16
+Timestamp: 2026-04-10 14:00:11
 ================================================================================
 
-TOTAL RUNNING: 21
-TOTAL PENDING: 2
+TOTAL RUNNING: 207
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 18   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
 ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
-Linda        (lg19a108  )  RUNNING:  1   PENDING:  2
+Linda        (lg19a108  )  RUNNING: 201   PENDING:  1
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -193,7 +193,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 29.82
+Ø RUNNING: 29.49
 Ø PENDING: 0.23
 MAX RUNNING: 300.00
 MAX PENDING: 5.00
@@ -276,6 +276,7 @@ RUNNING history:
 10.04 04h | ███ (23.0)
 10.04 05h |  (2.0)
 10.04 06h |  (1.0)
+10.04 14h |  (4.0)
 
 PENDING history:
 03.04 14h |  (0.0)
@@ -355,6 +356,7 @@ PENDING history:
 10.04 04h | ████████████████████████████████████████ (5.0)
 10.04 05h |  (0.0)
 10.04 06h |  (0.0)
+10.04 14h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -623,7 +625,7 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.73
+Ø RUNNING: 12.53
 Ø PENDING: 0.00
 MAX RUNNING: 107.00
 MAX PENDING: 0.00
@@ -681,6 +683,7 @@ RUNNING history:
 10.04 11h | ███ (10.0)
 10.04 12h | ██ (6.0)
 10.04 13h |  (2.0)
+10.04 14h |  (2.0)
 
 PENDING history:
 04.04 08h |  (0.0)
@@ -735,6 +738,7 @@ PENDING history:
 10.04 11h |  (0.0)
 10.04 12h |  (0.0)
 10.04 13h |  (0.0)
+10.04 14h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -767,8 +771,8 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 107.42
-Ø PENDING: 0.17
+Ø RUNNING: 114.62
+Ø PENDING: 0.23
 MAX RUNNING: 399.00
 MAX PENDING: 2.00
 
@@ -785,6 +789,7 @@ RUNNING history:
 08.04 22h | █████ (52.0)
 10.04 10h | ████████████████████████████████████ (361.0)
 10.04 13h |  (1.0)
+10.04 14h | ████████████████████ (201.0)
 
 PENDING history:
 05.04 12h |  (0.0)
@@ -799,6 +804,7 @@ PENDING history:
 08.04 22h |  (0.0)
 10.04 10h |  (0.0)
 10.04 13h | ████████████████████████████████████████ (2.0)
+10.04 14h | ████████████████████ (1.0)
 
 
 Martin (ml18j210)
