@@ -1,13 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-10 11:00:11
+Timestamp: 2026-04-10 12:00:19
 ================================================================================
 
-TOTAL RUNNING: 10
+TOTAL RUNNING: 7
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-ggsp         (l_ggsp    )  RUNNING: 10   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  6   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -191,14 +192,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 31.11
-Ø PENDING: 0.25
+Ø RUNNING: 29.49
+Ø PENDING: 0.23
 MAX RUNNING: 300.00
 MAX PENDING: 5.00
 
 RUNNING history:
-03.04 11h |  (1.0)
-03.04 12h | █████████████████████████ (188.0)
 03.04 13h |  (4.0)
 03.04 14h |  (6.0)
 03.04 19h | ████████████ (96.0)
@@ -279,8 +278,6 @@ RUNNING history:
 10.04 06h |  (1.0)
 
 PENDING history:
-03.04 11h |  (0.0)
-03.04 12h | ████████████████ (2.0)
 03.04 13h |  (0.0)
 03.04 14h |  (0.0)
 03.04 19h |  (0.0)
@@ -415,8 +412,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.48
-Ø PENDING: 0.41
+Ø RUNNING: 22.11
+Ø PENDING: 0.40
 MAX RUNNING: 152.00
 MAX PENDING: 9.00
 
@@ -477,6 +474,7 @@ RUNNING history:
 09.04 18h | █ (4.0)
 10.04 08h |  (3.0)
 10.04 10h |  (2.0)
+10.04 12h |  (1.0)
 
 PENDING history:
 03.04 13h | ████ (1.0)
@@ -535,6 +533,7 @@ PENDING history:
 09.04 18h |  (0.0)
 10.04 08h |  (0.0)
 10.04 10h |  (0.0)
+10.04 12h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -625,7 +624,7 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.08
+Ø RUNNING: 12.94
 Ø PENDING: 0.00
 MAX RUNNING: 107.00
 MAX PENDING: 0.00
@@ -681,6 +680,7 @@ RUNNING history:
 09.04 18h |  (2.0)
 10.04 09h |  (1.0)
 10.04 11h | ███ (10.0)
+10.04 12h | ██ (6.0)
 
 PENDING history:
 04.04 08h |  (0.0)
@@ -733,6 +733,7 @@ PENDING history:
 09.04 18h |  (0.0)
 10.04 09h |  (0.0)
 10.04 11h |  (0.0)
+10.04 12h |  (0.0)
 
 
 Daniel (l_hpfaiu)
