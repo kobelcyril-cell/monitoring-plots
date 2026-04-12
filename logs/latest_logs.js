@@ -1,5 +1,4 @@
 const latest_logs = [
-    "PROCESSING_26094",
     "PROCESSING_26095",
     "PROCESSING_26096",
     "PROCESSING_26097",
