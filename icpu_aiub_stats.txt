@@ -1,17 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-13 11:00:11
+Timestamp: 2026-04-13 12:00:17
 ================================================================================
 
-TOTAL RUNNING: 318
-TOTAL PENDING: 50
+TOTAL RUNNING: 77
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  9   PENDING:  0
+am19f021     (am19f021  )  RUNNING: 13   PENDING:  1
+Cyril        (ck18y530  )  RUNNING: 62   PENDING:  0
 jw24i227     (jw24i227  )  RUNNING:  2   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
-Linda        (lg19a108  )  RUNNING: 302   PENDING: 50
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -19,37 +17,41 @@ Weekly statistics (last 7 days, 1h mean values)
 
 am19f021 (am19f021)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.50
-Ø PENDING: 0.00
-MAX RUNNING: 8.00
-MAX PENDING: 0.00
+Ø RUNNING: 7.33
+Ø PENDING: 0.33
+MAX RUNNING: 13.00
+MAX PENDING: 1.00
 
 RUNNING history:
-13.04 02h | ████████████████████████████████████████ (8.0)
-13.04 10h | █████ (1.0)
+13.04 02h | ████████████████████████ (8.0)
+13.04 10h | ███ (1.0)
+13.04 12h | ████████████████████████████████████████ (13.0)
 
 PENDING history:
 13.04 02h |  (0.0)
 13.04 10h |  (0.0)
+13.04 12h | ████████████████████████████████████████ (1.0)
 
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.00
+Ø RUNNING: 35.50
 Ø PENDING: 0.00
-MAX RUNNING: 9.00
+MAX RUNNING: 62.00
 MAX PENDING: 0.00
 
 RUNNING history:
-13.04 11h | ████████████████████████████████████████ (9.0)
+13.04 11h | █████ (9.0)
+13.04 12h | ████████████████████████████████████████ (62.0)
 
 PENDING history:
 13.04 11h |  (0.0)
+13.04 12h |  (0.0)
 
 
 jw24i227 (jw24i227)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.59
+Ø RUNNING: 1.60
 Ø PENDING: 0.00
 MAX RUNNING: 2.00
 MAX PENDING: 0.00
@@ -106,6 +108,7 @@ RUNNING history:
 13.04 09h | ████████████████████████████████████████ (2.0)
 13.04 10h | ████████████████████████████████████████ (2.0)
 13.04 11h | ████████████████████████████████████████ (2.0)
+13.04 12h | ████████████████████████████████████████ (2.0)
 
 PENDING history:
 08.04 09h |  (0.0)
@@ -159,6 +162,7 @@ PENDING history:
 13.04 09h |  (0.0)
 13.04 10h |  (0.0)
 13.04 11h |  (0.0)
+13.04 12h |  (0.0)
 
 
 Code (l_code)
