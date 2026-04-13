@@ -1,17 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-13 10:00:11
+Timestamp: 2026-04-13 11:00:11
 ================================================================================
 
-TOTAL RUNNING: 10
-TOTAL PENDING: 103
+TOTAL RUNNING: 318
+TOTAL PENDING: 50
 
 Per User:
 --------------------------------------------------------------------------------
-am19f021     (am19f021  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  9   PENDING:  0
 jw24i227     (jw24i227  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
-Linda        (lg19a108  )  RUNNING:  1   PENDING: 103
+Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Linda        (lg19a108  )  RUNNING: 302   PENDING: 50
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -33,9 +33,23 @@ PENDING history:
 13.04 10h |  (0.0)
 
 
+Cyril (ck18y530)
+--------------------------------------------------------------------------------
+Ø RUNNING: 9.00
+Ø PENDING: 0.00
+MAX RUNNING: 9.00
+MAX PENDING: 0.00
+
+RUNNING history:
+13.04 11h | ████████████████████████████████████████ (9.0)
+
+PENDING history:
+13.04 11h |  (0.0)
+
+
 jw24i227 (jw24i227)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.58
+Ø RUNNING: 1.59
 Ø PENDING: 0.00
 MAX RUNNING: 2.00
 MAX PENDING: 0.00
@@ -91,6 +105,7 @@ RUNNING history:
 10.04 08h | ████████████████████ (1.0)
 13.04 09h | ████████████████████████████████████████ (2.0)
 13.04 10h | ████████████████████████████████████████ (2.0)
+13.04 11h | ████████████████████████████████████████ (2.0)
 
 PENDING history:
 08.04 09h |  (0.0)
@@ -143,6 +158,7 @@ PENDING history:
 10.04 08h |  (0.0)
 13.04 09h |  (0.0)
 13.04 10h |  (0.0)
+13.04 11h |  (0.0)
 
 
 Code (l_code)
@@ -381,13 +397,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.89
+Ø RUNNING: 20.19
 Ø PENDING: 0.29
 MAX RUNNING: 153.00
 MAX PENDING: 9.00
 
 RUNNING history:
-06.04 10h |  (1.0)
 06.04 13h | █ (4.0)
 06.04 15h |  (1.0)
 06.04 18h | █ (5.0)
@@ -452,7 +467,6 @@ RUNNING history:
 13.04 10h |  (3.0)
 
 PENDING history:
-06.04 10h |  (0.0)
 06.04 13h |  (0.0)
 06.04 15h |  (0.0)
 06.04 18h |  (0.0)
@@ -519,7 +533,7 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.58
+Ø RUNNING: 2.59
 Ø PENDING: 0.00
 MAX RUNNING: 22.00
 MAX PENDING: 0.00
@@ -551,6 +565,7 @@ RUNNING history:
 10.04 20h | █ (1.0)
 11.04 00h | ████████████ (7.0)
 11.04 01h | ███████ (4.0)
+13.04 11h | █████ (3.0)
 
 PENDING history:
 06.04 18h |  (0.0)
@@ -579,17 +594,17 @@ PENDING history:
 10.04 20h |  (0.0)
 11.04 00h |  (0.0)
 11.04 01h |  (0.0)
+13.04 11h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.88
+Ø RUNNING: 13.70
 Ø PENDING: 0.00
 MAX RUNNING: 107.00
 MAX PENDING: 0.00
 
 RUNNING history:
-06.04 10h | █████ (15.0)
 06.04 18h |  (2.0)
 06.04 19h | █████████ (26.0)
 06.04 20h | ███ (10.0)
@@ -658,9 +673,9 @@ RUNNING history:
 12.04 11h | ████ (13.0)
 13.04 09h |  (1.0)
 13.04 10h | █ (3.0)
+13.04 11h |  (2.0)
 
 PENDING history:
-06.04 10h |  (0.0)
 06.04 18h |  (0.0)
 06.04 19h |  (0.0)
 06.04 20h |  (0.0)
@@ -729,6 +744,7 @@ PENDING history:
 12.04 11h |  (0.0)
 13.04 09h |  (0.0)
 13.04 10h |  (0.0)
+13.04 11h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -761,8 +777,8 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 100.07
-Ø PENDING: 7.13
+Ø RUNNING: 112.69
+Ø PENDING: 9.81
 MAX RUNNING: 399.00
 MAX PENDING: 103.00
 
@@ -782,6 +798,7 @@ RUNNING history:
 10.04 16h |  (2.0)
 10.04 17h | ██████████ (104.0)
 13.04 10h |  (1.0)
+13.04 11h | ██████████████████████████████ (302.0)
 
 PENDING history:
 07.04 10h |  (0.0)
@@ -799,6 +816,7 @@ PENDING history:
 10.04 16h |  (0.0)
 10.04 17h |  (1.0)
 13.04 10h | ████████████████████████████████████████ (103.0)
+13.04 11h | ███████████████████ (50.0)
 
 
 Martin (ml18j210)
