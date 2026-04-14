@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-14 23:00:11
+Timestamp: 2026-04-15 00:00:11
 ================================================================================
 
-TOTAL RUNNING: 70
+TOTAL RUNNING: 20
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Edgar        (et25m288  )  RUNNING:  1   PENDING:  0
 Code (final) (l_code_f  )  RUNNING:  5   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING: 51   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
 Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 Linda        (lg19a108  )  RUNNING: 12   PENDING:  0
 
@@ -143,7 +143,7 @@ PENDING history:
 
 Edgar (et25m288)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.33
+Ø RUNNING: 1.29
 Ø PENDING: 0.00
 MAX RUNNING: 3.00
 MAX PENDING: 0.00
@@ -155,6 +155,7 @@ RUNNING history:
 14.04 21h | █████████████ (1.0)
 14.04 22h | █████████████ (1.0)
 14.04 23h | █████████████ (1.0)
+15.04 00h | █████████████ (1.0)
 
 PENDING history:
 14.04 13h |  (0.0)
@@ -163,6 +164,7 @@ PENDING history:
 14.04 21h |  (0.0)
 14.04 22h |  (0.0)
 14.04 23h |  (0.0)
+15.04 00h |  (0.0)
 
 
 jw24i227 (jw24i227)
@@ -339,13 +341,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 26.29
+Ø RUNNING: 26.20
 Ø PENDING: 0.12
 MAX RUNNING: 304.00
 MAX PENDING: 5.00
 
 RUNNING history:
-07.04 23h | █ (12.0)
 08.04 00h |  (1.0)
 08.04 01h |  (4.0)
 08.04 02h |  (4.0)
@@ -428,9 +429,9 @@ RUNNING history:
 14.04 19h | ███████ (56.0)
 14.04 21h |  (1.0)
 14.04 23h |  (5.0)
+15.04 00h |  (5.0)
 
 PENDING history:
-07.04 23h |  (0.0)
 08.04 00h |  (0.0)
 08.04 01h |  (0.0)
 08.04 02h |  (0.0)
@@ -513,17 +514,17 @@ PENDING history:
 14.04 19h |  (0.0)
 14.04 21h |  (0.0)
 14.04 23h |  (0.0)
+15.04 00h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.95
+Ø RUNNING: 7.26
 Ø PENDING: 0.00
 MAX RUNNING: 51.00
 MAX PENDING: 0.00
 
 RUNNING history:
-07.04 23h |  (1.0)
 08.04 21h | ███ (4.0)
 08.04 22h |  (1.0)
 08.04 23h |  (1.0)
@@ -545,7 +546,6 @@ RUNNING history:
 14.04 23h | ████████████████████████████████████████ (51.0)
 
 PENDING history:
-07.04 23h |  (0.0)
 08.04 21h |  (0.0)
 08.04 22h |  (0.0)
 08.04 23h |  (0.0)
@@ -569,8 +569,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.38
-Ø PENDING: 0.21
+Ø RUNNING: 22.05
+Ø PENDING: 0.20
 MAX RUNNING: 153.00
 MAX PENDING: 4.00
 
@@ -638,6 +638,7 @@ RUNNING history:
 14.04 15h | █████████████████████ (83.0)
 14.04 18h |  (1.0)
 14.04 21h |  (2.0)
+15.04 00h |  (1.0)
 
 PENDING history:
 08.04 00h |  (0.0)
@@ -703,6 +704,7 @@ PENDING history:
 14.04 15h |  (0.0)
 14.04 18h |  (0.0)
 14.04 21h |  (0.0)
+15.04 00h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -713,7 +715,6 @@ MAX RUNNING: 22.00
 MAX PENDING: 0.00
 
 RUNNING history:
-07.04 23h | █ (1.0)
 08.04 00h | █ (1.0)
 08.04 01h | █████ (3.0)
 08.04 18h | █ (1.0)
@@ -751,9 +752,9 @@ RUNNING history:
 14.04 19h | █ (1.0)
 14.04 20h | ███ (2.0)
 14.04 23h | █ (1.0)
+15.04 00h | █ (1.0)
 
 PENDING history:
-07.04 23h |  (0.0)
 08.04 00h |  (0.0)
 08.04 01h |  (0.0)
 08.04 18h |  (0.0)
@@ -791,6 +792,7 @@ PENDING history:
 14.04 19h |  (0.0)
 14.04 20h |  (0.0)
 14.04 23h |  (0.0)
+15.04 00h |  (0.0)
 
 
 ggsp (l_ggsp)
@@ -983,8 +985,8 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 85.75
-Ø PENDING: 6.54
+Ø RUNNING: 82.80
+Ø PENDING: 6.28
 MAX RUNNING: 399.00
 MAX PENDING: 103.00
 
@@ -1013,6 +1015,7 @@ RUNNING history:
 14.04 20h |  (4.0)
 14.04 21h | ████ (48.0)
 14.04 23h | █ (12.0)
+15.04 00h | █ (12.0)
 
 PENDING history:
 08.04 12h |  (0.0)
@@ -1039,6 +1042,7 @@ PENDING history:
 14.04 20h |  (0.0)
 14.04 21h |  (0.0)
 14.04 23h |  (0.0)
+15.04 00h |  (0.0)
 
 
 Martin (ml18j210)
