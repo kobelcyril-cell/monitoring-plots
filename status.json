@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T01:44:04.643777",
+  "updated": "2026-04-17T01:46:04.452438",
   "1 day solution": [
     {
       "session_id": "261020",
@@ -900,6 +900,12 @@
     },
     {
       "session_id": "260950",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "260960",
       "status": "running",
       "tasks": [
         {
@@ -912,31 +918,31 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
@@ -975,13 +981,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
-    },
-    {
-      "session_id": "260960",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 8
     },
     {
       "session_id": "260970",
