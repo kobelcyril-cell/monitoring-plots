@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-16T18:21:02.005918",
+  "updated": "2026-04-16T18:22:02.496716",
   "1 day solution": [
     {
       "session_id": "261020",
@@ -135,25 +135,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     }
   ],
   "3 day solution": [
@@ -864,6 +864,12 @@
     },
     {
       "session_id": "260890",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "260900",
       "status": "running",
       "tasks": [
         {
@@ -876,55 +882,55 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
           "name": "ORBGEN",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "013",
           "name": "CCRNXCZD",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "014",
           "name": "STDPRE",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "020",
           "name": "SAVERES3D",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "030",
@@ -939,13 +945,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
-    },
-    {
-      "session_id": "260900",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 8
     },
     {
       "session_id": "260910",
