@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-19T06:52:02.445735",
+  "updated": "2026-04-19T06:53:01.578585",
   "1 day solution": [
     {
       "session_id": "261040",
@@ -11,82 +11,9 @@
   "3 day solution": [
     {
       "session_id": "261030",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "ZD3D_COP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "COOVEL",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "POLUPD",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "SOLLONAP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "SOLLON_P",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "ORBGEN",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXCZD",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "014",
-          "name": "STDPRE",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "020",
-          "name": "SAVERES3D",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "030",
-          "name": "DEL_ZD3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 75
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Clock densification": [
@@ -98,13 +25,13 @@
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "001",
           "name": "ZDDE_COP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "002",
@@ -191,7 +118,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
+      "progress": 6
     }
   ],
   "Comparison": [
