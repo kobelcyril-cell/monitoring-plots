@@ -1,16 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-26 00:00:29
+Timestamp: 2026-04-26 01:00:17
 ================================================================================
 
-TOTAL RUNNING: 30
+TOTAL RUNNING: 379
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  6   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  9   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING: 61   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 303   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
 Martin       (ml18j210  )  RUNNING: 12   PENDING:  0
 
 
@@ -195,8 +194,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 7.44
-Ø PENDING: 0.49
+Ø RUNNING: 8.06
+Ø PENDING: 0.48
 MAX RUNNING: 120.00
 MAX PENDING: 29.00
 
@@ -287,6 +286,7 @@ RUNNING history:
 25.04 21h |  (2.0)
 25.04 22h |  (0.0)
 26.04 00h |  (2.0)
+26.04 01h | ████████████████████ (61.0)
 
 PENDING history:
 19.04 01h |  (0.0)
@@ -375,6 +375,7 @@ PENDING history:
 25.04 21h |  (0.0)
 25.04 22h | ██ (2.0)
 26.04 00h |  (0.0)
+26.04 01h |  (0.0)
 
 
 Elmar (eb23z835)
@@ -465,7 +466,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 40.49
+Ø RUNNING: 43.65
 Ø PENDING: 0.80
 MAX RUNNING: 304.00
 MAX PENDING: 38.00
@@ -553,6 +554,7 @@ RUNNING history:
 25.04 22h | ████ (36.0)
 25.04 23h |  (5.0)
 26.04 00h |  (6.0)
+26.04 01h | ███████████████████████████████████████ (303.0)
 
 PENDING history:
 19.04 01h |  (0.0)
@@ -637,6 +639,7 @@ PENDING history:
 25.04 22h | ████████████████████████████████████████ (38.0)
 25.04 23h |  (0.0)
 26.04 00h |  (0.0)
+26.04 01h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -919,8 +922,8 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.43
-Ø PENDING: 0.10
+Ø RUNNING: 2.44
+Ø PENDING: 0.09
 MAX RUNNING: 14.00
 MAX PENDING: 4.00
 
@@ -967,6 +970,7 @@ RUNNING history:
 25.04 19h | ██ (1.0)
 25.04 23h | ██████████████ (5.0)
 26.04 00h | ██ (1.0)
+26.04 01h | ████████ (3.0)
 
 PENDING history:
 19.04 01h |  (0.0)
@@ -1011,6 +1015,7 @@ PENDING history:
 25.04 19h |  (0.0)
 25.04 23h |  (0.0)
 26.04 00h |  (0.0)
+26.04 01h |  (0.0)
 
 
 ggsp (l_ggsp)
@@ -1379,8 +1384,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 66.43
-Ø PENDING: 62.43
+Ø RUNNING: 65.29
+Ø PENDING: 61.12
 MAX RUNNING: 238.00
 MAX PENDING: 480.00
 
@@ -1432,6 +1437,7 @@ RUNNING history:
 25.04 22h | ███████████████████████████████████████ (233.0)
 25.04 23h | ██ (12.0)
 26.04 00h | ██ (12.0)
+26.04 01h | ██ (12.0)
 
 PENDING history:
 20.04 14h |  (0.0)
@@ -1481,5 +1487,6 @@ PENDING history:
 25.04 22h | ██████████████████████████████████ (409.0)
 25.04 23h |  (0.0)
 26.04 00h |  (0.0)
+26.04 01h |  (0.0)
 
 
