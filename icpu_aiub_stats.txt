@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-25 13:00:13
+Timestamp: 2026-04-25 14:00:14
 ================================================================================
 
-TOTAL RUNNING: 18
+TOTAL RUNNING: 29
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-l_code_m     (l_code_m  )  RUNNING:  5   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-Linda        (lg19a108  )  RUNNING: 12   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING: 15   PENDING:  0
+Linda        (lg19a108  )  RUNNING: 11   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -23,7 +23,6 @@ MAX RUNNING: 3.00
 MAX PENDING: 4.00
 
 RUNNING history:
-18.04 13h | █████████████ (1.0)
 18.04 14h | ██████████████████████████ (2.0)
 18.04 16h | █████████████ (1.0)
 18.04 18h | █████████████ (1.0)
@@ -117,7 +116,6 @@ RUNNING history:
 22.04 16h |  (0.0)
 
 PENDING history:
-18.04 13h |  (0.0)
 18.04 14h |  (0.0)
 18.04 16h |  (0.0)
 18.04 18h |  (0.0)
@@ -503,8 +501,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 40.78
-Ø PENDING: 0.35
+Ø RUNNING: 40.32
+Ø PENDING: 0.34
 MAX RUNNING: 304.00
 MAX PENDING: 9.00
 
@@ -590,6 +588,7 @@ RUNNING history:
 25.04 04h |  (4.0)
 25.04 05h |  (2.0)
 25.04 06h | █████ (40.0)
+25.04 14h |  (3.0)
 
 PENDING history:
 18.04 14h |  (0.0)
@@ -673,12 +672,13 @@ PENDING history:
 25.04 04h |  (0.0)
 25.04 05h |  (0.0)
 25.04 06h |  (0.0)
+25.04 14h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.59
-Ø PENDING: 2.08
+Ø RUNNING: 11.66
+Ø PENDING: 2.04
 MAX RUNNING: 56.00
 MAX PENDING: 57.00
 
@@ -732,6 +732,7 @@ RUNNING history:
 25.04 11h | ██ (3.0)
 25.04 12h | ██ (4.0)
 25.04 13h | ███ (5.0)
+25.04 14h | ██████████ (15.0)
 
 PENDING history:
 18.04 21h |  (0.0)
@@ -783,17 +784,17 @@ PENDING history:
 25.04 11h |  (0.0)
 25.04 12h |  (0.0)
 25.04 13h |  (0.0)
+25.04 14h |  (0.0)
 
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 15.10
+Ø RUNNING: 15.29
 Ø PENDING: 0.29
 MAX RUNNING: 152.00
 MAX PENDING: 7.00
 
 RUNNING history:
-18.04 13h |  (1.0)
 18.04 15h | ████████████████████████████████████████ (152.0)
 18.04 16h | ███████████████████████████████████████ (149.0)
 18.04 18h |  (1.0)
@@ -868,7 +869,6 @@ RUNNING history:
 25.04 13h |  (1.0)
 
 PENDING history:
-18.04 13h |  (0.0)
 18.04 15h | █████ (1.0)
 18.04 16h | █████ (1.0)
 18.04 18h |  (0.0)
@@ -1167,8 +1167,8 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 23.40
-Ø PENDING: 2.67
+Ø RUNNING: 23.00
+Ø PENDING: 2.58
 MAX RUNNING: 76.00
 MAX PENDING: 54.00
 
@@ -1203,6 +1203,7 @@ RUNNING history:
 25.04 11h | ██████ (12.0)
 25.04 12h | ██████ (12.0)
 25.04 13h | ██████ (12.0)
+25.04 14h | █████ (11.0)
 
 PENDING history:
 20.04 18h |  (0.0)
@@ -1235,6 +1236,7 @@ PENDING history:
 25.04 11h |  (0.0)
 25.04 12h |  (0.0)
 25.04 13h |  (0.0)
+25.04 14h |  (0.0)
 
 
 lm20l063 (lm20l063)
