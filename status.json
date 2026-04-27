@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T08:19:02.509347",
+  "updated": "2026-04-27T08:20:02.267791",
   "1 day solution": [
     {
       "session_id": "261120",
@@ -10,10 +10,89 @@
   ],
   "3 day solution": [
     {
-      "session_id": "261110",
-      "status": "finished",
+      "session_id": "261080",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZD3D_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "COOVEL",
+          "extra": "ZD3D_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "POLUPD",
+          "extra": "ZD3D_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "SOLLONAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "SOLLON_P",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "ORBGEN",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXCZD",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "014",
+          "name": "STDPRE",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "SAVERES3D",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_ZD3D",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 8
+    },
+    {
+      "session_id": "261090",
+      "status": "running",
       "tasks": [],
-      "progress": 100
+      "progress": 0
     }
   ],
   "Clock densification": [
@@ -33,79 +112,79 @@
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "001",
           "name": "CMP_COP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "101",
           "name": "CMP_ERPDIFF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "STDDIF",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "301",
           "name": "CMP_CLKDIFF",
           "extra": "NO_OPT",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "401",
           "name": "ORBCMPL",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "402",
           "name": "plotSatnum",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "501",
           "name": "COMPAR2",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "502",
           "name": "plotStanum",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "601",
           "name": "HELMR1",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "602",
           "name": "plotHELMR1",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "701",
           "name": "STDELEL",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "702",
           "name": "plotSTDELE",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "703",
@@ -132,7 +211,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
+      "progress": 70
     }
   ],
   "PPP": []
