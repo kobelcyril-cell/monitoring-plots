@@ -1,0 +1,29 @@
+
+=== STATION_SELECTION started ===
+Running FINAL station extraction
+FINAL mode: station list written.
+Deleted observation files from 0 stations
+=== STATION_SELECTION finished ===
+==== NUMBER OF STATIONS ====
+Number of observation files: 316
+=========================
+
+=== CHECK_OBSENTRIES started ===
+Found 1836 station entries in IGC20.CRD.
+Found 316 observation files in RAW.
+Deleted 0 files without matching entries.
+=== CHECK_OBSENTRIES finished ===
+
+=== CHECK_SAT_GAPS started ===
+Checking file: SMT261140.SMC
+→ Data gap detected for satellite 13
+→ Data gap detected for satellite 126
+Detected data gaps for 2 satellites.
+=== CHECK_SAT_GAPS finished ===
+
+=== CHECK_SAT_RMS started ===
+Checking file: ORBGEN_APR1140.OUT
+→ Large RMS detected for satellite 72: 468.71 m
+Satellites marked due to RMS > 5.0 m or invalid RMS: 72
+Total satellites marked: 1
+=== CHECK_SAT_RMS finished ===
