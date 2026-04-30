@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-04-30 22:00:12
+Timestamp: 2026-04-30 23:00:12
 ================================================================================
 
-TOTAL RUNNING: 7
+TOTAL RUNNING: 12
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  5   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -17,7 +17,7 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 10.06
+Ø RUNNING: 9.99
 Ø PENDING: 0.07
 MAX RUNNING: 120.00
 MAX PENDING: 2.00
@@ -106,6 +106,7 @@ RUNNING history:
 30.04 20h | █████████████████ (53.0)
 30.04 21h |  (2.0)
 30.04 22h |  (2.0)
+30.04 23h | █ (4.0)
 
 PENDING history:
 24.04 17h |  (0.0)
@@ -191,6 +192,7 @@ PENDING history:
 30.04 20h |  (0.0)
 30.04 21h |  (0.0)
 30.04 22h |  (0.0)
+30.04 23h |  (0.0)
 
 
 Edgar (et25m288)
@@ -229,8 +231,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 36.33
-Ø PENDING: 1.02
+Ø RUNNING: 35.96
+Ø PENDING: 1.01
 MAX RUNNING: 303.00
 MAX PENDING: 38.00
 
@@ -319,6 +321,7 @@ RUNNING history:
 30.04 19h | █ (9.0)
 30.04 21h |  (1.0)
 30.04 22h |  (4.0)
+30.04 23h |  (5.0)
 
 PENDING history:
 23.04 23h |  (0.0)
@@ -405,11 +408,12 @@ PENDING history:
 30.04 19h |  (0.0)
 30.04 21h |  (0.0)
 30.04 22h |  (0.0)
+30.04 23h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.11
+Ø RUNNING: 8.98
 Ø PENDING: 0.11
 MAX RUNNING: 68.00
 MAX PENDING: 3.00
@@ -460,6 +464,7 @@ RUNNING history:
 29.04 23h | █ (2.0)
 30.04 21h | ████████ (14.0)
 30.04 22h |  (1.0)
+30.04 23h | █ (3.0)
 
 PENDING history:
 24.04 18h |  (0.0)
@@ -507,6 +512,7 @@ PENDING history:
 29.04 23h |  (0.0)
 30.04 21h |  (0.0)
 30.04 22h |  (0.0)
+30.04 23h |  (0.0)
 
 
 Code (rapid) (l_code_r)
@@ -877,13 +883,12 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 17.28
-Ø PENDING: 2.78
+Ø RUNNING: 17.45
+Ø PENDING: 2.87
 MAX RUNNING: 76.00
 MAX PENDING: 28.00
 
 RUNNING history:
-23.04 22h | ██████ (12.0)
 23.04 23h | █████ (11.0)
 24.04 00h | █ (3.0)
 24.04 01h |  (1.0)
@@ -917,7 +922,6 @@ RUNNING history:
 30.04 15h | ███████████████ (29.0)
 
 PENDING history:
-23.04 22h |  (0.0)
 23.04 23h |  (0.0)
 24.04 00h |  (0.0)
 24.04 01h |  (0.0)
@@ -971,13 +975,12 @@ PENDING history:
 
 mk19i988 (mk19i988)
 --------------------------------------------------------------------------------
-Ø RUNNING: 50.60
-Ø PENDING: 4.00
+Ø RUNNING: 56.00
+Ø PENDING: 4.44
 MAX RUNNING: 124.00
 MAX PENDING: 35.00
 
 RUNNING history:
-23.04 22h |  (2.0)
 23.04 23h | ████████████████████████████████████████ (124.0)
 24.04 00h | ██████████████████████████████████████ (118.0)
 24.04 01h | ███ (12.0)
@@ -989,7 +992,6 @@ RUNNING history:
 24.04 07h | ██████████████████████████████████████ (119.0)
 
 PENDING history:
-23.04 22h |  (0.0)
 23.04 23h |  (0.0)
 24.04 00h | ████████████████████████████████████████ (35.0)
 24.04 01h |  (0.0)
@@ -1003,13 +1005,12 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 58.82
-Ø PENDING: 68.45
+Ø RUNNING: 59.91
+Ø PENDING: 70.05
 MAX RUNNING: 238.00
 MAX PENDING: 493.00
 
 RUNNING history:
-23.04 22h | ██ (12.0)
 23.04 23h | ██████ (37.0)
 24.04 00h | ███████████ (68.0)
 24.04 01h |  (3.0)
@@ -1055,7 +1056,6 @@ RUNNING history:
 29.04 02h | █████ (33.0)
 
 PENDING history:
-23.04 22h |  (0.0)
 23.04 23h |  (0.0)
 24.04 00h | █ (13.0)
 24.04 01h |  (0.0)
