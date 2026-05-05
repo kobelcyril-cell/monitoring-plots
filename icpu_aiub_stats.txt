@@ -1,13 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-05 07:00:14
+Timestamp: 2026-05-05 08:00:16
 ================================================================================
 
-TOTAL RUNNING: 2
+TOTAL RUNNING: 7
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  6   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -15,13 +16,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 7.78
+Ø RUNNING: 7.79
 Ø PENDING: 0.46
 MAX RUNNING: 120.00
 MAX PENDING: 34.00
 
 RUNNING history:
-28.04 07h | ██ (7.0)
 28.04 20h |  (1.0)
 28.04 21h |  (1.0)
 28.04 22h |  (0.0)
@@ -108,7 +108,6 @@ RUNNING history:
 05.05 05h | ██ (8.0)
 
 PENDING history:
-28.04 07h |  (0.0)
 28.04 20h |  (0.0)
 28.04 21h |  (0.0)
 28.04 22h | ██ (2.0)
@@ -617,13 +616,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.34
-Ø PENDING: 1.70
+Ø RUNNING: 17.94
+Ø PENDING: 1.69
 MAX RUNNING: 154.00
 MAX PENDING: 65.00
 
 RUNNING history:
-28.04 08h | █████████████████████████ (100.0)
 28.04 09h |  (2.0)
 28.04 10h | █ (4.0)
 28.04 13h |  (1.0)
@@ -690,9 +688,9 @@ RUNNING history:
 04.05 21h |  (1.0)
 05.05 00h |  (3.0)
 05.05 03h |  (2.0)
+05.05 08h | █ (6.0)
 
 PENDING history:
-28.04 08h |  (1.0)
 28.04 09h |  (0.0)
 28.04 10h |  (0.0)
 28.04 13h |  (0.0)
@@ -759,6 +757,7 @@ PENDING history:
 04.05 21h |  (1.0)
 05.05 00h |  (0.0)
 05.05 03h |  (0.0)
+05.05 08h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -871,7 +870,6 @@ MAX RUNNING: 68.00
 MAX PENDING: 3.00
 
 RUNNING history:
-28.04 07h |  (1.0)
 28.04 10h | █ (3.0)
 28.04 11h | ██████████ (17.0)
 29.04 10h | █ (3.0)
@@ -910,9 +908,9 @@ RUNNING history:
 05.05 05h | █ (2.0)
 05.05 06h |  (1.0)
 05.05 07h | █ (2.0)
+05.05 08h |  (1.0)
 
 PENDING history:
-28.04 07h |  (0.0)
 28.04 10h |  (0.0)
 28.04 11h |  (0.0)
 29.04 10h |  (0.0)
@@ -951,6 +949,7 @@ PENDING history:
 05.05 05h |  (0.0)
 05.05 06h |  (0.0)
 05.05 07h |  (0.0)
+05.05 08h |  (0.0)
 
 
 Daniel (l_hpfaiu)
