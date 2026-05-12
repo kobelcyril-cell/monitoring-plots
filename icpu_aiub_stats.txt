@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-12 13:00:13
+Timestamp: 2026-05-12 14:00:36
 ================================================================================
 
-TOTAL RUNNING: 6
+TOTAL RUNNING: 30
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Edgar        (et25m288  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  4   PENDING:  0
-Martin       (ml18j210  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+lm20l063     (lm20l063  )  RUNNING: 28   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -359,13 +358,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.00
+Ø RUNNING: 32.98
 Ø PENDING: 6.71
 MAX RUNNING: 301.00
 MAX PENDING: 169.00
 
 RUNNING history:
-05.05 14h |  (4.0)
 05.05 15h |  (1.0)
 05.05 19h | ████████████████ (126.0)
 05.05 21h |  (1.0)
@@ -454,9 +452,9 @@ RUNNING history:
 12.05 03h |  (2.0)
 12.05 04h | █████████████████████████ (191.0)
 12.05 05h |  (4.0)
+12.05 14h |  (2.0)
 
 PENDING history:
-05.05 14h |  (0.0)
 05.05 15h |  (0.0)
 05.05 19h |  (2.0)
 05.05 21h |  (0.0)
@@ -545,6 +543,7 @@ PENDING history:
 12.05 03h |  (0.0)
 12.05 04h |  (1.0)
 12.05 05h |  (0.0)
+12.05 14h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -609,14 +608,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 18.03
-Ø PENDING: 1.47
+Ø RUNNING: 18.50
+Ø PENDING: 1.51
 MAX RUNNING: 153.00
 MAX PENDING: 73.00
 
 RUNNING history:
-05.05 13h |  (1.0)
-05.05 14h |  (2.0)
 05.05 15h | ██████████████████████████████ (117.0)
 05.05 18h |  (0.0)
 05.05 21h | ███ (14.0)
@@ -689,8 +686,6 @@ RUNNING history:
 12.05 13h | █ (4.0)
 
 PENDING history:
-05.05 13h |  (0.0)
-05.05 14h |  (0.0)
 05.05 15h |  (0.0)
 05.05 18h |  (1.0)
 05.05 21h |  (0.0)
@@ -855,14 +850,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.02
-Ø PENDING: 0.17
+Ø RUNNING: 8.09
+Ø PENDING: 0.18
 MAX RUNNING: 122.00
 MAX PENDING: 6.00
 
 RUNNING history:
-05.05 13h |  (3.0)
-05.05 14h | ███ (10.0)
 06.05 09h |  (1.0)
 06.05 10h |  (3.0)
 06.05 11h |  (2.0)
@@ -910,8 +903,6 @@ RUNNING history:
 12.05 11h |  (2.0)
 
 PENDING history:
-05.05 13h |  (0.0)
-05.05 14h |  (0.0)
 06.05 09h |  (0.0)
 06.05 10h |  (0.0)
 06.05 11h |  (0.0)
@@ -977,6 +968,20 @@ PENDING history:
 07.05 03h |  (0.0)
 08.05 03h |  (0.0)
 09.05 03h |  (0.0)
+
+
+lm20l063 (lm20l063)
+--------------------------------------------------------------------------------
+Ø RUNNING: 28.00
+Ø PENDING: 0.00
+MAX RUNNING: 28.00
+MAX PENDING: 0.00
+
+RUNNING history:
+12.05 14h | ████████████████████████████████████████ (28.0)
+
+PENDING history:
+12.05 14h |  (0.0)
 
 
 Martin (ml18j210)
