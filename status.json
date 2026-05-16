@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-16T03:55:02.048102",
+  "updated": "2026-05-16T03:56:01.703415",
   "1 day solution": [
     {
       "session_id": "261310",
@@ -845,44 +845,44 @@
   ],
   "3 day solution": [
     {
-      "session_id": "261290",
+      "session_id": "261300",
       "status": "running",
       "tasks": [
         {
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "012",
@@ -921,7 +921,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 41
+      "progress": 0
     }
   ],
   "Clock densification": [
