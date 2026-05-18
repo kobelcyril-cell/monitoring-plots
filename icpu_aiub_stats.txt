@@ -1,21 +1,31 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-18 06:00:17
+Timestamp: 2026-05-18 07:03:17
 ================================================================================
 
 TOTAL RUNNING: 0
-TOTAL PENDING: 365
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  0   PENDING:  2
-Code (final) (l_code_f  )  RUNNING:  0   PENDING:  5
-l_code_m     (l_code_m  )  RUNNING:  0   PENDING:  1
-Code (SLR)   (l_code_s  )  RUNNING:  0   PENDING:  3
-Martin       (ml18j210  )  RUNNING:  0   PENDING: 354
+Command      (Command   )  RUNNING:  0   PENDING:  1
 
 
 Weekly statistics (last 7 days, 1h mean values)
 ================================================================================
+
+Command (Command)
+--------------------------------------------------------------------------------
+Ø RUNNING: 0.00
+Ø PENDING: 1.00
+MAX RUNNING: 0.00
+MAX PENDING: 1.00
+
+RUNNING history:
+18.05 07h |  (0.0)
+
+PENDING history:
+18.05 07h | ████████████████████████████████████████ (1.0)
+
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
@@ -25,7 +35,6 @@ MAX RUNNING: 60.00
 MAX PENDING: 3.00
 
 RUNNING history:
-11.05 06h | ██ (4.0)
 11.05 08h | █████ (8.0)
 11.05 09h | █ (2.0)
 11.05 10h | █ (2.0)
@@ -108,7 +117,6 @@ RUNNING history:
 18.05 06h |  (0.0)
 
 PENDING history:
-11.05 06h |  (0.0)
 11.05 08h |  (0.0)
 11.05 09h |  (0.0)
 11.05 10h |  (0.0)
@@ -225,14 +233,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 38.47
-Ø PENDING: 0.78
+Ø RUNNING: 33.61
+Ø PENDING: 0.72
 MAX RUNNING: 299.00
 MAX PENDING: 6.00
 
 RUNNING history:
-11.05 06h | ██████████████████████ (168.0)
-11.05 07h | ██████████████████████████████████ (259.0)
 11.05 14h |  (2.0)
 11.05 19h | ████████████████ (126.0)
 11.05 21h |  (1.0)
@@ -307,8 +313,6 @@ RUNNING history:
 18.05 06h |  (0.0)
 
 PENDING history:
-11.05 06h | ████████████████████ (3.0)
-11.05 07h | ████████████████████ (3.0)
 11.05 14h |  (0.0)
 11.05 19h | ██████ (1.0)
 11.05 21h |  (0.0)
