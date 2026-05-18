@@ -1,17 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-18 17:00:12
+Timestamp: 2026-05-18 18:00:13
 ================================================================================
 
-TOTAL RUNNING: 129
-TOTAL PENDING: 1
+TOTAL RUNNING: 281
+TOTAL PENDING: 164
 
 Per User:
 --------------------------------------------------------------------------------
-Code (final) (l_code_f  )  RUNNING: 46   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 11   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  7   PENDING:  0
-Martin       (ml18j210  )  RUNNING: 64   PENDING:  1
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 70   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 10   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 198   PENDING: 164
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -251,8 +251,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 32.00
-Ø PENDING: 1.00
+Ø RUNNING: 31.62
+Ø PENDING: 0.99
 MAX RUNNING: 299.00
 MAX PENDING: 6.00
 
@@ -334,6 +334,7 @@ RUNNING history:
 18.05 14h |  (0.0)
 18.05 15h |  (0.0)
 18.05 17h | ██████ (46.0)
+18.05 18h |  (2.0)
 
 PENDING history:
 11.05 19h | ██████ (1.0)
@@ -413,6 +414,7 @@ PENDING history:
 18.05 14h | █████████████████████████████████ (5.0)
 18.05 15h | █████████████████████████████████ (5.0)
 18.05 17h |  (0.0)
+18.05 18h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -497,8 +499,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 21.71
-Ø PENDING: 5.52
+Ø RUNNING: 22.48
+Ø PENDING: 5.43
 MAX RUNNING: 152.00
 MAX PENDING: 102.00
 
@@ -565,6 +567,7 @@ RUNNING history:
 18.05 14h |  (0.0)
 18.05 15h |  (0.0)
 18.05 17h | ██ (11.0)
+18.05 18h | ██████████████████ (70.0)
 
 PENDING history:
 11.05 18h |  (0.0)
@@ -629,12 +632,13 @@ PENDING history:
 18.05 14h | ███████████████████████████ (70.0)
 18.05 15h | ████████████████████████████████████████ (102.0)
 18.05 17h |  (0.0)
+18.05 18h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.10
-Ø PENDING: 0.61
+Ø RUNNING: 2.08
+Ø PENDING: 0.60
 MAX RUNNING: 9.00
 MAX PENDING: 9.00
 
@@ -690,6 +694,7 @@ RUNNING history:
 18.05 13h |  (0.0)
 18.05 14h |  (0.0)
 18.05 15h |  (0.0)
+18.05 18h | ████ (1.0)
 
 PENDING history:
 11.05 18h |  (0.0)
@@ -743,17 +748,17 @@ PENDING history:
 18.05 13h | █████████████ (3.0)
 18.05 14h | █████████████ (3.0)
 18.05 15h | ████████████████████████████████████████ (9.0)
+18.05 18h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 7.08
+Ø RUNNING: 7.30
 Ø PENDING: 0.90
 MAX RUNNING: 122.00
 MAX PENDING: 9.00
 
 RUNNING history:
-11.05 17h |  (1.0)
 11.05 18h |  (1.0)
 11.05 19h | █ (4.0)
 11.05 20h |  (1.0)
@@ -793,9 +798,9 @@ RUNNING history:
 18.05 14h |  (0.0)
 18.05 15h |  (0.0)
 18.05 17h | ██ (7.0)
+18.05 18h | ███ (10.0)
 
 PENDING history:
-11.05 17h |  (0.0)
 11.05 18h |  (0.0)
 11.05 19h |  (0.0)
 11.05 20h |  (0.0)
@@ -835,6 +840,7 @@ PENDING history:
 18.05 14h | ████████████████████████████████████████ (9.0)
 18.05 15h | ████████████████████████████████████████ (9.0)
 18.05 17h |  (0.0)
+18.05 18h |  (0.0)
 
 
 lm20l063 (lm20l063)
@@ -861,8 +867,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 39.72
-Ø PENDING: 149.58
+Ø RUNNING: 42.45
+Ø PENDING: 149.83
 MAX RUNNING: 240.00
 MAX PENDING: 838.00
 
@@ -924,6 +930,7 @@ RUNNING history:
 18.05 14h |  (0.0)
 18.05 15h |  (0.0)
 18.05 17h | ██████████ (64.0)
+18.05 18h | █████████████████████████████████ (198.0)
 
 PENDING history:
 11.05 18h |  (0.0)
@@ -983,5 +990,6 @@ PENDING history:
 18.05 14h | ████████████████ (354.0)
 18.05 15h | ████████████████ (354.0)
 18.05 17h |  (1.0)
+18.05 18h | ███████ (164.0)
 
 
