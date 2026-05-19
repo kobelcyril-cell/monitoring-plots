@@ -1,14 +1,18 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-19 11:00:09
+Timestamp: 2026-05-19 12:00:09
 ================================================================================
 
-TOTAL RUNNING: 9
-TOTAL PENDING: 0
+TOTAL RUNNING: 287
+TOTAL PENDING: 199
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  5   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  4   PENDING:  0
+Cyril        (ck18y530  )  RUNNING: 39   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  7   PENDING:  1
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Linda        (lg19a108  )  RUNNING: 47   PENDING:  4
+Martin       (ml18j210  )  RUNNING: 192   PENDING: 194
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -30,8 +34,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.61
-Ø PENDING: 0.34
+Ø RUNNING: 4.99
+Ø PENDING: 0.33
 MAX RUNNING: 99.00
 MAX PENDING: 3.00
 
@@ -125,6 +129,7 @@ RUNNING history:
 19.05 09h |  (1.0)
 19.05 10h | █████ (14.0)
 19.05 11h | ██ (5.0)
+19.05 12h | ███████████████ (39.0)
 
 PENDING history:
 12.05 15h |  (0.0)
@@ -216,6 +221,7 @@ PENDING history:
 19.05 09h |  (0.0)
 19.05 10h |  (0.0)
 19.05 11h |  (0.0)
+19.05 12h |  (0.0)
 
 
 Edgar (et25m288)
@@ -262,8 +268,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.01
-Ø PENDING: 0.94
+Ø RUNNING: 32.62
+Ø PENDING: 0.93
 MAX RUNNING: 302.00
 MAX PENDING: 6.00
 
@@ -349,6 +355,7 @@ RUNNING history:
 19.05 03h |  (2.0)
 19.05 04h |  (1.0)
 19.05 10h |  (1.0)
+19.05 12h |  (1.0)
 
 PENDING history:
 12.05 14h |  (0.0)
@@ -432,6 +439,7 @@ PENDING history:
 19.05 03h |  (0.0)
 19.05 04h |  (0.0)
 19.05 10h |  (0.0)
+19.05 12h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -518,8 +526,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.34
-Ø PENDING: 5.55
+Ø RUNNING: 25.05
+Ø PENDING: 5.48
 MAX RUNNING: 153.00
 MAX PENDING: 102.00
 
@@ -586,6 +594,7 @@ RUNNING history:
 19.05 08h | ████████████████████████████████████████ (153.0)
 19.05 09h | ████████████████ (65.0)
 19.05 10h |  (2.0)
+19.05 12h | █ (7.0)
 
 PENDING history:
 12.05 13h |  (0.0)
@@ -650,6 +659,7 @@ PENDING history:
 19.05 08h |  (1.0)
 19.05 09h |  (2.0)
 19.05 10h |  (0.0)
+19.05 12h |  (1.0)
 
 
 Code (SLR) (l_code_s)
@@ -766,13 +776,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 7.44
+Ø RUNNING: 7.41
 Ø PENDING: 0.92
 MAX RUNNING: 107.00
 MAX PENDING: 9.00
 
 RUNNING history:
-12.05 11h |  (2.0)
 13.05 09h | █████ (15.0)
 13.05 10h |  (1.0)
 13.05 11h |  (2.0)
@@ -811,9 +820,9 @@ RUNNING history:
 19.05 09h |  (1.0)
 19.05 10h | ████ (11.0)
 19.05 11h | █ (4.0)
+19.05 12h |  (1.0)
 
 PENDING history:
-12.05 11h |  (0.0)
 13.05 09h |  (0.0)
 13.05 10h |  (0.0)
 13.05 11h |  (0.0)
@@ -852,6 +861,7 @@ PENDING history:
 19.05 09h |  (0.0)
 19.05 10h |  (0.0)
 19.05 11h |  (0.0)
+19.05 12h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -866,6 +876,20 @@ RUNNING history:
 
 PENDING history:
 19.05 08h |  (0.0)
+
+
+Linda (lg19a108)
+--------------------------------------------------------------------------------
+Ø RUNNING: 47.00
+Ø PENDING: 4.00
+MAX RUNNING: 47.00
+MAX PENDING: 4.00
+
+RUNNING history:
+19.05 12h | ████████████████████████████████████████ (47.0)
+
+PENDING history:
+19.05 12h | ████████████████████████████████████████ (4.0)
 
 
 lm20l063 (lm20l063)
@@ -892,8 +916,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 46.89
-Ø PENDING: 161.07
+Ø RUNNING: 49.44
+Ø PENDING: 161.65
 MAX RUNNING: 240.00
 MAX PENDING: 838.00
 
@@ -954,6 +978,7 @@ RUNNING history:
 18.05 17h | ██████████ (64.0)
 18.05 18h | █████████████████████████████████ (198.0)
 19.05 09h | █████████████████████████████████████ (222.0)
+19.05 12h | ████████████████████████████████ (192.0)
 
 PENDING history:
 12.05 12h |  (0.0)
@@ -1012,5 +1037,6 @@ PENDING history:
 18.05 17h |  (1.0)
 18.05 18h | ███████ (164.0)
 19.05 09h | ███████████████ (330.0)
+19.05 12h | █████████ (194.0)
 
 
