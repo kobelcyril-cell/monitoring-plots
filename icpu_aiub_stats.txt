@@ -1,14 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-21 02:00:09
+Timestamp: 2026-05-21 03:00:07
 ================================================================================
 
-TOTAL RUNNING: 5
+TOTAL RUNNING: 46
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
-Martin       (ml18j210  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  5   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  5   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  2   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 30   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -48,13 +51,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.82
+Ø RUNNING: 9.86
 Ø PENDING: 1.48
 MAX RUNNING: 180.00
 MAX PENDING: 58.00
 
 RUNNING history:
-14.05 02h |  (2.0)
 14.05 03h |  (2.0)
 14.05 04h |  (4.0)
 14.05 19h |  (1.0)
@@ -151,9 +153,9 @@ RUNNING history:
 21.05 00h | ████████████████████████████████████████ (180.0)
 21.05 01h |  (3.0)
 21.05 02h |  (4.0)
+21.05 03h | █ (5.0)
 
 PENDING history:
-14.05 02h |  (0.0)
 14.05 03h |  (0.0)
 14.05 04h |  (0.0)
 14.05 19h |  (0.0)
@@ -250,6 +252,7 @@ PENDING history:
 21.05 00h |  (0.0)
 21.05 01h |  (0.0)
 21.05 02h |  (0.0)
+21.05 03h |  (0.0)
 
 
 Code (l_code)
@@ -282,13 +285,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 32.21
+Ø RUNNING: 32.24
 Ø PENDING: 0.98
 MAX RUNNING: 302.00
 MAX PENDING: 6.00
 
 RUNNING history:
-14.05 02h |  (2.0)
 14.05 03h |  (1.0)
 14.05 04h |  (1.0)
 14.05 05h |  (2.0)
@@ -373,9 +375,9 @@ RUNNING history:
 20.05 23h |  (7.0)
 21.05 00h |  (6.0)
 21.05 01h | ███████████████ (119.0)
+21.05 03h |  (4.0)
 
 PENDING history:
-14.05 02h |  (0.0)
 14.05 03h |  (0.0)
 14.05 04h |  (0.0)
 14.05 05h |  (0.0)
@@ -460,6 +462,7 @@ PENDING history:
 20.05 23h |  (0.0)
 21.05 00h |  (0.0)
 21.05 01h |  (0.0)
+21.05 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -546,8 +549,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.52
-Ø PENDING: 5.07
+Ø RUNNING: 24.24
+Ø PENDING: 5.00
 MAX RUNNING: 153.00
 MAX PENDING: 102.00
 
@@ -621,6 +624,7 @@ RUNNING history:
 20.05 18h | ███ (14.0)
 20.05 21h |  (0.0)
 21.05 00h |  (2.0)
+21.05 03h | █ (5.0)
 
 PENDING history:
 14.05 03h |  (0.0)
@@ -692,6 +696,7 @@ PENDING history:
 20.05 18h |  (1.0)
 20.05 21h |  (1.0)
 21.05 00h |  (0.0)
+21.05 03h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -902,8 +907,8 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.88
-Ø PENDING: 36.25
+Ø RUNNING: 8.11
+Ø PENDING: 32.22
 MAX RUNNING: 29.00
 MAX PENDING: 134.00
 
@@ -916,6 +921,7 @@ RUNNING history:
 19.05 18h | █ (1.0)
 19.05 19h | ████████████████████████ (18.0)
 20.05 03h | ██ (2.0)
+21.05 03h | ██ (2.0)
 
 PENDING history:
 19.05 08h |  (0.0)
@@ -926,6 +932,7 @@ PENDING history:
 19.05 18h | █████████████████████ (72.0)
 19.05 19h |  (0.0)
 20.05 03h |  (0.0)
+21.05 03h |  (0.0)
 
 
 Linda (lg19a108)
@@ -970,13 +977,12 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 60.44
+Ø RUNNING: 61.04
 Ø PENDING: 195.73
 MAX RUNNING: 240.00
 MAX PENDING: 1065.00
 
 RUNNING history:
-14.05 02h |  (1.0)
 15.05 10h |  (1.0)
 15.05 14h | ██████ (40.0)
 15.05 15h | ████████ (51.0)
@@ -1024,9 +1030,9 @@ RUNNING history:
 21.05 00h |  (1.0)
 21.05 01h |  (1.0)
 21.05 02h |  (1.0)
+21.05 03h | █████ (30.0)
 
 PENDING history:
-14.05 02h |  (0.0)
 15.05 10h |  (0.0)
 15.05 14h |  (0.0)
 15.05 15h |  (2.0)
@@ -1074,5 +1080,6 @@ PENDING history:
 21.05 00h |  (0.0)
 21.05 01h |  (0.0)
 21.05 02h |  (0.0)
+21.05 03h |  (0.0)
 
 
