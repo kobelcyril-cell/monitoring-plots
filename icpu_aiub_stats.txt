@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-21 11:00:08
+Timestamp: 2026-05-21 12:00:23
 ================================================================================
 
-TOTAL RUNNING: 9
+TOTAL RUNNING: 36
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  6   PENDING:  0
-Code         (l_code    )  RUNNING:  1   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 33   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -549,8 +548,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 27.29
-Ø PENDING: 5.03
+Ø RUNNING: 27.37
+Ø PENDING: 4.96
 MAX RUNNING: 153.00
 MAX PENDING: 102.00
 
@@ -624,6 +623,7 @@ RUNNING history:
 21.05 03h | █ (5.0)
 21.05 08h | ███████████████████████████████████████ (152.0)
 21.05 09h | █████████████████████████████████████ (143.0)
+21.05 12h | ████████ (33.0)
 
 PENDING history:
 14.05 13h |  (0.0)
@@ -695,6 +695,7 @@ PENDING history:
 21.05 03h |  (0.0)
 21.05 08h |  (0.0)
 21.05 09h |  (0.0)
+21.05 12h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -803,14 +804,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.69
-Ø PENDING: 0.80
+Ø RUNNING: 6.43
+Ø PENDING: 0.82
 MAX RUNNING: 107.00
 MAX PENDING: 9.00
 
 RUNNING history:
-14.05 11h | ███████ (20.0)
-14.05 12h |  (1.0)
 15.05 09h | ████ (13.0)
 15.05 10h |  (2.0)
 15.05 11h |  (2.0)
@@ -854,10 +853,9 @@ RUNNING history:
 20.05 20h |  (1.0)
 21.05 09h | ███ (9.0)
 21.05 11h |  (2.0)
+21.05 12h | █ (3.0)
 
 PENDING history:
-14.05 11h |  (0.0)
-14.05 12h |  (0.0)
 15.05 09h |  (0.0)
 15.05 10h |  (0.0)
 15.05 11h |  (0.0)
@@ -901,6 +899,7 @@ PENDING history:
 20.05 20h |  (0.0)
 21.05 09h |  (0.0)
 21.05 11h |  (0.0)
+21.05 12h |  (0.0)
 
 
 Daniel (l_hpfaiu)
