@@ -1,13 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-22 13:00:11
+Timestamp: 2026-05-22 14:00:13
 ================================================================================
 
-TOTAL RUNNING: 10
+TOTAL RUNNING: 22
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 10   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  8   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 11   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -289,8 +291,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.75
-Ø PENDING: 0.92
+Ø RUNNING: 33.38
+Ø PENDING: 0.90
 MAX RUNNING: 302.00
 MAX PENDING: 5.00
 
@@ -378,6 +380,7 @@ RUNNING history:
 22.05 03h |  (2.0)
 22.05 04h |  (2.0)
 22.05 06h |  (1.0)
+22.05 14h |  (3.0)
 
 PENDING history:
 15.05 14h |  (0.0)
@@ -463,6 +466,7 @@ PENDING history:
 22.05 03h |  (0.0)
 22.05 04h |  (0.0)
 22.05 06h |  (0.0)
+22.05 14h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -549,13 +553,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.46
+Ø RUNNING: 24.54
 Ø PENDING: 4.28
 MAX RUNNING: 153.00
 MAX PENDING: 102.00
 
 RUNNING history:
-15.05 13h |  (2.0)
 15.05 15h |  (1.0)
 15.05 16h | ███████████████████████████████████████ (152.0)
 15.05 18h |  (1.0)
@@ -637,9 +640,9 @@ RUNNING history:
 22.05 11h | █████ (20.0)
 22.05 12h |  (2.0)
 22.05 13h | ██ (10.0)
+22.05 14h | ██ (8.0)
 
 PENDING history:
-15.05 13h |  (0.0)
 15.05 15h |  (0.0)
 15.05 16h |  (0.0)
 15.05 18h |  (0.0)
@@ -721,6 +724,7 @@ PENDING history:
 22.05 11h |  (0.0)
 22.05 12h |  (0.0)
 22.05 13h |  (0.0)
+22.05 14h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1001,8 +1005,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 66.67
-Ø PENDING: 194.27
+Ø RUNNING: 65.56
+Ø PENDING: 190.38
 MAX RUNNING: 240.00
 MAX PENDING: 1065.00
 
@@ -1056,6 +1060,7 @@ RUNNING history:
 21.05 03h | █████ (30.0)
 22.05 10h | ████████████████ (99.0)
 22.05 12h | ███████████████████████████████████████ (239.0)
+22.05 14h | █ (11.0)
 
 PENDING history:
 15.05 14h |  (0.0)
@@ -1107,5 +1112,6 @@ PENDING history:
 21.05 03h |  (0.0)
 22.05 10h |  (0.0)
 22.05 12h | ████ (124.0)
+22.05 14h |  (0.0)
 
 
