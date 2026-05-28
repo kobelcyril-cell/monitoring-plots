@@ -1,13 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-28 17:00:08
+Timestamp: 2026-05-28 18:00:08
 ================================================================================
 
-TOTAL RUNNING: 55
+TOTAL RUNNING: 57
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Rolf         (dach      )  RUNNING: 55   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -245,8 +247,8 @@ PENDING history:
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 115.90
-Ø PENDING: 50.13
+Ø RUNNING: 113.94
+Ø PENDING: 48.52
 MAX RUNNING: 160.00
 MAX PENDING: 124.00
 
@@ -281,6 +283,7 @@ RUNNING history:
 28.05 15h | ██████████████████████████ (104.0)
 28.05 16h | ██████████████ (56.0)
 28.05 17h | █████████████ (55.0)
+28.05 18h | █████████████ (55.0)
 
 PENDING history:
 27.05 11h | █████████████████████████████ (91.0)
@@ -313,6 +316,7 @@ PENDING history:
 28.05 15h |  (1.0)
 28.05 16h |  (0.0)
 28.05 17h |  (0.0)
+28.05 18h |  (0.0)
 
 
 Code (l_code)
@@ -565,8 +569,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.36
-Ø PENDING: 6.27
+Ø RUNNING: 22.07
+Ø PENDING: 6.19
 MAX RUNNING: 153.00
 MAX PENDING: 118.00
 
@@ -644,6 +648,7 @@ RUNNING history:
 28.05 13h | █ (4.0)
 28.05 15h | █████████████████████████ (96.0)
 28.05 16h |  (3.0)
+28.05 18h |  (1.0)
 
 PENDING history:
 21.05 18h |  (0.0)
@@ -719,12 +724,13 @@ PENDING history:
 28.05 13h |  (0.0)
 28.05 15h | ██████████████████ (54.0)
 28.05 16h |  (0.0)
+28.05 18h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.40
-Ø PENDING: 0.96
+Ø RUNNING: 2.37
+Ø PENDING: 0.93
 MAX RUNNING: 9.00
 MAX PENDING: 12.00
 
@@ -774,6 +780,7 @@ RUNNING history:
 28.05 01h | ████ (1.0)
 28.05 02h |  (0.0)
 28.05 04h | ████ (1.0)
+28.05 18h | ████ (1.0)
 
 PENDING history:
 21.05 18h |  (0.0)
@@ -821,6 +828,7 @@ PENDING history:
 28.05 01h | █████████████ (4.0)
 28.05 02h | ███ (1.0)
 28.05 04h |  (0.0)
+28.05 18h |  (0.0)
 
 
 ggsp (l_ggsp)
