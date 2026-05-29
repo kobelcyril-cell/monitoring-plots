@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-05-29 07:00:08
+Timestamp: 2026-05-29 08:00:08
 ================================================================================
 
-TOTAL RUNNING: 72
+TOTAL RUNNING: 137
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Rolf         (dach      )  RUNNING: 70   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 66   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -232,8 +233,8 @@ PENDING history:
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 107.23
-Ø PENDING: 63.84
+Ø RUNNING: 106.40
+Ø PENDING: 62.42
 MAX RUNNING: 160.00
 MAX PENDING: 397.00
 
@@ -282,6 +283,7 @@ RUNNING history:
 29.05 05h | ████████████ (50.0)
 29.05 06h | ██████████████████ (72.0)
 29.05 07h | █████████████████ (70.0)
+29.05 08h | █████████████████ (70.0)
 
 PENDING history:
 27.05 11h | █████████ (91.0)
@@ -328,6 +330,7 @@ PENDING history:
 29.05 05h |  (0.0)
 29.05 06h |  (0.0)
 29.05 07h |  (0.0)
+29.05 08h |  (0.0)
 
 
 Code (l_code)
@@ -360,8 +363,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 28.15
-Ø PENDING: 8.13
+Ø RUNNING: 27.81
+Ø PENDING: 8.03
 MAX RUNNING: 304.00
 MAX PENDING: 261.00
 
@@ -445,6 +448,7 @@ RUNNING history:
 29.05 04h |  (4.0)
 29.05 05h |  (1.0)
 29.05 07h |  (2.0)
+29.05 08h |  (1.0)
 
 PENDING history:
 22.05 14h |  (0.0)
@@ -526,6 +530,7 @@ PENDING history:
 29.05 04h | █████████████████ (116.0)
 29.05 05h |  (0.0)
 29.05 07h |  (0.0)
+29.05 08h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -590,8 +595,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.12
-Ø PENDING: 6.94
+Ø RUNNING: 24.75
+Ø PENDING: 6.84
 MAX RUNNING: 153.00
 MAX PENDING: 118.00
 
@@ -662,6 +667,7 @@ RUNNING history:
 28.05 16h |  (3.0)
 28.05 18h |  (1.0)
 28.05 21h |  (1.0)
+29.05 08h | █████████████████ (66.0)
 
 PENDING history:
 22.05 08h | █ (4.0)
@@ -730,6 +736,7 @@ PENDING history:
 28.05 16h |  (0.0)
 28.05 18h |  (0.0)
 28.05 21h |  (0.0)
+29.05 08h |  (0.0)
 
 
 Code (SLR) (l_code_s)
