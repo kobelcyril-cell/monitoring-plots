@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-01 13:00:34
+Timestamp: 2026-06-01 14:00:24
 ================================================================================
 
-TOTAL RUNNING: 26
+TOTAL RUNNING: 3
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  2   PENDING:  0
-Daniel       (l_hpfaiu  )  RUNNING: 23   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -405,13 +404,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 27.61
+Ø RUNNING: 27.60
 Ø PENDING: 7.28
 MAX RUNNING: 304.00
 MAX PENDING: 261.00
 
 RUNNING history:
-25.05 14h |  (3.0)
 25.05 19h | ████████████████ (127.0)
 25.05 21h |  (3.0)
 25.05 22h |  (4.0)
@@ -499,9 +497,9 @@ RUNNING history:
 01.06 04h |  (2.0)
 01.06 05h | ███████████████████████ (177.0)
 01.06 06h |  (1.0)
+01.06 14h |  (2.0)
 
 PENDING history:
-25.05 14h |  (0.0)
 25.05 19h |  (0.0)
 25.05 21h |  (0.0)
 25.05 22h |  (0.0)
@@ -589,6 +587,7 @@ PENDING history:
 01.06 04h |  (0.0)
 01.06 05h |  (2.0)
 01.06 06h |  (0.0)
+01.06 14h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -803,8 +802,8 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.83
-Ø PENDING: 1.63
+Ø RUNNING: 2.79
+Ø PENDING: 1.60
 MAX RUNNING: 29.00
 MAX PENDING: 12.00
 
@@ -855,6 +854,7 @@ RUNNING history:
 01.06 11h | █ (1.0)
 01.06 12h | ████████████████████████████████████████ (29.0)
 01.06 13h | ██ (2.0)
+01.06 14h | █ (1.0)
 
 PENDING history:
 25.05 18h |  (0.0)
@@ -903,6 +903,7 @@ PENDING history:
 01.06 11h |  (0.0)
 01.06 12h |  (0.0)
 01.06 13h |  (0.0)
+01.06 14h |  (0.0)
 
 
 ggsp (l_ggsp)
