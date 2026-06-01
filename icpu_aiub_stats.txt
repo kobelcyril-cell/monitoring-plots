@@ -1,13 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-01 08:00:22
+Timestamp: 2026-06-01 09:00:13
 ================================================================================
 
-TOTAL RUNNING: 94
-TOTAL PENDING: 0
+TOTAL RUNNING: 150
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 94   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 137   PENDING:  1
+ggsp         (l_ggsp    )  RUNNING: 13   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -645,13 +646,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 23.37
-Ø PENDING: 6.33
+Ø RUNNING: 24.83
+Ø PENDING: 6.30
 MAX RUNNING: 184.00
 MAX PENDING: 118.00
 
 RUNNING history:
-25.05 09h | ███████ (35.0)
 25.05 13h | █ (9.0)
 25.05 15h | █ (5.0)
 25.05 16h |  (3.0)
@@ -721,9 +721,9 @@ RUNNING history:
 31.05 21h | █ (7.0)
 01.06 00h |  (1.0)
 01.06 08h | ████████████████████ (94.0)
+01.06 09h | █████████████████████████████ (137.0)
 
 PENDING history:
-25.05 09h | █ (3.0)
 25.05 13h |  (0.0)
 25.05 15h |  (0.0)
 25.05 16h |  (0.0)
@@ -793,6 +793,7 @@ PENDING history:
 31.05 21h |  (0.0)
 01.06 00h |  (0.0)
 01.06 08h |  (0.0)
+01.06 09h |  (1.0)
 
 
 Code (SLR) (l_code_s)
@@ -893,13 +894,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.43
+Ø RUNNING: 9.71
 Ø PENDING: 0.81
 MAX RUNNING: 112.00
 MAX PENDING: 17.00
 
 RUNNING history:
-25.05 09h |  (1.0)
 25.05 10h | █ (3.0)
 25.05 11h | ███ (11.0)
 25.05 16h | ████████ (24.0)
@@ -941,9 +941,9 @@ RUNNING history:
 31.05 09h | ████ (12.0)
 31.05 10h | █ (3.0)
 31.05 11h | ███ (11.0)
+01.06 09h | ████ (13.0)
 
 PENDING history:
-25.05 09h |  (0.0)
 25.05 10h |  (0.0)
 25.05 11h |  (0.0)
 25.05 16h |  (0.0)
@@ -985,6 +985,7 @@ PENDING history:
 31.05 09h |  (0.0)
 31.05 10h |  (0.0)
 31.05 11h |  (0.0)
+01.06 09h |  (0.0)
 
 
 Daniel (l_hpfaiu)
