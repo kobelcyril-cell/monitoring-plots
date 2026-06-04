@@ -1,13 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-04 17:00:10
+Timestamp: 2026-06-04 18:00:10
 ================================================================================
 
-TOTAL RUNNING: 0
-TOTAL PENDING: 1
+TOTAL RUNNING: 2
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  2
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -133,13 +134,12 @@ PENDING history:
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 49.71
-Ø PENDING: 31.07
+Ø RUNNING: 49.59
+Ø PENDING: 31.83
 MAX RUNNING: 119.00
 MAX PENDING: 397.00
 
 RUNNING history:
-28.05 18h | ██████████████████ (55.0)
 28.05 19h | ██████████████████ (55.0)
 28.05 20h | ██████████████████ (55.0)
 28.05 21h | ██████████████████ (55.0)
@@ -183,7 +183,6 @@ RUNNING history:
 01.06 11h | ██ (6.0)
 
 PENDING history:
-28.05 18h |  (0.0)
 28.05 19h |  (0.0)
 28.05 20h |  (0.0)
 28.05 21h |  (0.0)
@@ -506,12 +505,11 @@ PENDING history:
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
 Ø RUNNING: 19.81
-Ø PENDING: 0.94
+Ø PENDING: 0.96
 MAX RUNNING: 184.00
 MAX PENDING: 8.00
 
 RUNNING history:
-28.05 18h |  (1.0)
 28.05 21h |  (1.0)
 29.05 08h | ██████████████ (66.0)
 29.05 09h | ███████ (33.0)
@@ -626,9 +624,9 @@ RUNNING history:
 04.06 15h |  (1.0)
 04.06 16h | █ (5.0)
 04.06 17h |  (0.0)
+04.06 18h |  (1.0)
 
 PENDING history:
-28.05 18h |  (0.0)
 28.05 21h |  (0.0)
 29.05 08h |  (0.0)
 29.05 09h |  (0.0)
@@ -743,6 +741,7 @@ PENDING history:
 04.06 15h | █████ (1.0)
 04.06 16h | █████ (1.0)
 04.06 17h | █████ (1.0)
+04.06 18h | ██████████ (2.0)
 
 
 Code (SLR) (l_code_s)
@@ -753,7 +752,6 @@ MAX RUNNING: 29.00
 MAX PENDING: 10.00
 
 RUNNING history:
-28.05 18h | █ (1.0)
 28.05 19h | █ (1.0)
 28.05 20h | █████ (4.0)
 28.05 23h | █ (1.0)
@@ -811,9 +809,9 @@ RUNNING history:
 03.06 21h | █ (1.0)
 04.06 00h | ███████████████████████████████ (23.0)
 04.06 01h | █████ (4.0)
+04.06 18h | █ (1.0)
 
 PENDING history:
-28.05 18h |  (0.0)
 28.05 19h |  (0.0)
 28.05 20h |  (0.0)
 28.05 23h |  (0.0)
@@ -871,6 +869,7 @@ PENDING history:
 03.06 21h |  (0.0)
 04.06 00h |  (0.0)
 04.06 01h |  (0.0)
+04.06 18h |  (0.0)
 
 
 ggsp (l_ggsp)
