@@ -1,14 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-05 20:00:07
+Timestamp: 2026-06-05 21:00:08
 ================================================================================
 
-TOTAL RUNNING: 9
+TOTAL RUNNING: 7
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  9   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  4   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  1
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -16,13 +18,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 14.35
+Ø RUNNING: 12.44
 Ø PENDING: 0.00
 MAX RUNNING: 120.00
 MAX PENDING: 0.00
 
 RUNNING history:
-29.05 20h | ████████████████████████████████████████ (120.0)
 29.05 21h |  (2.0)
 29.05 22h |  (2.0)
 29.05 23h | ████████████████████ (60.0)
@@ -84,9 +85,9 @@ RUNNING history:
 05.06 06h | ██ (8.0)
 05.06 19h |  (2.0)
 05.06 20h | ███ (9.0)
+05.06 21h |  (1.0)
 
 PENDING history:
-29.05 20h |  (0.0)
 29.05 21h |  (0.0)
 29.05 22h |  (0.0)
 29.05 23h |  (0.0)
@@ -148,17 +149,17 @@ PENDING history:
 05.06 06h |  (0.0)
 05.06 19h |  (0.0)
 05.06 20h |  (0.0)
+05.06 21h |  (0.0)
 
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 27.75
+Ø RUNNING: 29.53
 Ø PENDING: 0.00
 MAX RUNNING: 83.00
 MAX PENDING: 0.00
 
 RUNNING history:
-29.05 20h |  (1.0)
 29.05 21h |  (1.0)
 29.05 22h |  (1.0)
 29.05 23h |  (1.0)
@@ -176,7 +177,6 @@ RUNNING history:
 01.06 11h | ██ (6.0)
 
 PENDING history:
-29.05 20h |  (0.0)
 29.05 21h |  (0.0)
 29.05 22h |  (0.0)
 29.05 23h |  (0.0)
@@ -216,7 +216,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 36.37
+Ø RUNNING: 35.99
 Ø PENDING: 0.27
 MAX RUNNING: 307.00
 MAX PENDING: 6.00
@@ -314,6 +314,7 @@ RUNNING history:
 05.06 06h |  (1.0)
 05.06 14h |  (3.0)
 05.06 19h | ███ (30.0)
+05.06 21h |  (1.0)
 
 PENDING history:
 29.05 21h |  (0.0)
@@ -408,12 +409,13 @@ PENDING history:
 05.06 06h |  (0.0)
 05.06 14h | ██████ (1.0)
 05.06 19h | ██████ (1.0)
+05.06 21h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.20
-Ø PENDING: 0.70
+Ø RUNNING: 5.14
+Ø PENDING: 0.67
 MAX RUNNING: 51.00
 MAX PENDING: 14.00
 
@@ -438,6 +440,7 @@ RUNNING history:
 04.06 21h | ███████ (9.0)
 04.06 22h |  (1.0)
 04.06 23h | ████████████████████████████████████████ (51.0)
+05.06 21h | ███ (4.0)
 
 PENDING history:
 29.05 21h |  (0.0)
@@ -460,17 +463,17 @@ PENDING history:
 04.06 21h |  (0.0)
 04.06 22h |  (0.0)
 04.06 23h |  (0.0)
+05.06 21h |  (0.0)
 
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 15.57
-Ø PENDING: 1.22
+Ø RUNNING: 15.56
+Ø PENDING: 1.23
 MAX RUNNING: 152.00
 MAX PENDING: 19.00
 
 RUNNING history:
-29.05 20h |  (2.0)
 29.05 21h |  (2.0)
 29.05 22h | ██ (10.0)
 29.05 23h | ██ (9.0)
@@ -599,9 +602,9 @@ RUNNING history:
 05.06 18h |  (1.0)
 05.06 19h |  (0.0)
 05.06 20h |  (0.0)
+05.06 21h |  (1.0)
 
 PENDING history:
-29.05 20h |  (0.0)
 29.05 21h |  (0.0)
 29.05 22h |  (0.0)
 29.05 23h |  (0.0)
@@ -730,17 +733,17 @@ PENDING history:
 05.06 18h | ██ (1.0)
 05.06 19h | ██ (1.0)
 05.06 20h | ██ (1.0)
+05.06 21h | ██ (1.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 3.32
+Ø RUNNING: 3.33
 Ø PENDING: 0.04
 MAX RUNNING: 29.00
 MAX PENDING: 2.00
 
 RUNNING history:
-29.05 20h | ████ (3.0)
 30.05 00h | ███████████ (8.0)
 30.05 01h | ████████████████████ (15.0)
 01.06 10h | █ (1.0)
@@ -792,7 +795,6 @@ RUNNING history:
 05.06 19h | █ (1.0)
 
 PENDING history:
-29.05 20h |  (0.0)
 30.05 00h |  (0.0)
 30.05 01h |  (0.0)
 01.06 10h |  (0.0)
