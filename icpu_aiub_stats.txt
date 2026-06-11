@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-11 10:00:08
+Timestamp: 2026-06-11 11:00:07
 ================================================================================
 
-TOTAL RUNNING: 7
+TOTAL RUNNING: 14
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Code         (l_code    )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  1
-ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
+ggsp         (l_ggsp    )  RUNNING: 14   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -203,13 +202,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 36.15
-Ø PENDING: 0.44
+Ø RUNNING: 36.55
+Ø PENDING: 0.45
 MAX RUNNING: 300.00
 MAX PENDING: 10.00
 
 RUNNING history:
-04.06 10h |  (3.0)
 04.06 11h | ███████████████ (119.0)
 04.06 12h |  (4.0)
 04.06 14h |  (4.0)
@@ -295,7 +293,6 @@ RUNNING history:
 11.06 06h |  (1.0)
 
 PENDING history:
-04.06 10h |  (0.0)
 04.06 11h |  (0.0)
 04.06 12h | ████ (1.0)
 04.06 14h |  (0.0)
@@ -441,7 +438,6 @@ MAX RUNNING: 153.00
 MAX PENDING: 19.00
 
 RUNNING history:
-04.06 11h |  (0.0)
 04.06 12h |  (0.0)
 04.06 13h |  (3.0)
 04.06 14h |  (0.0)
@@ -609,9 +605,9 @@ RUNNING history:
 11.06 08h | ████████████████████████████████████████ (153.0)
 11.06 09h | ████████ (31.0)
 11.06 10h |  (3.0)
+11.06 11h |  (0.0)
 
 PENDING history:
-04.06 11h | ██ (1.0)
 04.06 12h | ██ (1.0)
 04.06 13h | ██ (1.0)
 04.06 14h | ██ (1.0)
@@ -779,6 +775,7 @@ PENDING history:
 11.06 08h | ██ (1.0)
 11.06 09h | ████ (2.0)
 11.06 10h | ██ (1.0)
+11.06 11h | ██ (1.0)
 
 
 Code (SLR) (l_code_s)
@@ -869,13 +866,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.44
+Ø RUNNING: 11.72
 Ø PENDING: 0.14
 MAX RUNNING: 94.00
 MAX PENDING: 3.00
 
 RUNNING history:
-04.06 10h |  (2.0)
 04.06 11h | █████████ (22.0)
 04.06 12h |  (1.0)
 05.06 09h |  (1.0)
@@ -918,9 +914,9 @@ RUNNING history:
 10.06 11h | █████ (12.0)
 11.06 09h |  (2.0)
 11.06 10h | █ (3.0)
+11.06 11h | █████ (14.0)
 
 PENDING history:
-04.06 10h |  (0.0)
 04.06 11h |  (0.0)
 04.06 12h |  (0.0)
 05.06 09h |  (0.0)
@@ -963,6 +959,7 @@ PENDING history:
 10.06 11h |  (0.0)
 11.06 09h |  (0.0)
 11.06 10h |  (0.0)
+11.06 11h |  (0.0)
 
 
 Daniel (l_hpfaiu)
