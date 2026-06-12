@@ -1,14 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-12 09:00:09
+Timestamp: 2026-06-12 10:00:09
 ================================================================================
 
-TOTAL RUNNING: 47
-TOTAL PENDING: 1
+TOTAL RUNNING: 42
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 36   PENDING:  1
-ggsp         (l_ggsp    )  RUNNING: 11   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 39   PENDING:  2
+ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -424,13 +424,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.39
+Ø RUNNING: 11.43
 Ø PENDING: 1.24
 MAX RUNNING: 153.00
 MAX PENDING: 19.00
 
 RUNNING history:
-05.06 10h | ████████ (33.0)
 05.06 11h | ███ (14.0)
 05.06 12h | █ (5.0)
 05.06 13h | ██ (9.0)
@@ -598,9 +597,9 @@ RUNNING history:
 12.06 07h |  (0.0)
 12.06 08h | ████████████████████████████████████████ (153.0)
 12.06 09h | █████████ (36.0)
+12.06 10h | ██████████ (39.0)
 
 PENDING history:
-05.06 10h | ████ (2.0)
 05.06 11h | ██ (1.0)
 05.06 12h | ██ (1.0)
 05.06 13h | ██ (1.0)
@@ -768,6 +767,7 @@ PENDING history:
 12.06 07h | ██ (1.0)
 12.06 08h | ██ (1.0)
 12.06 09h | ██ (1.0)
+12.06 10h | ████ (2.0)
 
 
 Code (SLR) (l_code_s)
@@ -862,8 +862,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.98
-Ø PENDING: 0.15
+Ø RUNNING: 11.76
+Ø PENDING: 0.14
 MAX RUNNING: 94.00
 MAX PENDING: 3.00
 
@@ -909,6 +909,7 @@ RUNNING history:
 11.06 10h | █ (3.0)
 11.06 11h | █████ (14.0)
 12.06 09h | ████ (11.0)
+12.06 10h | █ (3.0)
 
 PENDING history:
 05.06 11h |  (0.0)
@@ -952,6 +953,7 @@ PENDING history:
 11.06 10h |  (0.0)
 11.06 11h |  (0.0)
 12.06 09h |  (0.0)
+12.06 10h |  (0.0)
 
 
 Daniel (l_hpfaiu)
