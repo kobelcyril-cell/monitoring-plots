@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T20:23:03.070375",
+  "updated": "2026-06-16T20:24:02.950187",
   "1 day solution": [
     {
       "session_id": "261630",
@@ -429,13 +429,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "095",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
+      "progress": 51
     }
   ],
   "3 day solution": [
@@ -3050,31 +3050,31 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "116",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "117",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "119",
@@ -3389,7 +3389,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 58
+      "progress": 61
     },
     {
       "session_id": "261470",
@@ -3951,25 +3951,25 @@
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "133",
           "name": "PHABIA",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "134",
           "name": "FILESTAP",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "136",
@@ -4230,7 +4230,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 66
+      "progress": 68
     },
     {
       "session_id": "261480",
