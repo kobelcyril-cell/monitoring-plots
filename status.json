@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T03:59:04.124073",
+  "updated": "2026-06-17T04:00:03.899025",
   "1 day solution": [
     {
       "session_id": "261630",
@@ -681,19 +681,19 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "156",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 82
+      "progress": 80
     }
   ],
   "3 day solution": [
@@ -2486,13 +2486,13 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "991",
@@ -2621,7 +2621,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 84
+      "progress": 83
     },
     {
       "session_id": "261460",
