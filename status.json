@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T14:01:01.328309",
+  "updated": "2026-06-18T14:02:01.637372",
   "1 day solution": [
     {
       "session_id": "261640",
@@ -1172,19 +1172,19 @@
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -1901,7 +1901,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     },
     {
       "session_id": "261460",
@@ -2031,31 +2031,31 @@
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -2742,7 +2742,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 14
+      "progress": 17
     },
     {
       "session_id": "261470",
@@ -3677,13 +3677,13 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -4542,13 +4542,13 @@
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -5265,7 +5265,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     }
   ],
   "Find Problem": [
