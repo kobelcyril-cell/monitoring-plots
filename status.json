@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T23:57:03.921207",
+  "updated": "2026-06-18T23:58:03.096348",
   "1 day solution": [
     {
       "session_id": "261650",
@@ -501,7 +501,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "114",
@@ -1633,25 +1633,25 @@
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "150",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "151",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "152",
@@ -1828,7 +1828,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 76
+      "progress": 78
     },
     {
       "session_id": "261460",
@@ -3333,13 +3333,13 @@
           "id": "151",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "152",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "153",
@@ -3510,7 +3510,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 78
+      "progress": 79
     },
     {
       "session_id": "261480",
