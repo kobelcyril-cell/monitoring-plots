@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T11:26:03.512548",
+  "updated": "2026-06-18T11:27:02.604541",
   "1 day solution": [
     {
       "session_id": "261640",
@@ -4013,31 +4013,31 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "097",
           "name": "ITEPHASE",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "098",
@@ -4424,7 +4424,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 53
+      "progress": 50
     },
     {
       "session_id": "261490",
@@ -6616,25 +6616,25 @@
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "116",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "117",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "119",
@@ -6949,7 +6949,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 61
     },
     {
       "session_id": "261630",
@@ -7541,19 +7541,19 @@
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "138",
           "name": "STDPRE",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "139",
           "name": "PHABIA",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "639",
@@ -7790,7 +7790,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 69
+      "progress": 71
     }
   ]
 }
