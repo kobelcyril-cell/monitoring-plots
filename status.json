@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T22:53:01.574031",
+  "updated": "2026-06-18T22:54:01.550751",
   "1 day solution": [
     {
       "session_id": "261650",
@@ -2438,19 +2438,19 @@
           "id": "639",
           "name": "CHECK_AR_SAT",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "140",
           "name": "ORBGEN",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "PHACMB",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "142",
@@ -2669,7 +2669,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 71
+      "progress": 73
     },
     {
       "session_id": "261470",
@@ -5021,25 +5021,25 @@
           "id": "152",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "155",
@@ -5192,7 +5192,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 79
+      "progress": 80
     }
   ],
   "Find Problem": [
