@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T10:30:02.828258",
+  "updated": "2026-06-18T10:31:03.073278",
   "1 day solution": [
     {
       "session_id": "261640",
@@ -846,6 +846,12 @@
   "3 day solution": [
     {
       "session_id": "261370",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "261380",
       "status": "running",
       "tasks": [
         {
@@ -858,49 +864,49 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
           "name": "ORBGEN",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "013",
           "name": "CCRNXCZD",
           "extra": "ZD3D_3DS",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "014",
           "name": "STDPRE",
           "extra": "ZD3D_3DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "020",
@@ -921,13 +927,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 66
-    },
-    {
-      "session_id": "261380",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 8
     },
     {
       "session_id": "261390",
@@ -3148,13 +3148,13 @@
           "id": "088",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "090",
           "name": "TIMESTAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "091",
@@ -3583,7 +3583,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 47
+      "progress": 48
     },
     {
       "session_id": "261480",
