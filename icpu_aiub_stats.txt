@@ -1,15 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-18 02:00:09
+Timestamp: 2026-06-18 03:00:09
 ================================================================================
 
-TOTAL RUNNING: 3
+TOTAL RUNNING: 22
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
 Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
-ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  5   PENDING:  1
+ggsp         (l_ggsp    )  RUNNING: 15   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -241,8 +241,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 39.26
-Ø PENDING: 0.33
+Ø RUNNING: 38.84
+Ø PENDING: 0.32
 MAX RUNNING: 303.00
 MAX PENDING: 6.00
 
@@ -336,6 +336,7 @@ RUNNING history:
 18.06 00h |  (2.0)
 18.06 01h |  (4.0)
 18.06 02h |  (2.0)
+18.06 03h |  (2.0)
 
 PENDING history:
 11.06 03h |  (0.0)
@@ -427,6 +428,7 @@ PENDING history:
 18.06 00h |  (0.0)
 18.06 01h |  (0.0)
 18.06 02h |  (0.0)
+18.06 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -477,13 +479,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.68
-Ø PENDING: 1.10
+Ø RUNNING: 8.66
+Ø PENDING: 1.09
 MAX RUNNING: 153.00
 MAX PENDING: 5.00
 
 RUNNING history:
-11.06 03h | █ (5.0)
 11.06 04h |  (0.0)
 11.06 05h |  (0.0)
 11.06 06h |  (0.0)
@@ -651,9 +652,9 @@ RUNNING history:
 18.06 00h |  (2.0)
 18.06 01h |  (0.0)
 18.06 02h |  (0.0)
+18.06 03h | █ (5.0)
 
 PENDING history:
-11.06 03h | ████████ (1.0)
 11.06 04h | ████████ (1.0)
 11.06 05h | ████████ (1.0)
 11.06 06h | ████████ (1.0)
@@ -821,6 +822,7 @@ PENDING history:
 18.06 00h | ████████ (1.0)
 18.06 01h | ████████ (1.0)
 18.06 02h | ████████ (1.0)
+18.06 03h | ████████ (1.0)
 
 
 Code (SLR) (l_code_s)
@@ -917,8 +919,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 14.14
-Ø PENDING: 0.26
+Ø RUNNING: 14.17
+Ø PENDING: 0.25
 MAX RUNNING: 112.00
 MAX PENDING: 6.00
 
@@ -958,6 +960,7 @@ RUNNING history:
 18.06 00h |  (2.0)
 18.06 01h | █ (4.0)
 18.06 02h |  (1.0)
+18.06 03h | █████ (15.0)
 
 PENDING history:
 11.06 09h |  (0.0)
@@ -995,6 +998,7 @@ PENDING history:
 18.06 00h |  (0.0)
 18.06 01h |  (0.0)
 18.06 02h |  (0.0)
+18.06 03h |  (0.0)
 
 
 Daniel (l_hpfaiu)
