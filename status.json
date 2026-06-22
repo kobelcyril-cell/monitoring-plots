@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T10:42:03.022254",
+  "updated": "2026-06-22T10:43:03.381351",
   "1 day solution": [
     {
       "session_id": "261680",
@@ -99,7 +99,74 @@
     {
       "session_id": "261400",
       "status": "running",
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "100",
+          "name": "ZDDE_COP_s",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "200",
+          "name": "FILESTAP_s",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "FILEST_P_s",
+          "extra": "FZDM_1DR_s",
+          "status": "waiting"
+        },
+        {
+          "id": "300",
+          "name": "TRPMERZD_s",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "301",
+          "name": "CCRNXC_s",
+          "extra": "FZDM_1DR_s",
+          "status": "waiting"
+        },
+        {
+          "id": "302",
+          "name": "CCRNXC_s",
+          "extra": "FZDM_1DX_s",
+          "status": "waiting"
+        },
+        {
+          "id": "303",
+          "name": "CCRNXC_s",
+          "extra": "FZDM_1DF_s",
+          "status": "waiting"
+        },
+        {
+          "id": "400",
+          "name": "CLKEST_s",
+          "extra": "FZDM_1H0_s",
+          "status": "waiting"
+        },
+        {
+          "id": "401",
+          "name": "CCRNXC_s",
+          "extra": "FZDM_1H0_s",
+          "status": "waiting"
+        },
+        {
+          "id": "402",
+          "name": "CCRNXC_s",
+          "extra": "FZDM_1HN_s",
+          "status": "waiting"
+        },
+        {
+          "id": "500",
+          "name": "DEL_CLKD_s",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
       "progress": 0
     }
   ],
