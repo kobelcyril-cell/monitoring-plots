@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T17:31:03.624283",
+  "updated": "2026-06-22T17:32:01.935693",
   "1 day solution": [
     {
       "session_id": "261680",
@@ -719,19 +719,19 @@
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "155",
@@ -884,7 +884,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 79
+      "progress": 80
     },
     {
       "session_id": "261620",
@@ -1602,13 +1602,13 @@
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "989",
           "name": "GPSXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "994",
@@ -1638,13 +1638,13 @@
           "id": "162",
           "name": "ORBGENZD_FIN",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "163",
           "name": "ITER_AR",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "164",
@@ -1698,7 +1698,7 @@
           "id": "168",
           "name": "GPSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "268",
@@ -1725,7 +1725,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 87
+      "progress": 90
     }
   ]
 }
