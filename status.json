@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T13:15:03.912794",
+  "updated": "2026-06-22T13:16:04.005045",
   "1 day solution": [
     {
       "session_id": "261680",
@@ -10,10 +10,83 @@
   ],
   "3 day solution": [
     {
-      "session_id": "261450",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "261630",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "001",
+          "name": "ZD3D_COP",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "002",
+          "name": "COOVEL",
+          "extra": "ZD3D_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "POLUPD",
+          "extra": "ZD3D_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "SOLLONAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "SOLLON_P",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "ORBGEN",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXCZD",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "014",
+          "name": "STDPRE",
+          "extra": "ZD3D_3DS",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "SAVERES3D",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "DEL_ZD3D",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 8
     }
   ],
   "Clock densification": [
@@ -25,19 +98,19 @@
           "id": "100",
           "name": "ZDDE_COP_s",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "200",
           "name": "FILESTAP_s",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "FILEST_P_s",
           "extra": "FZDM_1DR_s",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "300",
@@ -88,7 +161,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 0
+      "progress": 18
     },
     {
       "session_id": "261440",
