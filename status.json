@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T05:08:02.555887",
+  "updated": "2026-06-23T05:09:01.756927",
   "1 day solution": [
     {
       "session_id": "261690",
@@ -789,25 +789,25 @@
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "165",
           "name": "OBSXTR",
           "extra": "FZDM_SUM",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "166",
           "name": "OBSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "167",
           "name": "AMB_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "168",
@@ -825,7 +825,7 @@
           "id": "170",
           "name": "SAVERES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "171",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 94
+      "progress": 97
     }
   ],
   "3 day solution": [
@@ -926,21 +926,106 @@
   ],
   "Clock densification": [
     {
-      "session_id": "261430",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "261440",
+      "session_id": "261680",
       "status": "running",
-      "tasks": [],
-      "progress": 0
-    },
-    {
-      "session_id": "261450",
-      "status": "running",
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "001",
+          "name": "ZDDE_COP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "002",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "003",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "010",
+          "name": "FILESTAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "011",
+          "name": "FILEST_P",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "012",
+          "name": "TRPMERZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "013",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DR",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DX",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "CCRNXC",
+          "extra": "FZDM_1DF",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "CLKEST",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "CCRNXC",
+          "extra": "FZDM_1H0",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "CCRNXC",
+          "extra": "FZDM_1HN",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "SAVECLKDE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "DEL_CLKD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
       "progress": 0
     }
   ],
