@@ -1,15 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-24 02:00:17
+Timestamp: 2026-06-24 03:00:10
 ================================================================================
 
-TOTAL RUNNING: 10
+TOTAL RUNNING: 27
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  8   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  9   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  1
+ggsp         (l_ggsp    )  RUNNING: 14   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -17,13 +19,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.12
+Ø RUNNING: 16.01
 Ø PENDING: 0.02
 MAX RUNNING: 188.00
 MAX PENDING: 2.00
 
 RUNNING history:
-17.06 03h | ████ (20.0)
 17.06 04h | ██ (13.0)
 17.06 05h | █ (8.0)
 17.06 11h |  (1.0)
@@ -127,9 +128,9 @@ RUNNING history:
 24.06 00h | █ (9.0)
 24.06 01h | █ (8.0)
 24.06 02h | █ (8.0)
+24.06 03h | █ (9.0)
 
 PENDING history:
-17.06 03h |  (0.0)
 17.06 04h |  (0.0)
 17.06 05h |  (0.0)
 17.06 11h |  (0.0)
@@ -233,6 +234,7 @@ PENDING history:
 24.06 00h |  (0.0)
 24.06 01h |  (0.0)
 24.06 02h |  (0.0)
+24.06 03h |  (0.0)
 
 
 Code (l_code)
@@ -255,13 +257,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.02
+Ø RUNNING: 33.01
 Ø PENDING: 0.31
 MAX RUNNING: 301.00
 MAX PENDING: 6.00
 
 RUNNING history:
-17.06 03h |  (2.0)
 17.06 04h |  (2.0)
 17.06 05h | ████████████████████████████████████████ (301.0)
 17.06 06h |  (1.0)
@@ -347,9 +348,9 @@ RUNNING history:
 23.06 23h | █ (8.0)
 24.06 00h |  (4.0)
 24.06 01h |  (1.0)
+24.06 03h |  (1.0)
 
 PENDING history:
-17.06 03h |  (0.0)
 17.06 04h |  (0.0)
 17.06 05h |  (0.0)
 17.06 06h |  (0.0)
@@ -435,6 +436,7 @@ PENDING history:
 23.06 23h |  (0.0)
 24.06 00h |  (0.0)
 24.06 01h |  (0.0)
+24.06 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -487,13 +489,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.38
+Ø RUNNING: 11.37
 Ø PENDING: 1.15
 MAX RUNNING: 157.00
 MAX PENDING: 10.00
 
 RUNNING history:
-17.06 03h |  (2.0)
 17.06 04h |  (0.0)
 17.06 05h |  (0.0)
 17.06 06h |  (0.0)
@@ -661,9 +662,9 @@ RUNNING history:
 24.06 00h | ███ (14.0)
 24.06 01h |  (0.0)
 24.06 02h |  (0.0)
+24.06 03h |  (1.0)
 
 PENDING history:
-17.06 03h | ████ (1.0)
 17.06 04h | ████ (1.0)
 17.06 05h | ████ (1.0)
 17.06 06h | ████ (1.0)
@@ -831,6 +832,7 @@ PENDING history:
 24.06 00h | ████ (1.0)
 24.06 01h | ████ (1.0)
 24.06 02h | ████ (1.0)
+24.06 03h | ████ (1.0)
 
 
 Code (SLR) (l_code_s)
@@ -923,8 +925,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.74
-Ø PENDING: 0.25
+Ø RUNNING: 12.76
+Ø PENDING: 0.24
 MAX RUNNING: 112.00
 MAX PENDING: 7.00
 
@@ -986,6 +988,7 @@ RUNNING history:
 23.06 23h | ████ (13.0)
 24.06 01h |  (2.0)
 24.06 02h |  (2.0)
+24.06 03h | █████ (14.0)
 
 PENDING history:
 17.06 10h |  (0.0)
@@ -1045,6 +1048,7 @@ PENDING history:
 23.06 23h |  (0.0)
 24.06 01h |  (0.0)
 24.06 02h |  (0.0)
+24.06 03h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -1055,7 +1059,6 @@ MAX RUNNING: 99.00
 MAX PENDING: 0.00
 
 RUNNING history:
-17.06 03h |  (2.0)
 18.06 09h | ███ (8.0)
 19.06 10h | █████ (14.0)
 19.06 21h | ████████████████████████████████████████ (99.0)
@@ -1066,9 +1069,9 @@ RUNNING history:
 23.06 19h | █ (3.0)
 23.06 20h | ███████████████ (38.0)
 23.06 21h | █████ (14.0)
+24.06 03h |  (2.0)
 
 PENDING history:
-17.06 03h |  (0.0)
 18.06 09h |  (0.0)
 19.06 10h |  (0.0)
 19.06 21h |  (0.0)
@@ -1079,6 +1082,7 @@ PENDING history:
 23.06 19h |  (0.0)
 23.06 20h |  (0.0)
 23.06 21h |  (0.0)
+24.06 03h |  (0.0)
 
 
 Linda (lg19a108)
