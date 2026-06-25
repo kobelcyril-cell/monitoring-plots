@@ -1,16 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-25 10:00:13
+Timestamp: 2026-06-25 11:00:07
 ================================================================================
 
-TOTAL RUNNING: 66
+TOTAL RUNNING: 14
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
 Code         (l_code    )  RUNNING:  1   PENDING:  0
 Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
-ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
-Martin       (ml18j210  )  RUNNING: 62   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 13   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -260,7 +259,7 @@ PENDING history:
 
 Code (l_code)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.33
+Ø RUNNING: 12.50
 Ø PENDING: 0.00
 MAX RUNNING: 47.00
 MAX PENDING: 0.00
@@ -269,11 +268,13 @@ RUNNING history:
 18.06 11h |  (1.0)
 25.06 09h | ████████████████████████████████████████ (47.0)
 25.06 10h |  (1.0)
+25.06 11h |  (1.0)
 
 PENDING history:
 18.06 11h |  (0.0)
 25.06 09h |  (0.0)
 25.06 10h |  (0.0)
+25.06 11h |  (0.0)
 
 
 Code (final) (l_code_f)
@@ -508,13 +509,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.52
+Ø RUNNING: 12.44
 Ø PENDING: 1.15
 MAX RUNNING: 157.00
 MAX PENDING: 10.00
 
 RUNNING history:
-18.06 11h | █ (7.0)
 18.06 12h |  (1.0)
 18.06 13h | █ (4.0)
 18.06 14h |  (0.0)
@@ -682,9 +682,9 @@ RUNNING history:
 25.06 08h | ████████████ (50.0)
 25.06 09h |  (1.0)
 25.06 10h |  (0.0)
+25.06 11h |  (0.0)
 
 PENDING history:
-18.06 11h | ████ (1.0)
 18.06 12h | ████ (1.0)
 18.06 13h | ████ (1.0)
 18.06 14h | ████ (1.0)
@@ -852,6 +852,7 @@ PENDING history:
 25.06 08h | ████████████████ (4.0)
 25.06 09h | ████ (1.0)
 25.06 10h | ████ (1.0)
+25.06 11h | ████ (1.0)
 
 
 Code (SLR) (l_code_s)
@@ -944,8 +945,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.89
-Ø PENDING: 0.16
+Ø RUNNING: 8.98
+Ø PENDING: 0.15
 MAX RUNNING: 69.00
 MAX PENDING: 7.00
 
@@ -995,6 +996,7 @@ RUNNING history:
 24.06 12h |  (1.0)
 25.06 09h | ████████ (14.0)
 25.06 10h | █ (3.0)
+25.06 11h | ███████ (13.0)
 
 PENDING history:
 18.06 11h |  (0.0)
@@ -1042,6 +1044,7 @@ PENDING history:
 24.06 12h |  (0.0)
 25.06 09h |  (0.0)
 25.06 10h |  (0.0)
+25.06 11h |  (0.0)
 
 
 Daniel (l_hpfaiu)
