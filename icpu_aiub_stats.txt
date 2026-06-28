@@ -1,16 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-06-28 03:00:10
+Timestamp: 2026-06-28 04:00:12
 ================================================================================
 
-TOTAL RUNNING: 12
-TOTAL PENDING: 1
+TOTAL RUNNING: 56
+TOTAL PENDING: 6
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  8   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  1
-Daniel       (l_hpfaiu  )  RUNNING:  2   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 56   PENDING:  5
+Code (rapid) (l_code_r  )  RUNNING:  0   PENDING:  1
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -292,8 +290,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 29.30
-Ø PENDING: 0.17
+Ø RUNNING: 29.62
+Ø PENDING: 0.23
 MAX RUNNING: 306.00
 MAX PENDING: 6.00
 
@@ -381,6 +379,7 @@ RUNNING history:
 28.06 01h |  (3.0)
 28.06 02h | ████ (35.0)
 28.06 03h |  (1.0)
+28.06 04h | ███████ (56.0)
 
 PENDING history:
 21.06 05h | ████████████████████████████████████████ (6.0)
@@ -466,6 +465,7 @@ PENDING history:
 28.06 01h |  (0.0)
 28.06 02h |  (0.0)
 28.06 03h |  (0.0)
+28.06 04h | █████████████████████████████████ (5.0)
 
 
 l_code_m (l_code_m)
@@ -520,13 +520,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.14
+Ø RUNNING: 12.07
 Ø PENDING: 1.20
 MAX RUNNING: 153.00
 MAX PENDING: 10.00
 
 RUNNING history:
-21.06 04h |  (0.0)
 21.06 05h |  (0.0)
 21.06 06h |  (0.0)
 21.06 07h |  (0.0)
@@ -694,9 +693,9 @@ RUNNING history:
 28.06 01h |  (0.0)
 28.06 02h |  (0.0)
 28.06 03h |  (1.0)
+28.06 04h |  (0.0)
 
 PENDING history:
-21.06 04h | ████ (1.0)
 21.06 05h | ████ (1.0)
 21.06 06h | ████ (1.0)
 21.06 07h | ████ (1.0)
@@ -864,6 +863,7 @@ PENDING history:
 28.06 01h | ████ (1.0)
 28.06 02h | ████ (1.0)
 28.06 03h | ████ (1.0)
+28.06 04h | ████ (1.0)
 
 
 Code (SLR) (l_code_s)
