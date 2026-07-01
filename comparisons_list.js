@@ -18,8 +18,8 @@ const comparison_plots = [
     "std_comparison.png",
 ];
     "std_comparison.png",
-    "std_comparison.png",
-    "std_comparison.png",
 ];
+    "std_comparison.png",
+    "std_comparison.png",
 ];
 ];
