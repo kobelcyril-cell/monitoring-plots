@@ -1,10 +1,5 @@
 const comparison_plots = [
-    "std_comparison.png",
-    "pre_comparison.png",
-];
     "crd_comparison.png",
-    "std_comparison.png",
-];
     "erp_comparison.png",
     "helmert_F1I_F1.png",
     "pre_comparison.png",
