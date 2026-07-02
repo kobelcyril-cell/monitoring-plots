@@ -1,16 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-07-02 23:00:09
+Timestamp: 2026-07-03 00:00:19
 ================================================================================
 
-TOTAL RUNNING: 22
+TOTAL RUNNING: 6
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  8   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 10   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  3   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -18,14 +17,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 17.67
-Ø PENDING: 2.61
+Ø RUNNING: 17.21
+Ø PENDING: 2.65
 MAX RUNNING: 285.00
 MAX PENDING: 42.00
 
 RUNNING history:
-25.06 23h | ███ (26.0)
-26.06 00h | █████████ (70.0)
 26.06 01h | █████████ (66.0)
 26.06 02h | █ (9.0)
 26.06 03h | █ (8.0)
@@ -158,8 +155,6 @@ RUNNING history:
 02.07 23h | █ (8.0)
 
 PENDING history:
-25.06 23h |  (0.0)
-26.06 00h |  (0.0)
 26.06 01h |  (0.0)
 26.06 02h |  (0.0)
 26.06 03h |  (0.0)
@@ -352,14 +347,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 26.53
-Ø PENDING: 2.28
+Ø RUNNING: 26.74
+Ø PENDING: 2.31
 MAX RUNNING: 300.00
 MAX PENDING: 12.00
 
 RUNNING history:
-25.06 23h | █ (8.0)
-26.06 00h |  (4.0)
 26.06 01h |  (1.0)
 26.06 02h |  (1.0)
 26.06 03h | ███████████████ (119.0)
@@ -443,10 +436,9 @@ RUNNING history:
 02.07 19h | █ (9.0)
 02.07 21h |  (7.0)
 02.07 23h | █ (10.0)
+03.07 00h |  (3.0)
 
 PENDING history:
-25.06 23h |  (0.0)
-26.06 00h |  (0.0)
 26.06 01h |  (0.0)
 26.06 02h |  (0.0)
 26.06 03h |  (0.0)
@@ -530,17 +522,17 @@ PENDING history:
 02.07 19h |  (0.0)
 02.07 21h |  (0.0)
 02.07 23h |  (0.0)
+03.07 00h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.17
+Ø RUNNING: 12.71
 Ø PENDING: 0.00
 MAX RUNNING: 54.00
 MAX PENDING: 0.00
 
 RUNNING history:
-25.06 23h | ██ (3.0)
 26.06 21h | ██ (4.0)
 26.06 22h |  (1.0)
 26.06 23h | █████████████████████████████████████ (51.0)
@@ -560,7 +552,6 @@ RUNNING history:
 02.07 23h |  (1.0)
 
 PENDING history:
-25.06 23h |  (0.0)
 26.06 21h |  (0.0)
 26.06 22h |  (0.0)
 26.06 23h |  (0.0)
@@ -582,14 +573,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.88
-Ø PENDING: 1.20
+Ø RUNNING: 9.94
+Ø PENDING: 1.19
 MAX RUNNING: 152.00
 MAX PENDING: 6.00
 
 RUNNING history:
-25.06 23h |  (0.0)
-26.06 00h |  (2.0)
 26.06 01h |  (0.0)
 26.06 02h |  (0.0)
 26.06 03h |  (3.0)
@@ -748,10 +737,9 @@ RUNNING history:
 02.07 16h | █████████████ (52.0)
 02.07 18h |  (2.0)
 02.07 21h |  (1.0)
+03.07 00h |  (2.0)
 
 PENDING history:
-25.06 23h | ██████ (1.0)
-26.06 00h | ██████ (1.0)
 26.06 01h | ██████ (1.0)
 26.06 02h | ██████ (1.0)
 26.06 03h | ██████ (1.0)
@@ -910,18 +898,17 @@ PENDING history:
 02.07 16h | ██████████████████████████ (4.0)
 02.07 18h |  (0.0)
 02.07 21h |  (0.0)
+03.07 00h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.83
-Ø PENDING: 2.22
+Ø RUNNING: 1.85
+Ø PENDING: 2.26
 MAX RUNNING: 14.00
 MAX PENDING: 11.00
 
 RUNNING history:
-25.06 23h | ██ (1.0)
-26.06 00h | ██ (1.0)
 26.06 01h | ████████ (3.0)
 26.06 04h | ██ (1.0)
 26.06 18h | ██ (1.0)
@@ -974,10 +961,9 @@ RUNNING history:
 02.07 19h | ██ (1.0)
 02.07 20h | ██ (1.0)
 02.07 23h | ████████ (3.0)
+03.07 00h | ██ (1.0)
 
 PENDING history:
-25.06 23h |  (0.0)
-26.06 00h |  (0.0)
 26.06 01h |  (0.0)
 26.06 04h |  (0.0)
 26.06 18h |  (0.0)
@@ -1030,6 +1016,7 @@ PENDING history:
 02.07 19h |  (0.0)
 02.07 20h |  (0.0)
 02.07 23h |  (0.0)
+03.07 00h |  (0.0)
 
 
 ggsp (l_ggsp)
