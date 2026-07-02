@@ -8,6 +8,6 @@ const ppp_plots = [
     "WGTN_plot.png",
     "WGTN_plot.png",
     "ZIM3_plot.png",
-    "ZIM3_plot.png",
 ];
+    "ZIM3_plot.png",
 ];
