@@ -1,17 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-07-06 21:00:10
+Timestamp: 2026-07-06 22:00:08
 ================================================================================
 
-TOTAL RUNNING: 31
-TOTAL PENDING: 0
+TOTAL RUNNING: 134
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Code (final) (l_code_f  )  RUNNING: 18   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  4   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  7   PENDING:  0
-Daniel       (l_hpfaiu  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 86   PENDING:  1
+l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 16   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 31   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -19,13 +18,12 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.20
-Ø PENDING: 3.11
+Ø RUNNING: 12.10
+Ø PENDING: 3.14
 MAX RUNNING: 283.00
 MAX PENDING: 42.00
 
 RUNNING history:
-29.06 21h | ███ (23.0)
 29.06 22h |  (5.0)
 29.06 23h | █ (11.0)
 30.06 00h | ████████████████ (120.0)
@@ -138,7 +136,6 @@ RUNNING history:
 06.07 16h | █ (8.0)
 
 PENDING history:
-29.06 21h |  (0.0)
 29.06 22h |  (0.0)
 29.06 23h |  (0.0)
 30.06 00h |  (0.0)
@@ -323,13 +320,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.93
-Ø PENDING: 2.45
+Ø RUNNING: 25.93
+Ø PENDING: 2.46
 MAX RUNNING: 302.00
 MAX PENDING: 12.00
 
 RUNNING history:
-29.06 21h |  (3.0)
 29.06 22h | ██████████████████████████████████ (259.0)
 29.06 23h |  (7.0)
 30.06 00h |  (3.0)
@@ -412,9 +408,9 @@ RUNNING history:
 06.07 14h |  (4.0)
 06.07 19h | █ (13.0)
 06.07 21h | ██ (18.0)
+06.07 22h | ███████████ (86.0)
 
 PENDING history:
-29.06 21h |  (0.0)
 29.06 22h | ██████████ (3.0)
 29.06 23h |  (0.0)
 30.06 00h |  (0.0)
@@ -497,17 +493,17 @@ PENDING history:
 06.07 14h |  (0.0)
 06.07 19h |  (0.0)
 06.07 21h |  (0.0)
+06.07 22h | ███ (1.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.72
+Ø RUNNING: 6.56
 Ø PENDING: 0.00
 MAX RUNNING: 50.00
 MAX PENDING: 0.00
 
 RUNNING history:
-29.06 21h | ███ (4.0)
 29.06 22h |  (1.0)
 30.06 21h | ███ (4.0)
 30.06 22h |  (1.0)
@@ -525,9 +521,9 @@ RUNNING history:
 05.07 22h |  (1.0)
 05.07 23h | ████████████████████████████████████████ (50.0)
 06.07 21h | ███ (4.0)
+06.07 22h |  (1.0)
 
 PENDING history:
-29.06 21h |  (0.0)
 29.06 22h |  (0.0)
 30.06 21h |  (0.0)
 30.06 22h |  (0.0)
@@ -545,17 +541,17 @@ PENDING history:
 05.07 22h |  (0.0)
 05.07 23h |  (0.0)
 06.07 21h |  (0.0)
+06.07 22h |  (0.0)
 
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.35
+Ø RUNNING: 13.47
 Ø PENDING: 0.85
 MAX RUNNING: 151.00
 MAX PENDING: 4.00
 
 RUNNING history:
-29.06 21h |  (1.0)
 29.06 22h |  (0.0)
 29.06 23h |  (0.0)
 30.06 00h | █ (6.0)
@@ -662,7 +658,6 @@ RUNNING history:
 06.07 21h |  (1.0)
 
 PENDING history:
-29.06 21h | ██████████ (1.0)
 29.06 22h | ██████████ (1.0)
 29.06 23h | ██████████ (1.0)
 30.06 00h | ██████████ (1.0)
@@ -887,7 +882,7 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 10.14
+Ø RUNNING: 10.27
 Ø PENDING: 0.02
 MAX RUNNING: 95.00
 MAX PENDING: 1.00
@@ -936,6 +931,7 @@ RUNNING history:
 06.07 18h | █ (3.0)
 06.07 19h | █ (3.0)
 06.07 21h | ██ (7.0)
+06.07 22h | ██████ (16.0)
 
 PENDING history:
 30.06 09h |  (0.0)
@@ -981,6 +977,7 @@ PENDING history:
 06.07 18h |  (0.0)
 06.07 19h |  (0.0)
 06.07 21h |  (0.0)
+06.07 22h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -1081,8 +1078,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.14
-Ø PENDING: 0.72
+Ø RUNNING: 25.30
+Ø PENDING: 0.70
 MAX RUNNING: 62.00
 MAX PENDING: 21.00
 
@@ -1123,6 +1120,7 @@ RUNNING history:
 06.07 18h | ████████████████████ (31.0)
 06.07 19h | ████████████████████ (31.0)
 06.07 20h | ████████ (13.0)
+06.07 22h | ████████████████████ (31.0)
 
 PENDING history:
 01.07 15h | █ (1.0)
@@ -1161,5 +1159,6 @@ PENDING history:
 06.07 18h |  (0.0)
 06.07 19h |  (0.0)
 06.07 20h |  (0.0)
+06.07 22h |  (0.0)
 
 
