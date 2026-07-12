@@ -1,13 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-07-12 17:00:11
+Timestamp: 2026-07-12 18:00:08
 ================================================================================
 
-TOTAL RUNNING: 132
+TOTAL RUNNING: 13
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Edgar        (et25m288  )  RUNNING: 132   PENDING:  0
+Rolf         (dach      )  RUNNING: 10   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -249,8 +251,8 @@ PENDING history:
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 56.79
-Ø PENDING: 5.40
+Ø RUNNING: 56.00
+Ø PENDING: 5.31
 MAX RUNNING: 100.00
 MAX PENDING: 76.00
 
@@ -313,6 +315,7 @@ RUNNING history:
 12.07 08h | ██████ (16.0)
 12.07 09h | █ (3.0)
 12.07 10h |  (1.0)
+12.07 18h | ████ (10.0)
 
 PENDING history:
 09.07 10h |  (0.0)
@@ -373,6 +376,7 @@ PENDING history:
 12.07 08h |  (0.0)
 12.07 09h |  (0.0)
 12.07 10h |  (0.0)
+12.07 18h |  (0.0)
 
 
 Edgar (et25m288)
@@ -749,8 +753,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.92
-Ø PENDING: 1.31
+Ø RUNNING: 22.63
+Ø PENDING: 1.29
 MAX RUNNING: 151.00
 MAX PENDING: 79.00
 
@@ -827,6 +831,7 @@ RUNNING history:
 12.07 13h |  (1.0)
 12.07 15h | █████████████████ (65.0)
 12.07 16h |  (2.0)
+12.07 18h |  (2.0)
 
 PENDING history:
 05.07 18h |  (0.0)
@@ -901,12 +906,13 @@ PENDING history:
 12.07 13h |  (0.0)
 12.07 15h |  (0.0)
 12.07 16h |  (0.0)
+12.07 18h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 3.23
-Ø PENDING: 1.32
+Ø RUNNING: 3.17
+Ø PENDING: 1.29
 MAX RUNNING: 20.00
 MAX PENDING: 22.00
 
@@ -951,6 +957,7 @@ RUNNING history:
 12.07 00h | ██████████████████████████████ (15.0)
 12.07 01h | ████████████ (6.0)
 12.07 02h | ██ (1.0)
+12.07 18h | ██ (1.0)
 
 PENDING history:
 05.07 18h |  (0.0)
@@ -993,6 +1000,7 @@ PENDING history:
 12.07 00h |  (0.0)
 12.07 01h |  (0.0)
 12.07 02h |  (0.0)
+12.07 18h |  (0.0)
 
 
 ggsp (l_ggsp)
