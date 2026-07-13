@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T14:52:02.091728",
+  "updated": "2026-07-13T14:53:01.462224",
   "1 day solution": [
     {
       "session_id": "261890",
@@ -45,13 +45,13 @@
           "id": "101",
           "name": "CMP_ERPDIFF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "STDDIF",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "301",
@@ -63,7 +63,7 @@
           "id": "401",
           "name": "ORBCMPL",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "402",
@@ -87,25 +87,25 @@
           "id": "601",
           "name": "HELMR1",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "602",
           "name": "plotHELMR1",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "701",
           "name": "STDELEL",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "702",
           "name": "plotSTDELE",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "703",
@@ -132,7 +132,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 23
+      "progress": 52
     }
   ],
   "Test MAUPRP": [
