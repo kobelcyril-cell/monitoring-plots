@@ -1,19 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-07-14 03:00:16
+Timestamp: 2026-07-14 04:00:10
 ================================================================================
 
-TOTAL RUNNING: 255
-TOTAL PENDING: 320
+TOTAL RUNNING: 199
+TOTAL PENDING: 76
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  1   PENDING:  3
-Rolf         (dach      )  RUNNING: 80   PENDING: 20
-Edgar        (et25m288  )  RUNNING: 97   PENDING: 103
-Code         (l_code    )  RUNNING:  0   PENDING:  1
-Code (final) (l_code_f  )  RUNNING: 77   PENDING: 115
-Code (rapid) (l_code_r  )  RUNNING:  0   PENDING: 71
-Daniel       (l_hpfaiu  )  RUNNING:  0   PENDING:  7
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Rolf         (dach      )  RUNNING: 86   PENDING: 14
+Edgar        (et25m288  )  RUNNING: 109   PENDING: 60
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  1   PENDING:  2
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -49,8 +47,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.65
-Ø PENDING: 11.29
+Ø RUNNING: 11.56
+Ø PENDING: 11.20
 MAX RUNNING: 126.00
 MAX PENDING: 281.00
 
@@ -171,6 +169,7 @@ RUNNING history:
 14.07 01h |  (2.0)
 14.07 02h |  (0.0)
 14.07 03h |  (1.0)
+14.07 04h |  (1.0)
 
 PENDING history:
 07.07 12h |  (0.0)
@@ -289,12 +288,13 @@ PENDING history:
 14.07 01h |  (0.0)
 14.07 02h |  (2.0)
 14.07 03h |  (3.0)
+14.07 04h |  (0.0)
 
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 66.21
-Ø PENDING: 9.38
+Ø RUNNING: 66.42
+Ø PENDING: 9.43
 MAX RUNNING: 103.00
 MAX PENDING: 91.00
 
@@ -391,6 +391,7 @@ RUNNING history:
 14.07 01h | ██████████████████████████████████████ (100.0)
 14.07 02h | ███████████████████████████████████ (91.0)
 14.07 03h | ███████████████████████████████ (80.0)
+14.07 04h | █████████████████████████████████ (86.0)
 
 PENDING history:
 09.07 10h |  (0.0)
@@ -485,12 +486,13 @@ PENDING history:
 14.07 01h |  (0.0)
 14.07 02h | ███ (9.0)
 14.07 03h | ████████ (20.0)
+14.07 04h | ██████ (14.0)
 
 
 Edgar (et25m288)
 --------------------------------------------------------------------------------
-Ø RUNNING: 128.16
-Ø PENDING: 35.06
+Ø RUNNING: 127.86
+Ø PENDING: 35.45
 MAX RUNNING: 200.00
 MAX PENDING: 178.00
 
@@ -558,6 +560,7 @@ RUNNING history:
 13.07 10h |  (1.0)
 14.07 02h | █████████████████ (87.0)
 14.07 03h | ███████████████████ (97.0)
+14.07 04h | █████████████████████ (109.0)
 
 PENDING history:
 08.07 16h |  (0.0)
@@ -623,6 +626,7 @@ PENDING history:
 13.07 10h |  (0.0)
 14.07 02h | █████████████████████████ (113.0)
 14.07 03h | ███████████████████████ (103.0)
+14.07 04h | █████████████ (60.0)
 
 
 Code (l_code)
@@ -667,8 +671,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 33.50
-Ø PENDING: 12.10
+Ø RUNNING: 33.16
+Ø PENDING: 11.97
 MAX RUNNING: 305.00
 MAX PENDING: 243.00
 
@@ -765,6 +769,7 @@ RUNNING history:
 14.07 01h |  (4.0)
 14.07 02h | ████████ (65.0)
 14.07 03h | ██████████ (77.0)
+14.07 04h |  (2.0)
 
 PENDING history:
 07.07 04h |  (0.0)
@@ -859,6 +864,7 @@ PENDING history:
 14.07 01h |  (0.0)
 14.07 02h | ████████████████████████████████████████ (243.0)
 14.07 03h | ██████████████████ (115.0)
+14.07 04h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -1249,8 +1255,8 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 48.59
-Ø PENDING: 24.74
+Ø RUNNING: 47.40
+Ø PENDING: 24.18
 MAX RUNNING: 177.00
 MAX PENDING: 165.00
 
@@ -1294,6 +1300,7 @@ RUNNING history:
 13.07 03h |  (4.0)
 13.07 04h |  (0.0)
 14.07 03h |  (0.0)
+14.07 04h |  (1.0)
 
 PENDING history:
 07.07 07h |  (0.0)
@@ -1335,6 +1342,7 @@ PENDING history:
 13.07 03h | █ (6.0)
 13.07 04h | ██ (9.0)
 14.07 03h | █ (7.0)
+14.07 04h |  (2.0)
 
 
 Linda (lg19a108)
