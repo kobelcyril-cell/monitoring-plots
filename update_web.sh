@@ -76,6 +76,35 @@ for f in "$plots_folder_runtime"/*.png; do
 done
 echo "];" >> $js_file_runtime
 
+# --- Process completion Plots ---
+plots_folder_completion="plots/completion"
+js_file_completion="completion_list.js"
+echo "const completion_plots = [" > $js_file_completion
+for f in "$plots_folder_completion"/*.png; do
+    fname=$(basename "$f")
+    echo "    \"$fname\"," >> $js_file_completion
+done
+echo "];" >> $js_file_completion
+
+# ---------------------------------------------
+# Latest PROCESSING Logs für HTML erfassen
+LOGS_FOLDER="$GIT_BASE/logs/latest"
+JS_LOG_FILE="$GIT_BASE/logs/latest_logs.js"
+
+mkdir -p "$LOGS_FOLDER"
+
+echo "const latest_logs = [" > "$JS_LOG_FILE"
+
+# Prüfen, ob Dateien existieren
+shopt -s nullglob
+for f in "$LOGS_FOLDER"/*; do
+    fname=$(basename "$f")
+    echo "    \"$fname\"," >> "$JS_LOG_FILE"
+done
+shopt -u nullglob
+
+echo "];" >> "$JS_LOG_FILE"
+
 # ---------------------------------------------
 # 4) Git Lockfile prüfen
 LOCKFILE="$GIT_BASE/.git/index.lock"
@@ -86,8 +115,8 @@ fi
 
 # ---------------------------------------------
 # 5) Git add/commit/push
-git add plots/latest/* plots/comparisons/* plots/ppp/* plots/runtime/* \
-    index.html plots_list.js comparisons_list.js ppp_list.js runtime_list.js \
+git add plots/latest/* plots/comparisons/* plots/ppp/* plots/runtime/* plots/completion/* logs/latest/* \
+    index.html plots_list.js comparisons_list.js ppp_list.js runtime_list.js completion_list.js logs/latest_logs.js \
     status.json sq_output.txt cmp_lapack/cmp_lapack_summary_table.txt \
     icpu_aiub_stats.txt satclk/* satclk_list.js
 

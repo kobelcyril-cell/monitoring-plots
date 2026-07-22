@@ -17,7 +17,7 @@ def dbg(msg):
 # ----------------------------
 # Letzte N MSC-Ordner
 # ----------------------------
-def get_last_n_folders(n=60):
+def get_last_n_folders(n=130):
     folders = [f for f in os.listdir(MSC_PATH) if f.startswith("MSC_")]
     folders.sort()
     return folders[-n:]

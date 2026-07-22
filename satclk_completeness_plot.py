@@ -80,7 +80,8 @@ for fname, date in latest_files:
 all_sats = sorted(all_sats)
 date_list = sorted(date_list)
 
-matrix = np.full((len(all_sats), len(date_list)), 100.0)
+#matrix = np.full((len(all_sats), len(date_list)), 100.0)
+matrix = np.full((len(all_sats), len(date_list)), np.nan)
 
 for i, sat in enumerate(all_sats):
     for j, date in enumerate(date_list):
@@ -95,7 +96,11 @@ for i, sat in enumerate(all_sats):
 # ==========================
 plt.figure(figsize=(14, 8))
 
-im = plt.imshow(matrix, aspect="auto", origin="lower")
+
+cmap = plt.cm.get_cmap("viridis")
+cmap.set_bad(color="white")
+#im = plt.imshow(matrix, aspect="auto", origin="lower")
+im = plt.imshow(matrix, aspect="auto", origin="lower", cmap=cmap)
 
 cbar = plt.colorbar(im)
 cbar.set_label("Completeness [%]")
@@ -112,6 +117,11 @@ plt.yticks(
     ticks=np.arange(len(all_sats)),
     labels=all_sats
 )
+ax = plt.gca()
+ax.set_axisbelow(True)
+ax.set_yticks(np.arange(len(all_sats)+1)-0.5, minor=True)
+ax.grid(which="minor", axis="y", color="lightgray", linestyle="-", linewidth=0.5)
+ax.tick_params(which="minor", left=False)
 
 plt.xlabel("Date")
 plt.ylabel("Satellite")
@@ -123,7 +133,8 @@ plt.title(f"Clock Completeness – last {N_LATEST} days")
 for i in range(matrix.shape[0]):
     for j in range(matrix.shape[1]):
         value = matrix[i, j]
-        if value < 100.0:
+        if not np.isnan(value) and value < 100.0:
+        #if value < 100.0:
             plt.text(
                 j, i,
                 f"{value:.1f}",

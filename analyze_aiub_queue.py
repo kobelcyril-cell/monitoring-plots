@@ -28,6 +28,7 @@ ALIASES = {
     "dach"    : "Rolf",
     "am25w016": "Alexandra",
     "l_ggsp"  : "ggsp",
+    "eb23z835": "Elmar",
 }
 
 BAR_WIDTH = 40

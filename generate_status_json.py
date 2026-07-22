@@ -13,8 +13,8 @@ process_files = {
     "3 day solution": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/ZD3D.RUN",
     "Clock densification": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/CLKDEN.RUN",
     "Comparison": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/CMPSOL.RUN",
-    "PPP": "/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/PPP.RUN",
-    "Station Network test": "/storage/research/aiub_u_camp/CK_ZDGNSS_TEST/BPE/ZDGNSS.RUN",
+    "Test MAUPRP":"/storage/research/aiub_u_camp/CK_ZDGNSS_TEST/BPE/ZDGNSS.RUN",
+    "New Menu":"/storage/research/aiub_u_camp/CK_ZDGNSS/BPE/ZDGNSS_R.RUN",
 }
 
 status = {"updated": datetime.now().isoformat()}
