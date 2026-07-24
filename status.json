@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T07:27:02.384534",
+  "updated": "2026-07-24T07:28:02.333667",
   "1 day solution": [
     {
       "session_id": "262000",
@@ -23,19 +23,19 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "010",
@@ -86,7 +86,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 8
+      "progress": 25
     }
   ],
   "Clock densification": [
@@ -197,112 +197,9 @@
   "Comparison": [
     {
       "session_id": "262000",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "CMP_COP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "101",
-          "name": "CMP_ERPDIFF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "201",
-          "name": "STDDIF",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "301",
-          "name": "CMP_CLKDIFF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "401",
-          "name": "ORBCMPL",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "402",
-          "name": "plotSatnum",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "501",
-          "name": "COMPAR2",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "502",
-          "name": "plotStanum",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "601",
-          "name": "HELMR1",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "602",
-          "name": "plotHELMR1",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "701",
-          "name": "STDELEL",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "702",
-          "name": "plotSTDELE",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "703",
-          "name": "ORB_VER",
-          "extra": "CMP_SOL",
-          "status": "finished"
-        },
-        {
-          "id": "899",
-          "name": "CMP_SUM",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "901",
-          "name": "DEL_CMP",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 88
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Test MAUPRP": [
