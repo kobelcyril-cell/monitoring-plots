@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T16:30:04.032070",
+  "updated": "2026-07-25T16:31:03.617018",
   "1 day solution": [
     {
       "session_id": "262010",
@@ -175,31 +175,31 @@
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -886,7 +886,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 14
+      "progress": 16
     },
     {
       "session_id": "261990",
@@ -1052,25 +1052,25 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -1727,7 +1727,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 18
+      "progress": 20
     }
   ]
 }
