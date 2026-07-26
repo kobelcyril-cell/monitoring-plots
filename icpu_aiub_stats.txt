@@ -1,14 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-07-26 08:00:10
+Timestamp: 2026-07-26 09:00:11
 ================================================================================
 
-TOTAL RUNNING: 164
-TOTAL PENDING: 3
+TOTAL RUNNING: 4
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 11   PENDING:  3
-Daniel       (l_hpfaiu  )  RUNNING: 153   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -1002,13 +1002,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 15.81
+Ø RUNNING: 15.84
 Ø PENDING: 2.01
 MAX RUNNING: 153.00
 MAX PENDING: 65.00
 
 RUNNING history:
-19.07 09h |  (1.0)
 19.07 10h |  (2.0)
 19.07 11h | █ (4.0)
 19.07 13h |  (2.0)
@@ -1082,9 +1081,9 @@ RUNNING history:
 26.07 00h |  (1.0)
 26.07 03h | █ (4.0)
 26.07 08h | ██ (11.0)
+26.07 09h |  (3.0)
 
 PENDING history:
-19.07 09h |  (0.0)
 19.07 10h |  (0.0)
 19.07 11h |  (0.0)
 19.07 13h | █ (2.0)
@@ -1158,17 +1157,17 @@ PENDING history:
 26.07 00h |  (0.0)
 26.07 03h |  (0.0)
 26.07 08h | █ (3.0)
+26.07 09h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.98
-Ø PENDING: 0.81
+Ø RUNNING: 2.95
+Ø PENDING: 0.83
 MAX RUNNING: 19.00
 MAX PENDING: 10.00
 
 RUNNING history:
-19.07 09h | ████████ (4.0)
 19.07 10h | ██ (1.0)
 19.07 18h | ██ (1.0)
 19.07 19h | ██ (1.0)
@@ -1212,7 +1211,6 @@ RUNNING history:
 26.07 01h | ████████ (4.0)
 
 PENDING history:
-19.07 09h |  (0.0)
 19.07 10h |  (0.0)
 19.07 18h |  (0.0)
 19.07 19h |  (0.0)
@@ -1258,13 +1256,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 12.38
+Ø RUNNING: 12.35
 Ø PENDING: 4.25
 MAX RUNNING: 102.00
 MAX PENDING: 97.00
 
 RUNNING history:
-19.07 09h |  (2.0)
 19.07 10h | █ (3.0)
 19.07 11h | ████ (11.0)
 20.07 09h | ██ (7.0)
@@ -1304,9 +1301,9 @@ RUNNING history:
 25.07 10h | █ (3.0)
 25.07 11h | █████ (15.0)
 25.07 12h |  (1.0)
+26.07 09h |  (1.0)
 
 PENDING history:
-19.07 09h |  (0.0)
 19.07 10h |  (0.0)
 19.07 11h |  (0.0)
 20.07 09h |  (0.0)
@@ -1346,6 +1343,7 @@ PENDING history:
 25.07 10h |  (0.0)
 25.07 11h |  (0.0)
 25.07 12h |  (0.0)
+26.07 09h |  (0.0)
 
 
 Daniel (l_hpfaiu)
