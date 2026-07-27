@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T01:39:02.091522",
+  "updated": "2026-07-28T01:40:02.104894",
   "1 day solution": [
     {
       "session_id": "262040",
@@ -495,19 +495,19 @@
           "id": "113",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "115",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 58
     }
   ],
   "3 day solution": [
@@ -4179,13 +4179,13 @@
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "165",
           "name": "OBSXTR",
           "extra": "FZDM_SUM",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "166",
@@ -4230,7 +4230,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 94
+      "progress": 95
     }
   ],
   "Test station exlusion (26/162-26/163)": [
