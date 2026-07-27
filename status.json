@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T22:21:02.839787",
+  "updated": "2026-07-27T22:22:02.956600",
   "1 day solution": [
     {
       "session_id": "262040",
@@ -339,13 +339,13 @@
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 39
+      "progress": 40
     }
   ],
   "3 day solution": [
@@ -2347,25 +2347,25 @@
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "145",
           "name": "IAR_STA",
           "extra": "IAR_CHK",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "146",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "150",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "151",
@@ -2548,7 +2548,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 75
+      "progress": 77
     },
     {
       "session_id": "261980",
