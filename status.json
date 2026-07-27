@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T19:51:01.577209",
+  "updated": "2026-07-27T19:52:01.833757",
   "1 day solution": [
     {
       "session_id": "262040",
@@ -225,19 +225,19 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "051",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 27
     }
   ],
   "3 day solution": [
@@ -1404,31 +1404,31 @@
           "id": "120",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "130",
           "name": "SATMRK",
           "extra": "IAR_AMB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "131",
           "name": "FILESTAP",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "133",
@@ -1707,7 +1707,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 63
+      "progress": 66
     },
     {
       "session_id": "261970",
@@ -3086,19 +3086,19 @@
           "id": "120",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "130",
           "name": "SATMRK",
           "extra": "IAR_AMB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "131",
@@ -3389,7 +3389,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 63
+      "progress": 64
     },
     {
       "session_id": "261990",
@@ -6548,13 +6548,13 @@
           "id": "143",
           "name": "FILEST_P",
           "extra": "IAR_NLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "144",
           "name": "OBSXTR",
           "extra": "IAR_NLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "145",
@@ -6755,7 +6755,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 74
+      "progress": 75
     }
   ]
 }
