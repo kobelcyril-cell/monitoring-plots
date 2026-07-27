@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T18:18:02.618442",
+  "updated": "2026-07-27T18:19:03.119287",
   "1 day solution": [
     {
       "session_id": "262040",
@@ -105,19 +105,19 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 11
+      "progress": 12
     }
   ],
   "3 day solution": [
@@ -3951,19 +3951,19 @@
           "id": "132",
           "name": "FILEST_P",
           "extra": "IAR_WLB",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "133",
           "name": "PHABIA",
           "extra": "IAR_WLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "134",
           "name": "FILESTAP",
           "extra": "IAR_WLI",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "135",
@@ -4230,7 +4230,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 66
+      "progress": 67
     }
   ],
   "Test station exlusion (26/162-26/163)": [
