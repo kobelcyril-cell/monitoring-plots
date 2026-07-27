@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T18:26:03.132255",
+  "updated": "2026-07-27T18:27:02.707394",
   "1 day solution": [
     {
       "session_id": "262040",
@@ -1368,19 +1368,19 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "116",
@@ -1707,7 +1707,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 58
     },
     {
       "session_id": "261970",
@@ -3969,19 +3969,19 @@
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "138",
@@ -4230,7 +4230,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 68
+      "progress": 69
     }
   ],
   "Test station exlusion (26/162-26/163)": [
@@ -4734,7 +4734,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
@@ -5073,7 +5073,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 58
     },
     {
       "session_id": "261620",
@@ -6446,13 +6446,13 @@
           "id": "119",
           "name": "CCRNXCZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "120",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "121",
@@ -6755,7 +6755,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 62
+      "progress": 63
     }
   ]
 }
