@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T13:44:02.557660",
+  "updated": "2026-07-27T13:45:01.981210",
   "1 day solution": [
     {
       "session_id": "262030",
@@ -2984,25 +2984,25 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -3395,7 +3395,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 50
     }
   ],
   "Test station exlusion (26/162-26/163)": [
@@ -3749,13 +3749,13 @@
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "081",
@@ -5455,19 +5455,19 @@
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "084",
           "name": "MPRXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "086",
@@ -5920,7 +5920,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 43
+      "progress": 45
     }
   ]
 }
