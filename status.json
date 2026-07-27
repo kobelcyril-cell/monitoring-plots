@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T11:38:01.859101",
+  "updated": "2026-07-27T11:39:02.503072",
   "1 day solution": [
     {
       "session_id": "262030",
@@ -125,13 +125,13 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -966,13 +966,13 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -2648,13 +2648,13 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -3400,16 +3400,10 @@
   ],
   "Test station exlusion (26/162-26/163)": [
     {
-      "session_id": "261980",
-      "status": "finished",
+      "session_id": "N/A",
+      "status": "missing",
       "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "261990",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "progress": 0
     }
   ]
 }
