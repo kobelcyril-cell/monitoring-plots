@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T01:45:01.409340",
+  "updated": "2026-07-29T01:46:01.667918",
   "1 day solution": [
     {
       "session_id": "262050",
@@ -429,25 +429,25 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 50
     }
   ],
   "3 day solution": [
@@ -2227,31 +2227,31 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "116",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "117",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "119",
@@ -2566,7 +2566,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 58
+      "progress": 61
     }
   ],
   "Test station exlusion (26/162-26/163)": [
