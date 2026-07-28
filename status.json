@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T02:30:02.348897",
+  "updated": "2026-07-28T02:31:02.149383",
   "1 day solution": [
     {
       "session_id": "262040",
@@ -501,7 +501,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 58
     }
   ],
   "3 day solution": [
@@ -4085,19 +4085,19 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "156",
           "name": "PRECLK",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "157",
@@ -4238,7 +4238,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 82
     },
     {
       "session_id": "261620",
@@ -4968,7 +4968,7 @@
           "id": "989",
           "name": "GPSXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "994",
@@ -4998,43 +4998,43 @@
           "id": "162",
           "name": "ORBGENZD_FIN",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "163",
           "name": "ITER_AR",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "164",
           "name": "STDPRE",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "200",
           "name": "STDDIF",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "COMPAR2_ZD",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "210",
           "name": "CMP_LAPACK",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "990",
           "name": "ATTXTR",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "165",
@@ -5058,13 +5058,13 @@
           "id": "168",
           "name": "GPSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "268",
           "name": "CHECK_SAT_CLOCKS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -5085,7 +5085,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 88
+      "progress": 94
     }
   ]
 }
