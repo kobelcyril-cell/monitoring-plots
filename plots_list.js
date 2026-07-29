@@ -7,4 +7,5 @@ const latest_plots = [
     "large_obs_files.png",
     "num_obs_files.png",
     "obsxtr_bad.png",
+    "satellite_flags_overview.png",
 ];
