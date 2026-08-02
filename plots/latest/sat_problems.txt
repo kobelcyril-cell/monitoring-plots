@@ -3598,3 +3598,20 @@ No satellites with RMS > 5.0 m or invalid RMS detected.
 Ambiguity Resolution fine for all satellites.
 
 
+==================== 26/210 ====================
+
+--- CHECK_SAT_GAPS ---
+Checking file: SMT262100.SMC
+No data gaps detected in PHASE OBSERVATIONS.
+
+--- CHECK_SAT_RMS ---
+Checking file: ORBGEN_APR2100.OUT
+→ Large RMS detected for satellite 19: 7.03 m
+→ Large RMS detected for satellite 30: 5.44 m
+Satellites marked due to RMS > 5.0 m or invalid RMS: 19, 30
+Total satellites marked: 2
+
+--- CHECK_AR_SAT ---
+BLOCK NOT FOUND
+
+
