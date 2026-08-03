@@ -1,6 +1,11 @@
-[2026-08-03 05:17:20]
-03-Aug-2026 03:17:20 Mo  Doy: 26/215/D/03  Week: 2430/1/26W32  MJD: 61255.13704
+[2026-08-03 05:18:20]
+03-Aug-2026 03:18:20 Mo  Doy: 26/215/D/03  Week: 2430/1/26W32  MJD: 61255.13773
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          11480829 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          11480827 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          11480826 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          11480825 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
+          11480824 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           11480805 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           11480804 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           11480803 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
@@ -22,42 +27,37 @@
           11480787 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           11480786 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
           11480785 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480784 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480783 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480782 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480781 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480780 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480779 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480778 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480777 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480776 icpu-aiub RUNBPE_Q ck18y530 PD       0:00      1 (QOSGrpCpuLimit)
-          11480746 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480747 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480748 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480749 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480750 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480751 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
-          11480752 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480753 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480754 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480755 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
-          11480756 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480757 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480758 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480759 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
-          11480760 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480761 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480762 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480763 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
-          11480764 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480765 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480766 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480767 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
-          11480768 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480769 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480770 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480771 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
-          11480772 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode060
-          11480773 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode061
-          11480774 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
-          11480775 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode063
+          11480782 icpu-aiub RUNBPE_Q ck18y530  R       0:05      1 bnode061
+          11480783 icpu-aiub RUNBPE_Q ck18y530  R       0:05      1 bnode061
+          11480784 icpu-aiub RUNBPE_Q ck18y530  R       0:05      1 bnode062
+          11480781 icpu-aiub RUNBPE_Q ck18y530  R       0:06      1 bnode062
+          11480780 icpu-aiub RUNBPE_Q ck18y530  R       0:07      1 bnode062
+          11480778 icpu-aiub RUNBPE_Q ck18y530  R       0:09      1 bnode062
+          11480779 icpu-aiub RUNBPE_Q ck18y530  R       0:09      1 bnode062
+          11480776 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
+          11480777 icpu-aiub RUNBPE_Q ck18y530  R       0:17      1 bnode062
+          11480746 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480747 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480748 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480749 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480751 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
+          11480752 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480753 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480754 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode062
+          11480755 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
+          11480756 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480757 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480758 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode062
+          11480759 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
+          11480760 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480761 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480763 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
+          11480764 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480765 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480767 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
+          11480768 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480769 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480771 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
+          11480772 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode060
+          11480773 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode061
+          11480775 icpu-aiub RUNBPE_Q ck18y530  R       1:17      1 bnode063
