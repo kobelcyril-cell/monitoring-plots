@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T12:54:01.760287",
+  "updated": "2026-08-03T12:55:01.432372",
   "1 day solution": [
     {
       "session_id": "262100",
@@ -29,25 +29,25 @@
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -86,7 +86,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 16
+      "progress": 41
     }
   ],
   "Clock densification": [
@@ -221,7 +221,7 @@
           "id": "201",
           "name": "STDDIF",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "301",
@@ -245,37 +245,37 @@
           "id": "501",
           "name": "COMPAR2",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "502",
           "name": "plotStanum",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "601",
           "name": "HELMR1",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "602",
           "name": "plotHELMR1",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "701",
           "name": "STDELEL",
           "extra": "CMP_SOL",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "702",
           "name": "plotSTDELE",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "703",
@@ -302,7 +302,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 35
+      "progress": 64
     }
   ],
   "Repro 3D": [
