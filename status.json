@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T02:38:03.598158",
+  "updated": "2026-08-05T02:39:03.615718",
   "1 day solution": [
     {
       "session_id": "262120",
@@ -681,7 +681,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
@@ -840,7 +840,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 81
     }
   ],
   "3 day solution": [
@@ -888,82 +888,9 @@
     },
     {
       "session_id": "262070",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "ZD3D_COP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "COOVEL",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "POLUPD",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "SOLLONAP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "SOLLON_P",
-          "extra": "ZD3D_3DS",
-          "status": "running"
-        },
-        {
-          "id": "012",
-          "name": "ORBGEN",
-          "extra": "ZD3D_3DS",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXCZD",
-          "extra": "ZD3D_3DS",
-          "status": "waiting"
-        },
-        {
-          "id": "014",
-          "name": "STDPRE",
-          "extra": "ZD3D_3DS",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "SAVERES3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "DEL_ZD3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 41
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Repro 3D 210": [
