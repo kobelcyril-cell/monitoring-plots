@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T02:27:03.336717",
+  "updated": "2026-08-05T02:28:02.742310",
   "1 day solution": [
     {
       "session_id": "262120",
@@ -1056,6 +1056,12 @@
     },
     {
       "session_id": "262050",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "262060",
       "status": "running",
       "tasks": [
         {
@@ -1068,67 +1074,67 @@
           "id": "001",
           "name": "ZDDE_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "FILESTAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "FILEST_P",
           "extra": "FZDM_1DR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
           "name": "TRPMERZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "013",
           "name": "CCRNXC",
           "extra": "FZDM_1DR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "020",
           "name": "CCRNXC",
           "extra": "FZDM_1DX",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "021",
           "name": "CCRNXC",
           "extra": "FZDM_1DF",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "030",
           "name": "CLKEST",
           "extra": "FZDM_1H0",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "031",
           "name": "CCRNXC",
           "extra": "FZDM_1H0",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "032",
@@ -1155,13 +1161,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 68
-    },
-    {
-      "session_id": "262060",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 6
     },
     {
       "session_id": "262070",
