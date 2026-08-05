@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T09:27:02.169887",
+  "updated": "2026-08-05T09:28:02.170568",
   "1 day solution": [
     {
       "session_id": "262120",
@@ -123,28 +123,89 @@
   ],
   "Repro CLKDEN": [
     {
-      "session_id": "262040",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "262050",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "262060",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
-    },
-    {
-      "session_id": "262070",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "262090",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "001",
+          "name": "STATUS_s_new",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "100",
+          "name": "COPY_FIL_CLKD_s_new",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "200",
+          "name": "GPSEST_P_s_new",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "201",
+          "name": "GPSEST_E_s_new",
+          "extra": "FZDM_1DR_s",
+          "status": "finished"
+        },
+        {
+          "id": "300",
+          "name": "TRPMERGE_s_new",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "301",
+          "name": "CCRNXC_s_new",
+          "extra": "FZDM_1DR_s",
+          "status": "finished"
+        },
+        {
+          "id": "302",
+          "name": "CCRNXC_s_new",
+          "extra": "FZDM_1DX_s",
+          "status": "finished"
+        },
+        {
+          "id": "303",
+          "name": "CCRNXC_s_new",
+          "extra": "FZDM_1DF_s",
+          "status": "finished"
+        },
+        {
+          "id": "400",
+          "name": "CLKEST_s_new",
+          "extra": "FZDM_1H0_s",
+          "status": "finished"
+        },
+        {
+          "id": "401",
+          "name": "CCRNXC_s_new",
+          "extra": "FZDM_1H0_s",
+          "status": "finished"
+        },
+        {
+          "id": "402",
+          "name": "CCRNXC_s_new",
+          "extra": "FZDM_1HN_s",
+          "status": "finished"
+        },
+        {
+          "id": "500",
+          "name": "DEL_RES_CLKD_s_new",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "999",
+          "name": "STATUS_s_new",
+          "extra": "NO_OPT",
+          "status": "running"
+        }
+      ],
+      "progress": 92
     }
   ],
   "Repro CLKDEN 209": [
