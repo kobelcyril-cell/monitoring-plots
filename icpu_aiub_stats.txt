@@ -1,13 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-07 13:00:10
+Timestamp: 2026-08-07 14:00:10
 ================================================================================
 
-TOTAL RUNNING: 9
+TOTAL RUNNING: 67
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING:  9   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+lm20l063     (lm20l063  )  RUNNING: 62   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -839,8 +841,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 17.97
-Ø PENDING: 13.62
+Ø RUNNING: 17.84
+Ø PENDING: 13.50
 MAX RUNNING: 306.00
 MAX PENDING: 212.00
 
@@ -960,6 +962,7 @@ RUNNING history:
 07.08 04h |  (2.0)
 07.08 05h |  (2.0)
 07.08 06h | █ (10.0)
+07.08 14h |  (4.0)
 
 PENDING history:
 31.07 14h |  (0.0)
@@ -1077,6 +1080,7 @@ PENDING history:
 07.08 04h |  (0.0)
 07.08 05h |  (0.0)
 07.08 06h |  (0.0)
+07.08 14h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -1145,8 +1149,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 20.40
-Ø PENDING: 3.33
+Ø RUNNING: 20.14
+Ø PENDING: 3.29
 MAX RUNNING: 148.00
 MAX PENDING: 63.00
 
@@ -1226,6 +1230,7 @@ RUNNING history:
 07.08 11h | █████████ (34.0)
 07.08 12h | █ (5.0)
 07.08 13h | ██ (9.0)
+07.08 14h |  (1.0)
 
 PENDING history:
 31.07 14h |  (0.0)
@@ -1303,6 +1308,7 @@ PENDING history:
 07.08 11h |  (0.0)
 07.08 12h |  (0.0)
 07.08 13h |  (0.0)
+07.08 14h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1635,8 +1641,8 @@ PENDING history:
 
 lm20l063 (lm20l063)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.19
-Ø PENDING: 7.56
+Ø RUNNING: 26.41
+Ø PENDING: 7.12
 MAX RUNNING: 62.00
 MAX PENDING: 62.00
 
@@ -1657,6 +1663,7 @@ RUNNING history:
 06.08 12h | ████████████████████████████████████ (56.0)
 06.08 13h | ████████████████████████████████████████ (62.0)
 06.08 14h |  (1.0)
+07.08 14h | ████████████████████████████████████████ (62.0)
 
 PENDING history:
 03.08 09h |  (0.0)
@@ -1675,5 +1682,6 @@ PENDING history:
 06.08 12h |  (0.0)
 06.08 13h |  (0.0)
 06.08 14h |  (0.0)
+07.08 14h |  (0.0)
 
 
