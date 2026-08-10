@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T10:14:02.857489",
+  "updated": "2026-08-10T10:15:02.262365",
   "1 day solution": [
     {
       "session_id": "N/A",
@@ -167,25 +167,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -872,7 +872,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     },
     {
       "session_id": "262170",
@@ -1038,19 +1038,19 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "025",
@@ -1713,7 +1713,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 18
+      "progress": 20
     }
   ]
 }
