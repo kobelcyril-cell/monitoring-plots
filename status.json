@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T12:12:02.687840",
+  "updated": "2026-08-10T12:13:02.704977",
   "1 day solution": [
     {
       "session_id": "N/A",
@@ -26,10 +26,113 @@
   ],
   "Comparison": [
     {
-      "session_id": "261110",
-      "status": "finished",
-      "tasks": [],
-      "progress": 100
+      "session_id": "261040",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "555",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "001",
+          "name": "CMP_COP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "101",
+          "name": "CMP_ERPDIFF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "STDDIF",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "301",
+          "name": "CMP_CLKDIFF",
+          "extra": "NO_OPT",
+          "status": "skipped"
+        },
+        {
+          "id": "401",
+          "name": "ORBCMPL",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "402",
+          "name": "plotSatnum",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "501",
+          "name": "COMPAR2",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "502",
+          "name": "plotStanum",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "601",
+          "name": "HELMR1",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "602",
+          "name": "plotHELMR1",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "701",
+          "name": "STDELEL",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "702",
+          "name": "plotSTDELE",
+          "extra": "CMP_SOL",
+          "status": "waiting"
+        },
+        {
+          "id": "703",
+          "name": "ORB_VER",
+          "extra": "CMP_SOL",
+          "status": "skipped"
+        },
+        {
+          "id": "899",
+          "name": "CMP_SUM",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "901",
+          "name": "DEL_CMP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "999",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 0
     }
   ],
   "Repro ZDGNSS": [
@@ -431,13 +534,13 @@
           "id": "087",
           "name": "ADDNEQOR",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "088",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "090",
@@ -872,7 +975,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 46
+      "progress": 47
     },
     {
       "session_id": "262170",
@@ -1356,13 +1459,13 @@
           "id": "111",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "112",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "113",
@@ -1713,7 +1816,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 56
+      "progress": 57
     }
   ],
   "Redo CMP": [
