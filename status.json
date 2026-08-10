@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T12:14:02.691729",
+  "updated": "2026-08-10T12:15:03.816018",
   "1 day solution": [
     {
       "session_id": "N/A",
@@ -26,7 +26,7 @@
   ],
   "Comparison": [
     {
-      "session_id": "261040",
+      "session_id": "260180",
       "status": "running",
       "tasks": [
         {
@@ -39,91 +39,91 @@
           "id": "001",
           "name": "CMP_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "101",
           "name": "CMP_ERPDIFF",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "201",
           "name": "STDDIF",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "301",
           "name": "CMP_CLKDIFF",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "skipped"
         },
         {
           "id": "401",
           "name": "ORBCMPL",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "402",
           "name": "plotSatnum",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "501",
           "name": "COMPAR2",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "502",
           "name": "plotStanum",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "601",
           "name": "HELMR1",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "602",
           "name": "plotHELMR1",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "701",
           "name": "STDELEL",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "702",
           "name": "plotSTDELE",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "703",
           "name": "ORB_VER",
           "extra": "CMP_SOL",
-          "status": "finished"
+          "status": "skipped"
         },
         {
           "id": "899",
           "name": "CMP_SUM",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "901",
           "name": "DEL_CMP",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "999",
@@ -132,7 +132,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 88
+      "progress": 5
     }
   ],
   "Repro ZDGNSS": [
