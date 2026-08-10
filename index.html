@@ -240,10 +240,6 @@ h1, h2 {
 <h2>Product comparison to CODE</h2>
 <div id="comparisons-container" class="plots-container"></div>
 
-<!-- ===== Kinematic Precise Point Positioning ===== -->
-<h2>Kinematic Precise Point Positioning (Repeatability)</h2>
-<div id="ppp-container" class="plots-container"></div>
-
 <!-- ===== Process completeness ===== -->
 <h2>Process completeness</h2>
 <div id="process-container" class="plots-container"></div>
@@ -275,7 +271,6 @@ h1, h2 {
 <!-- ===== Scripts ===== -->
 <script src="plots_list.js"></script>
 <script src="comparisons_list.js"></script>
-<script src="ppp_list.js"></script>
 <script src="runtime_list.js"></script>
 <script src="completion_list.js"></script>
 <script src="logs/latest_logs.js"></script>
@@ -304,7 +299,6 @@ function renderPlots(id, arr, folder) {
 // Render all sections
 renderPlots("latest-container", latest_plots, "plots/latest");
 renderPlots("comparisons-container", comparison_plots, "plots/comparisons");
-renderPlots("ppp-container", ppp_plots, "plots/ppp");
 renderPlots("runtime-container", runtime_plots, "plots/runtime");
 renderPlots("process-container", completion_plots, "plots/completion");  
   
