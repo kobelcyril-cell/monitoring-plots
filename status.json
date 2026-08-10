@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T15:16:03.853197",
+  "updated": "2026-08-10T15:17:02.307921",
   "1 day solution": [
     {
       "session_id": "N/A",
@@ -39,37 +39,37 @@
           "id": "001",
           "name": "CMP_COP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "101",
           "name": "CMP_ERPDIFF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "STDDIF",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "301",
           "name": "CMP_CLKDIFF",
           "extra": "NO_OPT",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "401",
           "name": "ORBCMPL",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "402",
           "name": "plotSatnum",
           "extra": "CMP_SOL",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "501",
@@ -132,7 +132,7 @@
           "status": "skipped"
         }
       ],
-      "progress": 5
+      "progress": 35
     }
   ],
   "Repro ZDGNSS": [
