@@ -1,17 +1,19 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-14 11:00:09
+Timestamp: 2026-08-14 12:00:14
 ================================================================================
 
-TOTAL RUNNING: 280
-TOTAL PENDING: 226
+TOTAL RUNNING: 231
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
 Rolf         (dach      )  RUNNING: 100   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 35   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  2   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING: 16   PENDING:  0
-Daniel       (l_hpfaiu  )  RUNNING: 127   PENDING: 226
+Code (rapid) (l_code_r  )  RUNNING: 22   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING: 68   PENDING:  0
+Linda        (lg19a108  )  RUNNING: 36   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -19,8 +21,8 @@ Weekly statistics (last 7 days, 1h mean values)
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.03
-Ø PENDING: 2.51
+Ø RUNNING: 18.84
+Ø PENDING: 2.48
 MAX RUNNING: 174.00
 MAX PENDING: 118.00
 
@@ -116,6 +118,7 @@ RUNNING history:
 14.08 04h |  (2.0)
 14.08 06h | █ (8.0)
 14.08 08h |  (1.0)
+14.08 12h |  (1.0)
 
 PENDING history:
 07.08 19h |  (0.0)
@@ -209,11 +212,12 @@ PENDING history:
 14.08 04h |  (0.0)
 14.08 06h |  (0.0)
 14.08 08h |  (0.0)
+14.08 12h |  (0.0)
 
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 75.18
+Ø RUNNING: 75.61
 Ø PENDING: 0.05
 MAX RUNNING: 100.00
 MAX PENDING: 1.00
@@ -275,6 +279,7 @@ RUNNING history:
 14.08 09h | ████████████████████████████████████████ (100.0)
 14.08 10h | ████████████████████████████████████████ (100.0)
 14.08 11h | ████████████████████████████████████████ (100.0)
+14.08 12h | ████████████████████████████████████████ (100.0)
 
 PENDING history:
 11.08 09h |  (0.0)
@@ -333,6 +338,7 @@ PENDING history:
 14.08 09h |  (0.0)
 14.08 10h |  (0.0)
 14.08 11h |  (0.0)
+14.08 12h |  (0.0)
 
 
 Code (l_code)
@@ -535,13 +541,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 27.11
+Ø RUNNING: 27.41
 Ø PENDING: 0.27
 MAX RUNNING: 152.00
 MAX PENDING: 6.00
 
 RUNNING history:
-07.08 12h | █ (5.0)
 07.08 13h | ██ (9.0)
 07.08 14h |  (1.0)
 07.08 15h | ███ (12.0)
@@ -597,9 +602,9 @@ RUNNING history:
 14.08 09h | ███████████ (45.0)
 14.08 10h | ████████ (34.0)
 14.08 11h | █████████ (35.0)
+14.08 12h | █████ (22.0)
 
 PENDING history:
-07.08 12h |  (0.0)
 07.08 13h |  (0.0)
 07.08 14h |  (0.0)
 07.08 15h |  (0.0)
@@ -655,11 +660,12 @@ PENDING history:
 14.08 09h |  (0.0)
 14.08 10h |  (0.0)
 14.08 11h |  (0.0)
+14.08 12h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.27
+Ø RUNNING: 4.24
 Ø PENDING: 0.04
 MAX RUNNING: 26.00
 MAX PENDING: 2.00
@@ -710,6 +716,7 @@ RUNNING history:
 14.08 01h | █████████ (6.0)
 14.08 10h | ████ (3.0)
 14.08 11h | ███ (2.0)
+14.08 12h | ████ (3.0)
 
 PENDING history:
 07.08 18h |  (0.0)
@@ -757,12 +764,13 @@ PENDING history:
 14.08 01h |  (0.0)
 14.08 10h |  (0.0)
 14.08 11h |  (0.0)
+14.08 12h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.09
-Ø PENDING: 0.15
+Ø RUNNING: 12.74
+Ø PENDING: 0.14
 MAX RUNNING: 119.00
 MAX PENDING: 3.00
 
@@ -801,6 +809,7 @@ RUNNING history:
 14.08 09h | █████ (15.0)
 14.08 10h | █ (3.0)
 14.08 11h | █████ (16.0)
+14.08 12h |  (1.0)
 
 PENDING history:
 08.08 09h |  (0.0)
@@ -837,12 +846,13 @@ PENDING history:
 14.08 09h |  (0.0)
 14.08 10h |  (0.0)
 14.08 11h |  (0.0)
+14.08 12h |  (0.0)
 
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 78.14
-Ø PENDING: 88.79
+Ø RUNNING: 77.47
+Ø PENDING: 82.87
 MAX RUNNING: 260.00
 MAX PENDING: 365.00
 
@@ -861,6 +871,7 @@ RUNNING history:
 13.08 17h |  (1.0)
 14.08 10h | █████████████████████ (141.0)
 14.08 11h | ███████████████████ (127.0)
+14.08 12h | ██████████ (68.0)
 
 PENDING history:
 10.08 14h |  (0.0)
@@ -877,12 +888,13 @@ PENDING history:
 13.08 17h |  (4.0)
 14.08 10h | ███ (34.0)
 14.08 11h | ████████████████████████ (226.0)
+14.08 12h |  (0.0)
 
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 61.69
-Ø PENDING: 14.52
+Ø RUNNING: 61.27
+Ø PENDING: 14.29
 MAX RUNNING: 187.00
 MAX PENDING: 174.00
 
@@ -948,6 +960,7 @@ RUNNING history:
 14.08 04h | ██████████████████████████████████████ (180.0)
 14.08 05h | ██████ (30.0)
 14.08 06h |  (4.0)
+14.08 12h | ███████ (36.0)
 
 PENDING history:
 10.08 14h |  (0.0)
@@ -1011,6 +1024,7 @@ PENDING history:
 14.08 04h |  (0.0)
 14.08 05h |  (0.0)
 14.08 06h |  (0.0)
+14.08 12h |  (0.0)
 
 
 lm20l063 (lm20l063)
