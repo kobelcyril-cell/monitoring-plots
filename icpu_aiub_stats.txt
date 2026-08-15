@@ -1,14 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-15 13:00:10
+Timestamp: 2026-08-15 14:00:11
 ================================================================================
 
-TOTAL RUNNING: 102
+TOTAL RUNNING: 80
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Rolf         (dach      )  RUNNING: 100   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
+Rolf         (dach      )  RUNNING: 75   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  5   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -250,7 +250,7 @@ PENDING history:
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 82.95
+Ø RUNNING: 82.86
 Ø PENDING: 0.13
 MAX RUNNING: 100.00
 MAX PENDING: 4.00
@@ -338,6 +338,7 @@ RUNNING history:
 15.08 11h | ████████████████████████████████████████ (100.0)
 15.08 12h | ████████████████████████████████████████ (100.0)
 15.08 13h | ████████████████████████████████████████ (100.0)
+15.08 14h | ██████████████████████████████ (75.0)
 
 PENDING history:
 11.08 09h |  (0.0)
@@ -422,6 +423,7 @@ PENDING history:
 15.08 11h |  (0.0)
 15.08 12h |  (0.0)
 15.08 13h |  (0.0)
+15.08 14h |  (0.0)
 
 
 Code (l_code)
@@ -454,8 +456,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 39.81
-Ø PENDING: 6.16
+Ø RUNNING: 39.25
+Ø PENDING: 6.06
 MAX RUNNING: 304.00
 MAX PENDING: 95.00
 
@@ -522,6 +524,7 @@ RUNNING history:
 15.08 05h | ███████████████ (117.0)
 15.08 06h |  (2.0)
 15.08 07h |  (3.0)
+15.08 14h |  (5.0)
 
 PENDING history:
 08.08 14h |  (0.0)
@@ -586,6 +589,7 @@ PENDING history:
 15.08 05h |  (2.0)
 15.08 06h |  (0.0)
 15.08 07h |  (0.0)
+15.08 14h |  (0.0)
 
 
 l_code_m (l_code_m)
