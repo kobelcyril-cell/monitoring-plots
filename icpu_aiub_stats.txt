@@ -1,14 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-17 09:00:09
+Timestamp: 2026-08-17 10:00:09
 ================================================================================
 
-TOTAL RUNNING: 53
+TOTAL RUNNING: 95
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
 Rolf         (dach      )  RUNNING: 50   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  4   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
+lm20l063     (lm20l063  )  RUNNING: 37   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -34,8 +37,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.22
-Ø PENDING: 12.50
+Ø RUNNING: 25.01
+Ø PENDING: 12.39
 MAX RUNNING: 181.00
 MAX PENDING: 241.00
 
@@ -153,6 +156,7 @@ RUNNING history:
 16.08 03h |  (1.0)
 16.08 19h | ███ (14.0)
 16.08 20h | ██ (11.0)
+17.08 10h |  (1.0)
 
 PENDING history:
 10.08 10h |  (0.0)
@@ -268,11 +272,12 @@ PENDING history:
 16.08 03h |  (0.0)
 16.08 19h |  (0.0)
 16.08 20h |  (0.0)
+17.08 10h |  (0.0)
 
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 72.63
+Ø RUNNING: 72.41
 Ø PENDING: 0.11
 MAX RUNNING: 100.00
 MAX PENDING: 4.00
@@ -381,6 +386,7 @@ RUNNING history:
 17.08 07h | ██████████ (27.0)
 17.08 08h | ████████████████████ (50.0)
 17.08 09h | ████████████████████ (50.0)
+17.08 10h | ████████████████████ (50.0)
 
 PENDING history:
 11.08 09h |  (0.0)
@@ -486,6 +492,7 @@ PENDING history:
 17.08 07h |  (0.0)
 17.08 08h |  (0.0)
 17.08 09h |  (0.0)
+17.08 10h |  (0.0)
 
 
 Code (l_code)
@@ -754,7 +761,7 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 27.64
+Ø RUNNING: 27.33
 Ø PENDING: 0.49
 MAX RUNNING: 152.00
 MAX PENDING: 24.00
@@ -837,6 +844,7 @@ RUNNING history:
 17.08 03h |  (1.0)
 17.08 08h | ███████████████████████████ (104.0)
 17.08 09h |  (3.0)
+17.08 10h | █ (4.0)
 
 PENDING history:
 10.08 10h |  (0.0)
@@ -916,17 +924,17 @@ PENDING history:
 17.08 03h |  (0.0)
 17.08 08h | █ (1.0)
 17.08 09h |  (0.0)
+17.08 10h |  (0.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.05
-Ø PENDING: 0.12
+Ø RUNNING: 4.10
+Ø PENDING: 0.13
 MAX RUNNING: 26.00
 MAX PENDING: 4.00
 
 RUNNING history:
-10.08 09h | █ (1.0)
 10.08 10h | █ (1.0)
 10.08 11h | ████████████████████████ (16.0)
 10.08 12h | ████ (3.0)
@@ -992,7 +1000,6 @@ RUNNING history:
 17.08 01h | ██████ (4.0)
 
 PENDING history:
-10.08 09h |  (0.0)
 10.08 10h |  (0.0)
 10.08 11h |  (0.0)
 10.08 12h |  (0.0)
@@ -1060,8 +1067,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.97
-Ø PENDING: 0.13
+Ø RUNNING: 11.75
+Ø PENDING: 0.12
 MAX RUNNING: 119.00
 MAX PENDING: 3.00
 
@@ -1105,6 +1112,7 @@ RUNNING history:
 16.08 10h | █ (3.0)
 16.08 11h | ███ (10.0)
 16.08 12h |  (1.0)
+17.08 10h | █ (3.0)
 
 PENDING history:
 10.08 13h |  (0.0)
@@ -1146,6 +1154,7 @@ PENDING history:
 16.08 10h |  (0.0)
 16.08 11h |  (0.0)
 16.08 12h |  (0.0)
+17.08 10h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -1348,8 +1357,8 @@ PENDING history:
 
 lm20l063 (lm20l063)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.14
-Ø PENDING: 2.28
+Ø RUNNING: 22.63
+Ø PENDING: 2.20
 MAX RUNNING: 62.00
 MAX PENDING: 62.00
 
@@ -1383,6 +1392,7 @@ RUNNING history:
 13.08 13h | ████████████████████████████ (44.0)
 13.08 14h | ███████████████ (24.0)
 13.08 15h |  (0.0)
+17.08 10h | ███████████████████████ (37.0)
 
 PENDING history:
 10.08 10h |  (0.0)
@@ -1414,6 +1424,7 @@ PENDING history:
 13.08 13h |  (0.0)
 13.08 14h |  (0.0)
 13.08 15h | ████████████████████████████████████████ (62.0)
+17.08 10h |  (0.0)
 
 
 Martin (ml18j210)
