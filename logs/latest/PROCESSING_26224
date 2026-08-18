@@ -1,14 +1,15 @@
+NTOL_26224.GRD not found, file not used in processing
 
 === STATION_SELECTION started ===
 WARNING: CRD file /storage/research/aiub_code/IGSFINAL/STA/F1_26224.CRD not found. Treating as V_NSTA=ALL.
 === STATION_SELECTION finished ===
 ==== NUMBER OF STATIONS ====
-Number of observation files: 314
+Number of observation files: 316
 =========================
 
 === CHECK_OBSENTRIES started ===
 Found 1836 station entries in IGC20.CRD.
-Found 314 observation files in RAW.
+Found 316 observation files in RAW.
 Deleted 0 files without matching entries.
 === CHECK_OBSENTRIES finished ===
 
@@ -23,7 +24,7 @@ No satellites with RMS > 5.0 m or invalid RMS detected.
 === CHECK_SAT_RMS finished ===
 ==== DELETE LARGE OBS FILES ====
 CODXTR file: /storage/research/aiub_u_camp/CK_ZDGNSS/OUT/CODXTR.26_2240
-Timestamp  : Sun Aug 16 18:20:12 2026
+Timestamp  : Tue Aug 18 12:31:04 2026
 No stations with >50% bad observations found.
 Total deleted files: 0
 =========================
