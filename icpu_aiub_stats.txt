@@ -1,14 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-18 07:00:10
+Timestamp: 2026-08-18 08:00:09
 ================================================================================
 
-TOTAL RUNNING: 51
+TOTAL RUNNING: 156
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Rolf         (dach      )  RUNNING: 50   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  7   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 97   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -40,13 +42,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 25.34
-Ø PENDING: 13.72
+Ø RUNNING: 25.58
+Ø PENDING: 13.85
 MAX RUNNING: 258.00
 MAX PENDING: 241.00
 
 RUNNING history:
-11.08 07h |  (1.0)
 11.08 09h | ██ (18.0)
 11.08 10h | ██ (14.0)
 11.08 11h |  (1.0)
@@ -151,7 +152,6 @@ RUNNING history:
 17.08 23h |  (3.0)
 
 PENDING history:
-11.08 07h |  (0.0)
 11.08 09h |  (0.0)
 11.08 10h |  (0.0)
 11.08 11h |  (0.0)
@@ -258,7 +258,7 @@ PENDING history:
 
 Rolf (dach)
 --------------------------------------------------------------------------------
-Ø RUNNING: 70.24
+Ø RUNNING: 70.05
 Ø PENDING: 0.10
 MAX RUNNING: 100.00
 MAX PENDING: 4.00
@@ -373,6 +373,7 @@ RUNNING history:
 17.08 13h | ████ (10.0)
 17.08 14h | ██ (5.0)
 18.08 07h | ████████████████████ (50.0)
+18.08 08h | ████████████████████ (50.0)
 
 PENDING history:
 11.08 09h |  (0.0)
@@ -484,6 +485,7 @@ PENDING history:
 17.08 13h |  (0.0)
 17.08 14h |  (0.0)
 18.08 07h |  (0.0)
+18.08 08h |  (0.0)
 
 
 Code (l_code)
@@ -524,8 +526,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 39.87
-Ø PENDING: 4.88
+Ø RUNNING: 39.49
+Ø PENDING: 4.83
 MAX RUNNING: 309.00
 MAX PENDING: 95.00
 
@@ -616,6 +618,7 @@ RUNNING history:
 17.08 21h | ██ (17.0)
 17.08 22h |  (1.0)
 17.08 23h | █ (12.0)
+18.08 08h |  (7.0)
 
 PENDING history:
 11.08 14h |  (0.0)
@@ -704,6 +707,7 @@ PENDING history:
 17.08 21h |  (0.0)
 17.08 22h |  (0.0)
 17.08 23h |  (0.0)
+18.08 08h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -762,8 +766,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 29.23
-Ø PENDING: 0.64
+Ø RUNNING: 30.09
+Ø PENDING: 0.63
 MAX RUNNING: 152.00
 MAX PENDING: 24.00
 
@@ -846,6 +850,7 @@ RUNNING history:
 17.08 21h | ██ (10.0)
 18.08 00h |  (1.0)
 18.08 03h |  (1.0)
+18.08 08h | █████████████████████████ (97.0)
 
 PENDING history:
 11.08 08h | █ (1.0)
@@ -926,6 +931,7 @@ PENDING history:
 17.08 21h |  (0.0)
 18.08 00h |  (0.0)
 18.08 03h |  (0.0)
+18.08 08h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1056,13 +1062,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.95
+Ø RUNNING: 13.77
 Ø PENDING: 0.05
 MAX RUNNING: 113.00
 MAX PENDING: 2.00
 
 RUNNING history:
-11.08 07h | ███ (9.0)
 11.08 08h |  (2.0)
 11.08 09h | █████ (15.0)
 11.08 10h |  (1.0)
@@ -1101,9 +1106,9 @@ RUNNING history:
 18.08 05h | ███████ (20.0)
 18.08 06h | █ (5.0)
 18.08 07h |  (1.0)
+18.08 08h |  (2.0)
 
 PENDING history:
-11.08 07h |  (0.0)
 11.08 08h |  (0.0)
 11.08 09h |  (0.0)
 11.08 10h |  (0.0)
@@ -1142,6 +1147,7 @@ PENDING history:
 18.08 05h |  (0.0)
 18.08 06h |  (0.0)
 18.08 07h |  (0.0)
+18.08 08h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -1204,13 +1210,12 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 63.56
-Ø PENDING: 19.69
+Ø RUNNING: 64.48
+Ø PENDING: 20.14
 MAX RUNNING: 187.00
 MAX PENDING: 174.00
 
 RUNNING history:
-11.08 07h | ████ (23.0)
 11.08 08h | ███████████ (52.0)
 11.08 09h | ██████████ (47.0)
 12.08 11h | ██ (11.0)
@@ -1257,7 +1262,6 @@ RUNNING history:
 14.08 12h | ███████ (36.0)
 
 PENDING history:
-11.08 07h |  (0.0)
 11.08 08h |  (0.0)
 11.08 09h |  (0.0)
 12.08 11h |  (0.0)
