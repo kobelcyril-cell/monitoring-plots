@@ -1,14 +1,18 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-20 08:00:10
+Timestamp: 2026-08-20 09:00:09
 ================================================================================
 
-TOTAL RUNNING: 161
+TOTAL RUNNING: 250
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
+cd13a094     (cd13a094  )  RUNNING: 33   PENDING:  0
 Cyril        (ck18y530  )  RUNNING:  8   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 153   PENDING:  0
+Code         (l_code    )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  2   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING: 205   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -72,10 +76,24 @@ PENDING history:
 19.08 20h |  (1.0)
 
 
+cd13a094 (cd13a094)
+--------------------------------------------------------------------------------
+Ø RUNNING: 33.00
+Ø PENDING: 0.00
+MAX RUNNING: 33.00
+MAX PENDING: 0.00
+
+RUNNING history:
+20.08 09h | ████████████████████████████████████████ (33.0)
+
+PENDING history:
+20.08 09h |  (0.0)
+
+
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 32.44
-Ø PENDING: 14.74
+Ø RUNNING: 32.19
+Ø PENDING: 14.59
 MAX RUNNING: 258.00
 MAX PENDING: 241.00
 
@@ -177,6 +195,7 @@ RUNNING history:
 20.08 05h | █ (8.0)
 20.08 06h |  (2.0)
 20.08 08h | █ (8.0)
+20.08 09h | █ (8.0)
 
 PENDING history:
 13.08 09h |  (0.0)
@@ -276,6 +295,7 @@ PENDING history:
 20.08 05h |  (0.0)
 20.08 06h |  (0.0)
 20.08 08h |  (0.0)
+20.08 09h |  (0.0)
 
 
 Rolf (dach)
@@ -520,8 +540,8 @@ PENDING history:
 
 Code (l_code)
 --------------------------------------------------------------------------------
-Ø RUNNING: 0.86
-Ø PENDING: 0.14
+Ø RUNNING: 0.87
+Ø PENDING: 0.13
 MAX RUNNING: 1.00
 MAX PENDING: 1.00
 
@@ -540,6 +560,7 @@ RUNNING history:
 19.08 01h | ████████████████████████████████████████ (1.0)
 19.08 18h | ████████████████████████████████████████ (1.0)
 19.08 19h | ████████████████████████████████████████ (1.0)
+20.08 09h | ████████████████████████████████████████ (1.0)
 
 PENDING history:
 13.08 10h |  (0.0)
@@ -556,6 +577,7 @@ PENDING history:
 19.08 01h |  (0.0)
 19.08 18h |  (0.0)
 19.08 19h |  (0.0)
+20.08 09h |  (0.0)
 
 
 Code (final) (l_code_f)
@@ -820,8 +842,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 29.51
-Ø PENDING: 0.81
+Ø RUNNING: 29.17
+Ø PENDING: 0.80
 MAX RUNNING: 153.00
 MAX PENDING: 24.00
 
@@ -906,6 +928,7 @@ RUNNING history:
 20.08 00h |  (3.0)
 20.08 03h |  (1.0)
 20.08 08h | ████████████████████████████████████████ (153.0)
+20.08 09h |  (2.0)
 
 PENDING history:
 13.08 09h |  (0.0)
@@ -988,6 +1011,7 @@ PENDING history:
 20.08 00h |  (0.0)
 20.08 03h |  (0.0)
 20.08 08h |  (0.0)
+20.08 09h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -1100,8 +1124,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 15.21
-Ø PENDING: 1.68
+Ø RUNNING: 14.92
+Ø PENDING: 1.65
 MAX RUNNING: 113.00
 MAX PENDING: 51.00
 
@@ -1153,6 +1177,7 @@ RUNNING history:
 19.08 09h |  (2.0)
 19.08 10h | █ (3.0)
 19.08 11h | ███ (11.0)
+20.08 09h |  (1.0)
 
 PENDING history:
 13.08 09h |  (0.0)
@@ -1202,12 +1227,13 @@ PENDING history:
 19.08 09h |  (0.0)
 19.08 10h |  (0.0)
 19.08 11h |  (0.0)
+20.08 09h |  (0.0)
 
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 70.62
-Ø PENDING: 59.44
+Ø RUNNING: 78.53
+Ø PENDING: 55.94
 MAX RUNNING: 300.00
 MAX PENDING: 365.00
 
@@ -1228,6 +1254,7 @@ RUNNING history:
 16.08 13h | ███████████ (83.0)
 16.08 20h | ██████████████████████████████ (230.0)
 16.08 22h |  (3.0)
+20.08 09h | ███████████████████████████ (205.0)
 
 PENDING history:
 13.08 14h | ███████████████████ (176.0)
@@ -1246,6 +1273,7 @@ PENDING history:
 16.08 13h |  (1.0)
 16.08 20h |  (1.0)
 16.08 22h |  (0.0)
+20.08 09h |  (0.0)
 
 
 Linda (lg19a108)
