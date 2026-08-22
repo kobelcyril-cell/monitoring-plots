@@ -1,17 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-08-23 00:00:09
+Timestamp: 2026-08-23 01:00:12
 ================================================================================
 
-TOTAL RUNNING: 240
+TOTAL RUNNING: 91
 TOTAL PENDING: 12
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING: 231   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  4   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  3   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING: 79   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  2   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING: 10   PENDING:  0
 ggsp         (l_ggsp    )  RUNNING:  0   PENDING: 12
 
 
@@ -96,13 +94,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 48.68
+Ø RUNNING: 49.38
 Ø PENDING: 1.05
 MAX RUNNING: 289.00
 MAX PENDING: 60.00
 
 RUNNING history:
-16.08 00h |  (2.0)
 16.08 01h |  (2.0)
 16.08 03h |  (1.0)
 16.08 19h | █ (14.0)
@@ -212,9 +209,9 @@ RUNNING history:
 22.08 22h | ███ (26.0)
 22.08 23h | ████████████ (88.0)
 23.08 00h | ███████████████████████████████ (231.0)
+23.08 01h | ██████████ (79.0)
 
 PENDING history:
-16.08 00h |  (0.0)
 16.08 01h |  (0.0)
 16.08 03h |  (0.0)
 16.08 19h |  (0.0)
@@ -324,6 +321,7 @@ PENDING history:
 22.08 22h |  (0.0)
 22.08 23h |  (0.0)
 23.08 00h |  (0.0)
+23.08 01h |  (0.0)
 
 
 Rolf (dach)
@@ -514,13 +512,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 30.10
+Ø RUNNING: 30.08
 Ø PENDING: 2.63
 MAX RUNNING: 309.00
 MAX PENDING: 152.00
 
 RUNNING history:
-16.08 00h |  (4.0)
 16.08 01h |  (3.0)
 16.08 02h | ███ (24.0)
 16.08 03h |  (1.0)
@@ -635,9 +632,9 @@ RUNNING history:
 22.08 22h | ███████████████ (121.0)
 22.08 23h |  (7.0)
 23.08 00h |  (4.0)
+23.08 01h |  (2.0)
 
 PENDING history:
-16.08 00h |  (0.0)
 16.08 01h |  (2.0)
 16.08 02h |  (0.0)
 16.08 03h |  (0.0)
@@ -752,6 +749,7 @@ PENDING history:
 22.08 22h |  (0.0)
 22.08 23h |  (0.0)
 23.08 00h |  (0.0)
+23.08 01h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -814,13 +812,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 24.85
+Ø RUNNING: 25.13
 Ø PENDING: 0.53
 MAX RUNNING: 153.00
 MAX PENDING: 18.00
 
 RUNNING history:
-16.08 00h |  (3.0)
 16.08 03h | █ (4.0)
 16.08 08h | ██████████████████████████ (101.0)
 16.08 09h | ██████████████████████████████████████ (149.0)
@@ -901,7 +898,6 @@ RUNNING history:
 23.08 00h |  (1.0)
 
 PENDING history:
-16.08 00h | ██ (1.0)
 16.08 03h |  (0.0)
 16.08 08h | ██ (1.0)
 16.08 09h | ██ (1.0)
@@ -984,13 +980,12 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.74
+Ø RUNNING: 2.80
 Ø PENDING: 0.22
 MAX RUNNING: 16.00
 MAX PENDING: 7.00
 
 RUNNING history:
-16.08 00h | █████████████████ (7.0)
 16.08 01h | ███████ (3.0)
 16.08 18h | ██ (1.0)
 16.08 19h | ██ (1.0)
@@ -1036,9 +1031,9 @@ RUNNING history:
 22.08 20h | ██ (1.0)
 22.08 23h | ███████ (3.0)
 23.08 00h | ██ (1.0)
+23.08 01h | █████████████████████████ (10.0)
 
 PENDING history:
-16.08 00h |  (0.0)
 16.08 01h |  (0.0)
 16.08 18h |  (0.0)
 16.08 19h |  (0.0)
@@ -1084,12 +1079,13 @@ PENDING history:
 22.08 20h |  (0.0)
 22.08 23h |  (0.0)
 23.08 00h |  (0.0)
+23.08 01h |  (0.0)
 
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.86
-Ø PENDING: 8.15
+Ø RUNNING: 6.79
+Ø PENDING: 8.19
 MAX RUNNING: 113.00
 MAX PENDING: 51.00
 
@@ -1195,6 +1191,7 @@ RUNNING history:
 22.08 22h |  (0.0)
 22.08 23h |  (0.0)
 23.08 00h |  (0.0)
+23.08 01h |  (0.0)
 
 PENDING history:
 16.08 09h |  (0.0)
@@ -1298,6 +1295,7 @@ PENDING history:
 22.08 22h | █████████ (12.0)
 22.08 23h | █████████ (12.0)
 23.08 00h | █████████ (12.0)
+23.08 01h | █████████ (12.0)
 
 
 Daniel (l_hpfaiu)
