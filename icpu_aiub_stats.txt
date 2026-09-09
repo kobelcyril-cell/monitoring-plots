@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-09-09 03:00:11
+Timestamp: 2026-09-09 04:00:10
 ================================================================================
 
-TOTAL RUNNING: 9
+TOTAL RUNNING: 3
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Code         (l_code    )  RUNNING:  1   PENDING:  0
-Daniel       (l_hpfaiu  )  RUNNING:  8   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -30,7 +31,7 @@ PENDING history:
 
 Code (l_code)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.48
+Ø RUNNING: 1.47
 Ø PENDING: 0.00
 MAX RUNNING: 5.00
 MAX PENDING: 0.00
@@ -69,6 +70,7 @@ RUNNING history:
 09.09 01h | ████████ (1.0)
 09.09 02h | ████████ (1.0)
 09.09 03h | ████████ (1.0)
+09.09 04h | ████████ (1.0)
 
 PENDING history:
 07.09 19h |  (0.0)
@@ -104,6 +106,7 @@ PENDING history:
 09.09 01h |  (0.0)
 09.09 02h |  (0.0)
 09.09 03h |  (0.0)
+09.09 04h |  (0.0)
 
 
 Code (final) (l_code_f)
@@ -166,7 +169,7 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.50
+Ø RUNNING: 4.18
 Ø PENDING: 0.00
 MAX RUNNING: 12.00
 MAX PENDING: 0.00
@@ -182,6 +185,7 @@ RUNNING history:
 08.09 22h | ███ (1.0)
 09.09 01h | ████████████████████████████████████████ (12.0)
 09.09 02h | ██████████ (3.0)
+09.09 04h | ███ (1.0)
 
 PENDING history:
 08.09 01h |  (0.0)
@@ -194,6 +198,7 @@ PENDING history:
 08.09 22h |  (0.0)
 09.09 01h |  (0.0)
 09.09 02h |  (0.0)
+09.09 04h |  (0.0)
 
 
 ggsp (l_ggsp)
@@ -212,7 +217,7 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.67
+Ø RUNNING: 4.50
 Ø PENDING: 0.00
 MAX RUNNING: 8.00
 MAX PENDING: 0.00
@@ -221,11 +226,13 @@ RUNNING history:
 08.09 03h | ████████████████████████████████████████ (8.0)
 08.09 04h | █████ (1.0)
 09.09 03h | ████████████████████████████████████████ (8.0)
+09.09 04h | █████ (1.0)
 
 PENDING history:
 08.09 03h |  (0.0)
 08.09 04h |  (0.0)
 09.09 03h |  (0.0)
+09.09 04h |  (0.0)
 
 
 Martin (ml18j210)
