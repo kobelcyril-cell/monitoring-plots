@@ -1,16 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-09-12 01:00:12
+Timestamp: 2026-09-12 02:00:10
 ================================================================================
 
-TOTAL RUNNING: 53
+TOTAL RUNNING: 131
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  8   PENDING:  0
-Code         (l_code    )  RUNNING: 38   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  5   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  2   PENDING:  0
+Cyril        (ck18y530  )  RUNNING: 120   PENDING:  0
+Code         (l_code    )  RUNNING:  2   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  9   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -142,8 +141,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 45.12
-Ø PENDING: 27.69
+Ø RUNNING: 47.39
+Ø PENDING: 26.85
 MAX RUNNING: 283.00
 MAX PENDING: 283.00
 
@@ -180,6 +179,7 @@ RUNNING history:
 11.09 23h |  (1.0)
 12.09 00h |  (2.0)
 12.09 01h | █ (8.0)
+12.09 02h | ████████████████ (120.0)
 
 PENDING history:
 09.09 15h |  (0.0)
@@ -214,6 +214,7 @@ PENDING history:
 11.09 23h |  (0.0)
 12.09 00h |  (0.0)
 12.09 01h |  (0.0)
+12.09 02h |  (0.0)
 
 
 Code (l_code)
@@ -273,6 +274,7 @@ RUNNING history:
 11.09 18h |  (0.0)
 11.09 19h |  (0.0)
 12.09 01h | ████████████████████████████████████████ (38.0)
+12.09 02h | ██ (2.0)
 
 PENDING history:
 07.09 19h |  (0.0)
@@ -324,12 +326,13 @@ PENDING history:
 11.09 18h | ████████████████████████████████████████ (1.0)
 11.09 19h | ████████████████████████████████████████ (1.0)
 12.09 01h |  (0.0)
+12.09 02h |  (0.0)
 
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 73.19
-Ø PENDING: 13.02
+Ø RUNNING: 71.88
+Ø PENDING: 12.76
 MAX RUNNING: 310.00
 MAX PENDING: 233.00
 
@@ -382,6 +385,7 @@ RUNNING history:
 11.09 23h |  (6.0)
 12.09 00h |  (3.0)
 12.09 01h |  (5.0)
+12.09 02h | █ (9.0)
 
 PENDING history:
 08.09 16h |  (0.0)
@@ -432,6 +436,7 @@ PENDING history:
 11.09 23h |  (0.0)
 12.09 00h |  (0.0)
 12.09 01h |  (0.0)
+12.09 02h |  (0.0)
 
 
 l_code_m (l_code_m)
