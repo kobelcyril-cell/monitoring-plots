@@ -1,15 +1,18 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-09-12 02:00:10
+Timestamp: 2026-09-12 03:00:13
 ================================================================================
 
-TOTAL RUNNING: 131
+TOTAL RUNNING: 14
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING: 120   PENDING:  0
-Code         (l_code    )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  9   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
+Code         (l_code    )  RUNNING:  7   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -141,8 +144,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 47.39
-Ø PENDING: 26.85
+Ø RUNNING: 46.06
+Ø PENDING: 26.06
 MAX RUNNING: 283.00
 MAX PENDING: 283.00
 
@@ -180,6 +183,7 @@ RUNNING history:
 12.09 00h |  (2.0)
 12.09 01h | █ (8.0)
 12.09 02h | ████████████████ (120.0)
+12.09 03h |  (2.0)
 
 PENDING history:
 09.09 15h |  (0.0)
@@ -215,11 +219,12 @@ PENDING history:
 12.09 00h |  (0.0)
 12.09 01h |  (0.0)
 12.09 02h |  (0.0)
+12.09 03h |  (0.0)
 
 
 Code (l_code)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.98
+Ø RUNNING: 2.08
 Ø PENDING: 0.10
 MAX RUNNING: 38.00
 MAX PENDING: 1.00
@@ -275,6 +280,7 @@ RUNNING history:
 11.09 19h |  (0.0)
 12.09 01h | ████████████████████████████████████████ (38.0)
 12.09 02h | ██ (2.0)
+12.09 03h | ███████ (7.0)
 
 PENDING history:
 07.09 19h |  (0.0)
@@ -327,12 +333,13 @@ PENDING history:
 11.09 19h | ████████████████████████████████████████ (1.0)
 12.09 01h |  (0.0)
 12.09 02h |  (0.0)
+12.09 03h |  (0.0)
 
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 71.88
-Ø PENDING: 12.76
+Ø RUNNING: 70.46
+Ø PENDING: 12.50
 MAX RUNNING: 310.00
 MAX PENDING: 233.00
 
@@ -386,6 +393,7 @@ RUNNING history:
 12.09 00h |  (3.0)
 12.09 01h |  (5.0)
 12.09 02h | █ (9.0)
+12.09 03h |  (1.0)
 
 PENDING history:
 08.09 16h |  (0.0)
@@ -437,6 +445,7 @@ PENDING history:
 12.09 00h |  (0.0)
 12.09 01h |  (0.0)
 12.09 02h |  (0.0)
+12.09 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -501,8 +510,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 19.87
-Ø PENDING: 2.47
+Ø RUNNING: 19.48
+Ø PENDING: 2.42
 MAX RUNNING: 153.00
 MAX PENDING: 27.00
 
@@ -554,6 +563,7 @@ RUNNING history:
 11.09 19h |  (0.0)
 11.09 21h |  (2.0)
 12.09 00h |  (1.0)
+12.09 03h |  (1.0)
 
 PENDING history:
 07.09 21h |  (0.0)
@@ -603,6 +613,7 @@ PENDING history:
 11.09 19h | ████████ (6.0)
 11.09 21h |  (0.0)
 12.09 00h |  (0.0)
+12.09 03h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -691,8 +702,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.12
-Ø PENDING: 7.17
+Ø RUNNING: 12.68
+Ø PENDING: 6.88
 MAX RUNNING: 92.00
 MAX PENDING: 50.00
 
@@ -721,6 +732,7 @@ RUNNING history:
 11.09 21h | ████████████████ (37.0)
 11.09 22h | ██ (6.0)
 11.09 23h |  (1.0)
+12.09 03h |  (2.0)
 
 PENDING history:
 08.09 09h |  (0.0)
@@ -747,11 +759,12 @@ PENDING history:
 11.09 21h |  (0.0)
 11.09 22h |  (0.0)
 11.09 23h |  (0.0)
+12.09 03h |  (0.0)
 
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 3.33
+Ø RUNNING: 3.00
 Ø PENDING: 0.00
 MAX RUNNING: 8.00
 MAX PENDING: 0.00
@@ -763,6 +776,7 @@ RUNNING history:
 09.09 04h | █████ (1.0)
 10.09 03h | █████ (1.0)
 11.09 03h | █████ (1.0)
+12.09 03h | █████ (1.0)
 
 PENDING history:
 08.09 03h |  (0.0)
@@ -771,6 +785,7 @@ PENDING history:
 09.09 04h |  (0.0)
 10.09 03h |  (0.0)
 11.09 03h |  (0.0)
+12.09 03h |  (0.0)
 
 
 lm20l063 (lm20l063)
