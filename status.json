@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:11:03.081786",
+  "updated": "2026-09-18T11:12:03.240929",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -240,25 +240,25 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -975,7 +975,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 14
     },
     {
       "session_id": "262390",
@@ -1099,13 +1099,13 @@
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -1822,7 +1822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 13
+      "progress": 14
     },
     {
       "session_id": "262400",
@@ -3640,853 +3640,6 @@
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "running"
-        },
-        {
-          "id": "014",
-          "name": "SATMRK",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "015",
-          "name": "MANMRK",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "016",
-          "name": "MKCLUS",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "017",
-          "name": "CHECK_VAPL_ENTRIES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "022",
-          "name": "CODSPPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "023",
-          "name": "CODSPP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "024",
-          "name": "CODXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "996",
-          "name": "DEL_LOBS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "025",
-          "name": "CCRNXC",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "TIMESTAP",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "TIMEST_C",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "GPSXTR",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "033",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "FILESTAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "041",
-          "name": "FILEST_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "042",
-          "name": "SATMONAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "043",
-          "name": "SATMON_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "TIMESTAP",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "051",
-          "name": "TIMEST_O",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "052",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "053",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "060",
-          "name": "TIMESTAP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "061",
-          "name": "TIMEST_A",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "062",
-          "name": "GPSXTR",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "063",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "064",
-          "name": "RESRMS",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "065",
-          "name": "MRKOB_AP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "066",
-          "name": "MRKOB__P",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "070",
-          "name": "TIMESTAP",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "071",
-          "name": "TIMEST_B",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "072",
-          "name": "ADDNEQ2",
-          "extra": "FZDM_SB2",
-          "status": "waiting"
-        },
-        {
-          "id": "073",
-          "name": "TIMNEQAP",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "074",
-          "name": "TIMNEQ",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "075",
-          "name": "OSBMERGE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "180",
-          "name": "TIMESTAP",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "181",
-          "name": "TIMCLK",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "182",
-          "name": "CCRNXC",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "080",
-          "name": "MKCLUS",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "081",
-          "name": "CLKESTCB",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "082",
-          "name": "MAUPRPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "083",
-          "name": "MAUPRP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "084",
-          "name": "MPRXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "085",
-          "name": "TIMORBAP",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "086",
-          "name": "TIMORB_P",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "087",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "088",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "090",
-          "name": "TIMESTAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "091",
-          "name": "TIMEST_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "092",
-          "name": "GPSXTR",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "093",
-          "name": "FZDM_CH2",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "094",
-          "name": "RESRMSZD",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "095",
-          "name": "MRKOBSAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "096",
-          "name": "MRKOBS_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "097",
-          "name": "ITEPHASE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "098",
-          "name": "SOSUPDAT",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "099",
-          "name": "CCRNXC",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "100",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "110",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "111",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "112",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "113",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "995",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "114",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "115",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "116",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "117",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "119",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "120",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "121",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "130",
-          "name": "SATMRK",
-          "extra": "IAR_AMB",
-          "status": "waiting"
-        },
-        {
-          "id": "131",
-          "name": "FILESTAP",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "132",
-          "name": "FILEST_P",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "133",
-          "name": "PHABIA",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "134",
-          "name": "FILESTAP",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "135",
-          "name": "FILEST_P",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "136",
-          "name": "FILESTAP",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "137",
-          "name": "FILEST_P",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "138",
-          "name": "STDPRE",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "139",
-          "name": "PHABIA",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "639",
-          "name": "CHECK_AR_SAT",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "140",
-          "name": "ORBGEN",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "141",
-          "name": "PHACMB",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "142",
-          "name": "FILESTAP",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "143",
-          "name": "FILEST_P",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "144",
-          "name": "OBSXTR",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "145",
-          "name": "IAR_STA",
-          "extra": "IAR_CHK",
-          "status": "waiting"
-        },
-        {
-          "id": "146",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "150",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "151",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "152",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "153",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "993",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "154",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "155",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "156",
-          "name": "PRECLK",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "157",
-          "name": "ADDNEQ2C",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "158",
-          "name": "FIX_CHK",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "991",
-          "name": "ADDNEQZM",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "989",
-          "name": "GPSXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "994",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "159",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "160",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "161",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "162",
-          "name": "ORBGENZD_FIN",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "163",
-          "name": "ITER_AR",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "164",
-          "name": "STDPRE",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "200",
-          "name": "STDDIF",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "201",
-          "name": "COMPAR2_ZD",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "210",
-          "name": "CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "990",
-          "name": "ATTXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "165",
-          "name": "OBSXTR",
-          "extra": "FZDM_SUM",
-          "status": "waiting"
-        },
-        {
-          "id": "166",
-          "name": "OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "167",
-          "name": "AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "168",
-          "name": "GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "268",
-          "name": "CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "170",
-          "name": "SAVERES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "171",
-          "name": "CLEAN_FILES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "550",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 13
-    },
-    {
-      "session_id": "262430",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "JUMP_CP1",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "REP_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "004",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "005",
-          "name": "JUMP_CP2",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "006",
-          "name": "FZDM_RNX",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "007",
-          "name": "FZDM_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "997",
-          "name": "CHECK_GRD_FILES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "906",
-          "name": "STATION_SELECTION",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "998",
-          "name": "NUM_OBSFIL",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "992",
-          "name": "CHECK_OBSENTRIES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "INIT_BRD",
-          "extra": "FZDM_NAV",
-          "status": "finished"
-        },
-        {
-          "id": "008",
-          "name": "COOVEL",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "009",
-          "name": "ORBGEN",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "RNXSMTAP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "RNXSMT_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "RXOBV3GP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "013",
-          "name": "RXOBV3_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "913",
-          "name": "CHECK_SAT_GAPS",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "914",
-          "name": "CHECK_SAT_RMS",
-          "extra": "FZDM_RNX",
           "status": "finished"
         },
         {
@@ -5213,7 +4366,2548 @@
       "progress": 14
     },
     {
+      "session_id": "262430",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "001",
+          "name": "JUMP_CP1",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "002",
+          "name": "REP_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "003",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "004",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "005",
+          "name": "JUMP_CP2",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "006",
+          "name": "FZDM_RNX",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "007",
+          "name": "FZDM_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "997",
+          "name": "CHECK_GRD_FILES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "906",
+          "name": "STATION_SELECTION",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "998",
+          "name": "NUM_OBSFIL",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "992",
+          "name": "CHECK_OBSENTRIES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "999",
+          "name": "INIT_BRD",
+          "extra": "FZDM_NAV",
+          "status": "finished"
+        },
+        {
+          "id": "008",
+          "name": "COOVEL",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "009",
+          "name": "ORBGEN",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "010",
+          "name": "RNXSMTAP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "011",
+          "name": "RNXSMT_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "012",
+          "name": "RXOBV3GP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "013",
+          "name": "RXOBV3_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "913",
+          "name": "CHECK_SAT_GAPS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "914",
+          "name": "CHECK_SAT_RMS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "014",
+          "name": "SATMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "015",
+          "name": "MANMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "016",
+          "name": "MKCLUS",
+          "extra": "FZDM_RNX",
+          "status": "running"
+        },
+        {
+          "id": "017",
+          "name": "CHECK_VAPL_ENTRIES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "022",
+          "name": "CODSPPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "023",
+          "name": "CODSPP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "024",
+          "name": "CODXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "996",
+          "name": "DEL_LOBS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "025",
+          "name": "CCRNXC",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "TIMESTAP",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "TIMEST_C",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "GPSXTR",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "033",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "FILESTAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "041",
+          "name": "FILEST_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "042",
+          "name": "SATMONAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "043",
+          "name": "SATMON_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "TIMESTAP",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "051",
+          "name": "TIMEST_O",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "052",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "053",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "060",
+          "name": "TIMESTAP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "061",
+          "name": "TIMEST_A",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "062",
+          "name": "GPSXTR",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "063",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "064",
+          "name": "RESRMS",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "065",
+          "name": "MRKOB_AP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "066",
+          "name": "MRKOB__P",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "070",
+          "name": "TIMESTAP",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "071",
+          "name": "TIMEST_B",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "072",
+          "name": "ADDNEQ2",
+          "extra": "FZDM_SB2",
+          "status": "waiting"
+        },
+        {
+          "id": "073",
+          "name": "TIMNEQAP",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "074",
+          "name": "TIMNEQ",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "075",
+          "name": "OSBMERGE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "180",
+          "name": "TIMESTAP",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "181",
+          "name": "TIMCLK",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "182",
+          "name": "CCRNXC",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "080",
+          "name": "MKCLUS",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "081",
+          "name": "CLKESTCB",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "082",
+          "name": "MAUPRPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "083",
+          "name": "MAUPRP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "084",
+          "name": "MPRXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "085",
+          "name": "TIMORBAP",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "086",
+          "name": "TIMORB_P",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "087",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "088",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "090",
+          "name": "TIMESTAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "091",
+          "name": "TIMEST_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "092",
+          "name": "GPSXTR",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "093",
+          "name": "FZDM_CH2",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "094",
+          "name": "RESRMSZD",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "095",
+          "name": "MRKOBSAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "096",
+          "name": "MRKOBS_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "097",
+          "name": "ITEPHASE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "098",
+          "name": "SOSUPDAT",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "099",
+          "name": "CCRNXC",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "100",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "110",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "111",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "112",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "113",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "995",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "114",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "115",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "116",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "117",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "119",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "120",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "121",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "130",
+          "name": "SATMRK",
+          "extra": "IAR_AMB",
+          "status": "waiting"
+        },
+        {
+          "id": "131",
+          "name": "FILESTAP",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "132",
+          "name": "FILEST_P",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "133",
+          "name": "PHABIA",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "134",
+          "name": "FILESTAP",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "135",
+          "name": "FILEST_P",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "136",
+          "name": "FILESTAP",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "137",
+          "name": "FILEST_P",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "138",
+          "name": "STDPRE",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "139",
+          "name": "PHABIA",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "639",
+          "name": "CHECK_AR_SAT",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "140",
+          "name": "ORBGEN",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "141",
+          "name": "PHACMB",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "142",
+          "name": "FILESTAP",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "143",
+          "name": "FILEST_P",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "144",
+          "name": "OBSXTR",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "145",
+          "name": "IAR_STA",
+          "extra": "IAR_CHK",
+          "status": "waiting"
+        },
+        {
+          "id": "146",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "150",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "151",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "152",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "153",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "993",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "154",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "155",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "156",
+          "name": "PRECLK",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "157",
+          "name": "ADDNEQ2C",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "158",
+          "name": "FIX_CHK",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "991",
+          "name": "ADDNEQZM",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "989",
+          "name": "GPSXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "994",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "159",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "160",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "161",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "162",
+          "name": "ORBGENZD_FIN",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "163",
+          "name": "ITER_AR",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "164",
+          "name": "STDPRE",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "200",
+          "name": "STDDIF",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "COMPAR2_ZD",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "210",
+          "name": "CMP_LAPACK",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "990",
+          "name": "ATTXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "165",
+          "name": "OBSXTR",
+          "extra": "FZDM_SUM",
+          "status": "waiting"
+        },
+        {
+          "id": "166",
+          "name": "OBSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "167",
+          "name": "AMB_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "168",
+          "name": "GPSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "268",
+          "name": "CHECK_SAT_CLOCKS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "170",
+          "name": "SAVERES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "171",
+          "name": "CLEAN_FILES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "550",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 15
+    },
+    {
       "session_id": "262440",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "001",
+          "name": "JUMP_CP1",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "002",
+          "name": "REP_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "003",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "004",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "005",
+          "name": "JUMP_CP2",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "006",
+          "name": "FZDM_RNX",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "007",
+          "name": "FZDM_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "997",
+          "name": "CHECK_GRD_FILES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "906",
+          "name": "STATION_SELECTION",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "998",
+          "name": "NUM_OBSFIL",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "992",
+          "name": "CHECK_OBSENTRIES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "999",
+          "name": "INIT_BRD",
+          "extra": "FZDM_NAV",
+          "status": "finished"
+        },
+        {
+          "id": "008",
+          "name": "COOVEL",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "009",
+          "name": "ORBGEN",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "010",
+          "name": "RNXSMTAP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "011",
+          "name": "RNXSMT_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "012",
+          "name": "RXOBV3GP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "013",
+          "name": "RXOBV3_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "913",
+          "name": "CHECK_SAT_GAPS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "914",
+          "name": "CHECK_SAT_RMS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "014",
+          "name": "SATMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "015",
+          "name": "MANMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "016",
+          "name": "MKCLUS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "017",
+          "name": "CHECK_VAPL_ENTRIES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "020",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "021",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "022",
+          "name": "CODSPPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "023",
+          "name": "CODSPP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "024",
+          "name": "CODXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "996",
+          "name": "DEL_LOBS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "025",
+          "name": "CCRNXC",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "TIMESTAP",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "TIMEST_C",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "GPSXTR",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "033",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "FILESTAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "041",
+          "name": "FILEST_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "042",
+          "name": "SATMONAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "043",
+          "name": "SATMON_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "TIMESTAP",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "051",
+          "name": "TIMEST_O",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "052",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "053",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "060",
+          "name": "TIMESTAP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "061",
+          "name": "TIMEST_A",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "062",
+          "name": "GPSXTR",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "063",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "064",
+          "name": "RESRMS",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "065",
+          "name": "MRKOB_AP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "066",
+          "name": "MRKOB__P",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "070",
+          "name": "TIMESTAP",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "071",
+          "name": "TIMEST_B",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "072",
+          "name": "ADDNEQ2",
+          "extra": "FZDM_SB2",
+          "status": "waiting"
+        },
+        {
+          "id": "073",
+          "name": "TIMNEQAP",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "074",
+          "name": "TIMNEQ",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "075",
+          "name": "OSBMERGE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "180",
+          "name": "TIMESTAP",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "181",
+          "name": "TIMCLK",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "182",
+          "name": "CCRNXC",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "080",
+          "name": "MKCLUS",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "081",
+          "name": "CLKESTCB",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "082",
+          "name": "MAUPRPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "083",
+          "name": "MAUPRP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "084",
+          "name": "MPRXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "085",
+          "name": "TIMORBAP",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "086",
+          "name": "TIMORB_P",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "087",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "088",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "090",
+          "name": "TIMESTAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "091",
+          "name": "TIMEST_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "092",
+          "name": "GPSXTR",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "093",
+          "name": "FZDM_CH2",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "094",
+          "name": "RESRMSZD",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "095",
+          "name": "MRKOBSAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "096",
+          "name": "MRKOBS_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "097",
+          "name": "ITEPHASE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "098",
+          "name": "SOSUPDAT",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "099",
+          "name": "CCRNXC",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "100",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "110",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "111",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "112",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "113",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "995",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "114",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "115",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "116",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "117",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "119",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "120",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "121",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "130",
+          "name": "SATMRK",
+          "extra": "IAR_AMB",
+          "status": "waiting"
+        },
+        {
+          "id": "131",
+          "name": "FILESTAP",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "132",
+          "name": "FILEST_P",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "133",
+          "name": "PHABIA",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "134",
+          "name": "FILESTAP",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "135",
+          "name": "FILEST_P",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "136",
+          "name": "FILESTAP",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "137",
+          "name": "FILEST_P",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "138",
+          "name": "STDPRE",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "139",
+          "name": "PHABIA",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "639",
+          "name": "CHECK_AR_SAT",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "140",
+          "name": "ORBGEN",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "141",
+          "name": "PHACMB",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "142",
+          "name": "FILESTAP",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "143",
+          "name": "FILEST_P",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "144",
+          "name": "OBSXTR",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "145",
+          "name": "IAR_STA",
+          "extra": "IAR_CHK",
+          "status": "waiting"
+        },
+        {
+          "id": "146",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "150",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "151",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "152",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "153",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "993",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "154",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "155",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "156",
+          "name": "PRECLK",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "157",
+          "name": "ADDNEQ2C",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "158",
+          "name": "FIX_CHK",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "991",
+          "name": "ADDNEQZM",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "989",
+          "name": "GPSXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "994",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "159",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "160",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "161",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "162",
+          "name": "ORBGENZD_FIN",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "163",
+          "name": "ITER_AR",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "164",
+          "name": "STDPRE",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "200",
+          "name": "STDDIF",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "COMPAR2_ZD",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "210",
+          "name": "CMP_LAPACK",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "990",
+          "name": "ATTXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "165",
+          "name": "OBSXTR",
+          "extra": "FZDM_SUM",
+          "status": "waiting"
+        },
+        {
+          "id": "166",
+          "name": "OBSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "167",
+          "name": "AMB_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "168",
+          "name": "GPSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "268",
+          "name": "CHECK_SAT_CLOCKS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "170",
+          "name": "SAVERES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "171",
+          "name": "CLEAN_FILES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "550",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 17
+    },
+    {
+      "session_id": "262450",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "001",
+          "name": "JUMP_CP1",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "002",
+          "name": "REP_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "003",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "004",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "005",
+          "name": "JUMP_CP2",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "006",
+          "name": "FZDM_RNX",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "007",
+          "name": "FZDM_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "997",
+          "name": "CHECK_GRD_FILES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "906",
+          "name": "STATION_SELECTION",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "998",
+          "name": "NUM_OBSFIL",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "992",
+          "name": "CHECK_OBSENTRIES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "999",
+          "name": "INIT_BRD",
+          "extra": "FZDM_NAV",
+          "status": "finished"
+        },
+        {
+          "id": "008",
+          "name": "COOVEL",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "009",
+          "name": "ORBGEN",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "010",
+          "name": "RNXSMTAP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "011",
+          "name": "RNXSMT_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "012",
+          "name": "RXOBV3GP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "013",
+          "name": "RXOBV3_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "913",
+          "name": "CHECK_SAT_GAPS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "914",
+          "name": "CHECK_SAT_RMS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "014",
+          "name": "SATMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "015",
+          "name": "MANMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "016",
+          "name": "MKCLUS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "017",
+          "name": "CHECK_VAPL_ENTRIES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "020",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "021",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "running"
+        },
+        {
+          "id": "022",
+          "name": "CODSPPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "023",
+          "name": "CODSPP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "024",
+          "name": "CODXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "996",
+          "name": "DEL_LOBS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "025",
+          "name": "CCRNXC",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "TIMESTAP",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "TIMEST_C",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "GPSXTR",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "033",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "FILESTAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "041",
+          "name": "FILEST_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "042",
+          "name": "SATMONAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "043",
+          "name": "SATMON_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "TIMESTAP",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "051",
+          "name": "TIMEST_O",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "052",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "053",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "060",
+          "name": "TIMESTAP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "061",
+          "name": "TIMEST_A",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "062",
+          "name": "GPSXTR",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "063",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "064",
+          "name": "RESRMS",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "065",
+          "name": "MRKOB_AP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "066",
+          "name": "MRKOB__P",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "070",
+          "name": "TIMESTAP",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "071",
+          "name": "TIMEST_B",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "072",
+          "name": "ADDNEQ2",
+          "extra": "FZDM_SB2",
+          "status": "waiting"
+        },
+        {
+          "id": "073",
+          "name": "TIMNEQAP",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "074",
+          "name": "TIMNEQ",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "075",
+          "name": "OSBMERGE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "180",
+          "name": "TIMESTAP",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "181",
+          "name": "TIMCLK",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "182",
+          "name": "CCRNXC",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "080",
+          "name": "MKCLUS",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "081",
+          "name": "CLKESTCB",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "082",
+          "name": "MAUPRPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "083",
+          "name": "MAUPRP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "084",
+          "name": "MPRXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "085",
+          "name": "TIMORBAP",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "086",
+          "name": "TIMORB_P",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "087",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "088",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "090",
+          "name": "TIMESTAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "091",
+          "name": "TIMEST_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "092",
+          "name": "GPSXTR",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "093",
+          "name": "FZDM_CH2",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "094",
+          "name": "RESRMSZD",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "095",
+          "name": "MRKOBSAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "096",
+          "name": "MRKOBS_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "097",
+          "name": "ITEPHASE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "098",
+          "name": "SOSUPDAT",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "099",
+          "name": "CCRNXC",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "100",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "110",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "111",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "112",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "113",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "995",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "114",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "115",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "116",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "117",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "119",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "120",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "121",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "130",
+          "name": "SATMRK",
+          "extra": "IAR_AMB",
+          "status": "waiting"
+        },
+        {
+          "id": "131",
+          "name": "FILESTAP",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "132",
+          "name": "FILEST_P",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "133",
+          "name": "PHABIA",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "134",
+          "name": "FILESTAP",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "135",
+          "name": "FILEST_P",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "136",
+          "name": "FILESTAP",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "137",
+          "name": "FILEST_P",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "138",
+          "name": "STDPRE",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "139",
+          "name": "PHABIA",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "639",
+          "name": "CHECK_AR_SAT",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "140",
+          "name": "ORBGEN",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "141",
+          "name": "PHACMB",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "142",
+          "name": "FILESTAP",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "143",
+          "name": "FILEST_P",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "144",
+          "name": "OBSXTR",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "145",
+          "name": "IAR_STA",
+          "extra": "IAR_CHK",
+          "status": "waiting"
+        },
+        {
+          "id": "146",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "150",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "151",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "152",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "153",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "993",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "154",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "155",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "156",
+          "name": "PRECLK",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "157",
+          "name": "ADDNEQ2C",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "158",
+          "name": "FIX_CHK",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "991",
+          "name": "ADDNEQZM",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "989",
+          "name": "GPSXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "994",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "159",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "160",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "161",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "162",
+          "name": "ORBGENZD_FIN",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "163",
+          "name": "ITER_AR",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "164",
+          "name": "STDPRE",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "200",
+          "name": "STDDIF",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "COMPAR2_ZD",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "210",
+          "name": "CMP_LAPACK",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "990",
+          "name": "ATTXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "165",
+          "name": "OBSXTR",
+          "extra": "FZDM_SUM",
+          "status": "waiting"
+        },
+        {
+          "id": "166",
+          "name": "OBSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "167",
+          "name": "AMB_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "168",
+          "name": "GPSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "268",
+          "name": "CHECK_SAT_CLOCKS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "170",
+          "name": "SAVERES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "171",
+          "name": "CLEAN_FILES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "550",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 17
+    },
+    {
+      "session_id": "262460",
       "status": "running",
       "tasks": [
         {
@@ -6060,7 +7754,854 @@
       "progress": 15
     },
     {
-      "session_id": "262450",
+      "session_id": "262470",
+      "status": "running",
+      "tasks": [
+        {
+          "id": "001",
+          "name": "JUMP_CP1",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "002",
+          "name": "REP_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "003",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "004",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "005",
+          "name": "JUMP_CP2",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "006",
+          "name": "FZDM_RNX",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "007",
+          "name": "FZDM_COP",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "997",
+          "name": "CHECK_GRD_FILES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "906",
+          "name": "STATION_SELECTION",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "998",
+          "name": "NUM_OBSFIL",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "992",
+          "name": "CHECK_OBSENTRIES",
+          "extra": "NO_OPT",
+          "status": "finished"
+        },
+        {
+          "id": "999",
+          "name": "INIT_BRD",
+          "extra": "FZDM_NAV",
+          "status": "finished"
+        },
+        {
+          "id": "008",
+          "name": "COOVEL",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "009",
+          "name": "ORBGEN",
+          "extra": "FZDM_0",
+          "status": "finished"
+        },
+        {
+          "id": "010",
+          "name": "RNXSMTAP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "011",
+          "name": "RNXSMT_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "012",
+          "name": "RXOBV3GP",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "013",
+          "name": "RXOBV3_P",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "913",
+          "name": "CHECK_SAT_GAPS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "914",
+          "name": "CHECK_SAT_RMS",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "014",
+          "name": "SATMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "015",
+          "name": "MANMRK",
+          "extra": "FZDM_RNX",
+          "status": "finished"
+        },
+        {
+          "id": "016",
+          "name": "MKCLUS",
+          "extra": "FZDM_RNX",
+          "status": "running"
+        },
+        {
+          "id": "017",
+          "name": "CHECK_VAPL_ENTRIES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "020",
+          "name": "INIT_HOI",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "021",
+          "name": "INIT_VMF",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "022",
+          "name": "CODSPPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "023",
+          "name": "CODSPP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "024",
+          "name": "CODXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "996",
+          "name": "DEL_LOBS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "025",
+          "name": "CCRNXC",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "030",
+          "name": "TIMESTAP",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "031",
+          "name": "TIMEST_C",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "032",
+          "name": "GPSXTR",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "033",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_WGT",
+          "status": "waiting"
+        },
+        {
+          "id": "040",
+          "name": "FILESTAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "041",
+          "name": "FILEST_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "042",
+          "name": "SATMONAP",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "043",
+          "name": "SATMON_P",
+          "extra": "FZDM_MON",
+          "status": "waiting"
+        },
+        {
+          "id": "050",
+          "name": "TIMESTAP",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "051",
+          "name": "TIMEST_O",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "052",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORC",
+          "status": "waiting"
+        },
+        {
+          "id": "053",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "060",
+          "name": "TIMESTAP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "061",
+          "name": "TIMEST_A",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "062",
+          "name": "GPSXTR",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "063",
+          "name": "FZDM_CH1",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "064",
+          "name": "RESRMS",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "065",
+          "name": "MRKOB_AP",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "066",
+          "name": "MRKOB__P",
+          "extra": "FZDM_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "070",
+          "name": "TIMESTAP",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "071",
+          "name": "TIMEST_B",
+          "extra": "FZDM_SB1",
+          "status": "waiting"
+        },
+        {
+          "id": "072",
+          "name": "ADDNEQ2",
+          "extra": "FZDM_SB2",
+          "status": "waiting"
+        },
+        {
+          "id": "073",
+          "name": "TIMNEQAP",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "074",
+          "name": "TIMNEQ",
+          "extra": "FZDM_SB3",
+          "status": "waiting"
+        },
+        {
+          "id": "075",
+          "name": "OSBMERGE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "180",
+          "name": "TIMESTAP",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "181",
+          "name": "TIMCLK",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "182",
+          "name": "CCRNXC",
+          "extra": "FCLK_COD",
+          "status": "waiting"
+        },
+        {
+          "id": "080",
+          "name": "MKCLUS",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "081",
+          "name": "CLKESTCB",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "082",
+          "name": "MAUPRPAP",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "083",
+          "name": "MAUPRP_P",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "084",
+          "name": "MPRXTR",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "085",
+          "name": "TIMORBAP",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "086",
+          "name": "TIMORB_P",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "087",
+          "name": "ADDNEQOR",
+          "extra": "FZDM_ORP",
+          "status": "waiting"
+        },
+        {
+          "id": "088",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "090",
+          "name": "TIMESTAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "091",
+          "name": "TIMEST_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "092",
+          "name": "GPSXTR",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "093",
+          "name": "FZDM_CH2",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "094",
+          "name": "RESRMSZD",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "095",
+          "name": "MRKOBSAP",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "096",
+          "name": "MRKOBS_P",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "097",
+          "name": "ITEPHASE",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "098",
+          "name": "SOSUPDAT",
+          "extra": "FZDM_GEN",
+          "status": "waiting"
+        },
+        {
+          "id": "099",
+          "name": "CCRNXC",
+          "extra": "FZDM_EDT",
+          "status": "waiting"
+        },
+        {
+          "id": "100",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "110",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "111",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "112",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "113",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "995",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "114",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "115",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "116",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "117",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "119",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "120",
+          "name": "ORBGENZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "121",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "130",
+          "name": "SATMRK",
+          "extra": "IAR_AMB",
+          "status": "waiting"
+        },
+        {
+          "id": "131",
+          "name": "FILESTAP",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "132",
+          "name": "FILEST_P",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "133",
+          "name": "PHABIA",
+          "extra": "IAR_WLB",
+          "status": "waiting"
+        },
+        {
+          "id": "134",
+          "name": "FILESTAP",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "135",
+          "name": "FILEST_P",
+          "extra": "IAR_WLI",
+          "status": "waiting"
+        },
+        {
+          "id": "136",
+          "name": "FILESTAP",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "137",
+          "name": "FILEST_P",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "138",
+          "name": "STDPRE",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "139",
+          "name": "PHABIA",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "639",
+          "name": "CHECK_AR_SAT",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "140",
+          "name": "ORBGEN",
+          "extra": "IAR_NLB",
+          "status": "waiting"
+        },
+        {
+          "id": "141",
+          "name": "PHACMB",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "142",
+          "name": "FILESTAP",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "143",
+          "name": "FILEST_P",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "144",
+          "name": "OBSXTR",
+          "extra": "IAR_NLI",
+          "status": "waiting"
+        },
+        {
+          "id": "145",
+          "name": "IAR_STA",
+          "extra": "IAR_CHK",
+          "status": "waiting"
+        },
+        {
+          "id": "146",
+          "name": "FZDM_UPD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "150",
+          "name": "TIMZDMAP",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "151",
+          "name": "TIMZDM_P",
+          "extra": "FZDM_1DP",
+          "status": "waiting"
+        },
+        {
+          "id": "152",
+          "name": "ADDNEQZD",
+          "extra": "FZDM_1DU",
+          "status": "waiting"
+        },
+        {
+          "id": "153",
+          "name": "PRECLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "993",
+          "name": "WAIT_ZD",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "154",
+          "name": "PRECLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "155",
+          "name": "ITEPRECL",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "156",
+          "name": "PRECLK",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "157",
+          "name": "ADDNEQ2C",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "158",
+          "name": "FIX_CHK",
+          "extra": "FZDM_1DC",
+          "status": "waiting"
+        },
+        {
+          "id": "991",
+          "name": "ADDNEQZM",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "989",
+          "name": "GPSXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "994",
+          "name": "WAIT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "159",
+          "name": "SOLCLKAP",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "160",
+          "name": "SOLCLK_P",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "161",
+          "name": "CCRNXCZD",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "162",
+          "name": "ORBGENZD_FIN",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "163",
+          "name": "ITER_AR",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "164",
+          "name": "STDPRE",
+          "extra": "FZDM_1DS",
+          "status": "waiting"
+        },
+        {
+          "id": "200",
+          "name": "STDDIF",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "201",
+          "name": "COMPAR2_ZD",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "210",
+          "name": "CMP_LAPACK",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "990",
+          "name": "ATTXTR",
+          "extra": "FZDM_FIN",
+          "status": "waiting"
+        },
+        {
+          "id": "165",
+          "name": "OBSXTR",
+          "extra": "FZDM_SUM",
+          "status": "waiting"
+        },
+        {
+          "id": "166",
+          "name": "OBSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "167",
+          "name": "AMB_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "168",
+          "name": "GPSXTR_EXTRACT",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "268",
+          "name": "CHECK_SAT_CLOCKS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "170",
+          "name": "SAVERES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "171",
+          "name": "CLEAN_FILES",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        },
+        {
+          "id": "550",
+          "name": "STATUS",
+          "extra": "NO_OPT",
+          "status": "waiting"
+        }
+      ],
+      "progress": 15
+    },
+    {
+      "session_id": "262480",
       "status": "running",
       "tasks": [
         {
@@ -6205,7 +8746,7 @@
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "020",
@@ -6905,2547 +9446,6 @@
         }
       ],
       "progress": 17
-    },
-    {
-      "session_id": "262460",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "JUMP_CP1",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "REP_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "004",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "005",
-          "name": "JUMP_CP2",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "006",
-          "name": "FZDM_RNX",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "007",
-          "name": "FZDM_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "997",
-          "name": "CHECK_GRD_FILES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "906",
-          "name": "STATION_SELECTION",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "998",
-          "name": "NUM_OBSFIL",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "992",
-          "name": "CHECK_OBSENTRIES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "INIT_BRD",
-          "extra": "FZDM_NAV",
-          "status": "finished"
-        },
-        {
-          "id": "008",
-          "name": "COOVEL",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "009",
-          "name": "ORBGEN",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "RNXSMTAP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "RNXSMT_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "RXOBV3GP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "013",
-          "name": "RXOBV3_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "913",
-          "name": "CHECK_SAT_GAPS",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "914",
-          "name": "CHECK_SAT_RMS",
-          "extra": "FZDM_RNX",
-          "status": "running"
-        },
-        {
-          "id": "014",
-          "name": "SATMRK",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "015",
-          "name": "MANMRK",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "016",
-          "name": "MKCLUS",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "017",
-          "name": "CHECK_VAPL_ENTRIES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "022",
-          "name": "CODSPPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "023",
-          "name": "CODSPP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "024",
-          "name": "CODXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "996",
-          "name": "DEL_LOBS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "025",
-          "name": "CCRNXC",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "TIMESTAP",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "TIMEST_C",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "GPSXTR",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "033",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "FILESTAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "041",
-          "name": "FILEST_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "042",
-          "name": "SATMONAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "043",
-          "name": "SATMON_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "TIMESTAP",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "051",
-          "name": "TIMEST_O",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "052",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "053",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "060",
-          "name": "TIMESTAP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "061",
-          "name": "TIMEST_A",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "062",
-          "name": "GPSXTR",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "063",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "064",
-          "name": "RESRMS",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "065",
-          "name": "MRKOB_AP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "066",
-          "name": "MRKOB__P",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "070",
-          "name": "TIMESTAP",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "071",
-          "name": "TIMEST_B",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "072",
-          "name": "ADDNEQ2",
-          "extra": "FZDM_SB2",
-          "status": "waiting"
-        },
-        {
-          "id": "073",
-          "name": "TIMNEQAP",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "074",
-          "name": "TIMNEQ",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "075",
-          "name": "OSBMERGE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "180",
-          "name": "TIMESTAP",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "181",
-          "name": "TIMCLK",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "182",
-          "name": "CCRNXC",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "080",
-          "name": "MKCLUS",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "081",
-          "name": "CLKESTCB",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "082",
-          "name": "MAUPRPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "083",
-          "name": "MAUPRP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "084",
-          "name": "MPRXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "085",
-          "name": "TIMORBAP",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "086",
-          "name": "TIMORB_P",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "087",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "088",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "090",
-          "name": "TIMESTAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "091",
-          "name": "TIMEST_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "092",
-          "name": "GPSXTR",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "093",
-          "name": "FZDM_CH2",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "094",
-          "name": "RESRMSZD",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "095",
-          "name": "MRKOBSAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "096",
-          "name": "MRKOBS_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "097",
-          "name": "ITEPHASE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "098",
-          "name": "SOSUPDAT",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "099",
-          "name": "CCRNXC",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "100",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "110",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "111",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "112",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "113",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "995",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "114",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "115",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "116",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "117",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "119",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "120",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "121",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "130",
-          "name": "SATMRK",
-          "extra": "IAR_AMB",
-          "status": "waiting"
-        },
-        {
-          "id": "131",
-          "name": "FILESTAP",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "132",
-          "name": "FILEST_P",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "133",
-          "name": "PHABIA",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "134",
-          "name": "FILESTAP",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "135",
-          "name": "FILEST_P",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "136",
-          "name": "FILESTAP",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "137",
-          "name": "FILEST_P",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "138",
-          "name": "STDPRE",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "139",
-          "name": "PHABIA",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "639",
-          "name": "CHECK_AR_SAT",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "140",
-          "name": "ORBGEN",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "141",
-          "name": "PHACMB",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "142",
-          "name": "FILESTAP",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "143",
-          "name": "FILEST_P",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "144",
-          "name": "OBSXTR",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "145",
-          "name": "IAR_STA",
-          "extra": "IAR_CHK",
-          "status": "waiting"
-        },
-        {
-          "id": "146",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "150",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "151",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "152",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "153",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "993",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "154",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "155",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "156",
-          "name": "PRECLK",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "157",
-          "name": "ADDNEQ2C",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "158",
-          "name": "FIX_CHK",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "991",
-          "name": "ADDNEQZM",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "989",
-          "name": "GPSXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "994",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "159",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "160",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "161",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "162",
-          "name": "ORBGENZD_FIN",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "163",
-          "name": "ITER_AR",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "164",
-          "name": "STDPRE",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "200",
-          "name": "STDDIF",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "201",
-          "name": "COMPAR2_ZD",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "210",
-          "name": "CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "990",
-          "name": "ATTXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "165",
-          "name": "OBSXTR",
-          "extra": "FZDM_SUM",
-          "status": "waiting"
-        },
-        {
-          "id": "166",
-          "name": "OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "167",
-          "name": "AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "168",
-          "name": "GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "268",
-          "name": "CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "170",
-          "name": "SAVERES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "171",
-          "name": "CLEAN_FILES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "550",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 13
-    },
-    {
-      "session_id": "262470",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "JUMP_CP1",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "REP_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "004",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "005",
-          "name": "JUMP_CP2",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "006",
-          "name": "FZDM_RNX",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "007",
-          "name": "FZDM_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "997",
-          "name": "CHECK_GRD_FILES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "906",
-          "name": "STATION_SELECTION",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "998",
-          "name": "NUM_OBSFIL",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "992",
-          "name": "CHECK_OBSENTRIES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "INIT_BRD",
-          "extra": "FZDM_NAV",
-          "status": "finished"
-        },
-        {
-          "id": "008",
-          "name": "COOVEL",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "009",
-          "name": "ORBGEN",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "RNXSMTAP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "RNXSMT_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "RXOBV3GP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "013",
-          "name": "RXOBV3_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "913",
-          "name": "CHECK_SAT_GAPS",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "914",
-          "name": "CHECK_SAT_RMS",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "014",
-          "name": "SATMRK",
-          "extra": "FZDM_RNX",
-          "status": "running"
-        },
-        {
-          "id": "015",
-          "name": "MANMRK",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "016",
-          "name": "MKCLUS",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "017",
-          "name": "CHECK_VAPL_ENTRIES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "022",
-          "name": "CODSPPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "023",
-          "name": "CODSPP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "024",
-          "name": "CODXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "996",
-          "name": "DEL_LOBS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "025",
-          "name": "CCRNXC",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "TIMESTAP",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "TIMEST_C",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "GPSXTR",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "033",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "FILESTAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "041",
-          "name": "FILEST_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "042",
-          "name": "SATMONAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "043",
-          "name": "SATMON_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "TIMESTAP",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "051",
-          "name": "TIMEST_O",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "052",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "053",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "060",
-          "name": "TIMESTAP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "061",
-          "name": "TIMEST_A",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "062",
-          "name": "GPSXTR",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "063",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "064",
-          "name": "RESRMS",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "065",
-          "name": "MRKOB_AP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "066",
-          "name": "MRKOB__P",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "070",
-          "name": "TIMESTAP",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "071",
-          "name": "TIMEST_B",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "072",
-          "name": "ADDNEQ2",
-          "extra": "FZDM_SB2",
-          "status": "waiting"
-        },
-        {
-          "id": "073",
-          "name": "TIMNEQAP",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "074",
-          "name": "TIMNEQ",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "075",
-          "name": "OSBMERGE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "180",
-          "name": "TIMESTAP",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "181",
-          "name": "TIMCLK",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "182",
-          "name": "CCRNXC",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "080",
-          "name": "MKCLUS",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "081",
-          "name": "CLKESTCB",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "082",
-          "name": "MAUPRPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "083",
-          "name": "MAUPRP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "084",
-          "name": "MPRXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "085",
-          "name": "TIMORBAP",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "086",
-          "name": "TIMORB_P",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "087",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "088",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "090",
-          "name": "TIMESTAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "091",
-          "name": "TIMEST_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "092",
-          "name": "GPSXTR",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "093",
-          "name": "FZDM_CH2",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "094",
-          "name": "RESRMSZD",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "095",
-          "name": "MRKOBSAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "096",
-          "name": "MRKOBS_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "097",
-          "name": "ITEPHASE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "098",
-          "name": "SOSUPDAT",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "099",
-          "name": "CCRNXC",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "100",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "110",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "111",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "112",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "113",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "995",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "114",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "115",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "116",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "117",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "119",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "120",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "121",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "130",
-          "name": "SATMRK",
-          "extra": "IAR_AMB",
-          "status": "waiting"
-        },
-        {
-          "id": "131",
-          "name": "FILESTAP",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "132",
-          "name": "FILEST_P",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "133",
-          "name": "PHABIA",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "134",
-          "name": "FILESTAP",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "135",
-          "name": "FILEST_P",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "136",
-          "name": "FILESTAP",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "137",
-          "name": "FILEST_P",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "138",
-          "name": "STDPRE",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "139",
-          "name": "PHABIA",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "639",
-          "name": "CHECK_AR_SAT",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "140",
-          "name": "ORBGEN",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "141",
-          "name": "PHACMB",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "142",
-          "name": "FILESTAP",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "143",
-          "name": "FILEST_P",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "144",
-          "name": "OBSXTR",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "145",
-          "name": "IAR_STA",
-          "extra": "IAR_CHK",
-          "status": "waiting"
-        },
-        {
-          "id": "146",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "150",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "151",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "152",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "153",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "993",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "154",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "155",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "156",
-          "name": "PRECLK",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "157",
-          "name": "ADDNEQ2C",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "158",
-          "name": "FIX_CHK",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "991",
-          "name": "ADDNEQZM",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "989",
-          "name": "GPSXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "994",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "159",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "160",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "161",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "162",
-          "name": "ORBGENZD_FIN",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "163",
-          "name": "ITER_AR",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "164",
-          "name": "STDPRE",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "200",
-          "name": "STDDIF",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "201",
-          "name": "COMPAR2_ZD",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "210",
-          "name": "CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "990",
-          "name": "ATTXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "165",
-          "name": "OBSXTR",
-          "extra": "FZDM_SUM",
-          "status": "waiting"
-        },
-        {
-          "id": "166",
-          "name": "OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "167",
-          "name": "AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "168",
-          "name": "GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "268",
-          "name": "CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "170",
-          "name": "SAVERES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "171",
-          "name": "CLEAN_FILES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "550",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 14
-    },
-    {
-      "session_id": "262480",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "JUMP_CP1",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "REP_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "004",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "005",
-          "name": "JUMP_CP2",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "006",
-          "name": "FZDM_RNX",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "007",
-          "name": "FZDM_COP",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "997",
-          "name": "CHECK_GRD_FILES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "906",
-          "name": "STATION_SELECTION",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "998",
-          "name": "NUM_OBSFIL",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "992",
-          "name": "CHECK_OBSENTRIES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "INIT_BRD",
-          "extra": "FZDM_NAV",
-          "status": "finished"
-        },
-        {
-          "id": "008",
-          "name": "COOVEL",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "009",
-          "name": "ORBGEN",
-          "extra": "FZDM_0",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "RNXSMTAP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "RNXSMT_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "012",
-          "name": "RXOBV3GP",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "013",
-          "name": "RXOBV3_P",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "913",
-          "name": "CHECK_SAT_GAPS",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "914",
-          "name": "CHECK_SAT_RMS",
-          "extra": "FZDM_RNX",
-          "status": "finished"
-        },
-        {
-          "id": "014",
-          "name": "SATMRK",
-          "extra": "FZDM_RNX",
-          "status": "running"
-        },
-        {
-          "id": "015",
-          "name": "MANMRK",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "016",
-          "name": "MKCLUS",
-          "extra": "FZDM_RNX",
-          "status": "waiting"
-        },
-        {
-          "id": "017",
-          "name": "CHECK_VAPL_ENTRIES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "022",
-          "name": "CODSPPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "023",
-          "name": "CODSPP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "024",
-          "name": "CODXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "996",
-          "name": "DEL_LOBS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "025",
-          "name": "CCRNXC",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "TIMESTAP",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "TIMEST_C",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "GPSXTR",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "033",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_WGT",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "FILESTAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "041",
-          "name": "FILEST_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "042",
-          "name": "SATMONAP",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "043",
-          "name": "SATMON_P",
-          "extra": "FZDM_MON",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "TIMESTAP",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "051",
-          "name": "TIMEST_O",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "052",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORC",
-          "status": "waiting"
-        },
-        {
-          "id": "053",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "060",
-          "name": "TIMESTAP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "061",
-          "name": "TIMEST_A",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "062",
-          "name": "GPSXTR",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "063",
-          "name": "FZDM_CH1",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "064",
-          "name": "RESRMS",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "065",
-          "name": "MRKOB_AP",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "066",
-          "name": "MRKOB__P",
-          "extra": "FZDM_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "070",
-          "name": "TIMESTAP",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "071",
-          "name": "TIMEST_B",
-          "extra": "FZDM_SB1",
-          "status": "waiting"
-        },
-        {
-          "id": "072",
-          "name": "ADDNEQ2",
-          "extra": "FZDM_SB2",
-          "status": "waiting"
-        },
-        {
-          "id": "073",
-          "name": "TIMNEQAP",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "074",
-          "name": "TIMNEQ",
-          "extra": "FZDM_SB3",
-          "status": "waiting"
-        },
-        {
-          "id": "075",
-          "name": "OSBMERGE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "180",
-          "name": "TIMESTAP",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "181",
-          "name": "TIMCLK",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "182",
-          "name": "CCRNXC",
-          "extra": "FCLK_COD",
-          "status": "waiting"
-        },
-        {
-          "id": "080",
-          "name": "MKCLUS",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "081",
-          "name": "CLKESTCB",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "082",
-          "name": "MAUPRPAP",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "083",
-          "name": "MAUPRP_P",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "084",
-          "name": "MPRXTR",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "085",
-          "name": "TIMORBAP",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "086",
-          "name": "TIMORB_P",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "087",
-          "name": "ADDNEQOR",
-          "extra": "FZDM_ORP",
-          "status": "waiting"
-        },
-        {
-          "id": "088",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "090",
-          "name": "TIMESTAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "091",
-          "name": "TIMEST_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "092",
-          "name": "GPSXTR",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "093",
-          "name": "FZDM_CH2",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "094",
-          "name": "RESRMSZD",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "095",
-          "name": "MRKOBSAP",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "096",
-          "name": "MRKOBS_P",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "097",
-          "name": "ITEPHASE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "098",
-          "name": "SOSUPDAT",
-          "extra": "FZDM_GEN",
-          "status": "waiting"
-        },
-        {
-          "id": "099",
-          "name": "CCRNXC",
-          "extra": "FZDM_EDT",
-          "status": "waiting"
-        },
-        {
-          "id": "100",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "110",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "111",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "112",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "113",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "995",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "114",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "115",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "116",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "117",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "119",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "120",
-          "name": "ORBGENZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "121",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "130",
-          "name": "SATMRK",
-          "extra": "IAR_AMB",
-          "status": "waiting"
-        },
-        {
-          "id": "131",
-          "name": "FILESTAP",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "132",
-          "name": "FILEST_P",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "133",
-          "name": "PHABIA",
-          "extra": "IAR_WLB",
-          "status": "waiting"
-        },
-        {
-          "id": "134",
-          "name": "FILESTAP",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "135",
-          "name": "FILEST_P",
-          "extra": "IAR_WLI",
-          "status": "waiting"
-        },
-        {
-          "id": "136",
-          "name": "FILESTAP",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "137",
-          "name": "FILEST_P",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "138",
-          "name": "STDPRE",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "139",
-          "name": "PHABIA",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "639",
-          "name": "CHECK_AR_SAT",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "140",
-          "name": "ORBGEN",
-          "extra": "IAR_NLB",
-          "status": "waiting"
-        },
-        {
-          "id": "141",
-          "name": "PHACMB",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "142",
-          "name": "FILESTAP",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "143",
-          "name": "FILEST_P",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "144",
-          "name": "OBSXTR",
-          "extra": "IAR_NLI",
-          "status": "waiting"
-        },
-        {
-          "id": "145",
-          "name": "IAR_STA",
-          "extra": "IAR_CHK",
-          "status": "waiting"
-        },
-        {
-          "id": "146",
-          "name": "FZDM_UPD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "150",
-          "name": "TIMZDMAP",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "151",
-          "name": "TIMZDM_P",
-          "extra": "FZDM_1DP",
-          "status": "waiting"
-        },
-        {
-          "id": "152",
-          "name": "ADDNEQZD",
-          "extra": "FZDM_1DU",
-          "status": "waiting"
-        },
-        {
-          "id": "153",
-          "name": "PRECLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "993",
-          "name": "WAIT_ZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "154",
-          "name": "PRECLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "155",
-          "name": "ITEPRECL",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "156",
-          "name": "PRECLK",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "157",
-          "name": "ADDNEQ2C",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "158",
-          "name": "FIX_CHK",
-          "extra": "FZDM_1DC",
-          "status": "waiting"
-        },
-        {
-          "id": "991",
-          "name": "ADDNEQZM",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "989",
-          "name": "GPSXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "994",
-          "name": "WAIT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "159",
-          "name": "SOLCLKAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "160",
-          "name": "SOLCLK_P",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "161",
-          "name": "CCRNXCZD",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "162",
-          "name": "ORBGENZD_FIN",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "163",
-          "name": "ITER_AR",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "164",
-          "name": "STDPRE",
-          "extra": "FZDM_1DS",
-          "status": "waiting"
-        },
-        {
-          "id": "200",
-          "name": "STDDIF",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "201",
-          "name": "COMPAR2_ZD",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "210",
-          "name": "CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "990",
-          "name": "ATTXTR",
-          "extra": "FZDM_FIN",
-          "status": "waiting"
-        },
-        {
-          "id": "165",
-          "name": "OBSXTR",
-          "extra": "FZDM_SUM",
-          "status": "waiting"
-        },
-        {
-          "id": "166",
-          "name": "OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "167",
-          "name": "AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "168",
-          "name": "GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "268",
-          "name": "CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "170",
-          "name": "SAVERES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "171",
-          "name": "CLEAN_FILES",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "550",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 14
     },
     {
       "session_id": "262490",
@@ -12128,25 +12128,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -12833,7 +12833,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     },
     {
       "session_id": "262530",
@@ -12945,19 +12945,19 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -13680,7 +13680,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     },
     {
       "session_id": "262540",
@@ -13780,13 +13780,13 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -14527,7 +14527,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 10
+      "progress": 11
     }
   ],
   "PPP new chain": [
@@ -14767,303 +14767,303 @@
     },
     {
       "session_id": "261400",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "261410",
       "status": "running",
       "tasks": [
         {
           "id": "001",
           "name": "ZD_STATUS",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "ZD_COPY_PPP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "ZD_COPY_OBS",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "100",
           "name": "ZD_DEL_RXO",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "111",
           "name": "ZD_ORBMRG",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "112",
           "name": "ZD_ORBGEN",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "skipped"
         },
         {
           "id": "121",
           "name": "ZD_CCRNXC",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "122",
           "name": "ZD_RNXCLK",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "201",
           "name": "ZD_RNXGRA",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "221",
           "name": "ZD_RNXSMTAP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "222",
           "name": "ZD_RNXSMT_P",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "231",
           "name": "ZD_RXOBV3AP_PPP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "232",
           "name": "ZD_RXOBV3_P_PPP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "233",
           "name": "ZD_CRDMRDAT",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "241",
           "name": "ZD_CODSPP_P",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "242",
           "name": "ZD_CODSPP_E",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "243",
           "name": "ZD_CODXTRP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "244",
           "name": "ZD_CRDMERGE",
           "extra": "PPP_GE2",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "301",
           "name": "ZD_PPPEDTAP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "302",
           "name": "ZD_PPPEDT_P",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "303",
           "name": "ZD_GPSXTRP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "304",
           "name": "ZD_PPP_RES_SUM",
           "extra": "PPP_AUX",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "311",
           "name": "ZD_PPP_IAR",
           "extra": "PPP_IAR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "312",
           "name": "ZD_PPPIARAP",
           "extra": "PPP_IAR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "313",
           "name": "ZD_PPPIAR_P",
           "extra": "PPP_IAR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "314",
           "name": "ZD_IARXTR",
           "extra": "PPP_IAR",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "321",
           "name": "ZD_TIMESTAP",
           "extra": "PPP_FIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "322",
           "name": "ZD_TIMEST_P",
           "extra": "PPP_FIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "323",
           "name": "ZD_GPSXTRP",
           "extra": "PPP_FIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "324",
           "name": "ZD_RESRMS",
           "extra": "PPP_FIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "331",
           "name": "ZD_CRDMERGE",
           "extra": "PPP_AUX",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "332",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_AUX",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "333",
           "name": "ZD_PPP_HLM",
           "extra": "PPP_AUX",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "341",
           "name": "ZD_CCRNXC",
           "extra": "PPP_AUX",
-          "status": "finished"
+          "status": "skipped"
         },
         {
           "id": "351",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_SNX",
-          "status": "finished"
+          "status": "skipped"
         },
         {
           "id": "521",
           "name": "ZD_PPP_KIN",
           "extra": "PPP_KIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "522",
           "name": "ZD_TIMESTAP",
           "extra": "PPP_KIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "523",
           "name": "ZD_TIMEST_P",
           "extra": "PPP_KIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "524",
           "name": "ZD_GPSXTRP",
           "extra": "PPP_KIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "525",
           "name": "ZD_TIMESTAP",
           "extra": "PPP_KIN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "526",
           "name": "ZD_GPSXTR_P",
           "extra": "PPP_KIM",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "550",
           "name": "ZD_SATMRK",
           "extra": "PPP_AUX",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "600",
           "name": "ZD_PHACMB_P",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "601",
           "name": "ZD_MERGECRDP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "602",
           "name": "ZD_DEL_RXO",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "901",
           "name": "ZD_PPP_SUM",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "904",
           "name": "ZD_DEL_RES_PPP",
           "extra": "PPP_GEN",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "999",
           "name": "ZD_STATUS",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         }
       ],
-      "progress": 95
-    },
-    {
-      "session_id": "261410",
-      "status": "running",
-      "tasks": [],
       "progress": 0
     },
     {
