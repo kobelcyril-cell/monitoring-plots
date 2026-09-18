@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T14:40:01.561624",
+  "updated": "2026-09-18T14:41:01.608665",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -19,106 +19,9 @@
   "Clock densification": [
     {
       "session_id": "262550",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "001",
-          "name": "ZDDE_COP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "002",
-          "name": "INIT_HOI",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "003",
-          "name": "INIT_VMF",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "010",
-          "name": "FILESTAP",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "011",
-          "name": "FILEST_P",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "012",
-          "name": "TRPMERZD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DR",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DX",
-          "status": "waiting"
-        },
-        {
-          "id": "021",
-          "name": "CCRNXC",
-          "extra": "FZDM_1DF",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "CLKEST",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "031",
-          "name": "CCRNXC",
-          "extra": "FZDM_1H0",
-          "status": "waiting"
-        },
-        {
-          "id": "032",
-          "name": "CCRNXC",
-          "extra": "FZDM_1HN",
-          "status": "waiting"
-        },
-        {
-          "id": "040",
-          "name": "SAVECLKDE",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "050",
-          "name": "DEL_CLKD",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 0
+      "status": "error",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Comparison": [
@@ -3105,13 +3008,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "095",
@@ -3516,7 +3419,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 50
+      "progress": 51
     },
     {
       "session_id": "262420",
@@ -4799,31 +4702,31 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "097",
           "name": "ITEPHASE",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "098",
@@ -5210,7 +5113,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 53
+      "progress": 50
     },
     {
       "session_id": "262440",
@@ -5634,13 +5537,13 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "093",
@@ -6057,7 +5960,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 49
+      "progress": 50
     },
     {
       "session_id": "262450",
