@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T13:15:06.030742",
+  "updated": "2026-09-18T13:16:02.550735",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -1345,19 +1345,19 @@
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "082",
           "name": "MAUPRPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "084",
@@ -1822,7 +1822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 42
+      "progress": 44
     },
     {
       "session_id": "262400",
@@ -6409,19 +6409,19 @@
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "081",
@@ -6904,7 +6904,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 42
     },
     {
       "session_id": "262460",
@@ -10674,19 +10674,19 @@
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "084",
           "name": "MPRXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "086",
@@ -11139,7 +11139,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 44
+      "progress": 45
     },
     {
       "session_id": "262510",
@@ -14050,13 +14050,13 @@
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "082",
           "name": "MAUPRPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "083",
@@ -14527,7 +14527,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 42
+      "progress": 43
     }
   ],
   "PPP new chain": [
@@ -14845,25 +14845,25 @@
           "id": "221",
           "name": "ZD_RNXSMTAP",
           "extra": "PPP_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "222",
           "name": "ZD_RNXSMT_P",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "231",
           "name": "ZD_RXOBV3AP_PPP",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "232",
           "name": "ZD_RXOBV3_P_PPP",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "233",
@@ -15076,7 +15076,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 18
+      "progress": 25
     },
     {
       "session_id": "261440",
