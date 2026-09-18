@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T18:57:02.075212",
+  "updated": "2026-09-18T18:58:02.317498",
   "1 day solution": [
     {
       "session_id": "262570",
@@ -7315,19 +7315,19 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "116",
@@ -7654,7 +7654,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 59
     },
     {
       "session_id": "262470",
@@ -13210,7 +13210,7 @@
           "id": "324",
           "name": "ZD_RESRMS",
           "extra": "PPP_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "331",
@@ -13222,7 +13222,7 @@
           "id": "332",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_AUX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "333",
@@ -13240,13 +13240,13 @@
           "id": "351",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_SNX",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "521",
           "name": "ZD_PPP_KIN",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "522",
@@ -13321,7 +13321,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 70
+      "progress": 77
     },
     {
       "session_id": "261480",
