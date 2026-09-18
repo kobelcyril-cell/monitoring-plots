@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T13:14:03.505120",
+  "updated": "2026-09-18T13:15:06.030742",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -444,13 +444,13 @@
           "id": "071",
           "name": "TIMEST_B",
           "extra": "FZDM_SB1",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "073",
@@ -975,7 +975,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 36
+      "progress": 37
     },
     {
       "session_id": "262390",
@@ -4697,25 +4697,25 @@
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "182",
@@ -5210,7 +5210,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 38
+      "progress": 40
     },
     {
       "session_id": "262440",
@@ -10662,19 +10662,19 @@
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "082",
           "name": "MAUPRPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "084",
@@ -11139,7 +11139,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 42
+      "progress": 44
     },
     {
       "session_id": "262510",
@@ -12350,13 +12350,13 @@
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "082",
@@ -14050,7 +14050,7 @@
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "082",
@@ -14803,49 +14803,49 @@
           "id": "003",
           "name": "ZD_COPY_OBS",
           "extra": "PPP_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "100",
           "name": "ZD_DEL_RXO",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "111",
           "name": "ZD_ORBMRG",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "112",
           "name": "ZD_ORBGEN",
           "extra": "PPP_GEN",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "ZD_CCRNXC",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "122",
           "name": "ZD_RNXCLK",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "ZD_RNXGRA",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "221",
           "name": "ZD_RNXSMTAP",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "222",
@@ -15076,7 +15076,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 4
+      "progress": 18
     },
     {
       "session_id": "261440",
