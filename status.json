@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:06:01.728912",
+  "updated": "2026-09-18T11:07:03.294466",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -222,13 +222,13 @@
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -2769,13 +2769,13 @@
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "013",
@@ -3516,7 +3516,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 10
+      "progress": 11
     },
     {
       "session_id": "262420",
@@ -3628,19 +3628,19 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -4363,7 +4363,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     },
     {
       "session_id": "262430",
@@ -8704,13 +8704,13 @@
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "913",
@@ -9445,7 +9445,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 11
+      "progress": 12
     },
     {
       "session_id": "262490",
@@ -9551,13 +9551,13 @@
           "id": "012",
           "name": "RXOBV3GP",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "913",
@@ -10292,7 +10292,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 11
+      "progress": 12
     },
     {
       "session_id": "262500",
@@ -10404,13 +10404,13 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "914",
@@ -12104,13 +12104,13 @@
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -12833,7 +12833,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     },
     {
       "session_id": "262530",
@@ -12921,19 +12921,19 @@
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "011",
           "name": "RNXSMT_P",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "012",
@@ -13680,7 +13680,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 9
+      "progress": 10
     },
     {
       "session_id": "262540",
@@ -13768,13 +13768,13 @@
           "id": "009",
           "name": "ORBGEN",
           "extra": "FZDM_0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "010",
           "name": "RNXSMTAP",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "011",
@@ -14527,7 +14527,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 9
+      "progress": 10
     }
   ],
   "PPP new chain": [
@@ -14959,7 +14959,7 @@
           "id": "332",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_AUX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "333",
@@ -14977,25 +14977,25 @@
           "id": "351",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_SNX",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "521",
           "name": "ZD_PPP_KIN",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "522",
           "name": "ZD_TIMESTAP",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "523",
           "name": "ZD_TIMEST_P",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "524",
@@ -15058,7 +15058,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 72
+      "progress": 81
     },
     {
       "session_id": "261410",
