@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:18:02.561311",
+  "updated": "2026-09-18T11:19:03.664298",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -2829,7 +2829,7 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
@@ -3516,7 +3516,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 17
+      "progress": 18
     },
     {
       "session_id": "262420",
@@ -13822,25 +13822,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -14527,7 +14527,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     }
   ],
   "PPP new chain": [
@@ -14839,13 +14839,13 @@
           "id": "222",
           "name": "ZD_RNXSMT_P",
           "extra": "PPP_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "231",
           "name": "ZD_RXOBV3AP_PPP",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "232",
@@ -15064,7 +15064,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 20
+      "progress": 22
     },
     {
       "session_id": "261420",
