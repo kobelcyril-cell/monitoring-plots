@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T15:14:02.059814",
+  "updated": "2026-09-18T15:15:01.783740",
   "1 day solution": [
     {
       "session_id": "262280",
@@ -1374,25 +1374,25 @@
           "id": "112",
           "name": "ADDNEQZD",
           "extra": "FZDM_1DU",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "113",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "115",
@@ -1725,7 +1725,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 57
+      "progress": 59
     },
     {
       "session_id": "262400",
@@ -5549,25 +5549,25 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "096",
           "name": "MRKOBS_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "097",
@@ -5960,7 +5960,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 50
     },
     {
       "session_id": "262450",
@@ -14940,19 +14940,19 @@
           "id": "526",
           "name": "ZD_GPSXTR_P",
           "extra": "PPP_KIM",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "550",
           "name": "ZD_SATMRK",
           "extra": "PPP_AUX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "600",
           "name": "ZD_PHACMB_P",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "601",
@@ -14970,13 +14970,13 @@
           "id": "901",
           "name": "ZD_PPP_SUM",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "904",
           "name": "ZD_DEL_RES_PPP",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "999",
@@ -14985,7 +14985,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 87
+      "progress": 93
     },
     {
       "session_id": "261450",
