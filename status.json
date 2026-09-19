@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T19:07:04.821540",
+  "updated": "2026-09-19T19:08:03.455520",
   "1 day solution": [
     {
       "session_id": "262580",
@@ -333,19 +333,19 @@
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "075",
           "name": "OSBMERGE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "TIMESTAP",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "181",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 38
+      "progress": 40
     }
   ],
   "3 day solution": [
@@ -10880,43 +10880,43 @@
           "id": "322",
           "name": "ZD_TIMEST_P",
           "extra": "PPP_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "323",
           "name": "ZD_GPSXTRP",
           "extra": "PPP_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "324",
           "name": "ZD_RESRMS",
           "extra": "PPP_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "331",
           "name": "ZD_CRDMERGE",
           "extra": "PPP_AUX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "332",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_AUX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "333",
           "name": "ZD_PPP_HLM",
           "extra": "PPP_AUX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "341",
           "name": "ZD_CCRNXC",
           "extra": "PPP_AUX",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "351",
@@ -10976,13 +10976,13 @@
           "id": "601",
           "name": "ZD_MERGECRDP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "602",
           "name": "ZD_DEL_RXO",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "901",
@@ -11003,7 +11003,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 56
+      "progress": 72
     },
     {
       "session_id": "261700",
