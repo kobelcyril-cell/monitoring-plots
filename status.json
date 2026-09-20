@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T00:05:01.655084",
+  "updated": "2026-09-21T00:06:01.863088",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -13700,7 +13700,7 @@
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "122",
@@ -13775,7 +13775,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 35
     },
     {
       "session_id": "261240",
@@ -16881,19 +16881,19 @@
           "id": "120",
           "name": "ZD_PRE_ELIM_CLK_P",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "122",
           "name": "ZD_PRE_ELIM_CLK_E",
           "extra": "ZD_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "123",
@@ -16962,7 +16962,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 30
     },
     {
       "session_id": "261510",
@@ -18520,13 +18520,13 @@
           "id": "101",
           "name": "ZD_GEN_NEQ_E",
           "extra": "ZD_1DP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "105",
           "name": "ZD_ADD_LEO",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "110",
@@ -18619,7 +18619,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 25
     },
     {
       "session_id": "261650",
@@ -21997,13 +21997,13 @@
           "id": "140",
           "name": "ZD_ADDNEQ2_DATFIL",
           "extra": "ZD_1DC",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "141",
           "name": "ZD_FIX_CHK",
           "extra": "ZD_1DC",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "150",
@@ -22048,7 +22048,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 55
     },
     {
       "session_id": "261920",
