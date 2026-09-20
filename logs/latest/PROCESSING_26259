@@ -1,0 +1,40 @@
+
+=== STATION_SELECTION started ===
+Running FINAL station extraction
+FINAL mode: station list written.
+Deleted observation files from 0 stations
+=== STATION_SELECTION finished ===
+==== NUMBER OF STATIONS ====
+Number of observation files: 305
+=========================
+
+=== CHECK_OBSENTRIES started ===
+Found 1836 station entries in IGC20.CRD.
+Found 305 observation files in RAW.
+Deleted 0 files without matching entries.
+=== CHECK_OBSENTRIES finished ===
+
+=== CHECK_SAT_GAPS started ===
+Checking file: SMT262590.SMC
+→ Data gap detected for satellite 13
+Detected data gaps for 1 satellites.
+=== CHECK_SAT_GAPS finished ===
+
+=== CHECK_SAT_RMS started ===
+Checking file: ORBGEN_APR2590.OUT
+→ Large RMS detected for satellite 6: 7.07 m
+→ Large RMS detected for satellite 7: 5.14 m
+→ Large RMS detected for satellite 12: 5.67 m
+→ Large RMS detected for satellite 15: 5.39 m
+→ Large RMS detected for satellite 20: 5.81 m
+→ Large RMS detected for satellite 25: 5.95 m
+→ Large RMS detected for satellite 28: 5.83 m
+Satellites marked due to RMS > 5.0 m or invalid RMS: 6, 7, 12, 15, 20, 25, 28
+Total satellites marked: 7
+=== CHECK_SAT_RMS finished ===
+==== DELETE LARGE OBS FILES ====
+CODXTR file: /storage/research/aiub_u_camp/CK_ZDGNSS/OUT/CODXTR.26_2590
+Timestamp  : Sun Sep 20 18:22:52 2026
+No stations with >50% bad observations found.
+Total deleted files: 0
+=========================
