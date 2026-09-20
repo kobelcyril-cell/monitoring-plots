@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T09:37:03.334311",
+  "updated": "2026-09-20T09:38:01.990885",
   "1 day solution": [
     {
       "session_id": "262580",
@@ -10,7 +10,7 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262570",
+      "session_id": "262560",
       "status": "running",
       "tasks": [
         {
@@ -10076,19 +10076,19 @@
           "id": "003",
           "name": "ZD_COPY_OBS",
           "extra": "PPP_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "100",
           "name": "ZD_DEL_RXO",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "111",
           "name": "ZD_ORBMRG",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "112",
@@ -10100,7 +10100,7 @@
           "id": "121",
           "name": "ZD_CCRNXC",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "122",
@@ -10349,7 +10349,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 4
+      "progress": 8
     },
     {
       "session_id": "261850",
