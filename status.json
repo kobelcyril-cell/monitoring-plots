@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T04:15:03.136075",
+  "updated": "2026-09-20T04:16:04.544852",
   "1 day solution": [
     {
       "session_id": "262580",
@@ -851,44 +851,44 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262560",
+      "session_id": "262570",
       "status": "running",
       "tasks": [
         {
           "id": "555",
           "name": "STATUS",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS_o",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "012",
@@ -927,7 +927,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 41
+      "progress": 0
     }
   ],
   "Clock densification": [
@@ -11012,19 +11012,19 @@
           "id": "526",
           "name": "ZD_GPSXTR_P",
           "extra": "PPP_KIM",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "550",
           "name": "ZD_SATMRK",
           "extra": "PPP_AUX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "600",
           "name": "ZD_PHACMB_P",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "601",
@@ -11042,7 +11042,7 @@
           "id": "901",
           "name": "ZD_PPP_SUM",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "904",
@@ -11057,7 +11057,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 87
+      "progress": 91
     },
     {
       "session_id": "261790",
