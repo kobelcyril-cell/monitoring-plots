@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T18:37:03.428689",
+  "updated": "2026-09-20T18:38:02.255039",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -231,25 +231,25 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "052",
@@ -846,12 +846,12 @@
           "status": "waiting"
         }
       ],
-      "progress": 26
+      "progress": 28
     }
   ],
   "3 day solution": [
     {
-      "session_id": "262570",
+      "session_id": "262560",
       "status": "running",
       "tasks": [
         {
@@ -11030,7 +11030,7 @@
           "id": "324",
           "name": "ZD_RESRMS",
           "extra": "PPP_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "331",
@@ -11042,7 +11042,7 @@
           "id": "332",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_AUX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "333",
@@ -11060,19 +11060,19 @@
           "id": "351",
           "name": "ZD_ADDNEQ2",
           "extra": "PPP_SNX",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "521",
           "name": "ZD_PPP_KIN",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "522",
           "name": "ZD_TIMESTAP",
           "extra": "PPP_KIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "523",
@@ -11141,7 +11141,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 70
+      "progress": 79
     }
   ],
   "IX new chain": [
