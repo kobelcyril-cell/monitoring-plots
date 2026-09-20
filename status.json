@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T00:41:06.082589",
+  "updated": "2026-09-21T00:42:04.978481",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -851,7 +851,7 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262560",
+      "session_id": "262570",
       "status": "running",
       "tasks": [
         {
@@ -17044,7 +17044,7 @@
           "id": "141",
           "name": "ZD_FIX_CHK",
           "extra": "ZD_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "150",
@@ -17062,13 +17062,13 @@
           "id": "170",
           "name": "ZD_ADDNEQ2_CLK_P",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "171",
           "name": "ZD_ADDNEQ2_CLK_E",
           "extra": "ZD_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "180",
@@ -17089,7 +17089,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 60
+      "progress": 70
     },
     {
       "session_id": "261520",
@@ -20485,13 +20485,13 @@
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "ZD_GPSXTR",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -20515,7 +20515,7 @@
           "id": "190",
           "name": "ZD_ORBGENF",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "999",
@@ -20524,7 +20524,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 90
     },
     {
       "session_id": "261800",
@@ -21707,7 +21707,7 @@
           "id": "110",
           "name": "ZD_ADDNEQ2_DELNEQ",
           "extra": "ZD_1DU",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "120",
