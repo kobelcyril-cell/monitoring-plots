@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T11:41:04.157506",
+  "updated": "2026-09-20T11:42:02.130460",
   "1 day solution": [
     {
       "session_id": "262580",
@@ -10,7 +10,7 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262560",
+      "session_id": "262570",
       "status": "running",
       "tasks": [
         {
@@ -10088,43 +10088,43 @@
           "id": "003",
           "name": "ZD_COPY_OBS",
           "extra": "PPP_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "100",
           "name": "ZD_DEL_RXO",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "111",
           "name": "ZD_ORBMRG",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "112",
           "name": "ZD_ORBGEN",
           "extra": "PPP_GEN",
-          "status": "skipped"
+          "status": "finished"
         },
         {
           "id": "121",
           "name": "ZD_CCRNXC",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "122",
           "name": "ZD_RNXCLK",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "201",
           "name": "ZD_RNXGRA",
           "extra": "PPP_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "221",
@@ -10361,7 +10361,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 4
+      "progress": 16
     },
     {
       "session_id": "261870",
