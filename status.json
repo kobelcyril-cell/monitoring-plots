@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T18:11:02.721321",
+  "updated": "2026-09-21T18:12:02.130328",
   "1 day solution": [
     {
       "session_id": "262600",
@@ -111,19 +111,19 @@
           "id": "013",
           "name": "RXOBV3_P",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -846,12 +846,12 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     }
   ],
   "3 day solution": [
     {
-      "session_id": "262580",
+      "session_id": "262570",
       "status": "running",
       "tasks": [
         {
@@ -11009,130 +11009,9 @@
     },
     {
       "session_id": "261060",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "099",
-          "name": "ZD_ORBGEN",
-          "extra": "ZD_1DP",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_GEN_NEQ_P",
-          "extra": "ZD_1DP",
-          "status": "finished"
-        },
-        {
-          "id": "101",
-          "name": "ZD_GEN_NEQ_E",
-          "extra": "ZD_1DP",
-          "status": "finished"
-        },
-        {
-          "id": "105",
-          "name": "ZD_ADD_LEO",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "110",
-          "name": "ZD_ADDNEQ2_DELNEQ",
-          "extra": "ZD_1DU",
-          "status": "finished"
-        },
-        {
-          "id": "120",
-          "name": "ZD_PRE_ELIM_CLK_P",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "121",
-          "name": "ZD_WAIT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "122",
-          "name": "ZD_PRE_ELIM_CLK_E",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "123",
-          "name": "ZD_ITE_PRE_CLK",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "130",
-          "name": "ZD_PRE_ELIM_CLK",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "140",
-          "name": "ZD_ADDNEQ2_DATFIL",
-          "extra": "ZD_1DC",
-          "status": "finished"
-        },
-        {
-          "id": "141",
-          "name": "ZD_FIX_CHK",
-          "extra": "ZD_1DC",
-          "status": "finished"
-        },
-        {
-          "id": "150",
-          "name": "ZD_ADDNEQ2",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "160",
-          "name": "ZD_GPSXTR",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "170",
-          "name": "ZD_ADDNEQ2_CLK_P",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "171",
-          "name": "ZD_ADDNEQ2_CLK_E",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "180",
-          "name": "ZD_CCRNXC",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "190",
-          "name": "ZD_ORBGENF",
-          "extra": "ZD_FIN",
-          "status": "running"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 90
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261070",
@@ -11431,13 +11310,13 @@
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "ZD_GPSXTR",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -11461,7 +11340,7 @@
           "id": "190",
           "name": "ZD_ORBGENF",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "999",
@@ -11470,7 +11349,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 90
     },
     {
       "session_id": "261230",
@@ -12650,19 +12529,19 @@
           "id": "140",
           "name": "ZD_ADDNEQ2_DATFIL",
           "extra": "ZD_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "141",
           "name": "ZD_FIX_CHK",
           "extra": "ZD_1DC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "160",
@@ -12674,13 +12553,13 @@
           "id": "170",
           "name": "ZD_ADDNEQ2_CLK_P",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "171",
           "name": "ZD_ADDNEQ2_CLK_E",
           "extra": "ZD_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "180",
@@ -12701,7 +12580,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 55
+      "progress": 70
     },
     {
       "session_id": "261870",
