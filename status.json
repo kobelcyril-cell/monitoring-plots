@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T11:52:01.407926",
+  "updated": "2026-09-21T11:53:01.240515",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -10,7 +10,7 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262570",
+      "session_id": "262560",
       "status": "running",
       "tasks": [
         {
@@ -12714,19 +12714,19 @@
           "id": "120",
           "name": "ZD_PRE_ELIM_CLK_P",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "122",
           "name": "ZD_PRE_ELIM_CLK_E",
           "extra": "ZD_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "123",
@@ -12795,7 +12795,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 30
     },
     {
       "session_id": "261250",
@@ -13494,7 +13494,7 @@
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "122",
@@ -13569,7 +13569,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 35
     },
     {
       "session_id": "261330",
@@ -15332,7 +15332,7 @@
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "160",
