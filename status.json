@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T16:16:05.061660",
+  "updated": "2026-09-21T16:17:05.887273",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -10,7 +10,7 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262580",
+      "session_id": "262570",
       "status": "running",
       "tasks": [
         {
@@ -12151,7 +12151,7 @@
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "122",
@@ -12226,7 +12226,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 35
     },
     {
       "session_id": "261270",
@@ -13880,7 +13880,7 @@
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "160",
@@ -16583,19 +16583,19 @@
           "id": "120",
           "name": "ZD_PRE_ELIM_CLK_P",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "122",
           "name": "ZD_PRE_ELIM_CLK_E",
           "extra": "ZD_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "123",
@@ -16664,7 +16664,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 30
     },
     {
       "session_id": "261810",
@@ -17429,13 +17429,13 @@
           "id": "171",
           "name": "ZD_ADDNEQ2_CLK_E",
           "extra": "ZD_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "180",
           "name": "ZD_CCRNXC",
           "extra": "ZD_1DS",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "190",
@@ -17450,7 +17450,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 70
+      "progress": 80
     },
     {
       "session_id": "261910",
