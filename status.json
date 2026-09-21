@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T15:16:02.336323",
+  "updated": "2026-09-21T15:17:04.468198",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -10,7 +10,7 @@
   ],
   "3 day solution": [
     {
-      "session_id": "262580",
+      "session_id": "262570",
       "status": "running",
       "tasks": [
         {
@@ -10597,19 +10597,19 @@
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "122",
           "name": "ZD_PRE_ELIM_CLK_E",
           "extra": "ZD_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "123",
           "name": "ZD_ITE_PRE_CLK",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "130",
@@ -10672,7 +10672,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 45
+      "progress": 35
     },
     {
       "session_id": "261100",
@@ -13729,7 +13729,7 @@
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "160",
