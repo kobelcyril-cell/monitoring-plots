@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T17:08:03.403564",
+  "updated": "2026-09-21T17:09:01.945524",
   "1 day solution": [
     {
       "session_id": "262590",
@@ -10234,13 +10234,13 @@
           "id": "150",
           "name": "ZD_ADDNEQ2",
           "extra": "ZD_FIN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "160",
           "name": "ZD_GPSXTR",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "170",
@@ -10264,7 +10264,7 @@
           "id": "190",
           "name": "ZD_ORBGENF",
           "extra": "ZD_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "999",
@@ -10273,7 +10273,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 90
     },
     {
       "session_id": "261040",
@@ -14109,19 +14109,19 @@
           "id": "121",
           "name": "ZD_WAIT",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "122",
           "name": "ZD_PRE_ELIM_CLK_E",
           "extra": "ZD_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "123",
           "name": "ZD_ITE_PRE_CLK",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "130",
@@ -14184,7 +14184,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 45
+      "progress": 35
     },
     {
       "session_id": "261710",
