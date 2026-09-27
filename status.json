@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T22:22:04.450827",
+  "updated": "2026-09-27T22:23:03.379218",
   "1 day solution": [
     {
       "session_id": "262660",
@@ -11426,82 +11426,9 @@
     },
     {
       "session_id": "261030",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_COPY_FIL_3D",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "200",
-          "name": "ZD_COOVEL",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "201",
-          "name": "ZD_POLUPD",
-          "extra": "ZD3D_GEN",
-          "status": "finished"
-        },
-        {
-          "id": "300",
-          "name": "ZD_ADDNEQ2_LA_P",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "301",
-          "name": "ZD_ADDNEQ2_LA_E",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "400",
-          "name": "ZD_ORBGEN",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "401",
-          "name": "ZD_CCRNXC",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "500",
-          "name": "ZD_STDPRE",
-          "extra": "ZD3D_3DS",
-          "status": "finished"
-        },
-        {
-          "id": "600",
-          "name": "ZD_SAVE_RES_3D",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "700",
-          "name": "ZD_DEL_RES_3D",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        }
-      ],
-      "progress": 91
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261040",
