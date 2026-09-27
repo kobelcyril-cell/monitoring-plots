@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T20:36:01.729805",
+  "updated": "2026-09-27T20:37:01.971919",
   "1 day solution": [
     {
       "session_id": "262660",
@@ -10878,94 +10878,9 @@
     },
     {
       "session_id": "261030",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_STDPRE",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "110",
-          "name": "ZD_STDDIF",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "111",
-          "name": "ZD_COMPAR2_ZD",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "112",
-          "name": "ZD_CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "120",
-          "name": "ZD_ATTXTR",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "130",
-          "name": "ZD_OBSXTR",
-          "extra": "ZD_SUM",
-          "status": "finished"
-        },
-        {
-          "id": "131",
-          "name": "ZD_OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "132",
-          "name": "ZD_AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "133",
-          "name": "ZD_GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "134",
-          "name": "ZD_CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "170",
-          "name": "ZD_SAVE_RES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "171",
-          "name": "ZD_DEL_RES_1D",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 85
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261040",
@@ -11241,16 +11156,16 @@
           "id": "171",
           "name": "ZD_DEL_RES_1D",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "999",
           "name": "ZD_STATUS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         }
       ],
-      "progress": 85
+      "progress": 92
     },
     {
       "session_id": "261090",
@@ -11436,94 +11351,9 @@
     },
     {
       "session_id": "261110",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_STDPRE",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "110",
-          "name": "ZD_STDDIF",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "111",
-          "name": "ZD_COMPAR2_ZD",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "112",
-          "name": "ZD_CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "120",
-          "name": "ZD_ATTXTR",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "130",
-          "name": "ZD_OBSXTR",
-          "extra": "ZD_SUM",
-          "status": "finished"
-        },
-        {
-          "id": "131",
-          "name": "ZD_OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "132",
-          "name": "ZD_AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "133",
-          "name": "ZD_GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "134",
-          "name": "ZD_CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "170",
-          "name": "ZD_SAVE_RES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "171",
-          "name": "ZD_DEL_RES_1D",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 85
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261120",
@@ -12643,185 +12473,15 @@
     },
     {
       "session_id": "261280",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_STDPRE",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "110",
-          "name": "ZD_STDDIF",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "111",
-          "name": "ZD_COMPAR2_ZD",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "112",
-          "name": "ZD_CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "120",
-          "name": "ZD_ATTXTR",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "130",
-          "name": "ZD_OBSXTR",
-          "extra": "ZD_SUM",
-          "status": "finished"
-        },
-        {
-          "id": "131",
-          "name": "ZD_OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "132",
-          "name": "ZD_AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "133",
-          "name": "ZD_GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "134",
-          "name": "ZD_CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "170",
-          "name": "ZD_SAVE_RES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "171",
-          "name": "ZD_DEL_RES_1D",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 85
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261290",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_STDPRE",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "110",
-          "name": "ZD_STDDIF",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "111",
-          "name": "ZD_COMPAR2_ZD",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "112",
-          "name": "ZD_CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "120",
-          "name": "ZD_ATTXTR",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "130",
-          "name": "ZD_OBSXTR",
-          "extra": "ZD_SUM",
-          "status": "finished"
-        },
-        {
-          "id": "131",
-          "name": "ZD_OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "132",
-          "name": "ZD_AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "133",
-          "name": "ZD_GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "134",
-          "name": "ZD_CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "170",
-          "name": "ZD_SAVE_RES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "171",
-          "name": "ZD_DEL_RES_1D",
-          "extra": "NO_OPT",
-          "status": "running"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 85
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261300",
@@ -15481,16 +15141,16 @@
           "id": "171",
           "name": "ZD_DEL_RES_1D",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "999",
           "name": "ZD_STATUS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         }
       ],
-      "progress": 85
+      "progress": 92
     },
     {
       "session_id": "261640",
@@ -15572,16 +15232,16 @@
           "id": "171",
           "name": "ZD_DEL_RES_1D",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "999",
           "name": "ZD_STATUS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         }
       ],
-      "progress": 85
+      "progress": 92
     },
     {
       "session_id": "261650",
@@ -16494,16 +16154,16 @@
           "id": "171",
           "name": "ZD_DEL_RES_1D",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "999",
           "name": "ZD_STATUS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         }
       ],
-      "progress": 85
+      "progress": 92
     },
     {
       "session_id": "261770",
@@ -16780,94 +16440,9 @@
     },
     {
       "session_id": "261800",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "001",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "100",
-          "name": "ZD_STDPRE",
-          "extra": "ZD_1DS",
-          "status": "finished"
-        },
-        {
-          "id": "110",
-          "name": "ZD_STDDIF",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "111",
-          "name": "ZD_COMPAR2_ZD",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "112",
-          "name": "ZD_CMP_LAPACK",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "120",
-          "name": "ZD_ATTXTR",
-          "extra": "ZD_FIN",
-          "status": "finished"
-        },
-        {
-          "id": "130",
-          "name": "ZD_OBSXTR",
-          "extra": "ZD_SUM",
-          "status": "finished"
-        },
-        {
-          "id": "131",
-          "name": "ZD_OBSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "132",
-          "name": "ZD_AMB_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "133",
-          "name": "ZD_GPSXTR_EXTRACT",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "134",
-          "name": "ZD_CHECK_SAT_CLOCKS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "170",
-          "name": "ZD_SAVE_RES",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "171",
-          "name": "ZD_DEL_RES_1D",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "999",
-          "name": "ZD_STATUS",
-          "extra": "NO_OPT",
-          "status": "running"
-        }
-      ],
-      "progress": 92
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     },
     {
       "session_id": "261810",
