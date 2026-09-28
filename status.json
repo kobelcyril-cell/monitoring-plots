@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T19:02:02.834381",
+  "updated": "2026-09-28T19:03:02.109562",
   "1 day solution": [
     {
       "session_id": "262670",
@@ -351,19 +351,19 @@
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "081",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 42
     }
   ],
   "3 day solution": [
@@ -1380,25 +1380,25 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "116",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "117",
@@ -1719,7 +1719,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 61
     }
   ]
 }
