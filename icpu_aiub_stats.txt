@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-01 02:00:14
+Timestamp: 2026-10-01 03:00:21
 ================================================================================
 
-TOTAL RUNNING: 27
-TOTAL PENDING: 0
+TOTAL RUNNING: 13
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING: 26   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  9   PENDING:  2
+Daniel       (l_hpfaiu  )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -156,8 +157,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 23.91
-Ø PENDING: 0.88
+Ø RUNNING: 23.65
+Ø PENDING: 0.87
 MAX RUNNING: 219.00
 MAX PENDING: 72.00
 
@@ -244,6 +245,7 @@ RUNNING history:
 01.10 00h | █████ (30.0)
 01.10 01h | ████ (24.0)
 01.10 02h | ████ (26.0)
+01.10 03h |  (2.0)
 
 PENDING history:
 24.09 19h |  (0.0)
@@ -328,6 +330,7 @@ PENDING history:
 01.10 00h |  (0.0)
 01.10 01h |  (0.0)
 01.10 02h |  (0.0)
+01.10 03h |  (0.0)
 
 
 Code (l_code)
@@ -492,13 +495,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 17.33
-Ø PENDING: 0.27
+Ø RUNNING: 17.44
+Ø PENDING: 0.30
 MAX RUNNING: 138.00
 MAX PENDING: 5.00
 
 RUNNING history:
-24.09 03h |  (2.0)
 24.09 08h | ███████ (25.0)
 24.09 09h |  (3.0)
 24.09 11h | █ (4.0)
@@ -561,9 +563,9 @@ RUNNING history:
 30.09 18h |  (3.0)
 30.09 21h |  (1.0)
 01.10 00h |  (1.0)
+01.10 03h | ██ (9.0)
 
 PENDING history:
-24.09 03h |  (0.0)
 24.09 08h |  (0.0)
 24.09 09h |  (0.0)
 24.09 11h |  (0.0)
@@ -626,6 +628,7 @@ PENDING history:
 30.09 18h |  (0.0)
 30.09 21h |  (0.0)
 01.10 00h |  (0.0)
+01.10 03h | ████████████████ (2.0)
 
 
 Code (SLR) (l_code_s)
@@ -762,28 +765,28 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.71
+Ø RUNNING: 2.57
 Ø PENDING: 0.00
 MAX RUNNING: 5.00
 MAX PENDING: 0.00
 
 RUNNING history:
-24.09 03h | ████████████████████████ (3.0)
 25.09 03h | ████████████████ (2.0)
 26.09 03h | ████████ (1.0)
 27.09 03h | ████████████████ (2.0)
 28.09 03h | ████████████████████████ (3.0)
 29.09 03h | ████████████████████████ (3.0)
 30.09 03h | ████████████████████████████████████████ (5.0)
+01.10 03h | ████████████████ (2.0)
 
 PENDING history:
-24.09 03h |  (0.0)
 25.09 03h |  (0.0)
 26.09 03h |  (0.0)
 27.09 03h |  (0.0)
 28.09 03h |  (0.0)
 29.09 03h |  (0.0)
 30.09 03h |  (0.0)
+01.10 03h |  (0.0)
 
 
 lm20l063 (lm20l063)
