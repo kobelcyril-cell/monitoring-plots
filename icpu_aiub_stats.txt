@@ -1,13 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-02 02:00:14
+Timestamp: 2026-10-02 03:00:38
 ================================================================================
 
-TOTAL RUNNING: 9
+TOTAL RUNNING: 120
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  9   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 119   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -379,7 +380,7 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 58.39
+Ø RUNNING: 59.95
 Ø PENDING: 0.21
 MAX RUNNING: 301.00
 MAX PENDING: 4.00
@@ -423,6 +424,7 @@ RUNNING history:
 01.10 21h |  (1.0)
 02.10 00h | ████████████████████████ (185.0)
 02.10 01h | █████ (44.0)
+02.10 03h | ███████████████ (119.0)
 
 PENDING history:
 25.09 08h |  (0.0)
@@ -463,6 +465,7 @@ PENDING history:
 01.10 21h |  (0.0)
 02.10 00h | ████████████████████ (2.0)
 02.10 01h |  (0.0)
+02.10 03h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -519,8 +522,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 26.22
-Ø PENDING: 0.35
+Ø RUNNING: 25.80
+Ø PENDING: 0.34
 MAX RUNNING: 152.00
 MAX PENDING: 5.00
 
@@ -585,6 +588,7 @@ RUNNING history:
 01.10 18h | █ (6.0)
 01.10 21h | ████████████ (47.0)
 02.10 00h | ██████████████████████ (87.0)
+02.10 03h |  (1.0)
 
 PENDING history:
 25.09 08h |  (0.0)
@@ -647,6 +651,7 @@ PENDING history:
 01.10 18h |  (0.0)
 01.10 21h |  (0.0)
 02.10 00h | ████████ (1.0)
+02.10 03h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -777,13 +782,12 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.57
+Ø RUNNING: 2.67
 Ø PENDING: 0.00
 MAX RUNNING: 5.00
 MAX PENDING: 0.00
 
 RUNNING history:
-25.09 03h | ████████████████ (2.0)
 26.09 03h | ████████ (1.0)
 27.09 03h | ████████████████ (2.0)
 28.09 03h | ████████████████████████ (3.0)
@@ -792,7 +796,6 @@ RUNNING history:
 01.10 03h | ████████████████ (2.0)
 
 PENDING history:
-25.09 03h |  (0.0)
 26.09 03h |  (0.0)
 27.09 03h |  (0.0)
 28.09 03h |  (0.0)
