@@ -1,16 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-03 00:00:10
+Timestamp: 2026-10-03 01:00:10
 ================================================================================
 
-TOTAL RUNNING: 11
-TOTAL PENDING: 0
+TOTAL RUNNING: 6
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  7   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  2   PENDING:  1
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -166,13 +164,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.83
+Ø RUNNING: 22.85
 Ø PENDING: 0.81
 MAX RUNNING: 219.00
 MAX PENDING: 72.00
 
 RUNNING history:
-26.09 00h |  (2.0)
 26.09 01h |  (1.0)
 26.09 19h |  (4.0)
 26.09 20h |  (1.0)
@@ -261,9 +258,9 @@ RUNNING history:
 02.10 22h |  (1.0)
 02.10 23h |  (1.0)
 03.10 00h |  (2.0)
+03.10 01h |  (4.0)
 
 PENDING history:
-26.09 00h |  (0.0)
 26.09 01h |  (0.0)
 26.09 19h |  (0.0)
 26.09 20h |  (0.0)
@@ -352,6 +349,7 @@ PENDING history:
 02.10 22h |  (0.0)
 02.10 23h |  (0.0)
 03.10 00h |  (0.0)
+03.10 01h |  (0.0)
 
 
 Code (l_code)
@@ -516,13 +514,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 26.26
-Ø PENDING: 0.36
+Ø RUNNING: 26.07
+Ø PENDING: 0.30
 MAX RUNNING: 152.00
 MAX PENDING: 5.00
 
 RUNNING history:
-26.09 00h | ██████████ (38.0)
 26.09 03h | ██ (9.0)
 26.09 08h |  (1.0)
 26.09 09h | ██████████████████████ (84.0)
@@ -585,7 +582,6 @@ RUNNING history:
 03.10 00h |  (1.0)
 
 PENDING history:
-26.09 00h | ████████████████████████████████ (4.0)
 26.09 03h |  (0.0)
 26.09 08h |  (0.0)
 26.09 09h | ████████ (1.0)
@@ -650,10 +646,10 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.81
-Ø PENDING: 0.00
+Ø RUNNING: 2.79
+Ø PENDING: 0.03
 MAX RUNNING: 18.00
-MAX PENDING: 0.00
+MAX PENDING: 1.00
 
 RUNNING history:
 26.09 01h | ████ (2.0)
@@ -688,6 +684,7 @@ RUNNING history:
 02.10 19h | ██ (1.0)
 02.10 20h | ██ (1.0)
 03.10 00h | ███████████████ (7.0)
+03.10 01h | ████ (2.0)
 
 PENDING history:
 26.09 01h |  (0.0)
@@ -722,6 +719,7 @@ PENDING history:
 02.10 19h |  (0.0)
 02.10 20h |  (0.0)
 03.10 00h |  (0.0)
+03.10 01h | ████████████████████████████████████████ (1.0)
 
 
 ggsp (l_ggsp)
