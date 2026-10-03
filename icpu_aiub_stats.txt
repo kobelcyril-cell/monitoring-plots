@@ -1,13 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-03 08:00:12
+Timestamp: 2026-10-03 09:00:13
 ================================================================================
 
-TOTAL RUNNING: 149
-TOTAL PENDING: 1
+TOTAL RUNNING: 12
+TOTAL PENDING: 2
 
 Per User:
 --------------------------------------------------------------------------------
-Code (rapid) (l_code_r  )  RUNNING: 149   PENDING:  1
+Code (rapid) (l_code_r  )  RUNNING:  6   PENDING:  2
+ggsp         (l_ggsp    )  RUNNING:  6   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -513,14 +514,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 28.08
-Ø PENDING: 0.31
+Ø RUNNING: 27.23
+Ø PENDING: 0.33
 MAX RUNNING: 152.00
 MAX PENDING: 5.00
 
 RUNNING history:
-26.09 08h |  (1.0)
-26.09 09h | ██████████████████████ (84.0)
 26.09 15h | █████████████████████ (80.0)
 26.09 16h |  (1.0)
 26.09 18h | ██ (10.0)
@@ -580,10 +579,9 @@ RUNNING history:
 03.10 00h |  (1.0)
 03.10 03h | ██ (9.0)
 03.10 08h | ███████████████████████████████████████ (149.0)
+03.10 09h | █ (6.0)
 
 PENDING history:
-26.09 08h |  (0.0)
-26.09 09h | ████████ (1.0)
 26.09 15h |  (0.0)
 26.09 16h |  (0.0)
 26.09 18h |  (0.0)
@@ -643,6 +641,7 @@ PENDING history:
 03.10 00h |  (0.0)
 03.10 03h |  (0.0)
 03.10 08h | ████████ (1.0)
+03.10 09h | ████████████████ (2.0)
 
 
 Code (SLR) (l_code_s)
@@ -723,13 +722,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 18.00
+Ø RUNNING: 18.24
 Ø PENDING: 0.05
 MAX RUNNING: 118.00
 MAX PENDING: 1.00
 
 RUNNING history:
-26.09 09h |  (1.0)
 26.09 10h | █ (3.0)
 27.09 09h |  (2.0)
 27.09 10h | █ (3.0)
@@ -750,9 +748,9 @@ RUNNING history:
 01.10 10h |  (2.0)
 02.10 09h | ███ (11.0)
 02.10 10h |  (2.0)
+03.10 09h | ██ (6.0)
 
 PENDING history:
-26.09 09h |  (0.0)
 26.09 10h |  (0.0)
 27.09 09h |  (0.0)
 27.09 10h |  (0.0)
@@ -773,6 +771,7 @@ PENDING history:
 01.10 10h |  (0.0)
 02.10 09h |  (0.0)
 02.10 10h |  (0.0)
+03.10 09h |  (0.0)
 
 
 Daniel (l_hpfaiu)
