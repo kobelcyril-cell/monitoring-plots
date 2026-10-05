@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T10:16:03.511922",
+  "updated": "2026-10-05T10:17:03.279167",
   "1 day solution": [
     {
       "session_id": "262730",
@@ -1230,19 +1230,19 @@
           "id": "181",
           "name": "TIMCLK",
           "extra": "FCLK_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "182",
           "name": "CCRNXC",
           "extra": "FCLK_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "081",
@@ -1725,7 +1725,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 40
+      "progress": 42
     },
     {
       "session_id": "262440",
@@ -2137,19 +2137,19 @@
           "id": "088",
           "name": "ORBGENZD",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "090",
           "name": "TIMESTAP",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "092",
@@ -2572,7 +2572,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 47
+      "progress": 49
     },
     {
       "session_id": "262450",
@@ -2894,19 +2894,19 @@
           "id": "072",
           "name": "ADDNEQ2",
           "extra": "FZDM_SB2",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "073",
           "name": "TIMNEQAP",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "074",
           "name": "TIMNEQ",
           "extra": "FZDM_SB3",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "075",
@@ -3419,7 +3419,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 37
+      "progress": 38
     },
     {
       "session_id": "262460",
@@ -6396,13 +6396,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "095",
@@ -6807,7 +6807,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 51
+      "progress": 50
     }
   ]
 }
