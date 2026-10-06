@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T14:06:02.365271",
+  "updated": "2026-10-06T14:07:05.044789",
   "1 day solution": [
     {
       "session_id": "262740",
@@ -812,31 +812,31 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "114",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "115",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "116",
           "name": "SOLCLKAP",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "117",
           "name": "SOLCLK_P",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "119",
@@ -1151,7 +1151,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 62
     },
     {
       "session_id": "262440",
@@ -2688,7 +2688,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
@@ -2847,7 +2847,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 81
     },
     {
       "session_id": "262460",
@@ -5229,25 +5229,25 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "156",
           "name": "PRECLK",
           "extra": "FZDM_1DS",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "157",
@@ -5388,7 +5388,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 80
+      "progress": 82
     }
   ],
   "Repro ZDGNSS": [
@@ -5898,7 +5898,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "114",
@@ -6237,7 +6237,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 59
+      "progress": 60
     }
   ]
 }
