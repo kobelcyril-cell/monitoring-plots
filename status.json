@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T12:10:01.701350",
+  "updated": "2026-10-06T12:11:03.917645",
   "1 day solution": [
     {
       "session_id": "262740",
@@ -5229,7 +5229,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
@@ -5388,7 +5388,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ],
   "Repro ZDGNSS": [
@@ -5826,13 +5826,13 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "095",
@@ -6237,7 +6237,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 51
+      "progress": 50
     }
   ]
 }
