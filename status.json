@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T11:38:03.297909",
+  "updated": "2026-10-06T11:39:02.031326",
   "1 day solution": [
     {
       "session_id": "262740",
@@ -5229,19 +5229,19 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "156",
@@ -5388,7 +5388,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 82
+      "progress": 80
     }
   ],
   "Repro ZDGNSS": [
@@ -5772,19 +5772,19 @@
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "084",
           "name": "MPRXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "086",
@@ -6237,7 +6237,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 44
+      "progress": 45
     }
   ]
 }
