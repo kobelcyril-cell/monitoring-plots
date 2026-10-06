@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T19:36:01.855659",
+  "updated": "2026-10-06T19:37:02.739152",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -465,31 +465,31 @@
           "id": "098",
           "name": "SOSUPDAT",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "099",
           "name": "CCRNXC",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "100",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "110",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "111",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "112",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 54
+      "progress": 57
     }
   ],
   "3 day solution": [
@@ -1947,19 +1947,19 @@
           "id": "165",
           "name": "OBSXTR",
           "extra": "FZDM_SUM",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "166",
           "name": "OBSXTR_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "167",
           "name": "AMB_EXTRACT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "168",
@@ -1977,7 +1977,7 @@
           "id": "170",
           "name": "SAVERES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "171",
@@ -1992,7 +1992,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 95
+      "progress": 97
     },
     {
       "session_id": "262440",
@@ -3579,13 +3579,13 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "991",
@@ -3714,7 +3714,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 84
+      "progress": 83
     }
   ]
 }
