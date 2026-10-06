@@ -1,17 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-07 00:00:08
+Timestamp: 2026-10-07 01:00:11
 ================================================================================
 
-TOTAL RUNNING: 117
-TOTAL PENDING: 2
+TOTAL RUNNING: 69
+TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Alexandra    (am25w016  )  RUNNING:  1   PENDING:  0
-Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
-Code (final) (l_code_f  )  RUNNING: 20   PENDING:  1
-Code (rapid) (l_code_r  )  RUNNING: 87   PENDING:  1
-Code (SLR)   (l_code_s  )  RUNNING:  7   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 61   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -85,7 +84,7 @@ PENDING history:
 
 Alexandra (am25w016)
 --------------------------------------------------------------------------------
-Ø RUNNING: 13.82
+Ø RUNNING: 13.11
 Ø PENDING: 0.06
 MAX RUNNING: 45.00
 MAX PENDING: 1.00
@@ -108,6 +107,7 @@ RUNNING history:
 06.10 22h | █ (2.0)
 06.10 23h |  (1.0)
 07.10 00h |  (1.0)
+07.10 01h |  (1.0)
 
 PENDING history:
 01.10 18h |  (0.0)
@@ -127,17 +127,17 @@ PENDING history:
 06.10 22h |  (0.0)
 06.10 23h |  (0.0)
 07.10 00h |  (0.0)
+07.10 01h |  (0.0)
 
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 22.63
+Ø RUNNING: 22.40
 Ø PENDING: 0.01
 MAX RUNNING: 133.00
 MAX PENDING: 1.00
 
 RUNNING history:
-30.09 00h | ███████ (24.0)
 30.09 01h |  (2.0)
 30.09 02h |  (2.0)
 30.09 03h | █ (4.0)
@@ -224,9 +224,9 @@ RUNNING history:
 06.10 22h | ██ (8.0)
 06.10 23h |  (1.0)
 07.10 00h |  (2.0)
+07.10 01h | █ (4.0)
 
 PENDING history:
-30.09 00h |  (0.0)
 30.09 01h |  (0.0)
 30.09 02h |  (0.0)
 30.09 03h |  (0.0)
@@ -313,6 +313,7 @@ PENDING history:
 06.10 22h |  (0.0)
 06.10 23h |  (0.0)
 07.10 00h |  (0.0)
+07.10 01h |  (0.0)
 
 
 Code (l_code)
@@ -331,13 +332,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 67.74
+Ø RUNNING: 69.12
 Ø PENDING: 0.33
 MAX RUNNING: 299.00
 MAX PENDING: 4.00
 
 RUNNING history:
-30.09 00h |  (3.0)
 30.09 01h | ██ (17.0)
 30.09 03h | ███████████ (85.0)
 30.09 19h | ██████████ (77.0)
@@ -379,9 +379,9 @@ RUNNING history:
 06.10 21h | ██ (18.0)
 06.10 23h |  (1.0)
 07.10 00h | ██ (20.0)
+07.10 01h | ████████ (61.0)
 
 PENDING history:
-30.09 00h |  (0.0)
 30.09 01h |  (0.0)
 30.09 03h | ██████████ (1.0)
 30.09 19h |  (0.0)
@@ -423,6 +423,7 @@ PENDING history:
 06.10 21h |  (0.0)
 06.10 23h |  (0.0)
 07.10 00h | ██████████ (1.0)
+07.10 01h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -473,13 +474,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 29.89
-Ø PENDING: 0.36
+Ø RUNNING: 30.35
+Ø PENDING: 0.37
 MAX RUNNING: 152.00
 MAX PENDING: 4.00
 
 RUNNING history:
-30.09 00h |  (1.0)
 30.09 03h |  (2.0)
 30.09 08h | ███████████████████████████████████ (134.0)
 30.09 09h |  (3.0)
@@ -545,7 +545,6 @@ RUNNING history:
 07.10 00h | ██████████████████████ (87.0)
 
 PENDING history:
-30.09 00h |  (0.0)
 30.09 03h |  (0.0)
 30.09 08h | ██████████ (1.0)
 30.09 09h |  (0.0)
@@ -613,13 +612,12 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 3.21
+Ø RUNNING: 3.27
 Ø PENDING: 0.03
 MAX RUNNING: 18.00
 MAX PENDING: 1.00
 
 RUNNING history:
-30.09 00h | ██ (1.0)
 30.09 01h | █████████████████ (8.0)
 30.09 18h | ██ (1.0)
 30.09 19h | ██ (1.0)
@@ -652,9 +650,9 @@ RUNNING history:
 06.10 18h | ██ (1.0)
 06.10 19h | ██ (1.0)
 07.10 00h | ███████████████ (7.0)
+07.10 01h | ██████ (3.0)
 
 PENDING history:
-30.09 00h |  (0.0)
 30.09 01h |  (0.0)
 30.09 18h |  (0.0)
 30.09 19h |  (0.0)
@@ -687,6 +685,7 @@ PENDING history:
 06.10 18h |  (0.0)
 06.10 19h |  (0.0)
 07.10 00h |  (0.0)
+07.10 01h |  (0.0)
 
 
 ggsp (l_ggsp)
