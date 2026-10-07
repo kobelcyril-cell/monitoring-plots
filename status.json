@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T11:20:02.488588",
+  "updated": "2026-10-07T11:21:02.530684",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -2250,19 +2250,19 @@
           "id": "091",
           "name": "TIMEST_P",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "092",
           "name": "GPSXTR",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "094",
@@ -2673,7 +2673,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 49
+      "progress": 50
     }
   ],
   "Repro 4 ZDGNSS": [
@@ -3057,25 +3057,25 @@
           "id": "083",
           "name": "MAUPRP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "084",
           "name": "MPRXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "087",
@@ -3522,7 +3522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 44
+      "progress": 46
     },
     {
       "session_id": "262510",
@@ -4763,13 +4763,13 @@
           "id": "085",
           "name": "TIMORBAP",
           "extra": "FZDM_ORP",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "086",
           "name": "TIMORB_P",
           "extra": "FZDM_ORP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "087",
@@ -5216,7 +5216,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 45
+      "progress": 46
     },
     {
       "session_id": "262530",
@@ -5580,13 +5580,13 @@
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "082",
