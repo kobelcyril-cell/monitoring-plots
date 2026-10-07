@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:02:01.939248",
+  "updated": "2026-10-07T10:03:02.348039",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -1968,25 +1968,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -2673,7 +2673,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     }
   ],
   "Repro 4 ZDGNSS": [
@@ -2865,19 +2865,19 @@
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "030",
           "name": "TIMESTAP",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "032",
@@ -3522,7 +3522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 21
+      "progress": 22
     },
     {
       "session_id": "262510",
@@ -6223,7 +6223,7 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
@@ -6910,7 +6910,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 17
+      "progress": 18
     }
   ]
 }
