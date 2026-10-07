@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T19:57:01.437439",
+  "updated": "2026-10-07T19:58:02.574601",
   "1 day solution": [
     {
       "session_id": "262760",
@@ -435,19 +435,19 @@
           "id": "093",
           "name": "FZDM_CH2",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "094",
           "name": "RESRMSZD",
           "extra": "FZDM_EDT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "095",
           "name": "MRKOBSAP",
           "extra": "FZDM_EDT",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "096",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 52
+      "progress": 50
     }
   ],
   "3 day solution": [
@@ -5819,13 +5819,13 @@
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "155",
           "name": "ITEPRECL",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "156",
@@ -5972,7 +5972,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 82
     }
   ],
   "Repro 5 ZDGNSS": [
