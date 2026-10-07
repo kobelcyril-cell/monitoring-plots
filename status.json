@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:05:01.473488",
+  "updated": "2026-10-07T10:06:02.540405",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -2016,37 +2016,37 @@
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "030",
           "name": "TIMESTAP",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "031",
           "name": "TIMEST_C",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "032",
           "name": "GPSXTR",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "033",
           "name": "FZDM_CH1",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "040",
           "name": "FILESTAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "041",
@@ -2673,7 +2673,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 21
+      "progress": 25
     }
   ],
   "Repro 4 ZDGNSS": [
@@ -3682,19 +3682,19 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
           "name": "CODSPPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "024",
@@ -4369,7 +4369,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 17
+      "progress": 19
     },
     {
       "session_id": "262520",
@@ -5346,19 +5346,19 @@
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "017",
@@ -6063,7 +6063,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 14
+      "progress": 15
     },
     {
       "session_id": "262540",
