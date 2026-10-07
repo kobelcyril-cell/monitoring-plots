@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:15:02.589657",
+  "updated": "2026-10-07T10:16:02.134765",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -1209,25 +1209,25 @@
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "043",
           "name": "SATMON_P",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "TIMESTAP",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "051",
           "name": "TIMEST_O",
           "extra": "FZDM_ORC",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "052",
@@ -1824,7 +1824,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 26
+      "progress": 28
     }
   ],
   "Repro 3 ZDGNSS": [
@@ -3748,13 +3748,13 @@
           "id": "041",
           "name": "FILEST_P",
           "extra": "FZDM_MON",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "042",
           "name": "SATMONAP",
           "extra": "FZDM_MON",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "043",
@@ -4369,7 +4369,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 25
+      "progress": 26
     },
     {
       "session_id": "262520",
