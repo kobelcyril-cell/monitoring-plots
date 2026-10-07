@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T09:59:01.631563",
+  "updated": "2026-10-07T10:00:01.891315",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -1149,25 +1149,25 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -1824,7 +1824,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 19
+      "progress": 21
     }
   ],
   "Repro 3 ZDGNSS": [
@@ -2811,31 +2811,31 @@
           "id": "015",
           "name": "MANMRK",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -3522,7 +3522,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     },
     {
       "session_id": "262510",
@@ -4493,13 +4493,13 @@
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -5216,7 +5216,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 13
+      "progress": 14
     },
     {
       "session_id": "262530",
@@ -6187,13 +6187,13 @@
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "014",
           "name": "SATMRK",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "015",
@@ -6910,7 +6910,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 13
+      "progress": 14
     }
   ]
 }
