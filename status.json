@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:31:02.350706",
+  "updated": "2026-10-07T10:32:02.604367",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -816,7 +816,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
@@ -975,7 +975,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ],
   "Repro 2 ZDGNSS": [
@@ -2100,19 +2100,19 @@
           "id": "061",
           "name": "TIMEST_A",
           "extra": "FZDM_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "062",
           "name": "GPSXTR",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "063",
           "name": "FZDM_CH1",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "064",
@@ -2673,7 +2673,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 31
+      "progress": 32
     }
   ],
   "Repro 4 ZDGNSS": [
