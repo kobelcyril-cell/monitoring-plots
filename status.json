@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T10:54:02.608646",
+  "updated": "2026-10-07T10:55:02.659733",
   "1 day solution": [
     {
       "session_id": "262750",
@@ -816,7 +816,7 @@
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "154",
@@ -975,7 +975,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ],
   "Repro 2 ZDGNSS": [
@@ -1263,25 +1263,25 @@
           "id": "063",
           "name": "FZDM_CH1",
           "extra": "FZDM_COD",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "064",
           "name": "RESRMS",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "065",
           "name": "MRKOB_AP",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "066",
           "name": "MRKOB__P",
           "extra": "FZDM_COD",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "070",
@@ -1824,7 +1824,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 32
+      "progress": 35
     }
   ],
   "Repro 3 ZDGNSS": [
@@ -2190,13 +2190,13 @@
           "id": "080",
           "name": "MKCLUS",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "081",
           "name": "CLKESTCB",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "082",
@@ -6373,13 +6373,13 @@
           "id": "070",
           "name": "TIMESTAP",
           "extra": "FZDM_SB1",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "071",
           "name": "TIMEST_B",
           "extra": "FZDM_SB1",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "072",
@@ -6910,7 +6910,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 35
+      "progress": 36
     }
   ]
 }
