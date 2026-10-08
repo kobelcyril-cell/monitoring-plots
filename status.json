@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T14:25:04.507299",
+  "updated": "2026-10-08T14:26:05.199646",
   "1 day solution": [
     {
       "session_id": "262760",
@@ -1017,6 +1017,12 @@
     },
     {
       "session_id": "262440",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "262450",
       "status": "running",
       "tasks": [
         {
@@ -1029,43 +1035,43 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "012",
           "name": "ORBGEN",
           "extra": "ZD3D_3DS_o",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "013",
           "name": "CCRNXCZD",
           "extra": "ZD3D_3DS_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "014",
@@ -1092,13 +1098,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 58
-    },
-    {
-      "session_id": "262450",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 8
     },
     {
       "session_id": "262460",
