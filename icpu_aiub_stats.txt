@@ -1,16 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-08 10:00:10
+Timestamp: 2026-10-08 11:00:13
 ================================================================================
 
-TOTAL RUNNING: 14
+TOTAL RUNNING: 22
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING: 10   PENDING:  0
-Code         (l_code    )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING: 11   PENDING:  0
 l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  2   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING: 10   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -104,7 +103,7 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 23.48
+Ø RUNNING: 23.32
 Ø PENDING: 0.01
 MAX RUNNING: 197.00
 MAX PENDING: 1.00
@@ -189,6 +188,7 @@ RUNNING history:
 08.10 00h |  (2.0)
 08.10 01h |  (1.0)
 08.10 10h | ██ (10.0)
+08.10 11h | ██ (11.0)
 
 PENDING history:
 01.10 19h |  (0.0)
@@ -270,6 +270,7 @@ PENDING history:
 08.10 00h |  (0.0)
 08.10 01h |  (0.0)
 08.10 10h |  (0.0)
+08.10 11h |  (0.0)
 
 
 Code (l_code)
@@ -392,7 +393,7 @@ PENDING history:
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.90
+Ø RUNNING: 5.73
 Ø PENDING: 0.00
 MAX RUNNING: 54.00
 MAX PENDING: 0.00
@@ -427,6 +428,7 @@ RUNNING history:
 08.10 06h | █ (2.0)
 08.10 09h |  (1.0)
 08.10 10h |  (1.0)
+08.10 11h |  (1.0)
 
 PENDING history:
 01.10 21h |  (0.0)
@@ -458,6 +460,7 @@ PENDING history:
 08.10 06h |  (0.0)
 08.10 09h |  (0.0)
 08.10 10h |  (0.0)
+08.10 11h |  (0.0)
 
 
 Code (rapid) (l_code_r)
@@ -678,13 +681,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 11.10
+Ø RUNNING: 11.37
 Ø PENDING: 0.03
 MAX RUNNING: 101.00
 MAX PENDING: 1.00
 
 RUNNING history:
-01.10 10h |  (2.0)
 02.10 09h | ████ (11.0)
 02.10 10h |  (2.0)
 03.10 09h | ██ (6.0)
@@ -714,9 +716,9 @@ RUNNING history:
 07.10 10h |  (2.0)
 08.10 09h |  (2.0)
 08.10 10h |  (2.0)
+08.10 11h | ███ (10.0)
 
 PENDING history:
-01.10 10h |  (0.0)
 02.10 09h |  (0.0)
 02.10 10h |  (0.0)
 03.10 09h |  (0.0)
@@ -746,6 +748,7 @@ PENDING history:
 07.10 10h |  (0.0)
 08.10 09h |  (0.0)
 08.10 10h |  (0.0)
+08.10 11h |  (0.0)
 
 
 Daniel (l_hpfaiu)
