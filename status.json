@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T11:41:01.736991",
+  "updated": "2026-10-08T11:42:02.020018",
   "1 day solution": [
     {
       "session_id": "262760",
@@ -999,6 +999,12 @@
     },
     {
       "session_id": "262410",
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
+    },
+    {
+      "session_id": "262420",
       "status": "running",
       "tasks": [
         {
@@ -1011,31 +1017,31 @@
           "id": "001",
           "name": "ZD3D_COP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "002",
           "name": "COOVEL",
           "extra": "ZD3D_GEN_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "003",
           "name": "POLUPD",
           "extra": "ZD3D_GEN_o",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "010",
           "name": "SOLLONAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "011",
           "name": "SOLLON_P",
           "extra": "ZD3D_3DS_o",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "012",
@@ -1074,13 +1080,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 41
-    },
-    {
-      "session_id": "262420",
-      "status": "running",
-      "tasks": [],
-      "progress": 0
+      "progress": 8
     },
     {
       "session_id": "262430",
