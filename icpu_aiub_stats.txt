@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-09 22:00:09
+Timestamp: 2026-10-09 23:00:17
 ================================================================================
 
-TOTAL RUNNING: 5
+TOTAL RUNNING: 4
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
-l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  2   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -92,7 +93,6 @@ MAX RUNNING: 197.00
 MAX PENDING: 4.00
 
 RUNNING history:
-02.10 22h |  (1.0)
 02.10 23h |  (1.0)
 03.10 00h |  (2.0)
 03.10 01h |  (4.0)
@@ -185,9 +185,9 @@ RUNNING history:
 09.10 20h |  (1.0)
 09.10 21h |  (2.0)
 09.10 22h |  (4.0)
+09.10 23h |  (1.0)
 
 PENDING history:
-02.10 22h |  (0.0)
 02.10 23h |  (0.0)
 03.10 00h |  (0.0)
 03.10 01h |  (0.0)
@@ -280,6 +280,7 @@ PENDING history:
 09.10 20h |  (0.0)
 09.10 21h |  (0.0)
 09.10 22h |  (0.0)
+09.10 23h |  (0.0)
 
 
 Code (l_code)
@@ -314,7 +315,6 @@ MAX RUNNING: 307.00
 MAX PENDING: 4.00
 
 RUNNING history:
-02.10 22h |  (1.0)
 03.10 00h |  (1.0)
 03.10 04h |  (1.0)
 03.10 19h | ████████████████ (126.0)
@@ -375,9 +375,9 @@ RUNNING history:
 09.10 19h | ████████████ (93.0)
 09.10 20h |  (1.0)
 09.10 21h | █ (14.0)
+09.10 23h |  (1.0)
 
 PENDING history:
-02.10 22h |  (0.0)
 03.10 00h |  (0.0)
 03.10 04h |  (0.0)
 03.10 19h | ██████████ (1.0)
@@ -438,17 +438,17 @@ PENDING history:
 09.10 19h |  (0.0)
 09.10 20h |  (0.0)
 09.10 21h |  (0.0)
+09.10 23h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 5.31
+Ø RUNNING: 5.34
 Ø PENDING: 0.00
 MAX RUNNING: 54.00
 MAX PENDING: 0.00
 
 RUNNING history:
-02.10 22h |  (1.0)
 02.10 23h | ██ (3.0)
 03.10 21h | ██ (4.0)
 03.10 22h |  (1.0)
@@ -480,9 +480,9 @@ RUNNING history:
 08.10 23h |  (1.0)
 09.10 21h | ██ (4.0)
 09.10 22h |  (1.0)
+09.10 23h | █ (2.0)
 
 PENDING history:
-02.10 22h |  (0.0)
 02.10 23h |  (0.0)
 03.10 21h |  (0.0)
 03.10 22h |  (0.0)
@@ -514,6 +514,7 @@ PENDING history:
 08.10 23h |  (0.0)
 09.10 21h |  (0.0)
 09.10 22h |  (0.0)
+09.10 23h |  (0.0)
 
 
 Code (rapid) (l_code_r)
