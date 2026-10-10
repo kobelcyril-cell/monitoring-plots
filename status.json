@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T10:55:02.276872",
+  "updated": "2026-10-10T10:56:01.877314",
   "1 day solution": [
     {
       "session_id": "262780",
@@ -270,25 +270,25 @@
           "id": "016",
           "name": "MKCLUS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "017",
           "name": "CHECK_VAPL_ENTRIES",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "020",
           "name": "INIT_HOI",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "022",
@@ -975,7 +975,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 15
+      "progress": 17
     },
     {
       "session_id": "262350",
@@ -1147,31 +1147,31 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "030",
           "name": "TIMESTAP",
           "extra": "FZDM_WGT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "031",
@@ -1822,7 +1822,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 19
+      "progress": 22
     },
     {
       "session_id": "262360",
@@ -1994,25 +1994,25 @@
           "id": "023",
           "name": "CODSPP_P",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "024",
           "name": "CODXTR",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "996",
           "name": "DEL_LOBS",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "025",
           "name": "CCRNXC",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "030",
@@ -2669,7 +2669,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 19
+      "progress": 21
     }
   ],
   "Repro 3 day solution": [
