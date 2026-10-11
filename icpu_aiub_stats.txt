@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-12 00:00:19
+Timestamp: 2026-10-12 01:00:12
 ================================================================================
 
-TOTAL RUNNING: 34
-TOTAL PENDING: 0
+TOTAL RUNNING: 255
+TOTAL PENDING: 3
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING: 23   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  7   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 252   PENDING:  3
+Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -319,8 +318,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 80.82
-Ø PENDING: 0.44
+Ø RUNNING: 83.58
+Ø PENDING: 0.48
 MAX RUNNING: 316.00
 MAX PENDING: 4.00
 
@@ -386,6 +385,7 @@ RUNNING history:
 11.10 19h |  (7.0)
 11.10 21h |  (1.0)
 11.10 23h |  (1.0)
+12.10 01h | ███████████████████████████████ (252.0)
 
 PENDING history:
 05.10 01h |  (0.0)
@@ -449,6 +449,7 @@ PENDING history:
 11.10 19h |  (0.0)
 11.10 21h |  (0.0)
 11.10 23h |  (0.0)
+12.10 01h | ██████████████████████████████ (3.0)
 
 
 l_code_m (l_code_m)
@@ -669,7 +670,7 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 2.66
+Ø RUNNING: 2.67
 Ø PENDING: 0.00
 MAX RUNNING: 9.00
 MAX PENDING: 0.00
@@ -707,6 +708,7 @@ RUNNING history:
 11.10 18h | ████ (1.0)
 11.10 19h | ████ (1.0)
 12.10 00h | ███████████████████████████████ (7.0)
+12.10 01h | █████████████ (3.0)
 
 PENDING history:
 05.10 01h |  (0.0)
@@ -741,6 +743,7 @@ PENDING history:
 11.10 18h |  (0.0)
 11.10 19h |  (0.0)
 12.10 00h |  (0.0)
+12.10 01h |  (0.0)
 
 
 ggsp (l_ggsp)
