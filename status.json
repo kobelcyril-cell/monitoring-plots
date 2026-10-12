@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T21:23:03.467755",
+  "updated": "2026-10-12T21:24:03.092961",
   "1 day solution": [
     {
       "session_id": "262810",
@@ -1380,7 +1380,7 @@
           "id": "995",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "114",
@@ -3152,19 +3152,19 @@
           "id": "135",
           "name": "FILEST_P",
           "extra": "IAR_WLI",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "136",
           "name": "FILESTAP",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "137",
           "name": "FILEST_P",
           "extra": "IAR_NLB",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "138",
@@ -3413,7 +3413,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 68
+      "progress": 70
     }
   ],
   "Repro 3 day solution": [
