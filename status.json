@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T18:11:03.246773",
+  "updated": "2026-10-12T18:12:03.144080",
   "1 day solution": [
     {
       "session_id": "262810",
@@ -117,13 +117,13 @@
           "id": "913",
           "name": "CHECK_SAT_GAPS",
           "extra": "FZDM_RNX",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "914",
           "name": "CHECK_SAT_RMS",
           "extra": "FZDM_RNX",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "014",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 12
+      "progress": 13
     }
   ],
   "3 day solution": [
@@ -1338,31 +1338,31 @@
           "id": "098",
           "name": "SOSUPDAT",
           "extra": "FZDM_GEN",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "099",
           "name": "CCRNXC",
           "extra": "FZDM_EDT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "100",
           "name": "FZDM_UPD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "110",
           "name": "TIMZDMAP",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "111",
           "name": "TIMZDM_P",
           "extra": "FZDM_1DP",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "112",
@@ -1719,7 +1719,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 54
+      "progress": 57
     },
     {
       "session_id": "262350",
