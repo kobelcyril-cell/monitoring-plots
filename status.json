@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T18:35:04.624248",
+  "updated": "2026-10-13T18:36:05.063914",
   "1 day solution": [
     {
       "session_id": "262820",
@@ -159,13 +159,13 @@
           "id": "021",
           "name": "INIT_VMF",
           "extra": "NO_OPT",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "022",
           "name": "CODSPPAP",
           "extra": "FZDM_GEN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "023",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 17
+      "progress": 18
     }
   ],
   "3 day solution": [
@@ -1251,25 +1251,25 @@
           "id": "031",
           "name": "CCRNXC",
           "extra": "FZDM_1H0",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "032",
           "name": "CCRNXC",
           "extra": "FZDM_1HN",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "040",
           "name": "SAVECLKDE",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "050",
           "name": "DEL_CLKD",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "999",
@@ -1278,7 +1278,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 68
+      "progress": 87
     }
   ]
 }
