@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T02:56:04.293743",
+  "updated": "2026-10-13T02:57:04.360926",
   "1 day solution": [
     {
       "session_id": "262810",
@@ -681,19 +681,19 @@
           "id": "153",
           "name": "PRECLKAP",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "running"
         },
         {
           "id": "993",
           "name": "WAIT_ZD",
           "extra": "NO_OPT",
-          "status": "finished"
+          "status": "waiting"
         },
         {
           "id": "154",
           "name": "PRECLK_P",
           "extra": "FZDM_1DS",
-          "status": "running"
+          "status": "waiting"
         },
         {
           "id": "155",
@@ -846,7 +846,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 81
+      "progress": 80
     }
   ],
   "3 day solution": [
@@ -2431,19 +2431,19 @@
           "id": "157",
           "name": "ADDNEQ2C",
           "extra": "FZDM_1DC",
-          "status": "running"
+          "status": "finished"
         },
         {
           "id": "158",
           "name": "FIX_CHK",
           "extra": "FZDM_1DC",
-          "status": "waiting"
+          "status": "finished"
         },
         {
           "id": "991",
           "name": "ADDNEQZM",
           "extra": "FZDM_FIN",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "989",
@@ -2455,7 +2455,7 @@
           "id": "994",
           "name": "WAIT",
           "extra": "NO_OPT",
-          "status": "waiting"
+          "status": "running"
         },
         {
           "id": "159",
@@ -2566,7 +2566,7 @@
           "status": "waiting"
         }
       ],
-      "progress": 83
+      "progress": 85
     },
     {
       "session_id": "262360",
