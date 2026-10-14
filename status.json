@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T16:21:03.604617",
+  "updated": "2026-10-14T16:22:03.402847",
   "1 day solution": [
     {
       "session_id": "262820",
@@ -132,82 +132,9 @@
   "Repro 3 day solution": [
     {
       "session_id": "262390",
-      "status": "running",
-      "tasks": [
-        {
-          "id": "555",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "001",
-          "name": "ZD3D_COP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "002",
-          "name": "COOVEL",
-          "extra": "ZD3D_GEN_o",
-          "status": "finished"
-        },
-        {
-          "id": "003",
-          "name": "POLUPD",
-          "extra": "ZD3D_GEN_o",
-          "status": "finished"
-        },
-        {
-          "id": "010",
-          "name": "SOLLONAP",
-          "extra": "NO_OPT",
-          "status": "finished"
-        },
-        {
-          "id": "011",
-          "name": "SOLLON_P",
-          "extra": "ZD3D_3DS_o",
-          "status": "running"
-        },
-        {
-          "id": "012",
-          "name": "ORBGEN",
-          "extra": "ZD3D_3DS_o",
-          "status": "waiting"
-        },
-        {
-          "id": "013",
-          "name": "CCRNXCZD",
-          "extra": "ZD3D_3DS_o",
-          "status": "waiting"
-        },
-        {
-          "id": "014",
-          "name": "STDPRE",
-          "extra": "ZD3D_3DS_o",
-          "status": "waiting"
-        },
-        {
-          "id": "020",
-          "name": "SAVERES3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "030",
-          "name": "DEL_ZD3D",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        },
-        {
-          "id": "999",
-          "name": "STATUS",
-          "extra": "NO_OPT",
-          "status": "waiting"
-        }
-      ],
-      "progress": 41
+      "status": "finished",
+      "tasks": [],
+      "progress": 100
     }
   ],
   "Repro Clock densification": [
