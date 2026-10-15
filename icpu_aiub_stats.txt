@@ -1,18 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-15 10:00:13
+Timestamp: 2026-10-15 11:00:12
 ================================================================================
 
-TOTAL RUNNING: 65
+TOTAL RUNNING: 138
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
 am19f021     (am19f021  )  RUNNING:  0   PENDING:  1
-Cyril        (ck18y530  )  RUNNING: 42   PENDING:  0
-Code         (l_code    )  RUNNING:  3   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  6   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
-Daniel       (l_hpfaiu  )  RUNNING: 11   PENDING:  0
+Daniel       (l_hpfaiu  )  RUNNING: 138   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -20,8 +16,8 @@ Weekly statistics (last 7 days, 1h mean values)
 
 am19f021 (am19f021)
 --------------------------------------------------------------------------------
-Ø RUNNING: 1.14
-Ø PENDING: 0.62
+Ø RUNNING: 1.09
+Ø PENDING: 0.64
 MAX RUNNING: 15.00
 MAX PENDING: 1.00
 
@@ -47,6 +43,7 @@ RUNNING history:
 15.10 08h |  (0.0)
 15.10 09h |  (0.0)
 15.10 10h |  (0.0)
+15.10 11h |  (0.0)
 
 PENDING history:
 09.10 12h |  (0.0)
@@ -70,6 +67,7 @@ PENDING history:
 15.10 08h | ████████████████████████████████████████ (1.0)
 15.10 09h | ████████████████████████████████████████ (1.0)
 15.10 10h | ████████████████████████████████████████ (1.0)
+15.10 11h | ████████████████████████████████████████ (1.0)
 
 
 Cyril (ck18y530)
@@ -746,18 +744,19 @@ PENDING history:
 
 Daniel (l_hpfaiu)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.83
-Ø PENDING: 39.50
-MAX RUNNING: 20.00
+Ø RUNNING: 25.57
+Ø PENDING: 33.86
+MAX RUNNING: 138.00
 MAX PENDING: 109.00
 
 RUNNING history:
-13.10 09h | ████████████████████████████████████████ (20.0)
+13.10 09h | █████ (20.0)
 13.10 10h |  (0.0)
-13.10 11h | ████████████ (6.0)
-14.10 03h | ████ (2.0)
-15.10 03h | ████ (2.0)
-15.10 10h | ██████████████████████ (11.0)
+13.10 11h | █ (6.0)
+14.10 03h |  (2.0)
+15.10 03h |  (2.0)
+15.10 10h | ███ (11.0)
+15.10 11h | ████████████████████████████████████████ (138.0)
 
 PENDING history:
 13.10 09h | ████████████████████████████████████████ (109.0)
@@ -766,6 +765,7 @@ PENDING history:
 14.10 03h |  (0.0)
 15.10 03h |  (0.0)
 15.10 10h |  (0.0)
+15.10 11h |  (0.0)
 
 
 Linda (lg19a108)
