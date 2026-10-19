@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-19 12:00:10
+Timestamp: 2026-10-19 13:00:14
 ================================================================================
 
-TOTAL RUNNING: 67
+TOTAL RUNNING: 125
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  6   PENDING:  0
-lm20l063     (lm20l063  )  RUNNING: 61   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING: 104   PENDING:  0
+ggsp         (l_ggsp    )  RUNNING:  1   PENDING:  0
+Linda        (lg19a108  )  RUNNING: 20   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -540,8 +541,8 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.19
-Ø PENDING: 0.65
+Ø RUNNING: 17.59
+Ø PENDING: 0.63
 MAX RUNNING: 126.00
 MAX PENDING: 24.00
 
@@ -608,6 +609,7 @@ RUNNING history:
 19.10 08h | █ (6.0)
 19.10 09h |  (1.0)
 19.10 10h |  (1.0)
+19.10 13h | █████████████████████████████████ (104.0)
 
 PENDING history:
 12.10 13h |  (0.0)
@@ -672,6 +674,7 @@ PENDING history:
 19.10 08h |  (0.0)
 19.10 09h |  (0.0)
 19.10 10h |  (0.0)
+19.10 13h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -752,8 +755,8 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 20.69
-Ø PENDING: 2.19
+Ø RUNNING: 19.96
+Ø PENDING: 2.11
 MAX RUNNING: 118.00
 MAX PENDING: 51.00
 
@@ -784,6 +787,7 @@ RUNNING history:
 18.10 10h |  (1.0)
 19.10 09h |  (1.0)
 19.10 11h | ███████ (22.0)
+19.10 13h |  (1.0)
 
 PENDING history:
 12.10 15h |  (0.0)
@@ -812,6 +816,7 @@ PENDING history:
 18.10 10h |  (0.0)
 19.10 09h |  (0.0)
 19.10 11h |  (0.0)
+19.10 13h |  (0.0)
 
 
 Daniel (l_hpfaiu)
@@ -850,16 +855,18 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 31.00
+Ø RUNNING: 25.50
 Ø PENDING: 0.00
 MAX RUNNING: 31.00
 MAX PENDING: 0.00
 
 RUNNING history:
 14.10 09h | ████████████████████████████████████████ (31.0)
+19.10 13h | █████████████████████████ (20.0)
 
 PENDING history:
 14.10 09h |  (0.0)
+19.10 13h |  (0.0)
 
 
 lm20l063 (lm20l063)
