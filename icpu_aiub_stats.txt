@@ -1,17 +1,17 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-21 18:00:15
+Timestamp: 2026-10-21 19:00:37
 ================================================================================
 
-TOTAL RUNNING: 279
-TOTAL PENDING: 3869
+TOTAL RUNNING: 280
+TOTAL PENDING: 1760
 
 Per User:
 --------------------------------------------------------------------------------
-Alexandra    (am25w016  )  RUNNING: 276   PENDING: 3868
-Cyril        (ck18y530  )  RUNNING:  0   PENDING:  1
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
-lm20l063     (lm20l063  )  RUNNING:  1   PENDING:  0
+Alexandra    (am25w016  )  RUNNING: 149   PENDING: 1635
+Cyril        (ck18y530  )  RUNNING:  1   PENDING:  3
+Code (final) (l_code_f  )  RUNNING: 128   PENDING:  0
+Code (SLR)   (l_code_s  )  RUNNING:  2   PENDING:  0
+Martin       (ml18j210  )  RUNNING:  0   PENDING: 122
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -157,8 +157,8 @@ PENDING history:
 
 Alexandra (am25w016)
 --------------------------------------------------------------------------------
-Ø RUNNING: 198.84
-Ø PENDING: 5342.44
+Ø RUNNING: 196.92
+Ø PENDING: 5199.85
 MAX RUNNING: 279.00
 MAX PENDING: 15155.00
 
@@ -188,6 +188,7 @@ RUNNING history:
 21.10 16h | ████████████████████████████████████████ (279.0)
 21.10 17h | ███████████████████████████████████████ (276.0)
 21.10 18h | ███████████████████████████████████████ (276.0)
+21.10 19h | █████████████████████ (149.0)
 
 PENDING history:
 16.10 09h |  (0.0)
@@ -215,12 +216,13 @@ PENDING history:
 21.10 16h | █ (612.0)
 21.10 17h |  (127.0)
 21.10 18h | ██████████ (3868.0)
+21.10 19h | ████ (1635.0)
 
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 6.68
-Ø PENDING: 4.68
+Ø RUNNING: 6.62
+Ø PENDING: 4.66
 MAX RUNNING: 71.00
 MAX PENDING: 134.00
 
@@ -321,6 +323,7 @@ RUNNING history:
 21.10 16h | █ (2.0)
 21.10 17h | █ (2.0)
 21.10 18h |  (0.0)
+21.10 19h |  (1.0)
 
 PENDING history:
 14.10 19h |  (0.0)
@@ -419,6 +422,7 @@ PENDING history:
 21.10 16h |  (0.0)
 21.10 17h |  (0.0)
 21.10 18h |  (1.0)
+21.10 19h |  (3.0)
 
 
 Code (l_code)
@@ -447,8 +451,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 68.55
-Ø PENDING: 0.47
+Ø RUNNING: 70.00
+Ø PENDING: 0.46
 MAX RUNNING: 319.00
 MAX PENDING: 12.00
 
@@ -493,6 +497,7 @@ RUNNING history:
 21.10 01h | █████████████████████████████████████ (300.0)
 21.10 03h | ██████████████ (119.0)
 21.10 04h | ████████████████████████ (199.0)
+21.10 19h | ████████████████ (128.0)
 
 PENDING history:
 14.10 19h |  (0.0)
@@ -535,6 +540,7 @@ PENDING history:
 21.10 01h |  (0.0)
 21.10 03h |  (0.0)
 21.10 04h | ███ (1.0)
+21.10 19h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -733,8 +739,8 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.11
-Ø PENDING: 0.37
+Ø RUNNING: 4.06
+Ø PENDING: 0.36
 MAX RUNNING: 22.00
 MAX PENDING: 11.00
 
@@ -774,6 +780,7 @@ RUNNING history:
 21.10 00h | ████████████ (7.0)
 21.10 01h | ████████████████ (9.0)
 21.10 18h | █ (1.0)
+21.10 19h | ███ (2.0)
 
 PENDING history:
 14.10 19h |  (0.0)
@@ -811,6 +818,7 @@ PENDING history:
 21.10 00h |  (0.0)
 21.10 01h |  (0.0)
 21.10 18h |  (0.0)
+21.10 19h |  (0.0)
 
 
 ggsp (l_ggsp)
@@ -999,8 +1007,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 64.13
-Ø PENDING: 68.10
+Ø RUNNING: 62.06
+Ø PENDING: 69.84
 MAX RUNNING: 228.00
 MAX PENDING: 524.00
 
@@ -1035,6 +1043,7 @@ RUNNING history:
 21.10 13h | ████████████████████████████████████ (207.0)
 21.10 14h | ████████████████████████████ (162.0)
 21.10 15h | ██████████████████████████████ (171.0)
+21.10 19h |  (0.0)
 
 PENDING history:
 16.10 17h | ████████████████ (218.0)
@@ -1067,5 +1076,6 @@ PENDING history:
 21.10 13h | ████████████████████████████████████████ (524.0)
 21.10 14h |  (0.0)
 21.10 15h |  (0.0)
+21.10 19h | █████████ (122.0)
 
 
