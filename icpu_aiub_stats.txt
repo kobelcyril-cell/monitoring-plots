@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-26 09:00:20
+Timestamp: 2026-10-26 10:00:09
 ================================================================================
 
-TOTAL RUNNING: 63
+TOTAL RUNNING: 221
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
-lm20l063     (lm20l063  )  RUNNING: 62   PENDING:  0
+Linda        (lg19a108  )  RUNNING: 219   PENDING:  0
+lm20l063     (lm20l063  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -668,8 +669,8 @@ PENDING history:
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 4.00
-Ø PENDING: 0.38
+Ø RUNNING: 3.91
+Ø PENDING: 0.36
 MAX RUNNING: 22.00
 MAX PENDING: 11.00
 
@@ -706,6 +707,7 @@ RUNNING history:
 26.10 00h | █ (1.0)
 26.10 01h | █ (1.0)
 26.10 09h | █ (1.0)
+26.10 10h | █ (1.0)
 
 PENDING history:
 19.10 18h | ███ (1.0)
@@ -740,6 +742,7 @@ PENDING history:
 26.10 00h |  (0.0)
 26.10 01h |  (0.0)
 26.10 09h |  (0.0)
+26.10 10h |  (0.0)
 
 
 ggsp (l_ggsp)
@@ -830,8 +833,8 @@ PENDING history:
 
 Linda (lg19a108)
 --------------------------------------------------------------------------------
-Ø RUNNING: 99.46
-Ø PENDING: 64.92
+Ø RUNNING: 108.00
+Ø PENDING: 60.29
 MAX RUNNING: 441.00
 MAX PENDING: 395.00
 
@@ -849,6 +852,7 @@ RUNNING history:
 23.10 16h |  (1.0)
 24.10 10h | ███████████ (123.0)
 24.10 11h | █████████████████████████████████████ (414.0)
+26.10 10h | ███████████████████ (219.0)
 
 PENDING history:
 19.10 13h |  (0.0)
@@ -864,12 +868,13 @@ PENDING history:
 23.10 16h |  (0.0)
 24.10 10h |  (0.0)
 24.10 11h |  (1.0)
+26.10 10h |  (0.0)
 
 
 lm20l063 (lm20l063)
 --------------------------------------------------------------------------------
-Ø RUNNING: 16.15
-Ø PENDING: 15.50
+Ø RUNNING: 15.43
+Ø PENDING: 14.76
 MAX RUNNING: 62.00
 MAX PENDING: 62.00
 
@@ -894,6 +899,7 @@ RUNNING history:
 21.10 17h |  (1.0)
 21.10 18h |  (1.0)
 26.10 09h | ████████████████████████████████████████ (62.0)
+26.10 10h |  (1.0)
 
 PENDING history:
 19.10 10h |  (0.0)
@@ -916,6 +922,7 @@ PENDING history:
 21.10 17h |  (0.0)
 21.10 18h |  (0.0)
 26.10 09h |  (0.0)
+26.10 10h |  (0.0)
 
 
 Martin (ml18j210)
