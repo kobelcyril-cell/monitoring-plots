@@ -1,16 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-10-30 09:00:10
+Timestamp: 2026-10-30 10:00:10
 ================================================================================
 
-TOTAL RUNNING: 20
+TOTAL RUNNING: 36
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
 Cyril        (ck18y530  )  RUNNING:  8   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  3   PENDING:  0
-Martin       (ml18j210  )  RUNNING:  8   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  3   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 25   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -110,8 +109,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 21.04
-Ø PENDING: 3.99
+Ø RUNNING: 20.90
+Ø PENDING: 3.95
 MAX RUNNING: 284.00
 MAX PENDING: 217.00
 
@@ -209,6 +208,7 @@ RUNNING history:
 30.10 07h | █ (8.0)
 30.10 08h | █ (8.0)
 30.10 09h | █ (8.0)
+30.10 10h | █ (8.0)
 
 PENDING history:
 23.10 15h |  (0.0)
@@ -304,6 +304,7 @@ PENDING history:
 30.10 07h |  (0.0)
 30.10 08h |  (0.0)
 30.10 09h |  (0.0)
+30.10 10h |  (0.0)
 
 
 Edgar (et25m288)
@@ -372,14 +373,12 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 34.69
-Ø PENDING: 8.34
+Ø RUNNING: 35.80
+Ø PENDING: 8.63
 MAX RUNNING: 300.00
 MAX PENDING: 174.00
 
 RUNNING history:
-23.10 09h |  (3.0)
-23.10 10h |  (1.0)
 23.10 12h |  (3.0)
 23.10 13h |  (1.0)
 23.10 14h |  (3.0)
@@ -441,8 +440,6 @@ RUNNING history:
 30.10 04h |  (6.0)
 
 PENDING history:
-23.10 09h |  (0.0)
-23.10 10h |  (0.0)
 23.10 12h |  (0.0)
 23.10 13h |  (0.0)
 23.10 14h |  (0.0)
@@ -562,7 +559,6 @@ MAX RUNNING: 149.00
 MAX PENDING: 120.00
 
 RUNNING history:
-23.10 09h |  (3.0)
 23.10 13h | ██ (10.0)
 23.10 15h | ██ (8.0)
 23.10 16h | ████████ (32.0)
@@ -623,9 +619,9 @@ RUNNING history:
 29.10 23h | ███ (13.0)
 30.10 07h |  (1.0)
 30.10 09h |  (1.0)
+30.10 10h |  (3.0)
 
 PENDING history:
-23.10 09h |  (0.0)
 23.10 13h |  (0.0)
 23.10 15h |  (0.0)
 23.10 16h | ██ (6.0)
@@ -686,6 +682,7 @@ PENDING history:
 29.10 23h | █ (3.0)
 30.10 07h |  (0.0)
 30.10 09h |  (0.0)
+30.10 10h |  (0.0)
 
 
 Code (SLR) (l_code_s)
@@ -774,13 +771,12 @@ PENDING history:
 
 ggsp (l_ggsp)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.05
+Ø RUNNING: 8.81
 Ø PENDING: 0.05
 MAX RUNNING: 36.00
 MAX PENDING: 1.00
 
 RUNNING history:
-23.10 09h | ███████████████ (14.0)
 25.10 08h | ██ (2.0)
 25.10 09h | ██ (2.0)
 26.10 08h | █ (1.0)
@@ -804,7 +800,6 @@ RUNNING history:
 30.10 09h | ███ (3.0)
 
 PENDING history:
-23.10 09h |  (0.0)
 25.10 08h |  (0.0)
 25.10 09h |  (0.0)
 26.10 08h |  (0.0)
@@ -950,15 +945,17 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.00
+Ø RUNNING: 16.50
 Ø PENDING: 0.00
-MAX RUNNING: 8.00
+MAX RUNNING: 25.00
 MAX PENDING: 0.00
 
 RUNNING history:
-30.10 09h | ████████████████████████████████████████ (8.0)
+30.10 09h | ████████████ (8.0)
+30.10 10h | ████████████████████████████████████████ (25.0)
 
 PENDING history:
 30.10 09h |  (0.0)
+30.10 10h |  (0.0)
 
 
