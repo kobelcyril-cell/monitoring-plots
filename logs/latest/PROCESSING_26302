@@ -13,3 +13,22 @@ Found 1836 station entries in IGC20.CRD.
 Found 295 observation files in RAW.
 Deleted 0 files without matching entries.
 === CHECK_OBSENTRIES finished ===
+
+=== CHECK_SAT_GAPS started ===
+Checking file: SMT263020.SMC
+→ Data gap detected for satellite 12
+→ Data gap detected for satellite 18
+→ Data gap detected for satellite 128
+Detected data gaps for 3 satellites.
+=== CHECK_SAT_GAPS finished ===
+
+=== CHECK_SAT_RMS started ===
+Checking file: ORBGEN_APR3020.OUT
+No satellites with RMS > 10.0 m or invalid RMS detected.
+=== CHECK_SAT_RMS finished ===
+==== DELETE LARGE OBS FILES ====
+CODXTR file: /storage/research/aiub_u_camp/CK_ZDGNSS/OUT/CODXTR.26_3020
+Timestamp  : Mon Nov  2 19:43:58 2026
+No stations with >50% bad observations found.
+Total deleted files: 0
+=========================
