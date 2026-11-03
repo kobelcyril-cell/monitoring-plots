@@ -36,3 +36,29 @@ Total deleted files: 0
 === CHECK_AR_SAT started ===
 Ambiguity Resolution fine for all satellites.
 === CHECK_AR_SAT finished ===
+==== GPSXTR STATISTICS ====
+       RMS       #FIL         #OBS         #PAR
+------------------------------------------------------
+     1.020        584      3893917       135329
+==============================================
+==== OBSXTR STATISTICS ====
+Sys   sat         total       usable        bad
+-----------------------------------------------
+GPS   32        8397591      7719140       8.1%
+GLO   22        5628361      5473802       2.7%
+GAL   30        6930473      6523284       5.9%
+tot   84       20956425     19716226       5.9%
+==============================================
+==== Ambiguity resolution statistics ====
+Total   %       SYS     AMB                 
+-------------------------------------------------------------
+292     95.8    G       AR_WL               
+263     96.1    E       AR_WL               
+292     95.9    G E     AR_WL               
+292     84.5    G       AR_NL               
+263     86.4    E       AR_NL               
+292     85.2    G E     AR_NL               
+292     87.5    G       AR_NLR              
+263     89.2    E       AR_NLR              
+292     88.2    G E     AR_NLR              
+=============================================================
