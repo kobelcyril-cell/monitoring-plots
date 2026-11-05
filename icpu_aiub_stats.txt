@@ -1,14 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-11-05 00:00:14
+Timestamp: 2026-11-05 01:00:08
 ================================================================================
 
-TOTAL RUNNING: 10
-TOTAL PENDING: 0
+TOTAL RUNNING: 326
+TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING:  3   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  7   PENDING:  0
+Cyril        (ck18y530  )  RUNNING: 22   PENDING:  0
+Code (final) (l_code_f  )  RUNNING: 300   PENDING:  1
+Code (SLR)   (l_code_s  )  RUNNING:  4   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -94,8 +95,8 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 31.80
-Ø PENDING: 4.68
+Ø RUNNING: 31.70
+Ø PENDING: 4.63
 MAX RUNNING: 285.00
 MAX PENDING: 135.00
 
@@ -203,6 +204,7 @@ RUNNING history:
 04.11 22h |  (4.0)
 04.11 23h | ████████ (61.0)
 05.11 00h |  (3.0)
+05.11 01h | ███ (22.0)
 
 PENDING history:
 29.10 01h |  (0.0)
@@ -308,6 +310,7 @@ PENDING history:
 04.11 22h |  (0.0)
 04.11 23h |  (0.0)
 05.11 00h |  (0.0)
+05.11 01h |  (0.0)
 
 
 Edgar (et25m288)
@@ -368,8 +371,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 43.74
-Ø PENDING: 0.34
+Ø RUNNING: 48.76
+Ø PENDING: 0.35
 MAX RUNNING: 313.00
 MAX PENDING: 7.00
 
@@ -424,6 +427,7 @@ RUNNING history:
 04.11 14h |  (1.0)
 04.11 19h | █████████████ (106.0)
 04.11 21h |  (1.0)
+05.11 01h | ██████████████████████████████████████ (300.0)
 
 PENDING history:
 29.10 01h | █████ (1.0)
@@ -476,6 +480,7 @@ PENDING history:
 04.11 14h |  (0.0)
 04.11 19h |  (0.0)
 04.11 21h |  (0.0)
+05.11 01h | █████ (1.0)
 
 
 l_code_m (l_code_m)
@@ -719,6 +724,7 @@ RUNNING history:
 04.11 18h | █ (1.0)
 04.11 19h | █ (1.0)
 05.11 00h | ████████████ (7.0)
+05.11 01h | ██████ (4.0)
 
 PENDING history:
 29.10 01h |  (0.0)
@@ -758,6 +764,7 @@ PENDING history:
 04.11 18h |  (0.0)
 04.11 19h |  (0.0)
 05.11 00h |  (0.0)
+05.11 01h |  (0.0)
 
 
 ggsp (l_ggsp)
