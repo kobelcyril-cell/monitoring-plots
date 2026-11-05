@@ -1,15 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-11-05 20:00:22
+Timestamp: 2026-11-05 21:00:23
 ================================================================================
 
-TOTAL RUNNING: 48
+TOTAL RUNNING: 44
 TOTAL PENDING: 0
 
 Per User:
 --------------------------------------------------------------------------------
-Alexandra    (am25w016  )  RUNNING: 46   PENDING:  0
-Cyril        (ck18y530  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  0
+Alexandra    (am25w016  )  RUNNING: 40   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  2   PENDING:  0
+Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
+l_code_m     (l_code_m  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -31,8 +32,8 @@ PENDING history:
 
 Alexandra (am25w016)
 --------------------------------------------------------------------------------
-Ø RUNNING: 45.45
-Ø PENDING: 0.27
+Ø RUNNING: 45.22
+Ø PENDING: 0.26
 MAX RUNNING: 100.00
 MAX PENDING: 3.00
 
@@ -59,6 +60,7 @@ RUNNING history:
 04.11 22h | █████████████████ (44.0)
 05.11 19h | ███████████████████ (49.0)
 05.11 20h | ██████████████████ (46.0)
+05.11 21h | ████████████████ (40.0)
 
 PENDING history:
 30.10 16h |  (0.0)
@@ -83,17 +85,17 @@ PENDING history:
 04.11 22h |  (0.0)
 05.11 19h |  (0.0)
 05.11 20h |  (0.0)
+05.11 21h |  (0.0)
 
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 29.66
+Ø RUNNING: 29.30
 Ø PENDING: 4.50
 MAX RUNNING: 285.00
 MAX PENDING: 135.00
 
 RUNNING history:
-29.10 21h | █████ (41.0)
 29.10 22h | █████ (40.0)
 29.10 23h | █████ (40.0)
 30.10 00h | █████ (40.0)
@@ -200,9 +202,9 @@ RUNNING history:
 05.11 17h |  (1.0)
 05.11 19h |  (1.0)
 05.11 20h |  (1.0)
+05.11 21h |  (2.0)
 
 PENDING history:
-29.10 21h |  (0.0)
 29.10 22h |  (0.0)
 29.10 23h |  (0.0)
 30.10 00h |  (0.0)
@@ -309,6 +311,7 @@ PENDING history:
 05.11 17h |  (0.0)
 05.11 19h |  (0.0)
 05.11 20h |  (0.0)
+05.11 21h |  (0.0)
 
 
 Edgar (et25m288)
@@ -371,7 +374,6 @@ MAX RUNNING: 313.00
 MAX PENDING: 7.00
 
 RUNNING history:
-29.10 21h |  (1.0)
 30.10 01h | ████████████████████████████ (222.0)
 30.10 03h | ████████████ (98.0)
 30.10 04h |  (6.0)
@@ -427,9 +429,9 @@ RUNNING history:
 05.11 15h |  (1.0)
 05.11 16h |  (5.0)
 05.11 19h | ███████████████ (118.0)
+05.11 21h |  (1.0)
 
 PENDING history:
-29.10 21h |  (0.0)
 30.10 01h |  (0.0)
 30.10 03h |  (0.0)
 30.10 04h |  (0.0)
@@ -485,17 +487,17 @@ PENDING history:
 05.11 15h |  (0.0)
 05.11 16h |  (0.0)
 05.11 19h | █████ (1.0)
+05.11 21h |  (0.0)
 
 
 l_code_m (l_code_m)
 --------------------------------------------------------------------------------
-Ø RUNNING: 8.62
+Ø RUNNING: 6.58
 Ø PENDING: 0.00
 MAX RUNNING: 58.00
 MAX PENDING: 0.00
 
 RUNNING history:
-29.10 21h | ██████████████████████████████████ (50.0)
 29.10 22h |  (1.0)
 29.10 23h |  (1.0)
 30.10 21h | ██ (4.0)
@@ -519,9 +521,9 @@ RUNNING history:
 03.11 23h | ██ (3.0)
 04.11 22h | ██ (4.0)
 04.11 23h |  (1.0)
+05.11 21h |  (1.0)
 
 PENDING history:
-29.10 21h |  (0.0)
 29.10 22h |  (0.0)
 29.10 23h |  (0.0)
 30.10 21h |  (0.0)
@@ -545,6 +547,7 @@ PENDING history:
 03.11 23h |  (0.0)
 04.11 22h |  (0.0)
 04.11 23h |  (0.0)
+05.11 21h |  (0.0)
 
 
 Code (rapid) (l_code_r)
