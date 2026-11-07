@@ -1,15 +1,14 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-11-07 10:00:17
+Timestamp: 2026-11-07 11:00:31
 ================================================================================
 
-TOTAL RUNNING: 32
-TOTAL PENDING: 0
+TOTAL RUNNING: 241
+TOTAL PENDING: 332
 
 Per User:
 --------------------------------------------------------------------------------
-Cyril        (ck18y530  )  RUNNING: 14   PENDING:  0
-ggsp         (l_ggsp    )  RUNNING:  7   PENDING:  0
-Martin       (ml18j210  )  RUNNING: 11   PENDING:  0
+Cyril        (ck18y530  )  RUNNING:  2   PENDING: 93
+Martin       (ml18j210  )  RUNNING: 239   PENDING: 239
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -90,12 +89,11 @@ PENDING history:
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
 Ø RUNNING: 22.72
-Ø PENDING: 4.97
+Ø PENDING: 5.93
 MAX RUNNING: 280.00
 MAX PENDING: 135.00
 
 RUNNING history:
-31.10 11h |  (2.0)
 31.10 12h |  (2.0)
 31.10 13h |  (2.0)
 31.10 16h | ██████████████████████████████ (210.0)
@@ -192,9 +190,9 @@ RUNNING history:
 07.11 03h |  (1.0)
 07.11 05h |  (4.0)
 07.11 10h | ██ (14.0)
+07.11 11h |  (2.0)
 
 PENDING history:
-31.10 11h |  (0.0)
 31.10 12h |  (0.0)
 31.10 13h |  (0.0)
 31.10 16h |  (0.0)
@@ -291,6 +289,7 @@ PENDING history:
 07.11 03h |  (0.0)
 07.11 05h |  (0.0)
 07.11 10h |  (0.0)
+07.11 11h | ███████████████████████████ (93.0)
 
 
 Edgar (et25m288)
@@ -869,8 +868,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 146.04
-Ø PENDING: 197.38
+Ø RUNNING: 149.76
+Ø PENDING: 199.04
 MAX RUNNING: 240.00
 MAX PENDING: 622.00
 
@@ -899,6 +898,7 @@ RUNNING history:
 07.11 04h | ████████████ (76.0)
 07.11 05h | ██████ (40.0)
 07.11 10h | █ (11.0)
+07.11 11h | ███████████████████████████████████████ (239.0)
 
 PENDING history:
 02.11 10h | ██████████████████████ (357.0)
@@ -925,5 +925,6 @@ PENDING history:
 07.11 04h |  (0.0)
 07.11 05h |  (0.0)
 07.11 10h |  (0.0)
+07.11 11h | ███████████████ (239.0)
 
 
