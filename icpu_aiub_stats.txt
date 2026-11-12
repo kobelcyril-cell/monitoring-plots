@@ -1,17 +1,15 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-11-12 19:00:14
+Timestamp: 2026-11-12 20:00:24
 ================================================================================
 
-TOTAL RUNNING: 104
-TOTAL PENDING: 1
+TOTAL RUNNING: 2
+TOTAL PENDING: 4
 
 Per User:
 --------------------------------------------------------------------------------
 am19f021     (am19f021  )  RUNNING:  0   PENDING:  1
-Cyril        (ck18y530  )  RUNNING: 60   PENDING:  0
-Code (final) (l_code_f  )  RUNNING:  6   PENDING:  0
-Code (SLR)   (l_code_s  )  RUNNING:  3   PENDING:  0
-Martin       (ml18j210  )  RUNNING: 35   PENDING:  0
+Code (rapid) (l_code_r  )  RUNNING:  1   PENDING:  3
+Code (SLR)   (l_code_s  )  RUNNING:  1   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -20,7 +18,7 @@ Weekly statistics (last 7 days, 1h mean values)
 am19f021 (am19f021)
 --------------------------------------------------------------------------------
 Ø RUNNING: 0.00
-Ø PENDING: 1.71
+Ø PENDING: 1.69
 MAX RUNNING: 0.00
 MAX PENDING: 25.00
 
@@ -59,6 +57,7 @@ RUNNING history:
 12.11 17h |  (0.0)
 12.11 18h |  (0.0)
 12.11 19h |  (0.0)
+12.11 20h |  (0.0)
 
 PENDING history:
 11.11 10h | █ (1.0)
@@ -95,17 +94,17 @@ PENDING history:
 12.11 17h | █ (1.0)
 12.11 18h | █ (1.0)
 12.11 19h | █ (1.0)
+12.11 20h | █ (1.0)
 
 
 Alexandra (am25w016)
 --------------------------------------------------------------------------------
-Ø RUNNING: 61.48
+Ø RUNNING: 61.73
 Ø PENDING: 0.03
 MAX RUNNING: 101.00
 MAX PENDING: 1.00
 
 RUNNING history:
-05.11 20h | ██████████████████ (46.0)
 05.11 21h | ███████████████ (40.0)
 05.11 22h | █████████████████ (44.0)
 06.11 13h | ███████████████████████████████████████ (100.0)
@@ -171,7 +170,6 @@ RUNNING history:
 11.11 15h |  (1.0)
 
 PENDING history:
-05.11 20h |  (0.0)
 05.11 21h |  (0.0)
 05.11 22h |  (0.0)
 06.11 13h |  (0.0)
@@ -239,13 +237,12 @@ PENDING history:
 
 Cyril (ck18y530)
 --------------------------------------------------------------------------------
-Ø RUNNING: 9.09
-Ø PENDING: 3.54
+Ø RUNNING: 9.17
+Ø PENDING: 3.57
 MAX RUNNING: 175.00
 MAX PENDING: 93.00
 
 RUNNING history:
-05.11 20h |  (1.0)
 05.11 21h |  (2.0)
 05.11 22h |  (4.0)
 05.11 23h |  (1.0)
@@ -349,7 +346,6 @@ RUNNING history:
 12.11 19h | █████████████ (60.0)
 
 PENDING history:
-05.11 20h |  (0.0)
 05.11 21h |  (0.0)
 05.11 22h |  (0.0)
 05.11 23h |  (0.0)
@@ -634,12 +630,11 @@ PENDING history:
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
 Ø RUNNING: 16.44
-Ø PENDING: 1.71
+Ø PENDING: 1.76
 MAX RUNNING: 137.00
 MAX PENDING: 88.00
 
 RUNNING history:
-05.11 20h |  (1.0)
 05.11 23h |  (2.0)
 06.11 02h | ██ (10.0)
 06.11 07h | ██ (7.0)
@@ -702,9 +697,9 @@ RUNNING history:
 12.11 16h | ██████████████████ (63.0)
 12.11 17h | █ (4.0)
 12.11 18h |  (1.0)
+12.11 20h |  (1.0)
 
 PENDING history:
-05.11 20h |  (0.0)
 05.11 23h |  (0.0)
 06.11 02h |  (0.0)
 06.11 07h |  (0.0)
@@ -767,12 +762,13 @@ PENDING history:
 12.11 16h | █ (3.0)
 12.11 17h |  (0.0)
 12.11 18h |  (0.0)
+12.11 20h | █ (3.0)
 
 
 Code (SLR) (l_code_s)
 --------------------------------------------------------------------------------
-Ø RUNNING: 3.29
-Ø PENDING: 0.50
+Ø RUNNING: 3.24
+Ø PENDING: 0.49
 MAX RUNNING: 12.00
 MAX PENDING: 6.00
 
@@ -825,6 +821,7 @@ RUNNING history:
 12.11 01h | ██████ (2.0)
 12.11 18h | ███ (1.0)
 12.11 19h | ██████████ (3.0)
+12.11 20h | ███ (1.0)
 
 PENDING history:
 06.11 00h |  (0.0)
@@ -875,6 +872,7 @@ PENDING history:
 12.11 01h |  (0.0)
 12.11 18h |  (0.0)
 12.11 19h |  (0.0)
+12.11 20h |  (0.0)
 
 
 ggsp (l_ggsp)
