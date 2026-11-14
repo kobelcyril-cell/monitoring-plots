@@ -1,17 +1,16 @@
 icpu-aiub Partition – CURRENT STATUS
-Timestamp: 2026-11-14 14:00:39
+Timestamp: 2026-11-14 15:00:31
 ================================================================================
 
-TOTAL RUNNING: 110
+TOTAL RUNNING: 196
 TOTAL PENDING: 1
 
 Per User:
 --------------------------------------------------------------------------------
 am19f021     (am19f021  )  RUNNING:  0   PENDING:  1
-Alexandra    (am25w016  )  RUNNING: 100   PENDING:  0
-Cyril        (ck18y530  )  RUNNING:  4   PENDING:  0
+Alexandra    (am25w016  )  RUNNING: 15   PENDING:  0
 Code (final) (l_code_f  )  RUNNING:  1   PENDING:  0
-Code (rapid) (l_code_r  )  RUNNING:  5   PENDING:  0
+Martin       (ml18j210  )  RUNNING: 180   PENDING:  0
 
 
 Weekly statistics (last 7 days, 1h mean values)
@@ -20,7 +19,7 @@ Weekly statistics (last 7 days, 1h mean values)
 am19f021 (am19f021)
 --------------------------------------------------------------------------------
 Ø RUNNING: 0.06
-Ø PENDING: 2.48
+Ø PENDING: 2.46
 MAX RUNNING: 4.00
 MAX PENDING: 33.00
 
@@ -102,6 +101,7 @@ RUNNING history:
 14.11 12h |  (0.0)
 14.11 13h |  (0.0)
 14.11 14h |  (0.0)
+14.11 15h |  (0.0)
 
 PENDING history:
 11.11 10h | █ (1.0)
@@ -181,11 +181,12 @@ PENDING history:
 14.11 12h | █ (1.0)
 14.11 13h | █ (1.0)
 14.11 14h | █ (1.0)
+14.11 15h | █ (1.0)
 
 
 Alexandra (am25w016)
 --------------------------------------------------------------------------------
-Ø RUNNING: 68.55
+Ø RUNNING: 67.82
 Ø PENDING: 0.04
 MAX RUNNING: 101.00
 MAX PENDING: 1.00
@@ -264,6 +265,7 @@ RUNNING history:
 14.11 12h | ███████████████████████████████████████ (100.0)
 14.11 13h | ███████████████████████████████████████ (100.0)
 14.11 14h | ███████████████████████████████████████ (100.0)
+14.11 15h | █████ (15.0)
 
 PENDING history:
 07.11 18h |  (0.0)
@@ -339,6 +341,7 @@ PENDING history:
 14.11 12h |  (0.0)
 14.11 13h |  (0.0)
 14.11 14h |  (0.0)
+14.11 15h |  (0.0)
 
 
 Cyril (ck18y530)
@@ -605,8 +608,8 @@ PENDING history:
 
 Code (final) (l_code_f)
 --------------------------------------------------------------------------------
-Ø RUNNING: 44.22
-Ø PENDING: 7.27
+Ø RUNNING: 43.36
+Ø PENDING: 7.12
 MAX RUNNING: 303.00
 MAX PENDING: 113.00
 
@@ -660,6 +663,7 @@ RUNNING history:
 14.11 12h |  (3.0)
 14.11 13h |  (1.0)
 14.11 14h |  (1.0)
+14.11 15h |  (1.0)
 
 PENDING history:
 07.11 19h |  (1.0)
@@ -711,6 +715,7 @@ PENDING history:
 14.11 12h |  (0.0)
 14.11 13h |  (0.0)
 14.11 14h |  (0.0)
+14.11 15h |  (0.0)
 
 
 l_code_m (l_code_m)
@@ -763,13 +768,12 @@ PENDING history:
 
 Code (rapid) (l_code_r)
 --------------------------------------------------------------------------------
-Ø RUNNING: 17.52
-Ø PENDING: 2.39
+Ø RUNNING: 15.79
+Ø PENDING: 2.38
 MAX RUNNING: 137.00
 MAX PENDING: 88.00
 
 RUNNING history:
-07.11 15h | ████████████████████████████████████ (126.0)
 07.11 17h | █ (6.0)
 07.11 20h | █████████████ (45.0)
 07.11 23h | ████ (15.0)
@@ -835,7 +839,6 @@ RUNNING history:
 14.11 14h | █ (5.0)
 
 PENDING history:
-07.11 15h | █ (3.0)
 07.11 17h |  (0.0)
 07.11 20h |  (0.0)
 07.11 23h |  (0.0)
@@ -1195,8 +1198,8 @@ PENDING history:
 
 Martin (ml18j210)
 --------------------------------------------------------------------------------
-Ø RUNNING: 123.24
-Ø PENDING: 393.84
+Ø RUNNING: 123.99
+Ø PENDING: 388.66
 MAX RUNNING: 240.00
 MAX PENDING: 1349.00
 
@@ -1276,6 +1279,7 @@ RUNNING history:
 14.11 10h | █████████████ (79.0)
 14.11 11h | ██████████████ (87.0)
 14.11 12h | ██████████████ (84.0)
+14.11 15h | ██████████████████████████████ (180.0)
 
 PENDING history:
 07.11 18h | ██ (74.0)
@@ -1353,5 +1357,6 @@ PENDING history:
 14.11 10h | █████████████████████████████████████ (1261.0)
 14.11 11h | ████████████████████████████ (978.0)
 14.11 12h | ███ (130.0)
+14.11 15h |  (0.0)
 
 
