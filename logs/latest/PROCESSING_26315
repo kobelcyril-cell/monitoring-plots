@@ -13,3 +13,15 @@ Found 1836 station entries in IGC20.CRD.
 Found 297 observation files in RAW.
 Deleted 0 files without matching entries.
 === CHECK_OBSENTRIES finished ===
+
+=== CHECK_SAT_GAPS started ===
+Checking file: SMT263150.SMC
+No data gaps detected in PHASE OBSERVATIONS.
+=== CHECK_SAT_GAPS finished ===
+
+=== CHECK_SAT_RMS started ===
+Checking file: ORBGEN_APR3150.OUT
+→ Large RMS detected for satellite 12: 4598.59 m
+Satellites marked due to RMS > 10.0 m or invalid RMS: 12
+Total satellites marked: 1
+=== CHECK_SAT_RMS finished ===
