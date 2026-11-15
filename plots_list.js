@@ -1,4 +1,6 @@
 const latest_plots = [
+    "satellite_flags_overview.png",
+];
     "amb_stats.png",
     "clock_completeness_heatmap.png",
     "gpsxtr_obs.png",
