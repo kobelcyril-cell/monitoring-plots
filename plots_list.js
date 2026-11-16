@@ -1,21 +1,11 @@
 const latest_plots = [
     "amb_stats.png",
     "clock_completeness_heatmap.png",
-    "amb_stats.png",
     "gpsxtr_obs.png",
-    "clock_completeness_heatmap.png",
     "gpsxtr_par.png",
-    "gpsxtr_obs.png",
     "gpsxtr_rms.png",
-    "gpsxtr_par.png",
     "large_obs_files.png",
-    "gpsxtr_rms.png",
     "num_obs_files.png",
-    "large_obs_files.png",
-    "obsxtr_bad.png",
-    "num_obs_files.png",
-    "satellite_flags_overview.png",
-];
     "obsxtr_bad.png",
     "satellite_flags_overview.png",
 ];
